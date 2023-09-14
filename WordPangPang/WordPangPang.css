@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#page1, #page2, #page3 {
+  display: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+h1 {
+  display: inline;
+}
+
+hr {
+  width: 40%;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+/*nav-bar css*/
+.btn {
+  background-color: #eaeaea;
+  padding: 5px 15px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#btns {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
