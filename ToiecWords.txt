@@ -31,20 +31,20 @@ adversity	역경, 불운	Despite facing adversity, he never gave up.	역경에 �
 advertisement	광고	The advertisement for the new product is catchy.	새 제품의 광고는 매력적입니다.
 advise	충고하다	I advise you to consult a professional for legal matters.	법적 문제에 대한 충고를 위해 전문가와 상담하십시오.
 advocate	옹호자	She is a strong advocate for animal rights.	그녀는 동물 권리를 적극적으로 옹호하는 사람입니다.
-affect	~에  영향을  미치다	Smoking can affect your health negatively.	흡연은 당신의 건강에 부정적인 영향을 미칠 수 있습니다.
-affordable	감당할  수 있는	The car is affordable and efficient.	이 차는 가격이 적당하고 효율적입니다.
+affect	~에 영향을 미치다	Smoking can affect your health negatively.	흡연은 당신의 건강에 부정적인 영향을 미칠 수 있습니다.
+affordable	감당할 수 있는	The car is affordable and efficient.	이 차는 가격이 적당하고 효율적입니다.
 aggravate	악화시키다	Stress can aggravate existing health issues.	스트레스는 기존의 건강 문제를 악화시킬 수 있습니다.
 aggressively	적극적으로	She approached the problem aggressively to find a solution.	그녀는 문제 해결을 위해 적극적으로 접근했습니다.
 agreement	계약, 협정	They reached an agreement on the terms of the contract.	그들은 계약 조건에 합의했습니다.
 aid	원조, 도움	Humanitarian organizations provide aid to those in need.	인도주의 단체들은 도움이 필요한 사람들에게 지원을 제공합니다.
-aim	~을  겨누다	The archer aimed carefully and hit the target.	사격수는 목표물을 정확히 겨눠 쏘았습니다.
+aim	~을 겨누다	The archer aimed carefully and hit the target.	사격수는 목표물을 정확히 겨눠 쏘았습니다.
 alleviate	완화하다	Painkillers can alleviate your headache.	진통제는 당신의 두통을 완화할 수 있습니다.
 allocate	할당하다	The budget committee will allocate funds for the project.	예산 위원회는 프로젝트를 위해 자금을 할당할 것입니다.
 allow	허락하다	Please allow me to introduce myself.	나를 스스로 소개하게 해주세요.
 alter	고치다, 바꾸다	The company plans to alter its marketing strategy.	회사는 그녀의 마케팅 전략을 수정하기로 결정했습니다.
 alternative	대안	We need to explore alternative solutions to the problem.	우리는 문제에 대한 대안적 해결책을 탐색해야 합니다.
 analysis	분석	The analysis of the data revealed interesting patterns.	데이터 분석 결과 흥미로운 양식을 나타냈습니다.
-annex	증축  건물	The country decided to annex the neighboring territory.	나라는 인접한 영토를 합병하기로 결정했습니다.
+annex	증축 건물	The country decided to annex the neighboring territory.	나라는 인접한 영토를 합병하기로 결정했습니다.
 announce	발표하다	The company will announce the new product launch soon.	회사는 곧 새 제품 출시를 발표할 것입니다.
 annual	매년의	They hold an annual conference in this city.	이 도시에서는 연례 회의를 개최합니다.
 anonymous	익명의	The author wishes to remain anonymous.	작가는 익명으로 남기를 원합니다.
@@ -53,7 +53,7 @@ anticipate	기대하다	I anticipate a successful outcome for this project.	나�
 apologize	사과하다	He decided to apologize for his rude behavior.	그는 그의 무례한 행동에 대해 사과하기로 결정했습니다.
 apparently	외관상으로	Apparently, the package was lost during transit.	외관상으로는 소포가 운송 중에 분실된 것으로 보입니다.
 appear	나타나다	The sun will appear in the east at dawn.	해가 동쪽에서 뜨게 됩니다.
-appearance	외관  외모	Her appearance at the party surprised everyone.	그녀의 파티 참석은 모두를 놀라게 했습니다.
+appearance	외관 외모	Her appearance at the party surprised everyone.	그녀의 파티 참석은 모두를 놀라게 했습니다.
 applicant	지원자, 신청자	Many applicants applied for the job position.	많은 지원자가 그 직책에 지원했습니다.
 apply	적용(지원)하다	You need to apply the principles you've learned.	당신은 배운 원칙을 적용해야 합니다.
 appoint	지명하다	They will appoint a new manager next week.	그들은 다음 주에 새로운 매니저를 지명할 것입니다.
@@ -64,7 +64,7 @@ approval	승인, 인가	The project received final approval from the board.	프�
 approximately	대략	It will take approximately two hours to reach our destination.	목적지에 도착하는 데 대략 두 시간이 걸릴 것입니다.
 arbitration	중재	They decided to resolve their dispute through arbitration.	그들은 분쟁을 중재를 통해 해결하기로 결정했습니다.
 argumentative	논쟁적인	His argumentative nature often leads to heated discussions.	그의 논쟁적인 성향은 종종 고발된 토론으로 이어집니다.
-arise	(문제  등이)일어나다	Problems can arise unexpectedly during a complex project.	복잡한 프로젝트 중에 문제가 예상치 못하게 발생할 수 있습니다.
+arise	(문제 등이)일어나다	Problems can arise unexpectedly during a complex project.	복잡한 프로젝트 중에 문제가 예상치 못하게 발생할 수 있습니다.
 arrange	마련하다, 배열하다	Let's arrange a meeting to discuss the upcoming conference.	다가오는 회의를 논의하기 위해 회의를 마련합시다.
 assemble	조립하다	The team will assemble the new equipment tomorrow.	팀은 내일 새로운 장비를 조립할 것입니다.
 assert	단언하다	She likes to assert her authority in the workplace.	그녀는 직장에서 자신의 권한을 주장하는 것을 좋아합니다.
@@ -73,17 +73,17 @@ assign	배정하다	I will assign you to lead the marketing campaign.	나는 당
 assist	돕다	He offered to assist me with the research project.	그는 나의 연구 프로젝트를 돕기로 제안했습니다.
 associate	관련시키다	The media often associate success with wealth and fame.	매체는 종종 성공을 부와 명성과 관련시킵니다.
 assume	가정하다	Let's assume that the weather will be clear for our outdoor event.	우리는 야외 행사에 대한 날씨가 맑을 것으로 가정합시다.
-assure	~에게  보장하다	I assure you that your satisfaction is our top priority.	나는 당신의 만족도가 우리의 최우선 과제라고 보장합니다.
+assure	~에게 보장하다	I assure you that your satisfaction is our top priority.	나는 당신의 만족도가 우리의 최우선 과제라고 보장합니다.
 at all times	항상, 언제나	Safety measures should be followed at all times.	안전 조치는 항상 준수되어야 합니다.
-atmosphere	분위기,  환경	The atmosphere at the concert was electric with excitement.	콘서트에서의 분위기는 흥분으로 가득찼습니다.
+atmosphere	분위기, 환경	The atmosphere at the concert was electric with excitement.	콘서트에서의 분위기는 흥분으로 가득찼습니다.
 attach	붙이다, 첨부하다	Please attach the necessary documents to your email.	이메일에 필요한 문서를 첨부하세요.
 attain	(목표) 달성하다	He worked hard to attain his dream of becoming a doctor.	그는 의사가 되는 꿈을 이루기 위해 열심히 노력했습니다.
 attend	~에 참석하다	Will you attend the conference next week?	다음 주에 그 회의에 참석하실 건가요?
 attendance	출석	The attendance at the workshop exceeded our expectations.	워크샵에 참석한 인원이 기대치를 초과했습니다.
 attendee	참석자	The conference had over 500 attendees from around the world.	이 행사에는 전 세계에서 오는 참석자가 500명 이상 참석했습니다.
 attorney	변호사	The attorney will represent the defendant in court.	변호사는 피고인을 법정에서 대리할 것입니다.
-attract	끌다,  유인하다	Her magnetic personality attracts people from all walks of life.	그녀의 매력적인 성격은 사람들을 각계각층에서 끌어들입니다.
-attraction	관광  명소	The Grand Canyon is a natural attraction visited by millions.	그랜드 캐년은 수백만 명의 관광객이 방문하는 자연 명소입니다.
+attract	끌다, 유인하다	Her magnetic personality attracts people from all walks of life.	그녀의 매력적인 성격은 사람들을 각계각층에서 끌어들입니다.
+attraction	관광 명소	The Grand Canyon is a natural attraction visited by millions.	그랜드 캐년은 수백만 명의 관광객이 방문하는 자연 명소입니다.
 attribute	(원인을)~에 돌리다.	They attribute the success of the project to teamwork.	그들은 프로젝트의 성공을 팀워크에 돌립니다.
 auction	경매	The valuable antique was sold at a prestigious auction.	그 가치 있는 골동품은 저명한 경매에서 팔렸습니다.
 audit	회계감사	The company underwent a thorough financial audit.	회사는 철저한 재무 감사를 받았습니다.
@@ -91,16 +91,16 @@ authentic	진짜의	This painting is believed to be an authentic masterpiece.	�
 authority	권한, 당국	The mayor has the authority to make important decisions.	시장은 중요한 결정을 내릴 권한이 있습니다.
 authorize	~을 인가하다	Please authorize the payment for the online purchase.	온라인 구매 대금을 인가하세요.
 automate	자동화하다	The company plans to automate its manufacturing processes.	회사는 제조 공정을 자동화하기로 계획합니다.
-available	이용  가능한	The product is available in various colors and sizes.	이 제품은 다양한 색상과 크기로 이용 가능합니다.
+available	이용 가능한	The product is available in various colors and sizes.	이 제품은 다양한 색상과 크기로 이용 가능합니다.
 await	기다리다	I'll await your response to my job offer.	나는 내 구직 제안에 대한 답변을 기다릴 것입니다.
 award	상	She received an award for her outstanding contributions.	그녀는 우수한 공헌에 대한 상을 받았습니다.
 baggage	수화물	Passengers are reminded to label their baggage properly.	승객은 수화물을 제대로 표시해야 합니다.
-be  likely  to	~할  것 같은	He is likely to succeed in his new business venture.	그는 그가 선사한 서비스에 대한 청구서를 받게 될 것입니다.
-be  oblige  to	~에게  강요하다	Employees are obliged to follow the company's code of conduct.	그들은 강제로 세금을 내도록 강요될 수 있습니다.
-be  ready to	~하기로  되어있는	The team is ready to launch the new product next month.	팀은 다음 달에 새 제품을 출시할 준비가 되어 있습니다.
-be  subject  to	~하기로 되어 있는	This project is subject to approval from the regulatory agency.	이 프로젝트는 규제 기관의 승인을 받아야 할 대상입니다.
+be likely to	~할 것 같은	He is likely to succeed in his new business venture.	그는 그가 선사한 서비스에 대한 청구서를 받게 될 것입니다.
+be oblige to	~에게 강요하다	Employees are obliged to follow the company's code of conduct.	그들은 강제로 세금을 내도록 강요될 수 있습니다.
+be ready to	~하기로 되어있는	The team is ready to launch the new product next month.	팀은 다음 달에 새 제품을 출시할 준비가 되어 있습니다.
+be subject to	~하기로 되어 있는	This project is subject to approval from the regulatory agency.	이 프로젝트는 규제 기관의 승인을 받아야 할 대상입니다.
 be force to	~강제로 시키다	The government can force individuals to pay taxes.	정부는 개인에게 세금을 낼 것을 강제할 수 있습니다.
-be schedule to	~하기로  되어있는	The event is scheduled to take place on the first Saturday of June.	이 행사는 6월 첫 토요일에 개최하기로 예정되어 있습니다.
+be schedule to	~하기로 되어있는	The event is scheduled to take place on the first Saturday of June.	이 행사는 6월 첫 토요일에 개최하기로 예정되어 있습니다.
 belongings	소지품	Don't forget to collect your belongings before leaving.	떠나기 전에 소지품을 꼭 수거하세요.
 beneficial	유익한	Regular exercise has many beneficial effects on health.	규칙적인 운동은 건강에 많은 유익한 효과가 있습니다.
 benefit	혜택, 이익	Joining this club has many social and personal benefits.	이 클럽 가입은 사회적으로나 개인적으로 많은 이점이 있습니다.
@@ -114,12 +114,12 @@ brochure	소책자	The travel agency provided us with a brochure about the tour.
 budget	예산	The project was completed within the allocated budget.	프로젝트는 할당된 예산 내에서 완료되었습니다.
 calculate	계산하다	He can quickly calculate complex mathematical problems.	그는 복잡한 수학 문제를 빨리 계산할 수 있습니다.
 candidate	후보자, 지원자	The candidate has the qualifications we are looking for.	이 후보는 우리가 찾고 있는 자격을 갖고 있습니다.
-capable	~을 할 수  있는	She is capable of handling challenging tasks.	그녀는 어려운 과제를 처리할 능력이 있습니다.
+capable	~을 할 수 있는	She is capable of handling challenging tasks.	그녀는 어려운 과제를 처리할 능력이 있습니다.
 capacity	수용력	The stadium has a seating capacity of 50,000.	경기장은 5만 명의 수용 인원을 가지고 있습니다.
-carefully	주의  깊게	Please read the instructions carefully before assembly.	조립하기 전에 설명서를 주의 깊게 읽으세요.
+carefully	주의 깊게	Please read the instructions carefully before assembly.	조립하기 전에 설명서를 주의 깊게 읽으세요.
 carelessly	부주의하게	He carelessly left his keys in the car.	그는 부주의하게 자동차 안에 열쇠를 두고 왔습니다.
-carton	판지  상자	The carton was filled with various items.	판지 상자는 다양한 물건으로 가득 찼습니다.
-cater	요구를  들어주다	The restaurant can cater to dietary preferences.	그 레스토랑은 식이 요구 사항을 충족시킬 수 있습니다.
+carton	판지 상자	The carton was filled with various items.	판지 상자는 다양한 물건으로 가득 찼습니다.
+cater	요구를 들어주다	The restaurant can cater to dietary preferences.	그 레스토랑은 식이 요구 사항을 충족시킬 수 있습니다.
 cause	야기하다, 원인	Smoking can cause serious health issues.	흡연은 심각한 건강 문제를 일으킬 수 있습니다.
 caution	주의, 조심	I want to caution you about the potential risks.	나는 당신에게 잠재적인 위험에 대해 주의하고 싶습니다.
 celebrity	유명인사	The celebrity attended the film premiere.	유명인사가 그 영화 프리미어에 참석했습니다.
@@ -128,15 +128,15 @@ certification	증명서	The certification proves your expertise in the field.	�
 characteristic	특징, 특성	One characteristic of the species is its long tail.	이 종은 긴 꼬리가 특징입니다.
 charge	요금, 부과	What is the charge for this service?	이 서비스에 대한 요금은 얼마인가요?
 check	조사하다	The police will check the crime scene for evidence.	경찰은 증거를 조사할 것입니다.
-checkup	건강  진단	The doctor recommended a regular checkup.	의사는 정기 건강 진단을 권장했습니다.
+checkup	건강 진단	The doctor recommended a regular checkup.	의사는 정기 건강 진단을 권장했습니다.
 chemical	화학제품	The lab stores various chemical substances.	연구소에는 다양한 화학 물질이 저장되어 있습니다.
 choice	선택	Making the right choice is crucial.	올바른 선택을 하는 것이 중요합니다.
 chronic	만성의	Chronic diseases require long-term treatment.	만성적인 질병은 장기적인 치료가 필요합니다.
-chronological	시간  순의	Please arrange the files in chronological order.	파일을 시간 순으로 정렬해 주세요.
+chronological	시간 순의	Please arrange the files in chronological order.	파일을 시간 순으로 정렬해 주세요.
 claim	주장하다	He will claim responsibility for the project's success.	그 프로젝트의 성공에 대한 책임을 주장할 것입니다.
 clearly	명확히	Can you explain your idea more clearly?	당신의 아이디어를 더 명확하게 설명할 수 있나요?
 closely	면밀히, 엄밀히	We need to examine the data closely.	데이터를 면밀히 검토해야 합니다.
-coherent	일관성  있는	The report provides a coherent analysis of the issue.	보고서는 그 문제에 대한 일관된 분석을 제공합니다.
+coherent	일관성 있는	The report provides a coherent analysis of the issue.	보고서는 그 문제에 대한 일관된 분석을 제공합니다.
 collaborate	협동하다	Let's collaborate on this project.	이 프로젝트에 협력합시다.
 collapse	붕괴	The building suffered a structural collapse.	건물은 구조적인 붕괴를 겪었습니다.
 colleague	동료	My colleague and I are working on a joint project.	나와 동료는 공동 프로젝트에 참여하고 있습니다.
@@ -171,18 +171,18 @@ concerned	염려하는	I'm concerned about the potential impact of this decision
 conduct	수행하다	They conducted a thorough investigation of the incident.	그들은 사건에 대한 철저한 조사를 진행했습니다.
 conference	회의	The international conference will bring together experts from various fields.	국제 회의에서는 다양한 분야의 전문가들이 모이게 될 것입니다.
 confidence	확신, 자신감	Her confidence in her abilities is truly remarkable.	그녀의 능력에 대한 자신감은 정말 놀랍습니다.
-confident	자신  있는	She was confident in her presentation skills and delivered an outstanding speech at the conference.	그녀는 발표 기술에 대해 자신 있었고, 회의에서 훌륭한 연설을 했다.
+confident	자신 있는	She was confident in her presentation skills and delivered an outstanding speech at the conference.	그녀는 발표 기술에 대해 자신 있었고, 회의에서 훌륭한 연설을 했다.
 confidential	기밀의	Please keep this document confidential and do not share it.	이 문서를 기밀로 유지하고 공유하지 마십시오.
 confine	제한하다	Let's confine our discussion to the key points of the agenda.	우리는 토론을 의제의 핵심으로 한정합시다.
 confirm	확인하다	Can you confirm your reservation for the upcoming flight?	다가오는 항공편 예약을 확인할 수 있을까요?
 confirmation	확인	I'll wait for your confirmation before proceeding with the order.	주문 진행 전에 확인 메일을 기다리겠습니다.
 confiscate	몰수하다	Customs officials have the authority to confiscate illegal goods.	세관 당국은 불법 물품을 몰수할 권한이 있습니다.
-conform	(규칙  등에)따르다	All employees are expected to conform to the company's dress code.	모든 직원은 회사의 복장 규정을 준수해야 합니다.
-confront	~에  직면하다	She had to confront her fear of public speaking during the presentation.	그녀는 발표 중에 공포심을 극복해야 했습니다.
+conform	(규칙 등에)따르다	All employees are expected to conform to the company's dress code.	모든 직원은 회사의 복장 규정을 준수해야 합니다.
+confront	~에 직면하다	She had to confront her fear of public speaking during the presentation.	그녀는 발표 중에 공포심을 극복해야 했습니다.
 confusion	혼란	There was some confusion regarding the meeting time, causing delays.	회의 시간에 관한 혼란으로 인해 지연이 발생했습니다.
 congestion	혼잡, 체중	The city's congestion during rush hour is notorious.	도시의 러시 아워 혼잡은 유명합니다.
 conjunction	연합, 공동	The cooperation of multiple departments is essential, and they will work in conjunction to complete the project.	여러 부서의 협력은 필수이며, 그들은 프로젝트를 완료하기 위해 공동으로 작업할 것입니다.
-conscious	알고  있는	Are you conscious of the impact your decisions can have on the team?	당신의 결정이 팀에 미칠 영향을 알고 있나요?
+conscious	알고 있는	Are you conscious of the impact your decisions can have on the team?	당신의 결정이 팀에 미칠 영향을 알고 있나요?
 consecutive	연속적인	The company experienced consecutive quarters of growth in its profits.	회사는 연속된 분기에 이익을 늘리는 성과를 거뒀습니다.
 consent	동의	We need your written consent before proceeding with the project.	프로젝트를 진행하기 전에 여러분의 서면 동의가 필요합니다.
 consequence	결과	One consequence of the new policy was a significant increase in productivity.	새로운 정책의 결과 중 하나는 생산성이 크게 증가했습니다.
@@ -195,9 +195,9 @@ consolidate	(권력을)강화하다	The government aims to consolidate its power
 constraint	제한	The constraint on the budget limited what we could do for the project.	예산 제한으로 인한 제약이 프로젝트에 영향을 미쳤습니다.
 construction	건축	The construction of the new office building is almost complete.	새로운 사무실 건물의 건설이 거의 완료되었습니다.
 consumer	소비자	Consumer protection laws are in place to safeguard the rights of buyers.	소비자 보호법은 구매자의 권리를 보호하기 위해 마련되어 있습니다.
-contact	~와  연락을  취하다	I will contact you to discuss the details of the project.	프로젝트의 세부사항을 논의하기 위해 연락드릴 것입니다.
+contact	~와 연락을 취하다	I will contact you to discuss the details of the project.	프로젝트의 세부사항을 논의하기 위해 연락드릴 것입니다.
 contaminate	오염시키다	The pollution from the factory has the potential to contaminate the nearby river.	공장에서 나오는 오염물질이 근처 강을 오염시킬 가능성이 있습니다.
-contend  with	(문제에)대처하다	They had to contend with numerous challenges to achieve their goals.	그들은 목표를 달성하기 위해 다양한 도전에 대처해야 했습니다.
+contend with	(문제에)대처하다	They had to contend with numerous challenges to achieve their goals.	그들은 목표를 달성하기 위해 다양한 도전에 대처해야 했습니다.
 contestant	경기자	The contestant demonstrated exceptional skills during the competition.	경기자는 대회에서 탁월한 기술을 뽐냈습니다.
 continually	계속적으로	The project will require continual monitoring and adjustments.	프로젝트는 지속적인 모니터링과 조정이 필요할 것입니다.
 contract	계약	The two companies signed a contract to collaborate on a joint venture.	두 회사는 공동 사업을 위해 계약을 체결했습니다.
@@ -214,9 +214,9 @@ corporation	법인	The corporation announced its quarterly financial results.	�
 correspondence	편지, 통신문	I received a letter of correspondence from a distant relative.	멀리 사는 친척으로부터 온 편지를 받았습니다.
 corrosion	부식	The corrosion of the metal gate was caused by years of exposure to harsh weather.	금속 게이트의 부식은 악천후에 노출된 연수로 인해 발생했습니다.
 counterfeit	가짜, 모조품	Be cautious when buying expensive items to avoid counterfeit products.	고가의 제품을 구매할 때 가짜 제품을 피하려면 조심해야 합니다.
-courier	급송  택배	The courier delivered the package to our doorstep.	급송 택배가 우리 문 앞에 소포를 전달했습니다.
-courteous	예의  바른	He always maintains a courteous and professional attitude.	그는 항상 예의 바르고 전문적인 태도를 유지합니다.
-coverage	보상범위,  보도	The insurance coverage includes protection against various risks.	보험 보상 범위에는 다양한 위험을 대비한 보호가 포함됩니다.
+courier	급송 택배	The courier delivered the package to our doorstep.	급송 택배가 우리 문 앞에 소포를 전달했습니다.
+courteous	예의 바른	He always maintains a courteous and professional attitude.	그는 항상 예의 바르고 전문적인 태도를 유지합니다.
+coverage	보상범위, 보도	The insurance coverage includes protection against various risks.	보험 보상 범위에는 다양한 위험을 대비한 보호가 포함됩니다.
 creative	창조적인	Creative thinking is essential for solving complex problems.	복잡한 문제를 해결하기 위해 창의적 사고가 필수입니다.
 critical	비판적인	Her critical review of the book highlighted its flaws.	그녀의 책에 대한 비판적인 리뷰는 그것의 결점을 강조했습니다.
 cuisine	요리	The cuisine at that restaurant is known for its exquisite flavors.	그 레스토랑의 요리는 그 훌륭한 맛으로 알려져 있습니다.
@@ -229,7 +229,7 @@ customer	고객	The customer was satisfied with the service at the store.	고객
 customs	세관	Customs officers inspected the luggage at the airport.	세관 담당자들은 공항에서 수화물을 검사했습니다.
 damage	손해, 피해	The damage to the car was extensive after the accident.	차량에 입은 손상은 사고 후 광범위했습니다.
 damaged	손상된	The damaged goods were not fit for sale.	손상된 상품은 판매에 적합하지 않았습니다.
-deadlock	교착  상태	The negotiations reached a deadlock, and no progress was made.	협상은 교착 상태에 이르렀으며 어떠한 진전도 없었습니다.
+deadlock	교착 상태	The negotiations reached a deadlock, and no progress was made.	협상은 교착 상태에 이르렀으며 어떠한 진전도 없었습니다.
 deal	거래(처리)하다	Let's make a deal that benefits both parties.	양측에 이익을 가져다 주는 거래를 하자.
 declare	(세관에서)신고하다	Travelers must declare any items of value at customs.	여행자들은 세관에서 가치 있는 물품을 신고해야 합니다.
 decline	감소, 하락	The decline in sales is a cause for concern.	매출의 감소는 우려의 원인입니다.
@@ -252,15 +252,15 @@ demolish	파괴하다	The construction crew will demolish the old building next 
 demonstrate	증명하다	She will demonstrate the proper technique for using the equipment.	그녀는 그 장비를 사용하는 올바른 기술을 시연할 것입니다.
 densely	밀집하여	The city center is densely populated with skyscrapers.	도심 지역은 고층 빌딩으로 밀집되어 있습니다.
 depart	출발하다	The plane is scheduled to depart in an hour.	비행기는 1시간 후 출발 예정입니다.
-depend on	~에  의존하다	Your success should not depend solely on others.	당신의 성공은 주로 다른 사람들에게 의존해서는 안 됩니다.
+depend on	~에 의존하다	Your success should not depend solely on others.	당신의 성공은 주로 다른 사람들에게 의존해서는 안 됩니다.
 deplete	고갈시키다	Overfishing has caused the depletion of marine resources.	과잉 어획으로 인해 해양 자원의 고갈이 발생했습니다.
 deposit	입금하다	He made a deposit of $1,000 into his savings account.	그는 저축 계좌에 1,000달러를 입금했습니다.
-depot	창고,  저장소	The depot stores various supplies for the army.	창고는 군대를 위한 다양한 물자를 저장합니다.
-depreciation	가치  하락	The depreciation of the car's value was significant over the years.	그 차의 가치가 몇 년 동안 크게 하락했습니다.
+depot	창고, 저장소	The depot stores various supplies for the army.	창고는 군대를 위한 다양한 물자를 저장합니다.
+depreciation	가치 하락	The depreciation of the car's value was significant over the years.	그 차의 가치가 몇 년 동안 크게 하락했습니다.
 depression	불황	The economic depression resulted in job losses for many people.	경제적 불황으로 인해 많은 사람들이 일자리를 잃었습니다.
 deprivation	박탈, 상실	The deprivation of basic necessities is a serious issue in some areas.	기본 필수품의 박탈은 일부 지역에서 심각한 문제입니다.
 describe	묘사하다	Can you describe the suspect's appearance to the police?	당신은 용의자의 외모를 경찰에 묘사할 수 있나요?
-description	설명서,  해설	The description of the suspect matched the eyewitness's account.	용의자의 묘사가 목격자의 진술과 일치했습니다.
+description	설명서, 해설	The description of the suspect matched the eyewitness's account.	용의자의 묘사가 목격자의 진술과 일치했습니다.
 designated	지정된	The designated parking area is reserved for employees.	지정된 주차장은 직원 전용입니다.
 desirable	바람직한	Finding a reliable babysitter is desirable for working parents.	신뢰할 수 있는 유아 돌보미를 구하는 것은 일하는 부모들에게 바람직합니다.
 destination	목적지	Our vacation destination is a remote island in the Pacific.	우리의 휴가 목적지는 태평양의 한적한 섬입니다.
@@ -279,7 +279,7 @@ disappointing	실망스러운	The disappointing sales figures were below our exp
 disaster	재난	The earthquake was a natural disaster that caused widespread destruction.	지진은 광범위한 파괴를 일으킨 자연재해였습니다.
 discharge	방출하다	The factory had to discharge harmful chemicals into the river.	공장은 유해한 화학물질을 강으로 방출해야 했습니다.
 discontinue	중단하다	The company decided to discontinue the production of the outdated model.	회사는 낡은 모델의 생산을 중단하기로 결정했습니다.
-discrepancy	불일치,  차이	There was a discrepancy between the two financial reports.	두 재무 보고서 사이에 불일치가 있었습니다.
+discrepancy	불일치, 차이	There was a discrepancy between the two financial reports.	두 재무 보고서 사이에 불일치가 있었습니다.
 discriminate	차별하다	It is important not to discriminate against anyone based on their race or gender.	인종이나 성별에 따라 아무나 차별하지 말아야 합니다.
 discuss	토론하다	Let's discuss the agenda for the upcoming meeting.	다가올 회의의 안건을 토론해 봅시다.
 dismiss	해고하다	The manager had to dismiss the employee for repeated misconduct.	반복적인 부적절한 행동으로 그 직원을 해고해야 했습니다.
@@ -303,7 +303,7 @@ drought	가뭄	The prolonged drought led to water shortages in the region.	장�
 duplicate	사본	Make a duplicate copy of the important document for your records.	중요한 문서의 복사본을 만들어 기록으로 남기세요.
 durable	내구성 있는	The durable materials used in the construction ensure a long lifespan.	내구성 있는 소재로 건설된 것은 오랜 수명을 보장합니다.
 duration	지속, 기간	The duration of the flight was longer than expected due to bad weather.	날씨가 안 좋아 예상보다 비행 시간이 길어졌습니다.
-ecology	자연  환경	Ecology studies the relationship between living organisms and their environment.	생태학은 생물과 환경 간의 관계를 연구합니다.
+ecology	자연 환경	Ecology studies the relationship between living organisms and their environment.	생태학은 생물과 환경 간의 관계를 연구합니다.
 economical	경제적인	Using public transportation is an economical way to commute.	대중 교통을 이용하는 것은 경제적인 출퇴근 방법입니다.
 edition	(간행물의)판	The new edition of the magazine features interesting articles.	이 잡지의 새 판은 흥미로운 기사들을 특징으로 합니다.
 effect	효과, 영향	The effect of the new policy on the economy remains to be seen.	새로운 정책의 효과는 경제에 미치는 영향이 미지수입니다.
@@ -324,8 +324,8 @@ emission	방출, 배기가스	The emission of greenhouse gases is a major enviro
 emphasis	강조, 중점	The teacher placed a strong emphasis on the importance of good communication skills.	선생님은 좋은 커뮤니케이션 기술의 중요성을 강조했습니다.
 employment	고용	Finding stable employment in today's job market can be challenging.	오늘날의 취업은 안정적인 고용을 찾기 어려울 수 있습니다.
 enact	제정하다	The government plans to enact new regulations to address this issue.	정부는 이 문제를 해결하기 위해 새로운 규정을 제정하기로 했습니다.
-enclose	~을  동봉하다	Please enclose your resume with the job application.	이력서를 채용 신청과 함께 첨부해 주세요.
-encouraging	용기를  주는	Her supportive words were encouraging during my difficult times.	그녀의 지지적인 말은 내 어려운 시간 동안 용기를 줬습니다.
+enclose	~을 동봉하다	Please enclose your resume with the job application.	이력서를 채용 신청과 함께 첨부해 주세요.
+encouraging	용기를 주는	Her supportive words were encouraging during my difficult times.	그녀의 지지적인 말은 내 어려운 시간 동안 용기를 줬습니다.
 endangered	멸종위기에 처한	The panda is an endangered species, and conservation efforts are crucial.	판다는 멸종위기에 처한 종이며 보전 노력이 중요합니다.
 endeavor	노력하다	Despite facing many obstacles, he continued to endeavor towards his goals.	많은 어려움을 겪으면서도 그는 목표를 향해 계속 노력했습니다.
 endorse	보증하다	The famous athlete decided to endorse the sports brand.	유명한 스포츠 선수가 스포츠 브랜드를 보증하기로 결정했습니다.
@@ -335,10 +335,10 @@ enhance	강화하다	Regular exercise can enhance your overall physical fitness.
 enlightening	계몽적인	The documentary provided enlightening insights into the history of the region.	이 다큐멘터리는 그 지역의 역사에 대한 계몽적인 통찰을 제공했습니다.
 enroll	등록하다	Students must enroll in their courses for the upcoming semester.	학생들은 다음 학기에 강의에 등록해야 합니다.
 ensure	보증하다	Wearing a seatbelt can ensure your safety while driving.	운전 중 안전을 보장하기 위해 안전벨트를 착용하세요.
-entail	~을  수반하다	Starting a new business venture may entail significant risks.	새로운 사업을 시작하면 중요한 위험이 따를 수 있습니다.
+entail	~을 수반하다	Starting a new business venture may entail significant risks.	새로운 사업을 시작하면 중요한 위험이 따를 수 있습니다.
 enthusiastically	열정적으로	She greeted her supporters enthusiastically after winning the race.	그녀의 응원이 팀의 성공에 큰 영향을 미쳤습니다.
 entirely	완전히	The project's success was due entirely to the hard work of the team.	이 프로젝트의 성공은 팀의 힘든 일에 완전히 기인합니다.
-entitle	~에게  자격을  주다	Winning the competition will entitle you to a cash prize.	이 대회에서 우승하면 현금 상금이 주어집니다.
+entitle	~에게 자격을 주다	Winning the competition will entitle you to a cash prize.	이 대회에서 우승하면 현금 상금이 주어집니다.
 entrepreneur	사업가	She aspired to become a successful entrepreneur and start her own business.	그녀는 성공한 사업가가 되어 자신의 비즈니스를 시작하기를 열망했습니다.
 envelope	봉투	Please put the letter in the envelope before mailing it.	이 편지를 우편으로 보내기 전에 봉투에 넣어 주세요.
 environmental	환경적인	Environmental protection is crucial for the well-being of our planet.	환경 보호는 우리 행성의 복지에 중요합니다.
@@ -355,11 +355,11 @@ eventually	마침내	With hard work and determination, you will eventually achie
 evidently	명백히	Evidently, there was a misunderstanding between the two parties.	분명히 두 당사자 사이에 오해가 있었습니다.
 exactly	정확히	Please follow the instructions exactly as they are written.	지시사항을 정확히 작성된 대로 따라 주세요.
 examine	조사하다	The doctor will examine the patient to determine the cause of the illness.	의사는 환자의 질병 원인을 결정하기 위해 환자를 조사할 것입니다.
-exceed	~을  초과하다	The cost of the repairs may exceed your budget.	수리 비용은 예산을 초과할 수 있습니다.
+exceed	~을 초과하다	The cost of the repairs may exceed your budget.	수리 비용은 예산을 초과할 수 있습니다.
 exception	예외	She handled the difficult situation with grace and was an exception to the norm.	그녀는 어려운 상황을 우아하게 다뤘으며 일반적인 상황과는 예외였습니다.
 exceptional	예외적인	Her exceptional talent in music was recognized by many.	그녀의 음악에서의 예외적인 재능은 많은 사람들에게 인정받았습니다.
 excess	초과	Excess sugar consumption can lead to health problems.	과다한 설탕 섭취는 건강 문제를 일으킬 수 있습니다.
-exclusively	독점적으로,  오로지	This boutique sells exclusively handmade jewelry.	이 부티크는 수공예 보석만 판매합니다.
+exclusively	독점적으로, 오로지	This boutique sells exclusively handmade jewelry.	이 부티크는 수공예 보석만 판매합니다.
 execute	실행하다	The team will execute the project plan as soon as it's approved.	팀은 프로젝트 계획을 승인하면 즉시 실행할 것입니다.
 exhibition	전시회	The art exhibition featured works from renowned artists.	미술 전시회에는 유명한 아티스트의 작품이 전시되었습니다.
 existing	기존의, 현행의	The company plans to improve its existing products.	회사는 기존 제품을 개선하기 위한 계획을 세우고 있습니다.
@@ -371,7 +371,7 @@ expectation	예상, 기대	The expectation is that the stock prices will rise.	�
 expenditure	지출, 비용	The government's expenditure on healthcare has increased.	정부의 의료 지출은 증가하고 있습니다.
 expense	비용, 지출	Travel expenses can add up quickly during a vacation.	휴가 중 여행 비용이 빨리 누적될 수 있습니다.
 experiment	실험하다	Scientists conducted an experiment to test their hypothesis.	과학자들은 그들의 가설을 테스트하기 위해 실험을 수행했습니다.
-expertise	전문적  기술	Her expertise in computer programming was highly sought after.	그녀의 컴퓨터 프로그래밍 전문성은 많은 사람들에게 인기가 있었습니다.
+expertise	전문적 기술	Her expertise in computer programming was highly sought after.	그녀의 컴퓨터 프로그래밍 전문성은 많은 사람들에게 인기가 있었습니다.
 expire	(계약이)만기되다	The contract is set to expire at the end of the year.	계약은 연말에 만료될 예정입니다.
 exploit	착취하다	Some companies exploit their workers by paying low wages.	일부 기업은 낮은 임금을 지불하면서 노동자들을 착취합니다.
 extended	연장한	They enjoyed an extended vacation in Europe.	그들은 유럽에서 연장된 휴가를 즐겼습니다.
@@ -384,7 +384,7 @@ favorably	호의적으로	The product received favorably positive reviews from c
 feasible	실행 가능한	The proposed plan is feasible and can be implemented.	제안된 계획은 실행 가능하며 실행할 수 있습니다.
 feature	특징, 특색	The latest smartphone model has an impressive camera feature.	최신 스마트폰 모델에는 인상적인 카메라 기능이 있습니다.
 feedback	의견, 반응	We appreciate your feedback on our new website design.	우리는 새 웹사이트 디자인에 대한 여러분의 의견을 감사히 받습니다.
-figure	합계  수,  총액	Can you calculate the total figure for this month's expenses?	이번 달 지출 총액을 계산할 수 있나요?
+figure	합계 수, 총액	Can you calculate the total figure for this month's expenses?	이번 달 지출 총액을 계산할 수 있나요?
 finally	마침내	After years of hard work, he finally achieved his lifelong dream.	몇 년간의 노력 끝에 그는 마침내 자신의 평생 꿈을 이뤘습니다.
 financial	재정의	Proper financial planning is essential for a secure future.	안전한 미래를 위해 적절한 재정 계획이 중요합니다.
 fix	수리하다	We need to fix the leaky faucet in the bathroom.	우리는 욕실의 누수하는 수도꼭지를 고쳐야 합니다.
@@ -392,19 +392,19 @@ flavor	맛	The ice cream parlor offers a wide variety of flavor options.	아이�
 flourish	번창하다	The business began to flourish after the new marketing campaign.	새로운 마케팅 캠페인 이후 비즈니스가 번창하기 시작했습니다.
 focus	집중하다	It's important to focus on your goals and stay motivated.	목표에 집중하고 동기를 유지하는 것이 중요합니다.
 following	~후에	The meeting will take place on Monday, and the following one will be in two weeks.	회의는 월요일에 열리며 다음 회의는 두 주 뒤에 있을 것입니다.
-forecast	날씨  예보	The weather forecast predicts rain for the weekend.	날씨 예보에 따르면 주말에 비가 올 것으로 예상됩니다.
+forecast	날씨 예보	The weather forecast predicts rain for the weekend.	날씨 예보에 따르면 주말에 비가 올 것으로 예상됩니다.
 forfeit	몰수당하다	If you break the rules, you may forfeit your right to participate.	규칙을 어기면 참가 권리를 몰수당할 수 있습니다.
 fortify	강화하다	The castle walls were fortified to withstand attacks.	성벽은 공격을 견디기 위해 강화되었습니다.
 forward	전진하다	Please forward this email to the appropriate department.	이 이메일을 적절한 부서로 전달해 주세요.
 foster	촉진하다	The organization aims to foster a sense of community among its members.	조직은 회원 간의 커뮤니티 의식을 촉진하려고 합니다.
 foundation	토대, 기초	Education is the foundation for personal and societal growth.	교육은 개인과 사회적 성장의 기초입니다.
-fragile	깨지기  쉬운	Handle the glassware with care, as it's fragile.	유리제품을 깨끗하게 다루세요. 유리는 쉽게 깨질 수 있습니다.
+fragile	깨지기 쉬운	Handle the glassware with care, as it's fragile.	유리제품을 깨끗하게 다루세요. 유리는 쉽게 깨질 수 있습니다.
 fraud	사기	The company's internal investigation uncovered evidence of fraud.	회사의 내부 조사는 사기의 증거를 발견했습니다.
 freshness	신선함	The freshness of this ingredient enhances the flavor of the dish.	이 식재료의 신선함은 요리의 맛을 높입니다.
-friction	불화,  마찰	When friction arises within the team, it can lead to decreased work efficiency.	팀 내에서 불화가 발생하면 업무 효율이 떨어질 수 있습니다.
+friction	불화, 마찰	When friction arises within the team, it can lead to decreased work efficiency.	팀 내에서 불화가 발생하면 업무 효율이 떨어질 수 있습니다.
 function	작동하다	This smartphone functions perfectly in every aspect.	이 스마트폰은 모든 기능이 완벽하게 작동합니다.
-fund	자금을  조달하다	The process of funding this project was challenging.	이 프로젝트를 위한 자금을 조달하는 과정이 어려웠습니다.
-furnished	가구가  비취된	The apartment was furnished with all the necessary furniture for immediate occupancy.	그 아파트는 모든 가구가 비취되어 있어 즉시 입주할 수 있었습니다.
+fund	자금을 조달하다	The process of funding this project was challenging.	이 프로젝트를 위한 자금을 조달하는 과정이 어려웠습니다.
+furnished	가구가 비취된	The apartment was furnished with all the necessary furniture for immediate occupancy.	그 아파트는 모든 가구가 비취되어 있어 즉시 입주할 수 있었습니다.
 further	그 이상의	For further information, please visit the website.	더 자세한 정보를 얻으려면 웹사이트를 방문하세요.
 gauge	측정하다	Use this thermometer to gauge the temperature accurately.	온도를 정확하게 측정하려면 이 온도계를 사용하세요.
 generate	창출하다	Solar power generation helps generate clean energy.	태양열 발전은 깨끗한 에너지를 생성합니다.
@@ -416,9 +416,9 @@ guarantee	보장하다	The product comes with a one-year guarantee.	제품에 �
 halt	중단, 정지	The train came to a halt unexpectedly.	열차는 예고 없이 중지되었습니다.
 handle	다루다	It's essential to handle the situation with care.	신중하게 상황을 다뤄야 합니다.
 hesitate	주저하다	He didn't hesitate and made a decision after a moment.	그는 잠시 주저한 뒤에 결정을 내렸습니다.
-hold	~을  수용하다	This bag can hold an ample amount of luggage.	이 작은 가방은 충분한 수화물을 수용할 수 있습니다.
+hold	~을 수용하다	This bag can hold an ample amount of luggage.	이 작은 가방은 충분한 수화물을 수용할 수 있습니다.
 hospitality	환대, 친절	The residents welcomed me with great hospitality.	그 도시의 주민들은 따뜻한 환대로 나를 맞이했습니다.
-host	(대회  등을)주최하다	The city hosted the event last week.	이 이벤트는 지난 주에 도시에서 개최되었습니다.
+host	(대회 등을)주최하다	The city hosted the event last week.	이 이벤트는 지난 주에 도시에서 개최되었습니다.
 identification	신분증명서	You can't enter without proper identification.	신분증명서를 소지하지 않으면 이곳에 입장할 수 없습니다.
 illustrate	설명하다	Using illustrations helps explain things better.	그림과 함께 설명하는 것이 이해를 돕는데 도움이 됩니다.
 immune	면역의	Vaccines enhance the immune system's response.	백신은 우리 몸의 면역체계를 강화할 수 있습니다.
@@ -427,14 +427,14 @@ impartially	공명정대하게	The judge handled the case impartially.	판사는
 impending	임박한	Residents had to evacuate due to an impending storm.	임박한 폭풍우로 인해 주민들은 대피해야 했습니다.
 imperative	필수적인	Taking breaks is imperative for productivity.	시급한 문제를 해결하는 것은 필수적입니다.
 implement	실행하다	We need to implement a plan to execute the new policy.	새로운 정책을 실행하기 위한 계획을 갖추어야 합니다.
-implication	영향,  밀접한 관계	The decision has significant implications for the organization.	그 결정은 조직에 큰 영향을 미칠 것으로 생각됩니다.
+implication	영향, 밀접한 관계	The decision has significant implications for the organization.	그 결정은 조직에 큰 영향을 미칠 것으로 생각됩니다.
 impose	부과하다	The government may impose new taxes on citizens.	새로운 세금을 부과하는 것은 시민들에게 부담을 줄 수 있습니다.
 impression	인상	His speech left a lasting impression on the audience.	그 회의에서 그의 지식과 경험이 큰 인상을 남겼습니다.
 impressive	인상적인	The view from the mountaintop was truly impressive.	그 성탄 트리는 정말로 인상적입니다.
 improve	향상시키다	Regular practice can improve your skills.	노력과 연습을 통해 스킬을 향상시킬 수 있습니다.
 in common	공동으로	We have many interests in common.	우리는 많은 관심사를 공유합니다.
 inaccurate	부정확한	The report contains inaccurate information.	그 보고서는 부정확한 정보를 포함하고 있습니다.
-inaugurate	~을  개시하다	The inauguration of the new president will take place next week.	새로운 대통령은 다음 주에 취임식을 개최할 예정입니다.
+inaugurate	~을 개시하다	The inauguration of the new president will take place next week.	새로운 대통령은 다음 주에 취임식을 개최할 예정입니다.
 incentive	혜택, 장려금	Performance bonuses provide employees with extra incentives.	성과에 대한 장려금은 직원들의 동기부여에 도움이 됩니다.
 incidental	부수적인	The issue you mentioned is an incidental concern.	그 문제는 우리 주요 목표와는 관련이 없는 부수적인 문제입니다.
 inclement	날씨가 궂은	It's best to stay indoors during inclement weather.	날씨가 궂은 날에는 집에서 안전하게 머물기를 권장합니다.
@@ -444,18 +444,19 @@ inconsistency	불일치	There is an inconsistency between the two documents.	그
 inconvenience	불편	I apologize for any inconvenience this may have caused.	이 문제로 인해 불편함을 느끼게 되었습니다.
 incorrect	부정확한	The incorrect information in the report led to misunderstandings.	그 정보는 부정확해서 오해를 불러일으켰다.
 increase	증가하다	Sales have been increasing recently.	판매량이 최근에 증가하고 있습니다.
-increasingly	점점  더	Natural disasters are becoming increasingly common due to climate change.	기후 변화로 인해 자연재해가 점점 더 빈번해지고 있습니다.
+increasingly	점점 더	Natural disasters are becoming increasingly common due to climate change.	기후 변화로 인해 자연재해가 점점 더 빈번해지고 있습니다.
 independent	독립의	The company conducts independent research.	그 회사는 독립적인 연구를 진행하고 있습니다.
 indicate	나타나다	The graph indicates a clear rise in profits.	그래프는 수익의 상승을 명확하게 나타냅니다.
 indication	징후, 조짐	His anxious expression was an indication of a problem.	그의 불안한 표정은 어떤 문제가 있는지를 나타냈습니다.
 indicator	지표, 지수	Economic indicators help evaluate the health of the economy.	경제 지표는 경제 건강 상태를 평가하는 데 도움이 됩니다.
-indigenous	지역  고유의	It's essential to respect indigenous cultures in this region.	이 지역의 원주민 문화를 존중해야 합니다.
+indigenous	지역 고유의	It's essential to respect indigenous cultures in this region.	이 지역의 원주민 문화를 존중해야 합니다.
 induce	유발하다	Some foods may induce sleep due to their ingredients.	이 음식은 잠을 유발할 수 있는 성분을 포함하고 있습니다.
 indulge	탐닉하다	It's okay to indulge in something sweet from time to time.	가끔은 스스로를 더욱 달콤한 것으로 탐닉해도 괜찮습니다.
 industrial	산업의	The region is known for its industrial development.	이 지역은 산업 발전이 빠르게 이루어지고 있습니다.
 inevitable	불가피한	Change is inevitable, and we must prepare for it.	변화는 불가피하며 우리는 그에 대비해야 합니다.
-inflict	피해를  입히다	His actions inflicted harm on others, and he regrets it.	그 사건으로 상대방에게 상처를 입힌 것을 후회하고 있습니다.
-influence	~에  영향을  주다	Family can have a significant influence on our lives.	가족은 우리 삶에 큰 영향을 미칩니다.
+inflict	피해를 입히다	His actions inflicted harm on others, and he regrets it.	그 사건으로 상대방에게 상처를 입힌 것을 후회하고 있습니다.
+influence	~에 영향을 
+주다	Family can have a significant influence on our lives.	가족은 우리 삶에 큰 영향을 미칩니다.
 inform	~에게 알리다	Please inform all participants of the schedule changes.	일정 변경 사항을 모든 참가자에게 알려드리겠습니다.
 information	정보	This report provides valuable information.	이 보고서는 유용한 정보를 제공합니다.
 informative	유익한	The presentation was highly informative and interesting.	그 발표는 매우 유익하고 흥미로웠습니다.
@@ -489,12 +490,12 @@ invoice	송장	The invoice reminds you that the payment deadline is approaching.
 involved	관계된	All parties involved need to cooperate in this matter.	그 사건에 관련된 모든 당사자가 협력해야 합니다.
 irrelevant	무관한	The discussion seemed irrelevant to the current situation.	그 논의는 현재 상황과 무관한 것으로 판단됩니다.
 issue	발행하다	The book will issue this week.	새로운 책이 이번 주에 발행되었습니다.
-itinerary	여행  일정	Check your itinerary to plan for next week's activities.	여행 일정을 확인하여 다음 주 동안의 계획을 세워보세요.
+itinerary	여행 일정	Check your itinerary to plan for next week's activities.	여행 일정을 확인하여 다음 주 동안의 계획을 세워보세요.
 justify	정당화하다	It's challenging to justify his actions in that situation.	그의 행동을 정당화하기 어려운 상황이었습니다.
 labor	노동	Labor conditions need improvement.	노동 조건을 개선하기 위한 노력이 필요합니다.
 largely	주로, 대부분	This issue affects largely everyone.	이 문제는 대부분의 사람들에게 영향을 미칩니다.
 lately	최근에	He developed a new hobby lately.	그는 최근에 새로운 취미를 찾았습니다.
-launch	(신제품을)  출시하다	The company successfully launched the new product.	신제품을 성공적으로 출시하였습니다.
+launch	(신제품을) 출시하다	The company successfully launched the new product.	신제품을 성공적으로 출시하였습니다.
 laundry	세탁물	Take your laundry to the laundromat.	세탁물을 빨래방으로 가져가야 합니다.
 leave	떠나다	He left for an extended vacation to enjoy some time off.	그는 긴 휴가를 즐기기 위해 일을 떠났습니다.
 lecture	강의	The professor's lectures were always informative and engaging.	교수님의 강의는 항상 유익하고 흥미로웠습니다.
@@ -505,20 +506,20 @@ lend	빌려주다	Can you lend me some money until I get paid?	저에게 다음 
 lessen	줄이다	Regular exercise can lessen the risk of heart disease.	규칙적인 운동은 심장 질환의 위험을 줄일 수 있습니다.
 level	지위, 수준	We need to maintain a high level of quality in our work.	우리는 작업의 고품질을 유지해야 합니다.
 liability	책임, 부채	The company is not liable for any damages caused by misuse of the product.	제품의 오용으로 인한 손해에 회사는 책임이 없습니다.
-liable	책임져야 할,  ~하기 쉬운	He is liable for the damage he caused to the property.	그는 부동산에 일으킨 피해에 대한 책임이 있습니다.
+liable	책임져야 할, ~하기 쉬운	He is liable for the damage he caused to the property.	그는 부동산에 일으킨 피해에 대한 책임이 있습니다.
 litigation	소송, 기소	The litigation process can be lengthy and expensive.	소송 절차는 길고 비용이 많이 들 수 있습니다.
 loan	대부, 대부금	She took out a loan to buy a new car.	그녀는 새 차를 사기 위해 대출을 받았습니다.
 local	지방의	Let's support local businesses by shopping at the neighborhood stores.	지역 상점에서 쇼핑을 통해 지역 사업체를 지원합시다.
-locate	~을  위치시키다	I need to locate the nearest hospital as quickly as possible.	제가 최대한 빨리 가까운 병원의 위치를 찾아야 합니다.
+locate	~을 위치시키다	I need to locate the nearest hospital as quickly as possible.	제가 최대한 빨리 가까운 병원의 위치를 찾아야 합니다.
 location	장소, 위치	The location of the new office is convenient for employees.	새 사무실의 위치는 직원들에게 편리합니다.
 lower	(가격을)줄이다	They decided to lower the prices to attract more customers.	그들은 더 낮은 가격으로 더 많은 고객을 유치하기로 결정했습니다.
 majority	대부분	The majority of the students voted in favor of the new policy.	대다수의 학생들이 새로운 정책에 찬성표를 던졌습니다.
 make sure	확인하다	Make sure to lock the door when you leave the house.	집을 나갈 때 문을 잠그는 것을 잊지 마세요.
-make up  for	~을  만회하다	He wanted to make up for his mistake by apologizing.	그는 자신의 실수를 사과로 보상하고 싶었습니다.
+make up for	~을 만회하다	He wanted to make up for his mistake by apologizing.	그는 자신의 실수를 사과로 보상하고 싶었습니다.
 malfunction	오작동	The computer malfunctioned	컴퓨터가 고장났습니다.
 manipulation	조작, 시장조작	The media accused the politician of manipulation to gain votes.	미디어가 정치인이 투표를 얻기 위해 조작했다고 비난했습니다.
 manufacturer	제조업자	The car manufacturer is known for producing reliable vehicles.	자동차 제조업체는 신뢰할 수 있는 차량을 생산하는 것으로 알려져 있습니다.
-material	재료,  물질	The dress is made of high-quality material.	그 드레스는 고품질 소재로 만들어졌습니다.
+material	재료, 물질	The dress is made of high-quality material.	그 드레스는 고품질 소재로 만들어졌습니다.
 means	방법, 수단	Education is a means to achieve personal and professional growth.	교육은 개인 및 전문적인 성장을 실현하기 위한 수단입니다.
 meet	만족시키다	Let's meet at the coffee shop at 3 PM.	오후 3시에 커피숍에서 만나요.
 merchandise	상품	The store offers a wide range of merchandise.	가게는 다양한 상품을 제공합니다.
@@ -532,8 +533,8 @@ modify	수정하다	You can modify the settings to suit your preferences.	설정
 monetary	금전의	The monetary value of the antique coin is significant.	그 고요한 동전의 통화 가치는 상당합니다.
 monopoly	(상품의) 독점	The company had a monopoly on the market for years.	이 회사는 여러 년 동안 시장을 독점했습니다.
 morale	사기	The team's victory boosted morale among the players.	팀의 승리는 선수들 사이의 사기를 높였습니다.
-mortgage	주택  융자	They took out a mortgage to buy their dream home.	그들은 꿈의 집을 사기 위해 모기지를 가졌습니다.
-motivate	동기를  부여하다	His success story is sure to motivate aspiring entrepreneurs.	그의 성공 스토리는 향후 기업가들을 동기부여할 것입니다.
+mortgage	주택 융자	They took out a mortgage to buy their dream home.	그들은 꿈의 집을 사기 위해 모기지를 가졌습니다.
+motivate	동기를 부여하다	His success story is sure to motivate aspiring entrepreneurs.	그의 성공 스토리는 향후 기업가들을 동기부여할 것입니다.
 mounting	오르는	There is mounting evidence to support the theory.	해당 이론을 지원하기 위한 증거가 점점 더 증가하고 있습니다.
 municipal	지방자치의	The municipal government is responsible for local services.	지방 정부는 지역 서비스에 책임이 있습니다.
 narrow	좁히다	The narrow road was challenging to navigate.	좁은 도로는 항해하기 어려웠습니다.
@@ -553,7 +554,7 @@ observance	준수	The observance of cultural traditions is important to many fam
 obsolete	구식의	The old computer system became obsolete and was replaced.	오래된 컴퓨터 시스템은 사용되지 않게 되었고 대체되었습니다.
 obtain	얻다	It's important to obtain all the necessary permits.	필요한 모든 허가를 얻는 것이 중요합니다.
 occasionally	때때로	I like to treat myself to ice cream occasionally.	가끔 아이스크림을 즐기는 것을 좋아합니다.
-occupancy	(호텔  등의)이용률	The hotel's occupancy rate is high during the summer.	여름 동안 호텔의 점유율이 높습니다.
+occupancy	(호텔 등의)이용률	The hotel's occupancy rate is high during the summer.	여름 동안 호텔의 점유율이 높습니다.
 occupation	직업	Her occupation as a nurse is both challenging and rewarding.	그녀의 직업인 간호사는 동시에 어렵고 보람 있습니다.
 occur to	발생하다	It didn't occur to me that you would be interested in joining.	당신이 가입하고 싶어하지 않을 거라고 생각하지 않았습니다.
 offer	제공하다	The company made a generous job offer to the candidate.	그 회사는 후보자에게 관대한 고용 제안을 했습니다.
@@ -582,14 +583,14 @@ patent	특허권	The inventor filed a patent for the groundbreaking technology.	
 payable	지불해야 하는	The invoice is payable within 30 days of receipt.	송장은 수령 후 30일 이내에 지불되어야 합니다.
 paycheck	급료, 지불	He eagerly awaited his monthly paycheck.	그는 월급날을 열심히 기다리고 있었습니다.
 payroll	급료명부	The company processes its payroll on the last day of the month.	회사는 매월 마지막 날에 급여를 처리합니다.
-perception	인식,  지각	Perception of beauty varies from culture to culture.	미의 관점은 문화에 따라 다릅니다.
+perception	인식, 지각	Perception of beauty varies from culture to culture.	미의 관점은 문화에 따라 다릅니다.
 performance	성과, 연기	Her performance in the play received a standing ovation.	그녀는 연극에서의 연기에 박수를 받았습니다.
 periodical	정기 간행물	I subscribe to a periodical that covers the latest fashion trends.	나는 최신 패션 트렌드를 다루는 주기간간지에 가입합니다.
 permanent	영구적인	She secured a permanent position at the company.	그녀는 회사에서 영구적인 위치를 확보했습니다.
 permit	허락하다	You need a permit to build a new structure on your property.	부동산에 새 구조물을 건설하려면 허가가 필요합니다.
 persistent	계속되는	His persistent efforts finally paid off.	그의 끈질긴 노력은 마침내 결과를 얻었습니다.
-personnel	직원,  인원	The company is hiring new personnel for the expansion.	회사는 확장을 위해 새로운 인력을 고용하고 있습니다.
-persuasive	설득력  있는	Her persuasive argument swayed the jury in her favor.	그녀의 설득력 있는 주장은 배심원단을 그녀의 편으로 끌었습니다.
+personnel	직원, 인원	The company is hiring new personnel for the expansion.	회사는 확장을 위해 새로운 인력을 고용하고 있습니다.
+persuasive	설득력 있는	Her persuasive argument swayed the jury in her favor.	그녀의 설득력 있는 주장은 배심원단을 그녀의 편으로 끌었습니다.
 petition	진정서	They started a petition to address the community's concerns.	그들은 지역 커뮤니티의 우려를 해소하기 위해 청원을 시작했습니다.
 policy	규정, 보험증권	The company's policy promotes a healthy work-life balance.	회사의 정책은 건강한 업무와 생활 균형을 장려합니다.
 politely	정중하게	She politely declined the invitation due to a prior commitment.	그녀는 이전의 예약 때문에 초대를 공손히 거절했습니다.
@@ -598,21 +599,21 @@ popular	인기 있는	The new restaurant has become quite popular in the neighbo
 possible	가능한	Anything is possible with hard work and determination.	노력과 결단력이 있다면 어떤 것이든 가능합니다.
 postage	우편요금	The postage for shipping the package was quite expensive.	패키지 배송 용속료가 상당히 비싸다.
 praise	칭찬	He received praise for his outstanding achievements.	그는 뛰어난 성과를 인정받았습니다.
-precaution	예방  조치	She took the precaution of wearing sunscreen and a wide-brimmed hat to protect her skin from the strong sun during the outdoor event.	야외 행사 중 강한 햇빛으로부터 피부를 보호하기 위해 선크림과 넓은 모자를 착용하는 예방 조치를 했습니다.
+precaution	예방 조치	She took the precaution of wearing sunscreen and a wide-brimmed hat to protect her skin from the strong sun during the outdoor event.	야외 행사 중 강한 햇빛으로부터 피부를 보호하기 위해 선크림과 넓은 모자를 착용하는 예방 조치를 했습니다.
 predict	예측하다	It's difficult to predict the outcome of the election.	선거 결과를 예측하기 어렵습니다.
 preferred	선호되는	Her preferred method of communication is email.	그녀의 선호하는 의사 소통 방법은 이메일입니다.
 premises	토지가 딸린 건물	Smoking is not allowed on these premises.	이 곳에서는 흡연이 허용되지 않습니다.
 prescribe	처방하다	The doctor will prescribe medication for your illness.	의사는 당신의 질병에 대해 약을 처방할 것입니다.
 present	제시(발표)하다	He will present the findings of the research at the conference.	그는 연구 결과를 회의에서 발표할 것입니다.
 presumably	아마, 생각컨대	Presumably, the delay in the delivery of our package is due to the recent snowstorm in the area.	아마도 우리 패키지 배송 지연은 최근 지역 눈보라 때문일 것입니다.
-prevalent	널리  퍼진	The flu is prevalent during the winter months.	감기는 겨울 동안에 유행합니다.
-prevent	~을  막다	Regular exercise can help prevent many health problems.	정기적인 운동은 많은 건강 문제를 예방하는 데 도움이 될 수 있습니다.
+prevalent	널리 퍼진	The flu is prevalent during the winter months.	감기는 겨울 동안에 유행합니다.
+prevent	~을 막다	Regular exercise can help prevent many health problems.	정기적인 운동은 많은 건강 문제를 예방하는 데 도움이 될 수 있습니다.
 prevention	예방	Prevention is the best way to avoid accidents.	사고를 피하기 위한 최선의 방법은 예방입니다.
 previously	이전에	I have met him previously at a conference.	나는 그를 이전에 회의에서 만났습니다.
 principal	주요한	The school's principal addressed the students in the assembly.	학교 교장은 학생들에게 회의에서 말했습니다.
-prior  to	~이전에	Please complete the assignment prior to the deadline.	마감일 전에 과제를 완료하세요.
+prior to	~이전에	Please complete the assignment prior to the deadline.	마감일 전에 과제를 완료하세요.
 privilege	특권	It's a privilege to work with such talented individuals.	이런 재능 있는 개인들과 함께 일할 수 있는 특권입니다.
-probable	가능성  있는	There is a probable chance of rain tomorrow.	내일 비 올 확률이 있습니다.
+probable	가능성 있는	There is a probable chance of rain tomorrow.	내일 비 올 확률이 있습니다.
 procedure	절차	Follow the procedure outlined in the instruction manual.	설명서에 기술된 절차를 따르세요.
 proceed	진척되다	We can proceed with the project once we have approval.	승인을 받으면 프로젝트를 진행할 수 있습니다.
 processing	처리, 가공	The processing of your application may take some time.	당신의 신청서 처리에 시간이 걸릴 수 있습니다.
@@ -645,11 +646,11 @@ publication	간행물, 출판물	The publication of the book was delayed due to 
 purchase	구매하다	I'm planning to purchase a new car next month.	다음 달에 새 차를 구입하려고 합니다.
 purify	정화시키다	The water treatment plant is used to purify drinking water.	정수장은 음용수를 정화하는 데 사용됩니다.
 purpose	목적, 의도	The purpose of the meeting is to discuss the new project.	회의의 목적은 새로운 프로젝트를 논의하는 것입니다.
-qualified	자격  있는	She is highly qualified for the position.	그녀는 그 직위에 매우 자격이 있습니다.
+qualified	자격 있는	She is highly qualified for the position.	그녀는 그 직위에 매우 자격이 있습니다.
 quality	품질, 질	The quality of the product exceeded my expectations.	제품의 품질은 내 기대를 뛰어 넘었습니다.
 quota	할당량	Each team has a quota of sales to meet this month.	각 팀은 이번 달에 만나야 할 판매 할당량이 있습니다.
 quote	견적애	He used a famous quote to open his speech.	그는 연설을 시작하기 위해 유명한 인용구를 사용했습니다.
-raise	임금  인상	We need to raise funds for the charity event.	우리는 자선 행사를 위해 자금을 모아야 합니다.
+raise	임금 인상	We need to raise funds for the charity event.	우리는 자선 행사를 위해 자금을 모아야 합니다.
 randomly	임의로	The winners will be selected randomly from the pool of entries.	당첨자는 등록된 응모자 중에서 무작위로 선정됩니다.
 rapidly	급속히	The company is growing rapidly in the international market.	그 회사는 국제 시장에서 빠르게 성장하고 있습니다.
 ratio	비율	The ratio of men to women in the organization is 2:1.	그 조직의 남녀 비율은 2:1입니다.
@@ -667,7 +668,7 @@ recruit	모집하다	The company is looking to recruit new talent.	그 회사는
 recycling	재활용	Recycling helps reduce the amount of waste in landfills.	재활용은 매립지에 배출되는 폐기물 양을 줄이는 데 도움이 됩니다.
 reduce	줄이다	We must reduce our carbon footprint to combat climate change.	기후 변화와 싸우기 위해 탄소 발자국을 줄여야 합니다.
 refer	언급하다	Please refer to the user manual for instructions.	사용 설명서를 참조하여 지침을 따르십시오.
-reference	추천서,  참고	He provided a reference for me when I applied for the job.	나는 그 취직을 지원할 때 그를 참조했습니다.
+reference	추천서, 참고	He provided a reference for me when I applied for the job.	나는 그 취직을 지원할 때 그를 참조했습니다.
 reflective	반영하는	The reflective surface of the lake shimmered in the sunlight.	호수의 반사 표면이 햇빛에 반짝였습니다.
 refund	환불	They issued a refund for the faulty product.	그들은 결함이 있는 제품에 대한 환불을 발행했습니다.
 refuse	거절하다	He had to refuse the invitation due to a prior commitment.	그는 약속된 일정으로 인해 초대를 거절해야 했습니다.
@@ -679,10 +680,10 @@ regulation	규정	The government introduced new regulations to protect consumers
 reimburse	상환하다	The company will reimburse you for travel expenses.	그 회사는 여행 경비를 상환할 것입니다.
 relatively	상대적으로	The cost of living is relatively low in this city.	이 도시에서는 생활비가 상대적으로 낮습니다.
 release	발표하다	The movie release date was postponed to next month.	영화 개봉일이 다음 달로 연기되었습니다.
-reliable	믿을  만한	The car is known for its reliable performance.	그 차는 신뢰할 수 있는 성능으로 알려져 있습니다.
+reliable	믿을 만한	The car is known for its reliable performance.	그 차는 신뢰할 수 있는 성능으로 알려져 있습니다.
 relieve	완화시키다	The pain reliever provided relief from her headache.	진통제는 그녀의 두통을 완화시켰습니다.
 relocate	이전하다	The company decided to relocate its headquarters.	그 회사는 본사를 이전하기로 결정했습니다.
-remain	여전히~한  상태이다.	Please remain seated until the flight has come to a complete stop.	비행기가 완전히 멈출 때까지 앉아 있으십시오.
+remain	여전히~한 상태이다.	Please remain seated until the flight has come to a complete stop.	비행기가 완전히 멈출 때까지 앉아 있으십시오.
 remarkable	두드러진	Her achievements in the field of science are remarkable.	그녀의 과학 분야에서의 성과는 놀라운 것입니다.
 remedy	치료법	He found a natural remedy for his allergies.	그는 자신의 알레르기에 대한 자연 요법을 찾았습니다.
 reminder	상기시켜주는 것	Set a reminder on your phone for the meeting tomorrow.	내일 회의를 위해 휴대폰에 알림을 설정하십시오.
@@ -691,8 +692,8 @@ renovation	보수, 수리	The renovation of the historic building was a success.
 reorganize	재조직하다	It's time to reorganize the cluttered storage room.	무질서한 보관실을 재정리할 때입니다.
 repair	수리하다	The mechanic will repair the car's engine.	정비사는 차량 엔진을 수리할 것입니다.
 repeatedly	반복해서	He has been making the same mistake repeatedly.	그는 같은 실수를 반복해서 저지릅니다.
-replace	~을  교체하다	We need to replace the old carpet with a new one.	우리는 오래된 카펫을 새로운 것으로 교체해야 합니다.
-represent	~을  대표하다	She will represent the company at the conference.	그녀는 회사를 회의에서 대표할 것입니다.
+replace	~을 교체하다	We need to replace the old carpet with a new one.	우리는 오래된 카펫을 새로운 것으로 교체해야 합니다.
+represent	~을 대표하다	She will represent the company at the conference.	그녀는 회사를 회의에서 대표할 것입니다.
 representative	판매 대리인	The union elected a representative to negotiate with management.	노동 조합은 경영진과 협상하기 위해 대표를 선출했습니다.
 request	요청	Please submit your request in writing.	요청 사항을 서면으로 제출하십시오.
 require	요구하다	The job will require a lot of travel.	이 일은 많은 여행을 필요로 할 것입니다.
@@ -706,8 +707,8 @@ respectfully	공손하게	Please address your concerns respectfully in the meeti
 respective	각각의	Each team will present their findings in their respective sections.	각 팀은 각자의 섹션에서 연구 결과를 발표할 것입니다.
 respond	응답하다	He will respond to your email by the end of the day.	그는 하루 종일 이메일로 귀하의 이메일에 응답할 것입니다.
 respondent	응답자	The survey had over a thousand respondents.	그 조사는 천 명 이상의 응답자가 참여했습니다.
-responsibility	부담, 책임,  의무	It's your responsibility to complete the assigned tasks.	할당된 작업을 완료하는 것은 귀하의 책임입니다.
-responsible	책임이  있는	She is responsible for managing the project.	그녀는 프로젝트를 관리하는 책임이 있습니다.
+responsibility	부담, 책임, 의무	It's your responsibility to complete the assigned tasks.	할당된 작업을 완료하는 것은 귀하의 책임입니다.
+responsible	책임이 있는	She is responsible for managing the project.	그녀는 프로젝트를 관리하는 책임이 있습니다.
 restore	회복시키다	They worked tirelessly to restore the historic building.	그들은 역사적 건물을 복원하기 위해 부지를 놓치지 않고 노력했습니다.
 restrict	제한하다	The company may restrict access to certain areas.	그 회사는 특정 지역에 대한 접근을 제한할 수 있습니다.
 result	결과	The result of the experiment was inconclusive.	그 실험의 결과는 결론이 나지 않았습니다.
@@ -721,7 +722,7 @@ reverse	반대의, 역의	You can reverse the direction of the fan with the remo
 review	검토하다	I will review the report before submitting it.	내 보고서를 제출하기 전에 다시 검토하겠습니다.
 revision	수정	Make sure to make the necessary revision to the document.	문서에 필요한 수정을 하도록 하십시오.
 revolutionary	혁명적인	The invention of the internet was revolutionary.	인터넷의 발명은 혁명적이었습니다.
-reward	~에  보답하다	The reward for finding the lost dog was a cash prize.	분실된 개를 찾은 보상은 현금 상금이었습니다.
+reward	~에 보답하다	The reward for finding the lost dog was a cash prize.	분실된 개를 찾은 보상은 현금 상금이었습니다.
 rigid	엄격한	The rules are rigid and must be followed.	규칙은 엄격하며 준수해야 합니다.
 rigorously	엄격히	The research was rigorously conducted to ensure accuracy.	정확성을 보장하기 위해 연구는 엄격히 수행되었습니다.
 safety	안전	Safety measures are in place to protect workers.	작업자들을 보호하기 위한 안전 조치가 마련되어 있습니다.
@@ -741,13 +742,13 @@ simply	그저, 간단히	The solution to the problem is simply to turn it off an
 simultaneously	동시에	They both spoke simultaneously, causing confusion during the conference call.	그들은 동시에 말을 해 혼란을 일으켰습니다.
 skyrocket	(가격 등이)치솟다	The price of real estate in the area has skyrocketed.	지역의 부동산 가격은 급등했습니다.
 slightly	약간	The temperature dropped slightly in the evening.	저녁에 기온이 약간 내렸습니다.
-slowdown	경기  후퇴	The economic slowdown had a negative impact on businesses.	경제적 둔화는 기업에 부정적인 영향을 미쳤습니다.
-soar	(물가  등이)  치솟다	The stock prices continue to soar.	주식 가격은 계속 상승하고 있습니다.
+slowdown	경기 후퇴	The economic slowdown had a negative impact on businesses.	경제적 둔화는 기업에 부정적인 영향을 미쳤습니다.
+soar	(물가 등이) 치솟다	The stock prices continue to soar.	주식 가격은 계속 상승하고 있습니다.
 solicit	요청하다	The charity organization is soliciting donations for the cause.	자선 단체는 그 목적을 위해 기부를 호소하고 있습니다.
 solution	해결책	They worked together to find a solution to the problem.	그들은 문제에 대한 해결책을 찾기 위해 함께 노력했습니다.
 somewhat	전적으로	His opinion is somewhat different from mine.	그의 의견은 내 의견과 어느 정도 다릅니다.
 sophisticated	정교한	The new smartphone has a sophisticated design.	새로운 스마트폰은 정교한 디자인을 가지고 있습니다.
-spacious	(공간이)  넓은	The living room is spacious and well-lit.	거실은 넓고 잘 밝혀져 있습니다.
+spacious	(공간이) 넓은	The living room is spacious and well-lit.	거실은 넓고 잘 밝혀져 있습니다.
 specific	구체적인	Please provide specific details about the incident.	사건에 대한 구체적인 세부 사항을 제공하십시오.
 specification	명세서	The project's specification sheet outlines all the requirements.	프로젝트 사양서는 모든 요구 사항을 개요화했습니다.
 speculation	추측	There is a lot of speculation about the upcoming election.	다가오는 선거에 대한 추측이 많이 있습니다.
@@ -769,7 +770,7 @@ subscription	정기 구독	I have a monthly subscription to a streaming service.
 subsequent	그 이후의	The subsequent chapters of the book are even more exciting.	이 소설의 후속 장은 더욱 흥미로운 내용을 담고 있습니다.
 subsidize	~보조금을 지급하다	The government subsidizes the cost of public transportation.	정부는 대중 교통 비용을 보조합니다.
 substantial	상당한	The company reported a substantial increase in profits.	그 회사는 이익에서 상당한 증가를 보고했습니다.
-substantially	크게,  상당히	The price has been reduced substantially.	가격은 상당히 낮추어졌습니다.
+substantially	크게, 상당히	The price has been reduced substantially.	가격은 상당히 낮추어졌습니다.
 sufficiently	충분히	Make sure the cake is baked sufficiently before removing it.	케이크가 충분히 베이킹되었는지 확인하십시오.
 suggestion	제안	I appreciate your suggestion for improving the process.	과정 개선에 대한 귀하의 제안을 감사합니다.
 superb	뛰어난	Her performance in the play was superb.	그녀의 연극 공연은 훌륭했습니다.
@@ -777,10 +778,10 @@ superior	우수한	The quality of their products is superior to the competition.
 supervision	감독	The project is under the careful supervision of the manager.	그 프로젝트는 매니저의 주의 깊은 감독 하에 진행 중입니다.
 supplement	보완하다	You can supplement your diet with vitamins.	귀하의 식사에 비타민을 보충할 수 있습니다.
 supply	공급하다	The supply of fresh water is essential for life.	신선한 물 공급은 생명을 위해 필수적입니다.
-surpass	~을  능가하다	Her dedication allowed her to surpass her goals.	그녀의 헌신은 그녀가 목표를 뛰어넘을 수 있게 했습니다.
+surpass	~을 능가하다	Her dedication allowed her to surpass her goals.	그녀의 헌신은 그녀가 목표를 뛰어넘을 수 있게 했습니다.
 surplus	잉여, 흑자	The surplus funds will be invested in new projects.	초과 자금은 새로운 프로젝트에 투자될 것입니다.
 survey	조사	They conducted a survey to gather feedback from customers.	그들은 고객 의견을 수집하기 위해 조사를 실시했습니다.
-susceptible	~에  감염되기  쉬운	Children are more susceptible to certain illnesses.	어린이들은 특정 질병에 민감합니다.
+susceptible	~에 감염되기 쉬운	Children are more susceptible to certain illnesses.	어린이들은 특정 질병에 민감합니다.
 sustain	지속하다	We must sustain our efforts to protect the environment.	환경 보호를 위해 우리의 노력을 유지해야 합니다.
 takeover	인수	The corporate takeover was met with resistance.	기업 인수는 저항으로 마주하였습니다.
 technical	기술적인	The technical details of the project are complex.	그 프로젝트의 기술적 세부 정보는 복잡합니다.
@@ -810,8 +811,8 @@ undertake	떠맡다	He was willing to undertake the challenging project.	그는 
 undoubtedly	틀림없이	Her talent is undoubtedly remarkable.	그녀의 재능은 의심할 여지가 없이 탁월합니다.
 union	노동조합	The labor union negotiated for better working conditions.	노동 조합은 더 나은 근무 조건을 위해 협상했습니다.
 unique	독특한	Her style is unique and stands out from the rest.	그녀의 스타일은 독특하며 다른 사람과 차이납니다.
-unoccupied	비어  있는	The house next door has been unoccupied for months.	옆집은 몇 달 동안 빈 집이었습니다.
-upcoming	앞으로  올	The upcoming conference promises to be informative.	다가오는 회의는 정보 제공을 약속합니다.
+unoccupied	비어 있는	The house next door has been unoccupied for months.	옆집은 몇 달 동안 빈 집이었습니다.
+upcoming	앞으로 올	The upcoming conference promises to be informative.	다가오는 회의는 정보 제공을 약속합니다.
 uphold	지지하다	The court's decision was upheld on appeal.	소송에서 판결이 뒷받침되었습니다.
 urban	도시의	She prefers the urban lifestyle over rural living.	그녀는 시골 생활 대신 도시 생활을 선호합니다.
 utensil	도구, 기구	The kitchen is equipped with all the necessary utensils.	부엌은 필요한 모든 주방용품으로 갖추어져 있습니다.
