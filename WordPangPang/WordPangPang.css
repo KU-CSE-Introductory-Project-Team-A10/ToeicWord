@@ -26,6 +26,17 @@ hr {
 }
 
 /*nav-bar css*/
+#log-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#nav-bar {
+  display: none;
+}
+
 .btn {
   background-color: #eaeaea;
   padding: 5px 15px;

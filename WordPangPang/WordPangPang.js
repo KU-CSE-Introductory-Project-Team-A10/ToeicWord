@@ -11,6 +11,17 @@ $(document).ready(() => {
     }
   }
 
+  $("#log-in-btn").click(() => {
+    const userId = $("#id").val();
+    if (userId < 3 || userId > 16) {
+      alert("3~16자의 아이디를 입력하세요.")
+    }
+    else {
+      $("#log-in").hide();
+      $("#nav-bar").show();
+    }
+  })
+
   $("h1").click(() => {
     changePage(0);
   });
