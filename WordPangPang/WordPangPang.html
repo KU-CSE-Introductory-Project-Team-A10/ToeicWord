@@ -13,30 +13,44 @@
             <h1>WordPangPang</h1>
     </header>
     <nav>
-        <hr>
-        <div id="btns">
-            <div class="btn" id="btn1">단어장 열람</div>
-            <div class="btn" id="btn2">단어퀴즈</div>
-            <div class="btn" id="btn3">미니게임</div>
+        <div id = "main">
+            <h2>메인 메뉴</h2>
+            <div id="main-buttons">
+                <button class="btn" id="btn1" onclick = "MoveTo_menu(0)">단어장 열람</button>
+                <button class="btn" id="btn2" onclick = "MoveTo_menu(1)">단어퀴즈</button>
+                <button class="btn" id="btn3" onclick = "MoveTo_menu(2)">미니게임</button>
+                <button class="btn" id="btn4" onclick = "MoveTo_menu(3)">종료</button>
+            </div>
         </div>
-        <hr>
     </nav>
     <div id="main-page">
-        <div id="default">
-            default
+        <div class = "menu" id="page1">
+            <h3>단어장 열람</h3>
+            <div>
+                <button class = "back_btn" onclick="BackTo_menu(0)">뒤로 가기</button>
+            </div>
         </div>
-        <div id="page1">
-            p1
+        <div class = "menu" id="page2">
+            <h3>단어퀴즈</h3>
+            <div>
+                <button class = "back_btn" onclick="BackTo_menu(1)">뒤로 가기</button>
+            </div>
         </div>
-        <div id="page2">
-            p2
+        <div class = "menu" id="page3">
+            <h3>미니게임</h3>
+            <div>
+                <button class = "back_btn" onclick="BackTo_menu(2)">뒤로 가기</button>
+            </div>
         </div>
-        <div id="page3">
-            p3
+        <div class = "menu" id = "page4">
+            <h3>종료</h3>
+            <div>
+                <button class = "back_btn" onclick="BackTo_menu(3)">뒤로 가기</button>
+            </div>
         </div>
     </div>
     <footer>
-        2023 - 09 - 14 / Team : 3204 A10
+        2023 - 09 - 29 / Team : 3204 A10
     </footer>
 </body>
 </html>
