@@ -455,8 +455,7 @@ indulge	탐닉하다	It's okay to indulge in something sweet from time to time.	
 industrial	산업의	The region is known for its industrial development.	이 지역은 산업 발전이 빠르게 이루어지고 있습니다.
 inevitable	불가피한	Change is inevitable, and we must prepare for it.	변화는 불가피하며 우리는 그에 대비해야 합니다.
 inflict	피해를 입히다	His actions inflicted harm on others, and he regrets it.	그 사건으로 상대방에게 상처를 입힌 것을 후회하고 있습니다.
-influence	~에 영향을 
-주다	Family can have a significant influence on our lives.	가족은 우리 삶에 큰 영향을 미칩니다.
+influence	~에 영향을 주다	Family can have a significant influence on our lives.	가족은 우리 삶에 큰 영향을 미칩니다.
 inform	~에게 알리다	Please inform all participants of the schedule changes.	일정 변경 사항을 모든 참가자에게 알려드리겠습니다.
 information	정보	This report provides valuable information.	이 보고서는 유용한 정보를 제공합니다.
 informative	유익한	The presentation was highly informative and interesting.	그 발표는 매우 유익하고 흥미로웠습니다.
