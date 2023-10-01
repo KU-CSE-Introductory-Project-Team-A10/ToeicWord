@@ -55,6 +55,21 @@ function BackTo_menu(x){
   $('#'+page[x]).hide();
   $('#main').show();
 }
+function Login(){
+  var textField = $('#login-field').val();
+  const regex = /^[a-zA-Z0-9]{3,16}$/;
+  if(regex.test(textField)){
+    $('#login-page').hide();
+    $('#main').show();
+    //파일
+    return;
+  }
+  else{
+    alert("잘못된 아이디 형식입니다.");
+    document.getElementById("login-field").value=null;
+  }
 
+
+}
 
 
