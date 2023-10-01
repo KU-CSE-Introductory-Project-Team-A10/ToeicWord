@@ -27,7 +27,7 @@
 
 function changePage(x) {
     const pages = ["page1", "page2", "page3", "page4"];
-    for (i = 0; i < pages.length; i++) {
+    for (i = 0; i < pages.length-1; i++) {
       if (i == x) {
         $('#' + pages[i]).show();
       }
@@ -35,6 +35,12 @@ function changePage(x) {
         $('#' + pages[i]).hide();
       }
     }
+    //만약 page4라면 window.close()해줌
+    if(x == 3){
+        window.close();
+      
+    }
+
   }
 
 function MoveTo_menu(x){
