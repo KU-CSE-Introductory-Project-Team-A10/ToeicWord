@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-#page1, #page2, #page3 {
+#page1, #page2, #page3, #page4 {
   display: none;
 }
 
@@ -16,29 +16,61 @@ header {
 
 h1 {
   display: inline;
+  font-size: 80px;
 }
 
-hr {
-  width: 40%;
-  height: 2px;
-  background-color: black;
+h2 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+nav{
+  margin: 100px auto;
+}
+
+#main-buttons {
+  border: solid 1px black;
+  width: 30%;
   margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-/*nav-bar css*/
 .btn {
+  cursor: pointer;
   background-color: #eaeaea;
   padding: 5px 15px;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+  margin : 10px 0;
+  border: 2px solid black;
   font-size: 20px;
   font-weight: 800;
 }
 
-#btns {
-  width: 30%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.btn:hover{
+  background-color: lightseagreen;
+}
+
+#main-page{
+  text-align: center;
+}
+
+
+.menu{
+  margin: 100px auto;
+}
+
+.back_btn{
+  margin: 50px auto;
+}
+
+footer{
+  text-align: right;
+  margin-right: 20px; 
 }
