@@ -12,41 +12,44 @@
     <header>
             <h1>WordPangPang</h1>
     </header>
+    <nav id="login-page">
+        <input id='login-field' type="text" placeholder="아이디를 입력하세요" onchange="Login()" autofocus>
+        <input id ='login-button' type="button" value="로그인" onclick="Login()"/>
+    </nav>
     <nav>
-        <div id="log-in">
-            <div>
-                <input type="text" id="id" />
-                <input type="button" id="log-in-btn" value="로그인"/>
-            </div>
+        <hr>
+        <div id="btns">
+            <div class="btn" id="btn1">단어장 열람</div>
+            <div class="btn" id="btn2">단어퀴즈</div>
+            <div class="btn" id="btn3">미니게임</div>
         </div>
-        <div id="nav-bar">
-            <hr>
-            <div id="btns">
-                <div class="btn" id="btn1">단어장 열람</div>
-                <div class="btn" id="btn2">단어퀴즈</div>
-                <div class="btn" id="btn3">미니게임</div>
-            </div>
-            <hr>
-        </div>
+        <hr>
     </nav>
     <div id="main-page">
         <div id="default">
-            
+            default
         </div>
-        <div id="page1">
-            p1
+        <div class = "menu" id="page2">
+            <h3>단어퀴즈</h3>
+            <div>
+                <button class = "back_btn" onclick="BackTo_menu(1)">뒤로 가기</button>
+            </div>
         </div>
-        <div id="page2">
-            p2
+        <div class = "menu" id="page3">
+            <h3>미니게임</h3>
+            <div>
+                <button class = "back_btn" onclick="BackTo_menu(2)">뒤로 가기</button>
+            </div>
         </div>
-        <div id="page3">
-            p3
+        <div class = "menu" id = "page4">
+            <h3>종료</h3>
+            <div>
+                <button class = "back_btn" onclick="BackTo_menu(3)">뒤로 가기</button>
+            </div>
         </div>
     </div>
     <footer>
-        <div>
-            Team - 3204 A10 : 202211389 최준규 / 202211309 성은우 / 202211384 차민우 / 202211334 이동훈 / 202211246 강민우
-        </div>
+        2023 - 09 - 14 / Team : 3204 A10
     </footer>
 </body>
 </html>

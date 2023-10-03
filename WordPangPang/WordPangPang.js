@@ -1,7 +1,33 @@
-$(document).ready(() => {
-  function changePage(x) {
-    const pages = ["default", "page1", "page2", "page3"];
-    for (i = 0; i < pages.length; i++) {
+// $(document).ready(() => {
+  
+
+
+// //   $("#btn1").click(() => {
+// //     //$('#btn1').css('background-color', 'green');
+// //     changePage(0);
+// //     $('#main').hide(); // 버튼 클릭 시 main 요소를 숨김
+// //   });
+
+// //   $("#btn2").click(() => {
+// //     changePage(1);
+// //     $('#main').hide();
+// //   });
+
+// //   $("#btn3").click(() => {
+// //     changePage(2);
+// //     $('#main').hide();
+// //   });
+
+// //   $("#btn4").click(() => {
+// //     changePage(3);
+// //     $('#main').hide();
+// //   });
+
+// });
+
+function changePage(x) {
+    const pages = ["page1", "page2", "page3", "page4"];
+    for (i = 0; i < pages.length-1; i++) {
       if (i == x) {
         $('#' + pages[i]).show();
       }
@@ -9,32 +35,47 @@ $(document).ready(() => {
         $('#' + pages[i]).hide();
       }
     }
+    //만약 page4라면 window.close()해줌
+    if(x == 3){
+        window.close();
+      
+    }
+
   }
 
-  $("#log-in-btn").click(() => {
-    const userId = $("#id").val();
-    if (userId < 3 || userId > 16) {
-      alert("3~16자의 아이디를 입력하세요.")
+function MoveTo_menu(x){
+    const menu = ["단어장 열람", "단어퀴즈", "미니 게임", "종료"];
+    const menu_btn = ["btn1", "btn2", "btn3", "btn4"];
+    //var menu_color = $('#' + menu_btn[x]).css('color', 'green');
+    if(confirm("이동하시겠습니까?") == true){
+      alert(menu[x] + "(으)로 이동하겠습니다.");
+      changePage(x);
+      $('#main').hide(); 
+    }else{
+      alert(menu[x] + "(으)로 이동하지 않겠습니다.");
     }
-    else {
-      $("#log-in").hide();
-      $("#nav-bar").show();
-    }
-  })
+}
 
-  $("h1").click(() => {
-    changePage(0);
-  });
+function BackTo_menu(x){
+  const page = ["page1", "page2", "page3", "page4"];
+  $('#'+page[x]).hide();
+  $('#main').show();
+}
+function Login(){
+  var textField = $('#login-field').val();
+  const regex = /^[a-zA-Z0-9]{3,16}$/;
+  if(regex.test(textField)){
+    $('#login-page').hide();
+    $('#main').show();
+    //파일
+    return;
+  }
+  else{
+    alert("잘못된 아이디 형식입니다.");
+    document.getElementById("login-field").value=null;
+  }
 
-  $("#btn1").click(() => {
-    changePage(1);
-  });
 
-  $("#btn2").click(() => {
-    changePage(2);
-  });
+}
 
-  $("#btn3").click(() => {
-    changePage(3);
-  });
-});
+
