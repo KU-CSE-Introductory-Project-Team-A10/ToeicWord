@@ -115,3 +115,29 @@ footer div {
   font-size: 16px;
   font-weight: 600;
 }
+
+table{
+  padding-left: 40%;
+}
+tr{
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+#main-info {
+    display: inline-block;
+    width: 16em; /* 원하는 너비로 설정하세요 */
+    height: 21px;
+}
+
+
+
+#detail {
+    display: none;
+    white-space: normal; /* 텍스트 줄바꿈 허용 */
+    width: 60%;
+    
+}
+

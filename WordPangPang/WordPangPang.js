@@ -136,6 +136,8 @@ function BackTo_menu(x) {
   $('#' + page[x]).hide();
   $('#main').show();
 }
+
+
 function Login() {
   var textField = $('#login-field').val();
   const regex = /^[a-zA-Z0-9]{3,16}$/;
@@ -161,5 +163,67 @@ function Login() {
   }
 }
 
+function Search_word(){
+  
 
 
+  const now_word = document.getElementById("search-field").value;
+  var searched_word = [];
+  table_body = document.getElementById("wordtable-body");
+  table_body.innerHTML = '';
+
+  for (var i = 0; i < Words.length; i++) {
+
+      if(Words[i].English.startsWith(now_word)){
+  
+          searched_word.push(Words[i]);
+
+          searched_word.sort(function (a, b) {
+              return a.English.localeCompare(b.English);
+          });
+      }
+  }
+
+  for (var i = 0; i < searched_word.length; i++) {
+    let row_1 = document.createElement('tr');
+
+    let element_1 = document.createElement('th');
+    element_1.innerHTML = searched_word[i].English;
+    element_1.setAttribute('id', 'main-info'); // element_1에 id "main" 추가
+
+    let element_2 = document.createElement('th');
+    element_2.innerHTML = searched_word[i].Korean;
+    element_2.setAttribute('id', 'main-info'); // element_2에 id "main" 추가
+
+    let element_3 = document.createElement('th');
+    element_3.innerHTML = "▷"+searched_word[i].ExampleEng;
+    element_3.setAttribute('id', 'detail'); // element_3에 id "detail" 추가
+
+    let element_4 = document.createElement('th');
+    element_4.innerHTML = "▶"+searched_word[i].ExampleKor;
+    element_4.setAttribute('id', 'detail'); // element_4에 id "detail" 추가
+
+    row_1.appendChild(element_1);
+    row_1.appendChild(element_2);
+    row_1.appendChild(element_3);
+    row_1.appendChild(element_4);
+    table_body.appendChild(row_1);
+  }
+
+
+  var mainInfoElements = document.querySelectorAll("#main-info");
+
+ 
+  mainInfoElements.forEach(function (element) {
+      element.addEventListener("click", function () {
+           var childElements = element.parentElement.children;
+
+           for (var i = 0; i < childElements.length; i++) {
+              if (i === 2 || i === 3) {
+                  childElements[i].style.display = "inline-block";
+              }
+           }
+      });
+  });
+
+}
