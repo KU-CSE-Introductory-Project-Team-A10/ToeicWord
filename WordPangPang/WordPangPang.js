@@ -70,6 +70,8 @@ $(document).ready(() => {
     return isDup.length == 1;
   }
 
+  Search_word();  
+
 });
 // $(document).ready(() => {
 
@@ -168,21 +170,27 @@ function Search_word(){
 
 
   const now_word = document.getElementById("search-field").value;
+
   var searched_word = [];
   table_body = document.getElementById("wordtable-body");
   table_body.innerHTML = '';
 
   for (var i = 0; i < Words.length; i++) {
 
-      if(Words[i].English.startsWith(now_word)){
+      if(Words[i].English.includes(now_word)){
   
           searched_word.push(Words[i]);
+      }
 
-          searched_word.sort(function (a, b) {
-              return a.English.localeCompare(b.English);
-          });
+      else if(Words[i].Korean.includes(now_word)){
+  
+          searched_word.push(Words[i]);
       }
   }
+
+  searched_word.sort(function (a, b) {
+            return a.English.localeCompare(b.English);
+        });
 
   for (var i = 0; i < searched_word.length; i++) {
     let row_1 = document.createElement('tr');
@@ -220,8 +228,12 @@ function Search_word(){
 
            for (var i = 0; i < childElements.length; i++) {
               if (i === 2 || i === 3) {
+                  if(childElements[i].style.display != "inline-block")
                   childElements[i].style.display = "inline-block";
-              }
+                  else childElements[i].style.display = "none";
+
+                
+              } 
            }
       });
   });
