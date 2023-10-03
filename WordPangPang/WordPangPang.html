@@ -4,6 +4,7 @@
     <link type="text/css" rel="stylesheet" href="WordPangPang.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="WordPangPang.js"></script>
+    <script src="ToeicWord.json" type="text/javascript"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WordPangPang</title>
@@ -17,17 +18,22 @@
         <input id ='login-button' type="button" value="로그인" onclick="Login()"/>
     </nav>
     <nav>
-        <hr>
-        <div id="btns">
-            <div class="btn" id="btn1">단어장 열람</div>
-            <div class="btn" id="btn2">단어퀴즈</div>
-            <div class="btn" id="btn3">미니게임</div>
+        <div id = "main">
+            <h2>메인 메뉴</h2>
+            <div id="main-buttons">
+                <button class="btn" id="btn1" onclick = "MoveTo_menu(0)">단어장 열람</button>
+                <button class="btn" id="btn2" onclick = "MoveTo_menu(1)">단어퀴즈</button>
+                <button class="btn" id="btn3" onclick = "MoveTo_menu(2)">미니게임</button>
+                <button class="btn" id="btn4" onclick = "MoveTo_menu(3)">종료</button>
+            </div>
         </div>
-        <hr>
     </nav>
     <div id="main-page">
-        <div id="default">
-            default
+        <div class = "menu" id="page1">
+            <h3>단어장 열람</h3>
+            <div>
+                <button class = "back_btn" onclick="BackTo_menu(0)">뒤로 가기</button>
+            </div>
         </div>
         <div class = "menu" id="page2">
             <h3>단어퀴즈</h3>
@@ -49,7 +55,7 @@
         </div>
     </div>
     <footer>
-        2023 - 09 - 14 / Team : 3204 A10
+        2023 - 09 - 29 / Team : 3204 A10
     </footer>
 </body>
 </html>

@@ -1,0 +1,5032 @@
+ToeicWord = {
+    "Words" : [
+    {
+      "English": "abolish",
+      "Korean": "폐지하다",
+      "ExampleEng": "The government decided to abolish the outdated law.",
+      "ExampleKor": "정부는 오래된 법률을 폐지하기로 결정했습니다."
+    },
+    {
+      "English": "above all",
+      "Korean": "무엇보다도",
+      "ExampleEng": "Above all, your safety should be our top priority.",
+      "ExampleKor": "무엇보다도, 당신의 안전이 최우선 과제여야 합니다."
+    },
+    {
+      "English": "absolute",
+      "Korean": "완전한",
+      "ExampleEng": "She has an absolute passion for painting.",
+      "ExampleKor": "그녀는 회화에 대한 완전한 열정을 가지고 있습니다."
+    },
+    {
+      "English": "accelerate",
+      "Korean": "가속화하다",
+      "ExampleEng": "We need to accelerate our efforts to meet the deadline.",
+      "ExampleKor": "우리는 마감일을 충족하기 위해 노력을 가속화해야 합니다."
+    },
+    {
+      "English": "accept",
+      "Korean": "승낙하다",
+      "ExampleEng": "I accept your apology, but please be more careful next time.",
+      "ExampleKor": "당신의 사과를 받아들입니다만, 다음에는 더 주의해 주세요."
+    },
+    {
+      "English": "access",
+      "Korean": "접근",
+      "ExampleEng": "Access to the building is restricted to authorized personnel only.",
+      "ExampleKor": "건물 접근은 승인된 인원에게만 제한됩니다."
+    },
+    {
+      "English": "accidentally",
+      "Korean": "우연히",
+      "ExampleEng": "He accidentally spilled coffee on his laptop.",
+      "ExampleKor": "그는 실수로 커피를 노트북에 쏟았습니다."
+    },
+    {
+      "English": "acclaim",
+      "Korean": "찬사, 호평",
+      "ExampleEng": "The actor received great acclaim for his outstanding performance.",
+      "ExampleKor": "배우는 훌륭한 연기로 큰 찬사를 받았습니다."
+    },
+    {
+      "English": "accommodate",
+      "Korean": "~을 수용하다",
+      "ExampleEng": "The hotel can accommodate up to 200 guests.",
+      "ExampleKor": "호텔은 최대 200명의 손님을 수용할 수 있습니다."
+    },
+    {
+      "English": "accomplish",
+      "Korean": "성취하다",
+      "ExampleEng": "She was determined to accomplish her lifelong dream.",
+      "ExampleKor": "그녀는 자신의 일생의 꿈을 이루기로 결심했습니다."
+    },
+    {
+      "English": "according to",
+      "Korean": "~에 따라",
+      "ExampleEng": "According to the weather forecast, it will rain tomorrow.",
+      "ExampleKor": "날씨 예보에 따르면 내일 비가 올 것입니다."
+    },
+    {
+      "English": "account",
+      "Korean": "계좌",
+      "ExampleEng": "I need to check my bank account balance.",
+      "ExampleKor": "은행 계좌 잔고를 확인해야 합니다."
+    },
+    {
+      "English": "accountant",
+      "Korean": "회계사",
+      "ExampleEng": "The accountant is responsible for managing the company's finances.",
+      "ExampleKor": "회계사는 회사의 재무를 관리하는 역할을 합니다."
+    },
+    {
+      "English": "accumulate",
+      "Korean": "축적하다",
+      "ExampleEng": "Over the years, he has accumulated a vast amount of knowledge.",
+      "ExampleKor": "그는 연령을 무시하고 방대한 지식을 축적했습니다."
+    },
+    {
+      "English": "accurate",
+      "Korean": "정확한",
+      "ExampleEng": "Her accurate predictions impressed everyone.",
+      "ExampleKor": "그녀의 정확한 예측은 모두를 감동시켰습니다."
+    },
+    {
+      "English": "accuse",
+      "Korean": "비난하다",
+      "ExampleEng": "The detective accused the suspect of the crime.",
+      "ExampleKor": "형사는 범죄를 비난했습니다."
+    },
+    {
+      "English": "accustomed",
+      "Korean": "~에 익숙한",
+      "ExampleEng": "He is accustomed to working long hours.",
+      "ExampleKor": "그는 긴 시간 일하는 데 익숙합니다."
+    },
+    {
+      "English": "acknowledge",
+      "Korean": "인정하다",
+      "ExampleEng": "We should acknowledge our mistakes and learn from them.",
+      "ExampleKor": "우리는 우리의 실수를 인정하고 그로부터 배워야 합니다."
+    },
+    {
+      "English": "acquaint",
+      "Korean": "잘 알게 하다",
+      "ExampleEng": "Let me acquaint you with the new team members.",
+      "ExampleKor": "새로운 팀원들을 당신과 친숙하게 만들게 해주세요."
+    },
+    {
+      "English": "acquire",
+      "Korean": "취득하다",
+      "ExampleEng": "The company aims to acquire new customers this year.",
+      "ExampleKor": "회사는 올해 새로운 고객을 확보하려고 합니다."
+    },
+    {
+      "English": "active",
+      "Korean": "적극적인",
+      "ExampleEng": "She is known for her active involvement in charity work.",
+      "ExampleKor": "그녀는 자원봉사 활동에 적극적으로 참여하는 것으로 알려져 있습니다."
+    },
+    {
+      "English": "adequately",
+      "Korean": "적절히",
+      "ExampleEng": "Please make sure to dress adequately for the formal event.",
+      "ExampleKor": "공식 행사를 위해 적절하게 옷을 입으세요."
+    },
+    {
+      "English": "adjacent",
+      "Korean": "인접한",
+      "ExampleEng": "The store is located adjacent to the post office.",
+      "ExampleKor": "이 가게는 우체국과 인접해 있습니다."
+    },
+    {
+      "English": "adjourn",
+      "Korean": "(회의 등을)휴회하다",
+      "ExampleEng": "The meeting will adjourn for a lunch break.",
+      "ExampleKor": "회의는 점심 시간을 위해 휴회합니다."
+    },
+    {
+      "English": "adjust",
+      "Korean": "적응하다",
+      "ExampleEng": "It may take some time to adjust to the new environment.",
+      "ExampleKor": "새로운 환경에 적응하는 데 시간이 걸릴 수 있습니다."
+    },
+    {
+      "English": "admission",
+      "Korean": "입장",
+      "ExampleEng": "The admission fee for the museum is $10.",
+      "ExampleKor": "박물관 입장료는 10달러입니다."
+    },
+    {
+      "English": "adopt",
+      "Korean": "채택하다",
+      "ExampleEng": "The school decided to adopt a new curriculum.",
+      "ExampleKor": "학교는 새로운 커리큘럼을 채택하기로 결정했습니다."
+    },
+    {
+      "English": "advance",
+      "Korean": "진보, 전진",
+      "ExampleEng": "The project is advancing at a steady pace.",
+      "ExampleKor": "프로젝트는 안정된 속도로 진전 중입니다."
+    },
+    {
+      "English": "advantage",
+      "Korean": "이점, 강점",
+      "ExampleEng": "Having a positive attitude is an advantage in life.",
+      "ExampleKor": "긍정적인 태도는 인생에서 이점입니다."
+    },
+    {
+      "English": "adversity",
+      "Korean": "역경, 불운",
+      "ExampleEng": "Despite facing adversity, he never gave up.",
+      "ExampleKor": "역경에 직면해도 그는 포기하지 않았습니다."
+    },
+    {
+      "English": "advertisement",
+      "Korean": "광고",
+      "ExampleEng": "The advertisement for the new product is catchy.",
+      "ExampleKor": "새 제품의 광고는 매력적입니다."
+    },
+    {
+      "English": "advise",
+      "Korean": "충고하다",
+      "ExampleEng": "I advise you to consult a professional for legal matters.",
+      "ExampleKor": "법적 문제에 대한 충고를 위해 전문가와 상담하십시오."
+    },
+    {
+      "English": "advocate",
+      "Korean": "옹호자",
+      "ExampleEng": "She is a strong advocate for animal rights.",
+      "ExampleKor": "그녀는 동물 권리를 적극적으로 옹호하는 사람입니다."
+    },
+    {
+      "English": "affect",
+      "Korean": "~에 영향을 미치다",
+      "ExampleEng": "Smoking can affect your health negatively.",
+      "ExampleKor": "흡연은 당신의 건강에 부정적인 영향을 미칠 수 있습니다."
+    },
+    {
+      "English": "affordable",
+      "Korean": "감당할 수 있는",
+      "ExampleEng": "The car is affordable and efficient.",
+      "ExampleKor": "이 차는 가격이 적당하고 효율적입니다."
+    },
+    {
+      "English": "aggravate",
+      "Korean": "악화시키다",
+      "ExampleEng": "Stress can aggravate existing health issues.",
+      "ExampleKor": "스트레스는 기존의 건강 문제를 악화시킬 수 있습니다."
+    },
+    {
+      "English": "aggressively",
+      "Korean": "적극적으로",
+      "ExampleEng": "She approached the problem aggressively to find a solution.",
+      "ExampleKor": "그녀는 문제 해결을 위해 적극적으로 접근했습니다."
+    },
+    {
+      "English": "agreement",
+      "Korean": "계약, 협정",
+      "ExampleEng": "They reached an agreement on the terms of the contract.",
+      "ExampleKor": "그들은 계약 조건에 합의했습니다."
+    },
+    {
+      "English": "aid",
+      "Korean": "원조, 도움",
+      "ExampleEng": "Humanitarian organizations provide aid to those in need.",
+      "ExampleKor": "인도주의 단체들은 도움이 필요한 사람들에게 지원을 제공합니다."
+    },
+    {
+      "English": "aim",
+      "Korean": "~을 겨누다",
+      "ExampleEng": "The archer aimed carefully and hit the target.",
+      "ExampleKor": "사격수는 목표물을 정확히 겨눠 쏘았습니다."
+    },
+    {
+      "English": "alleviate",
+      "Korean": "완화하다",
+      "ExampleEng": "Painkillers can alleviate your headache.",
+      "ExampleKor": "진통제는 당신의 두통을 완화할 수 있습니다."
+    },
+    {
+      "English": "allocate",
+      "Korean": "할당하다",
+      "ExampleEng": "The budget committee will allocate funds for the project.",
+      "ExampleKor": "예산 위원회는 프로젝트를 위해 자금을 할당할 것입니다."
+    },
+    {
+      "English": "allow",
+      "Korean": "허락하다",
+      "ExampleEng": "Please allow me to introduce myself.",
+      "ExampleKor": "나를 스스로 소개하게 해주세요."
+    },
+    {
+      "English": "alter",
+      "Korean": "고치다, 바꾸다",
+      "ExampleEng": "The company plans to alter its marketing strategy.",
+      "ExampleKor": "회사는 그녀의 마케팅 전략을 수정하기로 결정했습니다."
+    },
+    {
+      "English": "alternative",
+      "Korean": "대안",
+      "ExampleEng": "We need to explore alternative solutions to the problem.",
+      "ExampleKor": "우리는 문제에 대한 대안적 해결책을 탐색해야 합니다."
+    },
+    {
+      "English": "analysis",
+      "Korean": "분석",
+      "ExampleEng": "The analysis of the data revealed interesting patterns.",
+      "ExampleKor": "데이터 분석 결과 흥미로운 양식을 나타냈습니다."
+    },
+    {
+      "English": "annex",
+      "Korean": "증축 건물",
+      "ExampleEng": "The country decided to annex the neighboring territory.",
+      "ExampleKor": "나라는 인접한 영토를 합병하기로 결정했습니다."
+    },
+    {
+      "English": "announce",
+      "Korean": "발표하다",
+      "ExampleEng": "The company will announce the new product launch soon.",
+      "ExampleKor": "회사는 곧 새 제품 출시를 발표할 것입니다."
+    },
+    {
+      "English": "annual",
+      "Korean": "매년의",
+      "ExampleEng": "They hold an annual conference in this city.",
+      "ExampleKor": "이 도시에서는 연례 회의를 개최합니다."
+    },
+    {
+      "English": "anonymous",
+      "Korean": "익명의",
+      "ExampleEng": "The author wishes to remain anonymous.",
+      "ExampleKor": "작가는 익명으로 남기를 원합니다."
+    },
+    {
+      "English": "antibiotic",
+      "Korean": "항생제",
+      "ExampleEng": "Antibiotics are prescribed to treat bacterial infections.",
+      "ExampleKor": "항생제는 세균 감염을 치료하기 위해 처방됩니다."
+    },
+    {
+      "English": "anticipate",
+      "Korean": "기대하다",
+      "ExampleEng": "I anticipate a successful outcome for this project.",
+      "ExampleKor": "나는 이 프로젝트에 대한 성공적인 결과를 예상합니다."
+    },
+    {
+      "English": "apologize",
+      "Korean": "사과하다",
+      "ExampleEng": "He decided to apologize for his rude behavior.",
+      "ExampleKor": "그는 그의 무례한 행동에 대해 사과하기로 결정했습니다."
+    },
+    {
+      "English": "apparently",
+      "Korean": "외관상으로",
+      "ExampleEng": "Apparently, the package was lost during transit.",
+      "ExampleKor": "외관상으로는 소포가 운송 중에 분실된 것으로 보입니다."
+    },
+    {
+      "English": "appear",
+      "Korean": "나타나다",
+      "ExampleEng": "The sun will appear in the east at dawn.",
+      "ExampleKor": "해가 동쪽에서 뜨게 됩니다."
+    },
+    {
+      "English": "appearance",
+      "Korean": "외관 외모",
+      "ExampleEng": "Her appearance at the party surprised everyone.",
+      "ExampleKor": "그녀의 파티 참석은 모두를 놀라게 했습니다."
+    },
+    {
+      "English": "applicant",
+      "Korean": "지원자, 신청자",
+      "ExampleEng": "Many applicants applied for the job position.",
+      "ExampleKor": "많은 지원자가 그 직책에 지원했습니다."
+    },
+    {
+      "English": "apply",
+      "Korean": "적용(지원)하다",
+      "ExampleEng": "You need to apply the principles you've learned.",
+      "ExampleKor": "당신은 배운 원칙을 적용해야 합니다."
+    },
+    {
+      "English": "appoint",
+      "Korean": "지명하다",
+      "ExampleEng": "They will appoint a new manager next week.",
+      "ExampleKor": "그들은 다음 주에 새로운 매니저를 지명할 것입니다."
+    },
+    {
+      "English": "appraisal",
+      "Korean": "평가",
+      "ExampleEng": "The appraisal of the artwork was positive.",
+      "ExampleKor": "작품의 평가는 긍정적이었습니다."
+    },
+    {
+      "English": "appreciation",
+      "Korean": "감사, 감상",
+      "ExampleEng": "Her appreciation for art led her to become a curator at a museum.",
+      "ExampleKor": "그녀의 예술에 대한 감사가 그녀를 박물관 큐레이터로 이끌었습니다."
+    },
+    {
+      "English": "appropriately",
+      "Korean": "적절하게",
+      "ExampleEng": "Please dress appropriately for the formal dinner party.",
+      "ExampleKor": "공식 만찬 파티에 적절한 복장을 하세요."
+    },
+    {
+      "English": "approval",
+      "Korean": "승인, 인가",
+      "ExampleEng": "The project received final approval from the board.",
+      "ExampleKor": "프로젝트는 이사회로부터 최종 승인을 받았습니다."
+    },
+    {
+      "English": "approximately",
+      "Korean": "대략",
+      "ExampleEng": "It will take approximately two hours to reach our destination.",
+      "ExampleKor": "목적지에 도착하는 데 대략 두 시간이 걸릴 것입니다."
+    },
+    {
+      "English": "arbitration",
+      "Korean": "중재",
+      "ExampleEng": "They decided to resolve their dispute through arbitration.",
+      "ExampleKor": "그들은 분쟁을 중재를 통해 해결하기로 결정했습니다."
+    },
+    {
+      "English": "argumentative",
+      "Korean": "논쟁적인",
+      "ExampleEng": "His argumentative nature often leads to heated discussions.",
+      "ExampleKor": "그의 논쟁적인 성향은 종종 고발된 토론으로 이어집니다."
+    },
+    {
+      "English": "arise",
+      "Korean": "(문제 등이)일어나다",
+      "ExampleEng": "Problems can arise unexpectedly during a complex project.",
+      "ExampleKor": "복잡한 프로젝트 중에 문제가 예상치 못하게 발생할 수 있습니다."
+    },
+    {
+      "English": "arrange",
+      "Korean": "마련하다, 배열하다",
+      "ExampleEng": "Let's arrange a meeting to discuss the upcoming conference.",
+      "ExampleKor": "다가오는 회의를 논의하기 위해 회의를 마련합시다."
+    },
+    {
+      "English": "assemble",
+      "Korean": "조립하다",
+      "ExampleEng": "The team will assemble the new equipment tomorrow.",
+      "ExampleKor": "팀은 내일 새로운 장비를 조립할 것입니다."
+    },
+    {
+      "English": "assert",
+      "Korean": "단언하다",
+      "ExampleEng": "She likes to assert her authority in the workplace.",
+      "ExampleKor": "그녀는 직장에서 자신의 권한을 주장하는 것을 좋아합니다."
+    },
+    {
+      "English": "asset",
+      "Korean": "자산",
+      "ExampleEng": "Real estate is considered a valuable asset for long-term investment.",
+      "ExampleKor": "부동산은 장기 투자를 위한 가치 있는 자산으로 간주됩니다."
+    },
+    {
+      "English": "assign",
+      "Korean": "배정하다",
+      "ExampleEng": "I will assign you to lead the marketing campaign.",
+      "ExampleKor": "나는 당신을 마케팅 캠페인을 주도할 것으로 지정할 것입니다."
+    },
+    {
+      "English": "assist",
+      "Korean": "돕다",
+      "ExampleEng": "He offered to assist me with the research project.",
+      "ExampleKor": "그는 나의 연구 프로젝트를 돕기로 제안했습니다."
+    },
+    {
+      "English": "associate",
+      "Korean": "관련시키다",
+      "ExampleEng": "The media often associate success with wealth and fame.",
+      "ExampleKor": "매체는 종종 성공을 부와 명성과 관련시킵니다."
+    },
+    {
+      "English": "assume",
+      "Korean": "가정하다",
+      "ExampleEng": "Let's assume that the weather will be clear for our outdoor event.",
+      "ExampleKor": "우리는 야외 행사에 대한 날씨가 맑을 것으로 가정합시다."
+    },
+    {
+      "English": "assure",
+      "Korean": "~에게 보장하다",
+      "ExampleEng": "I assure you that your satisfaction is our top priority.",
+      "ExampleKor": "나는 당신의 만족도가 우리의 최우선 과제라고 보장합니다."
+    },
+    {
+      "English": "at all times",
+      "Korean": "항상, 언제나",
+      "ExampleEng": "Safety measures should be followed at all times.",
+      "ExampleKor": "안전 조치는 항상 준수되어야 합니다."
+    },
+    {
+      "English": "atmosphere",
+      "Korean": "분위기, 환경",
+      "ExampleEng": "The atmosphere at the concert was electric with excitement.",
+      "ExampleKor": "콘서트에서의 분위기는 흥분으로 가득찼습니다."
+    },
+    {
+      "English": "attach",
+      "Korean": "붙이다, 첨부하다",
+      "ExampleEng": "Please attach the necessary documents to your email.",
+      "ExampleKor": "이메일에 필요한 문서를 첨부하세요."
+    },
+    {
+      "English": "attain",
+      "Korean": "(목표) 달성하다",
+      "ExampleEng": "He worked hard to attain his dream of becoming a doctor.",
+      "ExampleKor": "그는 의사가 되는 꿈을 이루기 위해 열심히 노력했습니다."
+    },
+    {
+      "English": "attend",
+      "Korean": "~에 참석하다",
+      "ExampleEng": "Will you attend the conference next week?",
+      "ExampleKor": "다음 주에 그 회의에 참석하실 건가요?"
+    },
+    {
+      "English": "attendance",
+      "Korean": "출석",
+      "ExampleEng": "The attendance at the workshop exceeded our expectations.",
+      "ExampleKor": "워크샵에 참석한 인원이 기대치를 초과했습니다."
+    },
+    {
+      "English": "attendee",
+      "Korean": "참석자",
+      "ExampleEng": "The conference had over 500 attendees from around the world.",
+      "ExampleKor": "이 행사에는 전 세계에서 오는 참석자가 500명 이상 참석했습니다."
+    },
+    {
+      "English": "attorney",
+      "Korean": "변호사",
+      "ExampleEng": "The attorney will represent the defendant in court.",
+      "ExampleKor": "변호사는 피고인을 법정에서 대리할 것입니다."
+    },
+    {
+      "English": "attract",
+      "Korean": "끌다, 유인하다",
+      "ExampleEng": "Her magnetic personality attracts people from all walks of life.",
+      "ExampleKor": "그녀의 매력적인 성격은 사람들을 각계각층에서 끌어들입니다."
+    },
+    {
+      "English": "attraction",
+      "Korean": "관광 명소",
+      "ExampleEng": "The Grand Canyon is a natural attraction visited by millions.",
+      "ExampleKor": "그랜드 캐년은 수백만 명의 관광객이 방문하는 자연 명소입니다."
+    },
+    {
+      "English": "attribute",
+      "Korean": "(원인을)~에 돌리다.",
+      "ExampleEng": "They attribute the success of the project to teamwork.",
+      "ExampleKor": "그들은 프로젝트의 성공을 팀워크에 돌립니다."
+    },
+    {
+      "English": "auction",
+      "Korean": "경매",
+      "ExampleEng": "The valuable antique was sold at a prestigious auction.",
+      "ExampleKor": "그 가치 있는 골동품은 저명한 경매에서 팔렸습니다."
+    },
+    {
+      "English": "audit",
+      "Korean": "회계감사",
+      "ExampleEng": "The company underwent a thorough financial audit.",
+      "ExampleKor": "회사는 철저한 재무 감사를 받았습니다."
+    },
+    {
+      "English": "authentic",
+      "Korean": "진짜의",
+      "ExampleEng": "This painting is believed to be an authentic masterpiece.",
+      "ExampleKor": "이 그림은 진짜 걸작이라고 여겨집니다."
+    },
+    {
+      "English": "authority",
+      "Korean": "권한, 당국",
+      "ExampleEng": "The mayor has the authority to make important decisions.",
+      "ExampleKor": "시장은 중요한 결정을 내릴 권한이 있습니다."
+    },
+    {
+      "English": "authorize",
+      "Korean": "~을 인가하다",
+      "ExampleEng": "Please authorize the payment for the online purchase.",
+      "ExampleKor": "온라인 구매 대금을 인가하세요."
+    },
+    {
+      "English": "automate",
+      "Korean": "자동화하다",
+      "ExampleEng": "The company plans to automate its manufacturing processes.",
+      "ExampleKor": "회사는 제조 공정을 자동화하기로 계획합니다."
+    },
+    {
+      "English": "available",
+      "Korean": "이용 가능한",
+      "ExampleEng": "The product is available in various colors and sizes.",
+      "ExampleKor": "이 제품은 다양한 색상과 크기로 이용 가능합니다."
+    },
+    {
+      "English": "await",
+      "Korean": "기다리다",
+      "ExampleEng": "I'll await your response to my job offer.",
+      "ExampleKor": "나는 내 구직 제안에 대한 답변을 기다릴 것입니다."
+    },
+    {
+      "English": "award",
+      "Korean": "상",
+      "ExampleEng": "She received an award for her outstanding contributions.",
+      "ExampleKor": "그녀는 우수한 공헌에 대한 상을 받았습니다."
+    },
+    {
+      "English": "baggage",
+      "Korean": "수화물",
+      "ExampleEng": "Passengers are reminded to label their baggage properly.",
+      "ExampleKor": "승객은 수화물을 제대로 표시해야 합니다."
+    },
+    {
+      "English": "be likely to",
+      "Korean": "~할 것 같은",
+      "ExampleEng": "He is likely to succeed in his new business venture.",
+      "ExampleKor": "그는 그가 선사한 서비스에 대한 청구서를 받게 될 것입니다."
+    },
+    {
+      "English": "be oblige to",
+      "Korean": "~에게 강요하다",
+      "ExampleEng": "Employees are obliged to follow the company's code of conduct.",
+      "ExampleKor": "그들은 강제로 세금을 내도록 강요될 수 있습니다."
+    },
+    {
+      "English": "be ready to",
+      "Korean": "~하기로 되어있는",
+      "ExampleEng": "The team is ready to launch the new product next month.",
+      "ExampleKor": "팀은 다음 달에 새 제품을 출시할 준비가 되어 있습니다."
+    },
+    {
+      "English": "be subject to",
+      "Korean": "~하기로 되어 있는",
+      "ExampleEng": "This project is subject to approval from the regulatory agency.",
+      "ExampleKor": "이 프로젝트는 규제 기관의 승인을 받아야 할 대상입니다."
+    },
+    {
+      "English": "be force to",
+      "Korean": "~강제로 시키다",
+      "ExampleEng": "The government can force individuals to pay taxes.",
+      "ExampleKor": "정부는 개인에게 세금을 낼 것을 강제할 수 있습니다."
+    },
+    {
+      "English": "be schedule to",
+      "Korean": "~하기로 되어있는",
+      "ExampleEng": "The event is scheduled to take place on the first Saturday of June.",
+      "ExampleKor": "이 행사는 6월 첫 토요일에 개최하기로 예정되어 있습니다."
+    },
+    {
+      "English": "belongings",
+      "Korean": "소지품",
+      "ExampleEng": "Don't forget to collect your belongings before leaving.",
+      "ExampleKor": "떠나기 전에 소지품을 꼭 수거하세요."
+    },
+    {
+      "English": "beneficial",
+      "Korean": "유익한",
+      "ExampleEng": "Regular exercise has many beneficial effects on health.",
+      "ExampleKor": "규칙적인 운동은 건강에 많은 유익한 효과가 있습니다."
+    },
+    {
+      "English": "benefit",
+      "Korean": "혜택, 이익",
+      "ExampleEng": "Joining this club has many social and personal benefits.",
+      "ExampleKor": "이 클럽 가입은 사회적으로나 개인적으로 많은 이점이 있습니다."
+    },
+    {
+      "English": "bewildering",
+      "Korean": "당혹케 하는",
+      "ExampleEng": "The complex instructions can be bewildering for beginners.",
+      "ExampleKor": "복잡한 지침은 초보자에게 헷갈리게 할 수 있습니다."
+    },
+    {
+      "English": "bill",
+      "Korean": "~에게 청구서를 보내다",
+      "ExampleEng": "The company will bill you for the services rendered.",
+      "ExampleKor": "회사는 제공한 서비스에 대한 비용을 청구할 것입니다."
+    },
+    {
+      "English": "blemish",
+      "Korean": "흠, 결점",
+      "ExampleEng": "The small blemish on the painting did not diminish its value.",
+      "ExampleKor": "그 그림의 작은 흠집은 그 가치를 줄이지 않았습니다."
+    },
+    {
+      "English": "board",
+      "Korean": "탑승하다",
+      "ExampleEng": "Passengers can now board the plane for departure.",
+      "ExampleKor": "승객들은 이제 비행기에 탑승할 수 있습니다."
+    },
+    {
+      "English": "boost",
+      "Korean": "상승시키다.",
+      "ExampleEng": "Her efforts helped boost the company's sales.",
+      "ExampleKor": "그녀의 노력은 회사의 판매를 상승시키는 데 도움이 되었습니다."
+    },
+    {
+      "English": "broad",
+      "Korean": "넓히다",
+      "ExampleEng": "We need to broaden our market reach.",
+      "ExampleKor": "우리는 시장 영향력을 확장해야 합니다."
+    },
+    {
+      "English": "brochure",
+      "Korean": "소책자",
+      "ExampleEng": "The travel agency provided us with a brochure about the tour.",
+      "ExampleKor": "여행사는 여행에 관한 소책자를 제공했습니다."
+    },
+    {
+      "English": "budget",
+      "Korean": "예산",
+      "ExampleEng": "The project was completed within the allocated budget.",
+      "ExampleKor": "프로젝트는 할당된 예산 내에서 완료되었습니다."
+    },
+    {
+      "English": "calculate",
+      "Korean": "계산하다",
+      "ExampleEng": "He can quickly calculate complex mathematical problems.",
+      "ExampleKor": "그는 복잡한 수학 문제를 빨리 계산할 수 있습니다."
+    },
+    {
+      "English": "candidate",
+      "Korean": "후보자, 지원자",
+      "ExampleEng": "The candidate has the qualifications we are looking for.",
+      "ExampleKor": "이 후보는 우리가 찾고 있는 자격을 갖고 있습니다."
+    },
+    {
+      "English": "capable",
+      "Korean": "~을 할 수 있는",
+      "ExampleEng": "She is capable of handling challenging tasks.",
+      "ExampleKor": "그녀는 어려운 과제를 처리할 능력이 있습니다."
+    },
+    {
+      "English": "capacity",
+      "Korean": "수용력",
+      "ExampleEng": "The stadium has a seating capacity of 50,000.",
+      "ExampleKor": "경기장은 5만 명의 수용 인원을 가지고 있습니다."
+    },
+    {
+      "English": "carefully",
+      "Korean": "주의 깊게",
+      "ExampleEng": "Please read the instructions carefully before assembly.",
+      "ExampleKor": "조립하기 전에 설명서를 주의 깊게 읽으세요."
+    },
+    {
+      "English": "carelessly",
+      "Korean": "부주의하게",
+      "ExampleEng": "He carelessly left his keys in the car.",
+      "ExampleKor": "그는 부주의하게 자동차 안에 열쇠를 두고 왔습니다."
+    },
+    {
+      "English": "carton",
+      "Korean": "판지 상자",
+      "ExampleEng": "The carton was filled with various items.",
+      "ExampleKor": "판지 상자는 다양한 물건으로 가득 찼습니다."
+    },
+    {
+      "English": "cater",
+      "Korean": "요구를 들어주다",
+      "ExampleEng": "The restaurant can cater to dietary preferences.",
+      "ExampleKor": "그 레스토랑은 식이 요구 사항을 충족시킬 수 있습니다."
+    },
+    {
+      "English": "cause",
+      "Korean": "야기하다, 원인",
+      "ExampleEng": "Smoking can cause serious health issues.",
+      "ExampleKor": "흡연은 심각한 건강 문제를 일으킬 수 있습니다."
+    },
+    {
+      "English": "caution",
+      "Korean": "주의, 조심",
+      "ExampleEng": "I want to caution you about the potential risks.",
+      "ExampleKor": "나는 당신에게 잠재적인 위험에 대해 주의하고 싶습니다."
+    },
+    {
+      "English": "celebrity",
+      "Korean": "유명인사",
+      "ExampleEng": "The celebrity attended the film premiere.",
+      "ExampleKor": "유명인사가 그 영화 프리미어에 참석했습니다."
+    },
+    {
+      "English": "censorship",
+      "Korean": "검열",
+      "ExampleEng": "Censorship of the media is a controversial topic.",
+      "ExampleKor": "미디어의 검열은 논란이 되는 주제입니다."
+    },
+    {
+      "English": "certification",
+      "Korean": "증명서",
+      "ExampleEng": "The certification proves your expertise in the field.",
+      "ExampleKor": "인증은 당신의 분야에서의 전문성을 증명합니다."
+    },
+    {
+      "English": "characteristic",
+      "Korean": "특징, 특성",
+      "ExampleEng": "One characteristic of the species is its long tail.",
+      "ExampleKor": "이 종은 긴 꼬리가 특징입니다."
+    },
+    {
+      "English": "charge",
+      "Korean": "요금, 부과",
+      "ExampleEng": "What is the charge for this service?",
+      "ExampleKor": "이 서비스에 대한 요금은 얼마인가요?"
+    },
+    {
+      "English": "check",
+      "Korean": "조사하다",
+      "ExampleEng": "The police will check the crime scene for evidence.",
+      "ExampleKor": "경찰은 증거를 조사할 것입니다."
+    },
+    {
+      "English": "checkup",
+      "Korean": "건강 진단",
+      "ExampleEng": "The doctor recommended a regular checkup.",
+      "ExampleKor": "의사는 정기 건강 진단을 권장했습니다."
+    },
+    {
+      "English": "chemical",
+      "Korean": "화학제품",
+      "ExampleEng": "The lab stores various chemical substances.",
+      "ExampleKor": "연구소에는 다양한 화학 물질이 저장되어 있습니다."
+    },
+    {
+      "English": "choice",
+      "Korean": "선택",
+      "ExampleEng": "Making the right choice is crucial.",
+      "ExampleKor": "올바른 선택을 하는 것이 중요합니다."
+    },
+    {
+      "English": "chronic",
+      "Korean": "만성의",
+      "ExampleEng": "Chronic diseases require long-term treatment.",
+      "ExampleKor": "만성적인 질병은 장기적인 치료가 필요합니다."
+    },
+    {
+      "English": "chronological",
+      "Korean": "시간 순의",
+      "ExampleEng": "Please arrange the files in chronological order.",
+      "ExampleKor": "파일을 시간 순으로 정렬해 주세요."
+    },
+    {
+      "English": "claim",
+      "Korean": "주장하다",
+      "ExampleEng": "He will claim responsibility for the project's success.",
+      "ExampleKor": "그 프로젝트의 성공에 대한 책임을 주장할 것입니다."
+    },
+    {
+      "English": "clearly",
+      "Korean": "명확히",
+      "ExampleEng": "Can you explain your idea more clearly?",
+      "ExampleKor": "당신의 아이디어를 더 명확하게 설명할 수 있나요?"
+    },
+    {
+      "English": "closely",
+      "Korean": "면밀히, 엄밀히",
+      "ExampleEng": "We need to examine the data closely.",
+      "ExampleKor": "데이터를 면밀히 검토해야 합니다."
+    },
+    {
+      "English": "coherent",
+      "Korean": "일관성 있는",
+      "ExampleEng": "The report provides a coherent analysis of the issue.",
+      "ExampleKor": "보고서는 그 문제에 대한 일관된 분석을 제공합니다."
+    },
+    {
+      "English": "collaborate",
+      "Korean": "협동하다",
+      "ExampleEng": "Let's collaborate on this project.",
+      "ExampleKor": "이 프로젝트에 협력합시다."
+    },
+    {
+      "English": "collapse",
+      "Korean": "붕괴",
+      "ExampleEng": "The building suffered a structural collapse.",
+      "ExampleKor": "건물은 구조적인 붕괴를 겪었습니다."
+    },
+    {
+      "English": "colleague",
+      "Korean": "동료",
+      "ExampleEng": "My colleague and I are working on a joint project.",
+      "ExampleKor": "나와 동료는 공동 프로젝트에 참여하고 있습니다."
+    },
+    {
+      "English": "collection",
+      "Korean": "수집품",
+      "ExampleEng": "His art collection is worth millions.",
+      "ExampleKor": "그의 예술 수집품은 수백만 달러 가치가 있습니다."
+    },
+    {
+      "English": "combination",
+      "Korean": "결합, 연합",
+      "ExampleEng": "The combination of flavors in this dish is unique.",
+      "ExampleKor": "이 요리의 맛 조합은 독특합니다."
+    },
+    {
+      "English": "commence",
+      "Korean": "시작되다",
+      "ExampleEng": "The event will commence at 9 AM.",
+      "ExampleKor": "이 이벤트는 오전 9시에 시작됩니다."
+    },
+    {
+      "English": "commerce",
+      "Korean": "통상, 교역",
+      "ExampleEng": "International commerce drives the global economy.",
+      "ExampleKor": "국제 무역은 세계 경제를 촉진합니다."
+    },
+    {
+      "English": "commitment",
+      "Korean": "헌신",
+      "ExampleEng": "His commitment to the job is commendable.",
+      "ExampleKor": "그의 직무 헌신은 칭찬받을 만합니다."
+    },
+    {
+      "English": "committee",
+      "Korean": "위원회",
+      "ExampleEng": "The committee will review the proposal.",
+      "ExampleKor": "위원회는 제안서를 검토할 것입니다."
+    },
+    {
+      "English": "commodity",
+      "Korean": "상품, 생산",
+      "ExampleEng": "Oil is a valuable commodity in today's market.",
+      "ExampleKor": "오늘의 시장에서 석유는 가치 있는 상품입니다."
+    },
+    {
+      "English": "community",
+      "Korean": "지역사회",
+      "ExampleEng": "Community involvement is important for social development.",
+      "ExampleKor": "사회 발전을 위해 지역사회 참여가 중요합니다."
+    },
+    {
+      "English": "commute",
+      "Korean": "통근하다",
+      "ExampleEng": "Many employees commute to work by train.",
+      "ExampleKor": "많은 직원들이 기차로 출퇴근합니다."
+    },
+    {
+      "English": "comparable",
+      "Korean": "비교되는",
+      "ExampleEng": "The two products are comparable in quality.",
+      "ExampleKor": "두 제품은 품질적으로 비교될 수 있습니다."
+    },
+    {
+      "English": "comparison",
+      "Korean": "비교",
+      "ExampleEng": "The comparison between the two cars was informative.",
+      "ExampleKor": "두 대의 차량 사이의 비교는 유익했습니다."
+    },
+    {
+      "English": "compatible",
+      "Korean": "호환성의",
+      "ExampleEng": "These software updates are not compatible with older devices.",
+      "ExampleKor": "이 소프트웨어 업데이트는 오래된 장치와 호환되지 않습니다."
+    },
+    {
+      "English": "compensate",
+      "Korean": "~에게 보상하다",
+      "ExampleEng": "The company will compensate you for your losses.",
+      "ExampleKor": "회사는 당신의 손실에 대해 보상할 것입니다."
+    },
+    {
+      "English": "competition",
+      "Korean": "경쟁",
+      "ExampleEng": "The competition in the tech industry is fierce.",
+      "ExampleKor": "기술 산업의 경쟁은 치열합니다."
+    },
+    {
+      "English": "complaint",
+      "Korean": "불평",
+      "ExampleEng": "She had a complaint about the product's quality.",
+      "ExampleKor": "그녀는 제품 품질에 대한 불평을 했습니다."
+    },
+    {
+      "English": "complement",
+      "Korean": "보완하다",
+      "ExampleEng": "The dessert complements the main course perfectly.",
+      "ExampleKor": "이 디저트는 주요 요리와 완벽하게 어울립니다."
+    },
+    {
+      "English": "complete",
+      "Korean": "완료하다",
+      "ExampleEng": "We need to complete the project by the deadline.",
+      "ExampleKor": "우리는 마감 기한까지 프로젝트를 완료해야 합니다."
+    },
+    {
+      "English": "completely",
+      "Korean": "완전히",
+      "ExampleEng": "I agree with your proposal completely.",
+      "ExampleKor": "나는 당신의 제안에 완전히 동의합니다."
+    },
+    {
+      "English": "complex",
+      "Korean": "복잡한",
+      "ExampleEng": "The assembly instructions for this product are quite complex.",
+      "ExampleKor": "이 제품의 조립 지침은 꽤 복잡합니다."
+    },
+    {
+      "English": "compliance",
+      "Korean": "(명령)준수",
+      "ExampleEng": "Strict compliance with safety regulations is required in the laboratory.",
+      "ExampleKor": "연구실에서는 엄격한 안전 규정을 준수해야 합니다."
+    },
+    {
+      "English": "compliment",
+      "Korean": "칭찬",
+      "ExampleEng": "She received a compliment on her excellent performance in the play.",
+      "ExampleKor": "그녀는 연극에서 뛰어난 연기를 칭찬 받았습니다."
+    },
+    {
+      "English": "complimentary",
+      "Korean": "무료의",
+      "ExampleEng": "Hotel guests often receive complimentary breakfast as part of their stay.",
+      "ExampleKor": "호텔 투숙객은 종종 그들의 숙박 일환으로 무료 아침 식사를 받습니다."
+    },
+    {
+      "English": "comply with",
+      "Korean": "~따르다",
+      "ExampleEng": "Employees must comply with the company's code of conduct.",
+      "ExampleKor": "직원들은 회사의 행동 규범을 준수해야 합니다."
+    },
+    {
+      "English": "comprehensive",
+      "Korean": "종합적인",
+      "ExampleEng": "The report provides a comprehensive analysis of market trends.",
+      "ExampleKor": "이 보고서는 시장 동향을 종합적으로 분석합니다."
+    },
+    {
+      "English": "compromise",
+      "Korean": "타협, 화해",
+      "ExampleEng": "They reached a compromise on the allocation of resources for the project.",
+      "ExampleKor": "그들은 프로젝트 자원 할당에 대한 타협에 도달했습니다."
+    },
+    {
+      "English": "compulsory",
+      "Korean": "의무적인",
+      "ExampleEng": "Attendance at the safety training seminar is compulsory.",
+      "ExampleKor": "안전 교육 세미나 참석은 의무적입니다."
+    },
+    {
+      "English": "concentrate",
+      "Korean": "집중하다",
+      "ExampleEng": "To succeed in this task, you need to concentrate fully.",
+      "ExampleKor": "이 작업에서 성공하려면 완전히 집중해야 합니다."
+    },
+    {
+      "English": "concerned",
+      "Korean": "염려하는",
+      "ExampleEng": "I'm concerned about the potential impact of this decision on the team.",
+      "ExampleKor": "나는 이 결정이 팀에 미치는 잠재적인 영향을 염려합니다."
+    },
+    {
+      "English": "conduct",
+      "Korean": "수행하다",
+      "ExampleEng": "They conducted a thorough investigation of the incident.",
+      "ExampleKor": "그들은 사건에 대한 철저한 조사를 진행했습니다."
+    },
+    {
+      "English": "conference",
+      "Korean": "회의",
+      "ExampleEng": "The international conference will bring together experts from various fields.",
+      "ExampleKor": "국제 회의에서는 다양한 분야의 전문가들이 모이게 될 것입니다."
+    },
+    {
+      "English": "confidence",
+      "Korean": "확신, 자신감",
+      "ExampleEng": "Her confidence in her abilities is truly remarkable.",
+      "ExampleKor": "그녀의 능력에 대한 자신감은 정말 놀랍습니다."
+    },
+    {
+      "English": "confident",
+      "Korean": "자신 있는",
+      "ExampleEng": "She was confident in her presentation skills and delivered an outstanding speech at the conference.",
+      "ExampleKor": "그녀는 발표 기술에 대해 자신 있었고, 회의에서 훌륭한 연설을 했다."
+    },
+    {
+      "English": "confidential",
+      "Korean": "기밀의",
+      "ExampleEng": "Please keep this document confidential and do not share it.",
+      "ExampleKor": "이 문서를 기밀로 유지하고 공유하지 마십시오."
+    },
+    {
+      "English": "confine",
+      "Korean": "제한하다",
+      "ExampleEng": "Let's confine our discussion to the key points of the agenda.",
+      "ExampleKor": "우리는 토론을 의제의 핵심으로 한정합시다."
+    },
+    {
+      "English": "confirm",
+      "Korean": "확인하다",
+      "ExampleEng": "Can you confirm your reservation for the upcoming flight?",
+      "ExampleKor": "다가오는 항공편 예약을 확인할 수 있을까요?"
+    },
+    {
+      "English": "confirmation",
+      "Korean": "확인",
+      "ExampleEng": "I'll wait for your confirmation before proceeding with the order.",
+      "ExampleKor": "주문 진행 전에 확인 메일을 기다리겠습니다."
+    },
+    {
+      "English": "confiscate",
+      "Korean": "몰수하다",
+      "ExampleEng": "Customs officials have the authority to confiscate illegal goods.",
+      "ExampleKor": "세관 당국은 불법 물품을 몰수할 권한이 있습니다."
+    },
+    {
+      "English": "conform",
+      "Korean": "(규칙 등에)따르다",
+      "ExampleEng": "All employees are expected to conform to the company's dress code.",
+      "ExampleKor": "모든 직원은 회사의 복장 규정을 준수해야 합니다."
+    },
+    {
+      "English": "confront",
+      "Korean": "~에 직면하다",
+      "ExampleEng": "She had to confront her fear of public speaking during the presentation.",
+      "ExampleKor": "그녀는 발표 중에 공포심을 극복해야 했습니다."
+    },
+    {
+      "English": "confusion",
+      "Korean": "혼란",
+      "ExampleEng": "There was some confusion regarding the meeting time, causing delays.",
+      "ExampleKor": "회의 시간에 관한 혼란으로 인해 지연이 발생했습니다."
+    },
+    {
+      "English": "congestion",
+      "Korean": "혼잡, 체중",
+      "ExampleEng": "The city's congestion during rush hour is notorious.",
+      "ExampleKor": "도시의 러시 아워 혼잡은 유명합니다."
+    },
+    {
+      "English": "conjunction",
+      "Korean": "연합, 공동",
+      "ExampleEng": "The cooperation of multiple departments is essential, and they will work in conjunction to complete the project.",
+      "ExampleKor": "여러 부서의 협력은 필수이며, 그들은 프로젝트를 완료하기 위해 공동으로 작업할 것입니다."
+    },
+    {
+      "English": "conscious",
+      "Korean": "알고 있는",
+      "ExampleEng": "Are you conscious of the impact your decisions can have on the team?",
+      "ExampleKor": "당신의 결정이 팀에 미칠 영향을 알고 있나요?"
+    },
+    {
+      "English": "consecutive",
+      "Korean": "연속적인",
+      "ExampleEng": "The company experienced consecutive quarters of growth in its profits.",
+      "ExampleKor": "회사는 연속된 분기에 이익을 늘리는 성과를 거뒀습니다."
+    },
+    {
+      "English": "consent",
+      "Korean": "동의",
+      "ExampleEng": "We need your written consent before proceeding with the project.",
+      "ExampleKor": "프로젝트를 진행하기 전에 여러분의 서면 동의가 필요합니다."
+    },
+    {
+      "English": "consequence",
+      "Korean": "결과",
+      "ExampleEng": "One consequence of the new policy was a significant increase in productivity.",
+      "ExampleKor": "새로운 정책의 결과 중 하나는 생산성이 크게 증가했습니다."
+    },
+    {
+      "English": "conserve",
+      "Korean": "보존하다",
+      "ExampleEng": "It's crucial to conserve natural resources for future generations.",
+      "ExampleKor": "미래 세대를 위해 자연 자원을 보존하는 것이 중요합니다."
+    },
+    {
+      "English": "consider",
+      "Korean": "고려하다",
+      "ExampleEng": "When making a decision, always consider the potential risks and benefits.",
+      "ExampleKor": "결정을 내릴 때 항상 잠재적인 위험과 이점을 고려하세요."
+    },
+    {
+      "English": "considerable",
+      "Korean": "상당한",
+      "ExampleEng": "The company invested a considerable amount in research and development.",
+      "ExampleKor": "회사는 연구 및 개발에 상당한 금액을 투자했습니다."
+    },
+    {
+      "English": "consist",
+      "Korean": "이루어지다",
+      "ExampleEng": "The team's success will consist of members who work well together.",
+      "ExampleKor": "팀의 성공은 잘 협력하는 구성원들로 이루어질 것입니다."
+    },
+    {
+      "English": "consistently",
+      "Korean": "일관되게",
+      "ExampleEng": "He consistently delivers high-quality work on time.",
+      "ExampleKor": "그는 항상 시간 내에 고품질의 작업을 제공합니다."
+    },
+    {
+      "English": "consolidate",
+      "Korean": "(권력을)강화하다",
+      "ExampleEng": "The government aims to consolidate its power through recent reforms.",
+      "ExampleKor": "정부는 최근 개혁을 통해 권력을 강화하려고 합니다."
+    },
+    {
+      "English": "constraint",
+      "Korean": "제한",
+      "ExampleEng": "The constraint on the budget limited what we could do for the project.",
+      "ExampleKor": "예산 제한으로 인한 제약이 프로젝트에 영향을 미쳤습니다."
+    },
+    {
+      "English": "construction",
+      "Korean": "건축",
+      "ExampleEng": "The construction of the new office building is almost complete.",
+      "ExampleKor": "새로운 사무실 건물의 건설이 거의 완료되었습니다."
+    },
+    {
+      "English": "consumer",
+      "Korean": "소비자",
+      "ExampleEng": "Consumer protection laws are in place to safeguard the rights of buyers.",
+      "ExampleKor": "소비자 보호법은 구매자의 권리를 보호하기 위해 마련되어 있습니다."
+    },
+    {
+      "English": "contact",
+      "Korean": "~와 연락을 취하다",
+      "ExampleEng": "I will contact you to discuss the details of the project.",
+      "ExampleKor": "프로젝트의 세부사항을 논의하기 위해 연락드릴 것입니다."
+    },
+    {
+      "English": "contaminate",
+      "Korean": "오염시키다",
+      "ExampleEng": "The pollution from the factory has the potential to contaminate the nearby river.",
+      "ExampleKor": "공장에서 나오는 오염물질이 근처 강을 오염시킬 가능성이 있습니다."
+    },
+    {
+      "English": "contend with",
+      "Korean": "(문제에)대처하다",
+      "ExampleEng": "They had to contend with numerous challenges to achieve their goals.",
+      "ExampleKor": "그들은 목표를 달성하기 위해 다양한 도전에 대처해야 했습니다."
+    },
+    {
+      "English": "contestant",
+      "Korean": "경기자",
+      "ExampleEng": "The contestant demonstrated exceptional skills during the competition.",
+      "ExampleKor": "경기자는 대회에서 탁월한 기술을 뽐냈습니다."
+    },
+    {
+      "English": "continually",
+      "Korean": "계속적으로",
+      "ExampleEng": "The project will require continual monitoring and adjustments.",
+      "ExampleKor": "프로젝트는 지속적인 모니터링과 조정이 필요할 것입니다."
+    },
+    {
+      "English": "contract",
+      "Korean": "계약",
+      "ExampleEng": "The two companies signed a contract to collaborate on a joint venture.",
+      "ExampleKor": "두 회사는 공동 사업을 위해 계약을 체결했습니다."
+    },
+    {
+      "English": "contribute",
+      "Korean": "기여하다",
+      "ExampleEng": "Many volunteers contributed their time and effort to the charity event.",
+      "ExampleKor": "많은 봉사자들이 자신의 시간과 노력을 자선 행사에 기부했습니다."
+    },
+    {
+      "English": "contributor",
+      "Korean": "기부자",
+      "ExampleEng": "She was a dedicated contributor to the success of the organization.",
+      "ExampleKor": "그녀는 조직의 성공에 헌신적으로 기여한 사람이었습니다."
+    },
+    {
+      "English": "control",
+      "Korean": "통제하다",
+      "ExampleEng": "The manager will control the production process to ensure efficiency.",
+      "ExampleKor": "관리자는 효율성을 보장하기 위해 생산 과정을 통제할 것입니다."
+    },
+    {
+      "English": "controversy",
+      "Korean": "논란",
+      "ExampleEng": "The controversial decision sparked a heated debate among the team members.",
+      "ExampleKor": "논란을 불러일으킨 결정은 팀 구성원들 사이에서 열띤 토론을 일으켰다."
+    },
+    {
+      "English": "convert",
+      "Korean": "전환(변화)하다",
+      "ExampleEng": "They plan to convert the old warehouse into a modern office space.",
+      "ExampleKor": "그들은 오래된 창고를 현대적인 사무 공간으로 변환할 계획입니다."
+    },
+    {
+      "English": "convey",
+      "Korean": "전달하다",
+      "ExampleEng": "Please convey my congratulations to your team on their achievement.",
+      "ExampleKor": "축하 인사를 전해 주세요. 당신의 팀에 대한 성취를요."
+    },
+    {
+      "English": "convince",
+      "Korean": "확신시키다",
+      "ExampleEng": "The convincing evidence left no doubt about his innocence.",
+      "ExampleKor": "설득력 있는 증거로 그의 결백에 대한 의심이 없었습니다."
+    },
+    {
+      "English": "coordinate",
+      "Korean": "조정하다",
+      "ExampleEng": "We need to coordinate our efforts to complete the project on time.",
+      "ExampleKor": "우리는 프로젝트를 제 시간에 완료하기 위해 노력을 조정해야 합니다."
+    },
+    {
+      "English": "cordially",
+      "Korean": "진심으로",
+      "ExampleEng": "They greeted us cordially and made us feel welcome.",
+      "ExampleKor": "그들은 우리를 진심으로 환영해 주었고 우리를 편안하게 해 주었습니다."
+    },
+    {
+      "English": "corporation",
+      "Korean": "법인",
+      "ExampleEng": "The corporation announced its quarterly financial results.",
+      "ExampleKor": "그 회사는 분기별 재무 결과를 발표했습니다."
+    },
+    {
+      "English": "correspondence",
+      "Korean": "편지, 통신문",
+      "ExampleEng": "I received a letter of correspondence from a distant relative.",
+      "ExampleKor": "멀리 사는 친척으로부터 온 편지를 받았습니다."
+    },
+    {
+      "English": "corrosion",
+      "Korean": "부식",
+      "ExampleEng": "The corrosion of the metal gate was caused by years of exposure to harsh weather.",
+      "ExampleKor": "금속 게이트의 부식은 악천후에 노출된 연수로 인해 발생했습니다."
+    },
+    {
+      "English": "counterfeit",
+      "Korean": "가짜, 모조품",
+      "ExampleEng": "Be cautious when buying expensive items to avoid counterfeit products.",
+      "ExampleKor": "고가의 제품을 구매할 때 가짜 제품을 피하려면 조심해야 합니다."
+    },
+    {
+      "English": "courier",
+      "Korean": "급송 택배",
+      "ExampleEng": "The courier delivered the package to our doorstep.",
+      "ExampleKor": "급송 택배가 우리 문 앞에 소포를 전달했습니다."
+    },
+    {
+      "English": "courteous",
+      "Korean": "예의 바른",
+      "ExampleEng": "He always maintains a courteous and professional attitude.",
+      "ExampleKor": "그는 항상 예의 바르고 전문적인 태도를 유지합니다."
+    },
+    {
+      "English": "coverage",
+      "Korean": "보상범위, 보도",
+      "ExampleEng": "The insurance coverage includes protection against various risks.",
+      "ExampleKor": "보험 보상 범위에는 다양한 위험을 대비한 보호가 포함됩니다."
+    },
+    {
+      "English": "creative",
+      "Korean": "창조적인",
+      "ExampleEng": "Creative thinking is essential for solving complex problems.",
+      "ExampleKor": "복잡한 문제를 해결하기 위해 창의적 사고가 필수입니다."
+    },
+    {
+      "English": "critical",
+      "Korean": "비판적인",
+      "ExampleEng": "Her critical review of the book highlighted its flaws.",
+      "ExampleKor": "그녀의 책에 대한 비판적인 리뷰는 그것의 결점을 강조했습니다."
+    },
+    {
+      "English": "cuisine",
+      "Korean": "요리",
+      "ExampleEng": "The cuisine at that restaurant is known for its exquisite flavors.",
+      "ExampleKor": "그 레스토랑의 요리는 그 훌륭한 맛으로 알려져 있습니다."
+    },
+    {
+      "English": "curb",
+      "Korean": "억제하다",
+      "ExampleEng": "They need to curb their spending habits to save more money.",
+      "ExampleKor": "그들은 더 많은 돈을 절약하기 위해 소비 습관을 억제해야 합니다."
+    },
+    {
+      "English": "current",
+      "Korean": "현재의",
+      "ExampleEng": "The current situation calls for immediate action.",
+      "ExampleKor": "현재 상황은 즉각적인 조치를 요구합니다."
+    },
+    {
+      "English": "currently",
+      "Korean": "현재",
+      "ExampleEng": "Currently, I'm working on a project for my company.",
+      "ExampleKor": "현재, 나는 회사의 프로젝트를 진행 중입니다."
+    },
+    {
+      "English": "curtail",
+      "Korean": "~을 줄이다",
+      "ExampleEng": "To save money, they decided to curtail their travel expenses.",
+      "ExampleKor": "돈을 절약하기 위해 그들은 여행 비용을 줄이기로 결정했습니다."
+    },
+    {
+      "English": "custody",
+      "Korean": "감금, 구류",
+      "ExampleEng": "The suspect is in custody and will be questioned by the police.",
+      "ExampleKor": "용의자는 구류 상태에 있으며 경찰에 의해 심문을 받을 것입니다."
+    },
+    {
+      "English": "customer",
+      "Korean": "고객",
+      "ExampleEng": "The customer was satisfied with the service at the store.",
+      "ExampleKor": "고객은 그 가게의 서비스에 만족했습니다."
+    },
+    {
+      "English": "customs",
+      "Korean": "세관",
+      "ExampleEng": "Customs officers inspected the luggage at the airport.",
+      "ExampleKor": "세관 담당자들은 공항에서 수화물을 검사했습니다."
+    },
+    {
+      "English": "damage",
+      "Korean": "손해, 피해",
+      "ExampleEng": "The damage to the car was extensive after the accident.",
+      "ExampleKor": "차량에 입은 손상은 사고 후 광범위했습니다."
+    },
+    {
+      "English": "damaged",
+      "Korean": "손상된",
+      "ExampleEng": "The damaged goods were not fit for sale.",
+      "ExampleKor": "손상된 상품은 판매에 적합하지 않았습니다."
+    },
+    {
+      "English": "deadlock",
+      "Korean": "교착 상태",
+      "ExampleEng": "The negotiations reached a deadlock, and no progress was made.",
+      "ExampleKor": "협상은 교착 상태에 이르렀으며 어떠한 진전도 없었습니다."
+    },
+    {
+      "English": "deal",
+      "Korean": "거래(처리)하다",
+      "ExampleEng": "Let's make a deal that benefits both parties.",
+      "ExampleKor": "양측에 이익을 가져다 주는 거래를 하자."
+    },
+    {
+      "English": "declare",
+      "Korean": "(세관에서)신고하다",
+      "ExampleEng": "Travelers must declare any items of value at customs.",
+      "ExampleKor": "여행자들은 세관에서 가치 있는 물품을 신고해야 합니다."
+    },
+    {
+      "English": "decline",
+      "Korean": "감소, 하락",
+      "ExampleEng": "The decline in sales is a cause for concern.",
+      "ExampleKor": "매출의 감소는 우려의 원인입니다."
+    },
+    {
+      "English": "decrease",
+      "Korean": "감소하다",
+      "ExampleEng": "We need to take measures to decrease our energy consumption.",
+      "ExampleKor": "에너지 소비를 줄이기 위한 조치를 취해야 합니다."
+    },
+    {
+      "English": "dedicated",
+      "Korean": "헌신적인",
+      "ExampleEng": "She's a dedicated employee who always goes the extra mile.",
+      "ExampleKor": "그녀는 항상 더 노력하는 헌신적인 직원입니다."
+    },
+    {
+      "English": "dedication",
+      "Korean": "헌신",
+      "ExampleEng": "His dedication to his work is truly inspiring.",
+      "ExampleKor": "그의 업무에 대한 헌신은 정말로 감동적입니다."
+    },
+    {
+      "English": "deduct",
+      "Korean": "공제하다",
+      "ExampleEng": "You can deduct business expenses from your taxable income.",
+      "ExampleKor": "과세 소득에서 비즈니스 비용을 공제할 수 있습니다."
+    },
+    {
+      "English": "defective",
+      "Korean": "결함이 있는",
+      "ExampleEng": "The product was defective, and the company issued a recall.",
+      "ExampleKor": "제품에 결함이 있었고 회사에서 회수했습니다."
+    },
+    {
+      "English": "deficient",
+      "Korean": "부족한",
+      "ExampleEng": "Their team is deficient in experienced players.",
+      "ExampleKor": "그들의 팀은 경험 많은 선수들이 부족합니다."
+    },
+    {
+      "English": "deficit",
+      "Korean": "적자",
+      "ExampleEng": "The company is facing a significant deficit this quarter.",
+      "ExampleKor": "이 분기에는 기업이 상당한 적자를 기록하고 있습니다."
+    },
+    {
+      "English": "degree",
+      "Korean": "학위",
+      "ExampleEng": "He holds a master's degree in economics.",
+      "ExampleKor": "그는 경제학 학위를 보유하고 있습니다."
+    },
+    {
+      "English": "delay",
+      "Korean": "지연되다",
+      "ExampleEng": "The delay in the project was due to unforeseen circumstances.",
+      "ExampleKor": "프로젝트의 지연은 예기치 않은 상황 때문입니다."
+    },
+    {
+      "English": "delegate",
+      "Korean": "위임하다",
+      "ExampleEng": "She will delegate her responsibilities to her team while she's away.",
+      "ExampleKor": "그녀는 여행 중 자신의 책임을 팀에 위임할 것입니다."
+    },
+    {
+      "English": "deliberate",
+      "Korean": "고의적인",
+      "ExampleEng": "The deliberate act of vandalism shocked the community.",
+      "ExampleKor": "고의적인 방해 행위로 인한 악화된 상황이 커뮤니티를 충격케 했습니다."
+    },
+    {
+      "English": "delicate",
+      "Korean": "민감한",
+      "ExampleEng": "Be delicate when handling fragile items like glassware.",
+      "ExampleKor": "유리와 같은 부피 민감한 아이템 다룰 때 주의하세요."
+    },
+    {
+      "English": "delinquent",
+      "Korean": "(세금) 연체된",
+      "ExampleEng": "The delinquent taxpayers will face penalties and interest.",
+      "ExampleKor": "연체된 세금 납부자들은 패널티와 이자에 직면할 것입니다."
+    },
+    {
+      "English": "delivery",
+      "Korean": "배달",
+      "ExampleEng": "The delivery of the package was delayed due to bad weather.",
+      "ExampleKor": "날씨가 나쁘기 때문에 소포의 배달이 지연되었습니다."
+    },
+    {
+      "English": "demand",
+      "Korean": "수요",
+      "ExampleEng": "There is a high demand for the latest smartphone model.",
+      "ExampleKor": "최신 스마트폰 모델에 대한 수요가 높습니다."
+    },
+    {
+      "English": "demolish",
+      "Korean": "파괴하다",
+      "ExampleEng": "The construction crew will demolish the old building next week.",
+      "ExampleKor": "건물 해체는 곧 다음 주에 진행될 예정입니다."
+    },
+    {
+      "English": "demonstrate",
+      "Korean": "증명하다",
+      "ExampleEng": "She will demonstrate the proper technique for using the equipment.",
+      "ExampleKor": "그녀는 그 장비를 사용하는 올바른 기술을 시연할 것입니다."
+    },
+    {
+      "English": "densely",
+      "Korean": "밀집하여",
+      "ExampleEng": "The city center is densely populated with skyscrapers.",
+      "ExampleKor": "도심 지역은 고층 빌딩으로 밀집되어 있습니다."
+    },
+    {
+      "English": "depart",
+      "Korean": "출발하다",
+      "ExampleEng": "The plane is scheduled to depart in an hour.",
+      "ExampleKor": "비행기는 1시간 후 출발 예정입니다."
+    },
+    {
+      "English": "depend on",
+      "Korean": "~에 의존하다",
+      "ExampleEng": "Your success should not depend solely on others.",
+      "ExampleKor": "당신의 성공은 주로 다른 사람들에게 의존해서는 안 됩니다."
+    },
+    {
+      "English": "deplete",
+      "Korean": "고갈시키다",
+      "ExampleEng": "Overfishing has caused the depletion of marine resources.",
+      "ExampleKor": "과잉 어획으로 인해 해양 자원의 고갈이 발생했습니다."
+    },
+    {
+      "English": "deposit",
+      "Korean": "입금하다",
+      "ExampleEng": "He made a deposit of $1,000 into his savings account.",
+      "ExampleKor": "그는 저축 계좌에 1,000달러를 입금했습니다."
+    },
+    {
+      "English": "depot",
+      "Korean": "창고, 저장소",
+      "ExampleEng": "The depot stores various supplies for the army.",
+      "ExampleKor": "창고는 군대를 위한 다양한 물자를 저장합니다."
+    },
+    {
+      "English": "depreciation",
+      "Korean": "가치 하락",
+      "ExampleEng": "The depreciation of the car's value was significant over the years.",
+      "ExampleKor": "그 차의 가치가 몇 년 동안 크게 하락했습니다."
+    },
+    {
+      "English": "depression",
+      "Korean": "불황",
+      "ExampleEng": "The economic depression resulted in job losses for many people.",
+      "ExampleKor": "경제적 불황으로 인해 많은 사람들이 일자리를 잃었습니다."
+    },
+    {
+      "English": "deprivation",
+      "Korean": "박탈, 상실",
+      "ExampleEng": "The deprivation of basic necessities is a serious issue in some areas.",
+      "ExampleKor": "기본 필수품의 박탈은 일부 지역에서 심각한 문제입니다."
+    },
+    {
+      "English": "describe",
+      "Korean": "묘사하다",
+      "ExampleEng": "Can you describe the suspect's appearance to the police?",
+      "ExampleKor": "당신은 용의자의 외모를 경찰에 묘사할 수 있나요?"
+    },
+    {
+      "English": "description",
+      "Korean": "설명서, 해설",
+      "ExampleEng": "The description of the suspect matched the eyewitness's account.",
+      "ExampleKor": "용의자의 묘사가 목격자의 진술과 일치했습니다."
+    },
+    {
+      "English": "designated",
+      "Korean": "지정된",
+      "ExampleEng": "The designated parking area is reserved for employees.",
+      "ExampleKor": "지정된 주차장은 직원 전용입니다."
+    },
+    {
+      "English": "desirable",
+      "Korean": "바람직한",
+      "ExampleEng": "Finding a reliable babysitter is desirable for working parents.",
+      "ExampleKor": "신뢰할 수 있는 유아 돌보미를 구하는 것은 일하는 부모들에게 바람직합니다."
+    },
+    {
+      "English": "destination",
+      "Korean": "목적지",
+      "ExampleEng": "Our vacation destination is a remote island in the Pacific.",
+      "ExampleKor": "우리의 휴가 목적지는 태평양의 한적한 섬입니다."
+    },
+    {
+      "English": "detach",
+      "Korean": "떼다",
+      "ExampleEng": "Please detach the bottom portion of the form and keep it for your records.",
+      "ExampleKor": "양식의 하단 부분을 떼어주세요."
+    },
+    {
+      "English": "detailed",
+      "Korean": "상세한",
+      "ExampleEng": "The detailed instructions are provided in the user manual.",
+      "ExampleKor": "상세한 지침은 사용자 매뉴얼에 제공됩니다."
+    },
+    {
+      "English": "deter",
+      "Korean": "단념시키다",
+      "ExampleEng": "The fear of failure should not deter you from pursuing your dreams.",
+      "ExampleKor": "실패로부터의 두려움은 당신을 꿈을 추구하지 않게 만들어서는 안 됩니다."
+    },
+    {
+      "English": "detour",
+      "Korean": "우회",
+      "ExampleEng": "Due to a road closure, we had to take a detour through the countryside.",
+      "ExampleKor": "도로 통행이 막혔으므로 우회로를 택해야 했습니다."
+    },
+    {
+      "English": "development",
+      "Korean": "개발, 발전",
+      "ExampleEng": "The development of technology has greatly improved our lives.",
+      "ExampleKor": "기술의 발전은 우리의 삶을 크게 향상시켰다."
+    },
+    {
+      "English": "deviate",
+      "Korean": "빗나가다",
+      "ExampleEng": "Please do not deviate from the designated path while hiking.",
+      "ExampleKor": "하이킹 중에 지정된 길에서 벗어나지 마세요."
+    },
+    {
+      "English": "device",
+      "Korean": "장치",
+      "ExampleEng": "The new device is designed to make our daily tasks easier.",
+      "ExampleKor": "새로운 장치는 우리의 일상 업무를 더 쉽게 만들기 위해 설계되었습니다."
+    },
+    {
+      "English": "devise",
+      "Korean": "고안하다",
+      "ExampleEng": "The engineer had to devise a creative solution to the complex problem.",
+      "ExampleKor": "그 엔지니어는 복잡한 문제에 대한 창의적인 해결책을 고안해야 했습니다."
+    },
+    {
+      "English": "diagnosis",
+      "Korean": "진단",
+      "ExampleEng": "The diagnosis confirmed that the patient had a rare condition.",
+      "ExampleKor": "진단 결과, 환자는 희귀한 질환을 가지고 있음이 확인되었습니다."
+    },
+    {
+      "English": "differ",
+      "Korean": "다르다",
+      "ExampleEng": "People from different cultures may differ in their customs and traditions.",
+      "ExampleKor": "다른 문화에서 온 사람들은 그들의 관습과 전통에서 다를 수 있습니다."
+    },
+    {
+      "English": "diminish",
+      "Korean": "감소하다",
+      "ExampleEng": "The company's profits started to diminish due to increased competition.",
+      "ExampleKor": "이 회사의 이익은 경쟁이 치열해지면서 줄어들기 시작했습니다."
+    },
+    {
+      "English": "disappointing",
+      "Korean": "실망스러운",
+      "ExampleEng": "The disappointing sales figures were below our expectations.",
+      "ExampleKor": "실망스러운 판매 실적은 우리의 기대치를 못 미치는 수준이었습니다."
+    },
+    {
+      "English": "disaster",
+      "Korean": "재난",
+      "ExampleEng": "The earthquake was a natural disaster that caused widespread destruction.",
+      "ExampleKor": "지진은 광범위한 파괴를 일으킨 자연재해였습니다."
+    },
+    {
+      "English": "discharge",
+      "Korean": "방출하다",
+      "ExampleEng": "The factory had to discharge harmful chemicals into the river.",
+      "ExampleKor": "공장은 유해한 화학물질을 강으로 방출해야 했습니다."
+    },
+    {
+      "English": "discontinue",
+      "Korean": "중단하다",
+      "ExampleEng": "The company decided to discontinue the production of the outdated model.",
+      "ExampleKor": "회사는 낡은 모델의 생산을 중단하기로 결정했습니다."
+    },
+    {
+      "English": "discrepancy",
+      "Korean": "불일치, 차이",
+      "ExampleEng": "There was a discrepancy between the two financial reports.",
+      "ExampleKor": "두 재무 보고서 사이에 불일치가 있었습니다."
+    },
+    {
+      "English": "discriminate",
+      "Korean": "차별하다",
+      "ExampleEng": "It is important not to discriminate against anyone based on their race or gender.",
+      "ExampleKor": "인종이나 성별에 따라 아무나 차별하지 말아야 합니다."
+    },
+    {
+      "English": "discuss",
+      "Korean": "토론하다",
+      "ExampleEng": "Let's discuss the agenda for the upcoming meeting.",
+      "ExampleKor": "다가올 회의의 안건을 토론해 봅시다."
+    },
+    {
+      "English": "dismiss",
+      "Korean": "해고하다",
+      "ExampleEng": "The manager had to dismiss the employee for repeated misconduct.",
+      "ExampleKor": "반복적인 부적절한 행동으로 그 직원을 해고해야 했습니다."
+    },
+    {
+      "English": "disperse",
+      "Korean": "흩어지다",
+      "ExampleEng": "The crowd began to disperse after the event ended.",
+      "ExampleKor": "이벤트가 끝난 후 사람들은 흩어지기 시작했습니다."
+    },
+    {
+      "English": "dispose",
+      "Korean": "처리하다",
+      "ExampleEng": "Please dispose of your trash in the designated bins.",
+      "ExampleKor": "쓰레기는 지정된 분리수거함에 버려 주세요."
+    },
+    {
+      "English": "dispute",
+      "Korean": "논쟁, 분쟁",
+      "ExampleEng": "The dispute between the two companies was resolved through arbitration.",
+      "ExampleKor": "두 회사 간의 분쟁은 중재를 통해 해결되었습니다."
+    },
+    {
+      "English": "disruption",
+      "Korean": "중단, 혼란",
+      "ExampleEng": "The disruption of the internet service affected many businesses.",
+      "ExampleKor": "인터넷 서비스의 중단으로 많은 비즈니스가 영향을 받았습니다."
+    },
+    {
+      "English": "distract",
+      "Korean": "흩뜨리다",
+      "ExampleEng": "The noisy construction work would distract us from our studies.",
+      "ExampleKor": "시끄러운 공사 소음은 공부를 방해할 것입니다."
+    },
+    {
+      "English": "distribute",
+      "Korean": "배포하다",
+      "ExampleEng": "The company will distribute the new product to stores nationwide.",
+      "ExampleKor": "회사는 신제품을 전국의 매장에 배포할 예정입니다."
+    },
+    {
+      "English": "district",
+      "Korean": "지구, 지역",
+      "ExampleEng": "The city is divided into several districts, each with its own characteristics.",
+      "ExampleKor": "이 도시는 각기 다른 특성을 가진 여러 지구로 나누어져 있습니다."
+    },
+    {
+      "English": "disturb",
+      "Korean": "방해하다",
+      "ExampleEng": "Please do not disturb the meeting while it's in progress.",
+      "ExampleKor": "진행 중인 회의를 방해하지 마세요."
+    },
+    {
+      "English": "diverse",
+      "Korean": "다양한",
+      "ExampleEng": "The conference aimed to bring together diverse experts in the field.",
+      "ExampleKor": "그 회의는 분야별 다양한 전문가들을 모으기 위해 목표로 했습니다."
+    },
+    {
+      "English": "diversify",
+      "Korean": "다양화하다",
+      "ExampleEng": "The company plans to diversify its product offerings in the coming year.",
+      "ExampleKor": "회사는 내년에 제품 다각화를 계획하고 있습니다."
+    },
+    {
+      "English": "divert",
+      "Korean": "우회시키다",
+      "ExampleEng": "To avoid traffic, we'll divert our route through a scenic road.",
+      "ExampleKor": "교통 체증을 피하기 위해 우리는 경치 좋은 도로로 우회할 것입니다."
+    },
+    {
+      "English": "division",
+      "Korean": "나누다",
+      "ExampleEng": "The division of labor among team members was clearly defined.",
+      "ExampleKor": "팀 구성원들 간의 업무 분담이 명확하게 정의되었습니다."
+    },
+    {
+      "English": "document",
+      "Korean": "서류, 문서",
+      "ExampleEng": "Please provide all the necessary documents for your visa application.",
+      "ExampleKor": "비자 신청을 위한 필요한 모든 서류를 제공해 주세요."
+    },
+    {
+      "English": "donation",
+      "Korean": "기부",
+      "ExampleEng": "The charity received a generous donation from a local business.",
+      "ExampleKor": "그 자선 단체는 지역 비즈니스로부터 풍성한 기부금을 받았습니다."
+    },
+    {
+      "English": "dramatic",
+      "Korean": "극적인",
+      "ExampleEng": "The movie had a dramatic plot with unexpected twists.",
+      "ExampleKor": "그 영화는 예상치 못한 전개와 함께 극적인 줄거리를 가지고 있었습니다."
+    },
+    {
+      "English": "dramatically",
+      "Korean": "극적으로",
+      "ExampleEng": "The price of the product decreased dramatically during the sale.",
+      "ExampleKor": "그 제품의 가격은 할인 기간에 크게 감소했습니다."
+    },
+    {
+      "English": "drought",
+      "Korean": "가뭄",
+      "ExampleEng": "The prolonged drought led to water shortages in the region.",
+      "ExampleKor": "장기간의 가뭄으로 그 지역에서는 물 부족 현상이 발생했습니다."
+    },
+    {
+      "English": "duplicate",
+      "Korean": "사본",
+      "ExampleEng": "Make a duplicate copy of the important document for your records.",
+      "ExampleKor": "중요한 문서의 복사본을 만들어 기록으로 남기세요."
+    },
+    {
+      "English": "durable",
+      "Korean": "내구성 있는",
+      "ExampleEng": "The durable materials used in the construction ensure a long lifespan.",
+      "ExampleKor": "내구성 있는 소재로 건설된 것은 오랜 수명을 보장합니다."
+    },
+    {
+      "English": "duration",
+      "Korean": "지속, 기간",
+      "ExampleEng": "The duration of the flight was longer than expected due to bad weather.",
+      "ExampleKor": "날씨가 안 좋아 예상보다 비행 시간이 길어졌습니다."
+    },
+    {
+      "English": "ecology",
+      "Korean": "자연 환경",
+      "ExampleEng": "Ecology studies the relationship between living organisms and their environment.",
+      "ExampleKor": "생태학은 생물과 환경 간의 관계를 연구합니다."
+    },
+    {
+      "English": "economical",
+      "Korean": "경제적인",
+      "ExampleEng": "Using public transportation is an economical way to commute.",
+      "ExampleKor": "대중 교통을 이용하는 것은 경제적인 출퇴근 방법입니다."
+    },
+    {
+      "English": "edition",
+      "Korean": "(간행물의)판",
+      "ExampleEng": "The new edition of the magazine features interesting articles.",
+      "ExampleKor": "이 잡지의 새 판은 흥미로운 기사들을 특징으로 합니다."
+    },
+    {
+      "English": "effect",
+      "Korean": "효과, 영향",
+      "ExampleEng": "The effect of the new policy on the economy remains to be seen.",
+      "ExampleKor": "새로운 정책의 효과는 경제에 미치는 영향이 미지수입니다."
+    },
+    {
+      "English": "effective",
+      "Korean": "효과적인",
+      "ExampleEng": "The effective use of time management techniques can increase productivity.",
+      "ExampleKor": "시간 관리 기술의 효과적인 활용은 생산성을 높일 수 있습니다."
+    },
+    {
+      "English": "efficiency",
+      "Korean": "효율, 능률",
+      "ExampleEng": "Efficiency in production is crucial for reducing costs.",
+      "ExampleKor": "생산에서의 효율성은 비용을 절감하기 위한 중요한 요소입니다."
+    },
+    {
+      "English": "efficiently",
+      "Korean": "효율적으로",
+      "ExampleEng": "The new equipment allowed us to work more efficiently.",
+      "ExampleKor": "새로운 장비는 우리가 효율적으로 일할 수 있게 해 주었습니다."
+    },
+    {
+      "English": "effort",
+      "Korean": "노력",
+      "ExampleEng": "With great effort and determination, she achieved her goals.",
+      "ExampleKor": "그녀는 큰 노력과 결심으로 목표를 달성했습니다."
+    },
+    {
+      "English": "elaborate",
+      "Korean": "정교한, 공들인",
+      "ExampleEng": "The artist spent months creating an elaborate masterpiece.",
+      "ExampleKor": "그 화가는 정교한 걸작을 만드는 데 몇 달을 투자했습니다."
+    },
+    {
+      "English": "elegant",
+      "Korean": "우아한",
+      "ExampleEng": "Her elegant attire caught the attention of everyone at the party.",
+      "ExampleKor": "그녀의 우아한 의상은 파티에 참석한 모든 이들의 시선을 끌었습니다."
+    },
+    {
+      "English": "eligible",
+      "Korean": "자격이 있는",
+      "ExampleEng": "Only eligible candidates will be considered for the scholarship.",
+      "ExampleKor": "자격이 있는 후보만 장학금 신청이 고려됩니다."
+    },
+    {
+      "English": "eliminate",
+      "Korean": "제거하다",
+      "ExampleEng": "The company plans to eliminate unnecessary expenses.",
+      "ExampleKor": "회사는 불필요한 비용을 제거하기로 결정했습니다."
+    },
+    {
+      "English": "embargo",
+      "Korean": "무역금지",
+      "ExampleEng": "The government imposed an embargo on trade with the neighboring country.",
+      "ExampleKor": "정부는 이웃 국가와의 무역을 금지하는 통상 금지령을 내렸습니다."
+    },
+    {
+      "English": "embark",
+      "Korean": "착수하다",
+      "ExampleEng": "They decided to embark on a journey around the world.",
+      "ExampleKor": "그들은 세계 일주 여행을 시작하기로 결심했습니다."
+    },
+    {
+      "English": "embassy",
+      "Korean": "대사관",
+      "ExampleEng": "The embassy provides assistance to citizens living abroad.",
+      "ExampleKor": "대사관은 해외 거주 시민들에게 지원을 제공합니다."
+    },
+    {
+      "English": "emerge",
+      "Korean": "나타나다",
+      "ExampleEng": "The sun began to emerge from behind the clouds.",
+      "ExampleKor": "태양은 구름 뒤에서 나타나기 시작했습니다."
+    },
+    {
+      "English": "emergency",
+      "Korean": "비상사태",
+      "ExampleEng": "In case of an emergency, please dial 911.",
+      "ExampleKor": "비상시에는 911번을 눌러주세요."
+    },
+    {
+      "English": "emission",
+      "Korean": "방출, 배기가스",
+      "ExampleEng": "The emission of greenhouse gases is a major environmental concern.",
+      "ExampleKor": "온실 가스의 배출은 주요 환경 문제입니다."
+    },
+    {
+      "English": "emphasis",
+      "Korean": "강조, 중점",
+      "ExampleEng": "The teacher placed a strong emphasis on the importance of good communication skills.",
+      "ExampleKor": "선생님은 좋은 커뮤니케이션 기술의 중요성을 강조했습니다."
+    },
+    {
+      "English": "employment",
+      "Korean": "고용",
+      "ExampleEng": "Finding stable employment in today's job market can be challenging.",
+      "ExampleKor": "오늘날의 취업은 안정적인 고용을 찾기 어려울 수 있습니다."
+    },
+    {
+      "English": "enact",
+      "Korean": "제정하다",
+      "ExampleEng": "The government plans to enact new regulations to address this issue.",
+      "ExampleKor": "정부는 이 문제를 해결하기 위해 새로운 규정을 제정하기로 했습니다."
+    },
+    {
+      "English": "enclose",
+      "Korean": "~을 동봉하다",
+      "ExampleEng": "Please enclose your resume with the job application.",
+      "ExampleKor": "이력서를 채용 신청과 함께 첨부해 주세요."
+    },
+    {
+      "English": "encouraging",
+      "Korean": "용기를 주는",
+      "ExampleEng": "Her supportive words were encouraging during my difficult times.",
+      "ExampleKor": "그녀의 지지적인 말은 내 어려운 시간 동안 용기를 줬습니다."
+    },
+    {
+      "English": "endangered",
+      "Korean": "멸종위기에 처한",
+      "ExampleEng": "The panda is an endangered species, and conservation efforts are crucial.",
+      "ExampleKor": "판다는 멸종위기에 처한 종이며 보전 노력이 중요합니다."
+    },
+    {
+      "English": "endeavor",
+      "Korean": "노력하다",
+      "ExampleEng": "Despite facing many obstacles, he continued to endeavor towards his goals.",
+      "ExampleKor": "많은 어려움을 겪으면서도 그는 목표를 향해 계속 노력했습니다."
+    },
+    {
+      "English": "endorse",
+      "Korean": "보증하다",
+      "ExampleEng": "The famous athlete decided to endorse the sports brand.",
+      "ExampleKor": "유명한 스포츠 선수가 스포츠 브랜드를 보증하기로 결정했습니다."
+    },
+    {
+      "English": "enforce",
+      "Korean": "시행하다",
+      "ExampleEng": "The police are responsible for enforcing the law and maintaining order.",
+      "ExampleKor": "경찰은 법을 시행하고 질서를 유지하는 책임이 있습니다."
+    },
+    {
+      "English": "engage",
+      "Korean": "종사하다",
+      "ExampleEng": "It's important to engage in meaningful conversations with others.",
+      "ExampleKor": "의미 있는 대화에 참여하는 것이 중요합니다."
+    },
+    {
+      "English": "enhance",
+      "Korean": "강화하다",
+      "ExampleEng": "Regular exercise can enhance your overall physical fitness.",
+      "ExampleKor": "규칙적인 운동은 전반적인 체력을 향상시킬 수 있습니다."
+    },
+    {
+      "English": "enlightening",
+      "Korean": "계몽적인",
+      "ExampleEng": "The documentary provided enlightening insights into the history of the region.",
+      "ExampleKor": "이 다큐멘터리는 그 지역의 역사에 대한 계몽적인 통찰을 제공했습니다."
+    },
+    {
+      "English": "enroll",
+      "Korean": "등록하다",
+      "ExampleEng": "Students must enroll in their courses for the upcoming semester.",
+      "ExampleKor": "학생들은 다음 학기에 강의에 등록해야 합니다."
+    },
+    {
+      "English": "ensure",
+      "Korean": "보증하다",
+      "ExampleEng": "Wearing a seatbelt can ensure your safety while driving.",
+      "ExampleKor": "운전 중 안전을 보장하기 위해 안전벨트를 착용하세요."
+    },
+    {
+      "English": "entail",
+      "Korean": "~을 수반하다",
+      "ExampleEng": "Starting a new business venture may entail significant risks.",
+      "ExampleKor": "새로운 사업을 시작하면 중요한 위험이 따를 수 있습니다."
+    },
+    {
+      "English": "enthusiastically",
+      "Korean": "열정적으로",
+      "ExampleEng": "She greeted her supporters enthusiastically after winning the race.",
+      "ExampleKor": "그녀의 응원이 팀의 성공에 큰 영향을 미쳤습니다."
+    },
+    {
+      "English": "entirely",
+      "Korean": "완전히",
+      "ExampleEng": "The project's success was due entirely to the hard work of the team.",
+      "ExampleKor": "이 프로젝트의 성공은 팀의 힘든 일에 완전히 기인합니다."
+    },
+    {
+      "English": "entitle",
+      "Korean": "~에게 자격을 주다",
+      "ExampleEng": "Winning the competition will entitle you to a cash prize.",
+      "ExampleKor": "이 대회에서 우승하면 현금 상금이 주어집니다."
+    },
+    {
+      "English": "entrepreneur",
+      "Korean": "사업가",
+      "ExampleEng": "She aspired to become a successful entrepreneur and start her own business.",
+      "ExampleKor": "그녀는 성공한 사업가가 되어 자신의 비즈니스를 시작하기를 열망했습니다."
+    },
+    {
+      "English": "envelope",
+      "Korean": "봉투",
+      "ExampleEng": "Please put the letter in the envelope before mailing it.",
+      "ExampleKor": "이 편지를 우편으로 보내기 전에 봉투에 넣어 주세요."
+    },
+    {
+      "English": "environmental",
+      "Korean": "환경적인",
+      "ExampleEng": "Environmental protection is crucial for the well-being of our planet.",
+      "ExampleKor": "환경 보호는 우리 행성의 복지에 중요합니다."
+    },
+    {
+      "English": "envision",
+      "Korean": "계획하다",
+      "ExampleEng": "He could envision a bright future for his company.",
+      "ExampleKor": "그는 자신의 회사에 밝은 미래를 상상했습니다."
+    },
+    {
+      "English": "equipment",
+      "Korean": "설비, 장비",
+      "ExampleEng": "The laboratory is equipped with state-of-the-art research equipment.",
+      "ExampleKor": "연구 설비는 최신 기술로 장착되어 있습니다."
+    },
+    {
+      "English": "equivalent",
+      "Korean": "~에 상당하는",
+      "ExampleEng": "One kilogram is equivalent to 1,000 grams.",
+      "ExampleKor": "1킬로그램은 1,000그램에 해당합니다."
+    },
+    {
+      "English": "eradicate",
+      "Korean": "근절하다",
+      "ExampleEng": "Efforts to eradicate poverty require a comprehensive approach.",
+      "ExampleKor": "빈곤을 근절하기 위한 노력은 포괄적으로 이루어져야 합니다."
+    },
+    {
+      "English": "especially",
+      "Korean": "특히",
+      "ExampleEng": "I love spending time outdoors, especially in the summer.",
+      "ExampleKor": "나는 특히 여름에야 야외에서 시간을 보는 것을 좋아합니다."
+    },
+    {
+      "English": "establish",
+      "Korean": "설립하다",
+      "ExampleEng": "They aim to establish a new company in the tech industry.",
+      "ExampleKor": "그들은 기술 산업에서 새로운 회사를 설립하려고 합니다."
+    },
+    {
+      "English": "evacuate",
+      "Korean": "대피하다",
+      "ExampleEng": "Residents were asked to evacuate the area due to the approaching hurricane.",
+      "ExampleKor": "허리케인이 접근하기 때문에 주민들에게 대피를 요청했습니다."
+    },
+    {
+      "English": "evaluate",
+      "Korean": "평가하다",
+      "ExampleEng": "The teacher will evaluate your performance based on your presentation.",
+      "ExampleKor": "선생님은 발표를 기반으로 당신의 성과를 평가할 것입니다."
+    },
+    {
+      "English": "evaluation",
+      "Korean": "평가",
+      "ExampleEng": "The evaluation of the project's success will take place next week.",
+      "ExampleKor": "프로젝트의 성공을 평가하는 작업은 다음 주에 진행됩니다."
+    },
+    {
+      "English": "eventually",
+      "Korean": "마침내",
+      "ExampleEng": "With hard work and determination, you will eventually achieve your goals.",
+      "ExampleKor": "열심히 노력하고 결국 목표를 달성할 것입니다."
+    },
+    {
+      "English": "evidently",
+      "Korean": "명백히",
+      "ExampleEng": "Evidently, there was a misunderstanding between the two parties.",
+      "ExampleKor": "분명히 두 당사자 사이에 오해가 있었습니다."
+    },
+    {
+      "English": "exactly",
+      "Korean": "정확히",
+      "ExampleEng": "Please follow the instructions exactly as they are written.",
+      "ExampleKor": "지시사항을 정확히 작성된 대로 따라 주세요."
+    },
+    {
+      "English": "examine",
+      "Korean": "조사하다",
+      "ExampleEng": "The doctor will examine the patient to determine the cause of the illness.",
+      "ExampleKor": "의사는 환자의 질병 원인을 결정하기 위해 환자를 조사할 것입니다."
+    },
+    {
+      "English": "exceed",
+      "Korean": "~을 초과하다",
+      "ExampleEng": "The cost of the repairs may exceed your budget.",
+      "ExampleKor": "수리 비용은 예산을 초과할 수 있습니다."
+    },
+    {
+      "English": "exception",
+      "Korean": "예외",
+      "ExampleEng": "She handled the difficult situation with grace and was an exception to the norm.",
+      "ExampleKor": "그녀는 어려운 상황을 우아하게 다뤘으며 일반적인 상황과는 예외였습니다."
+    },
+    {
+      "English": "exceptional",
+      "Korean": "예외적인",
+      "ExampleEng": "Her exceptional talent in music was recognized by many.",
+      "ExampleKor": "그녀의 음악에서의 예외적인 재능은 많은 사람들에게 인정받았습니다."
+    },
+    {
+      "English": "excess",
+      "Korean": "초과",
+      "ExampleEng": "Excess sugar consumption can lead to health problems.",
+      "ExampleKor": "과다한 설탕 섭취는 건강 문제를 일으킬 수 있습니다."
+    },
+    {
+      "English": "exclusively",
+      "Korean": "독점적으로, 오로지",
+      "ExampleEng": "This boutique sells exclusively handmade jewelry.",
+      "ExampleKor": "이 부티크는 수공예 보석만 판매합니다."
+    },
+    {
+      "English": "execute",
+      "Korean": "실행하다",
+      "ExampleEng": "The team will execute the project plan as soon as it's approved.",
+      "ExampleKor": "팀은 프로젝트 계획을 승인하면 즉시 실행할 것입니다."
+    },
+    {
+      "English": "exhibition",
+      "Korean": "전시회",
+      "ExampleEng": "The art exhibition featured works from renowned artists.",
+      "ExampleKor": "미술 전시회에는 유명한 아티스트의 작품이 전시되었습니다."
+    },
+    {
+      "English": "existing",
+      "Korean": "기존의, 현행의",
+      "ExampleEng": "The company plans to improve its existing products.",
+      "ExampleKor": "회사는 기존 제품을 개선하기 위한 계획을 세우고 있습니다."
+    },
+    {
+      "English": "exotic",
+      "Korean": "이국적인",
+      "ExampleEng": "They went on a vacation to an exotic island in the Caribbean.",
+      "ExampleKor": "그들은 카리브 해의 이국적인 섬으로 휴가를 다녀왔습니다."
+    },
+    {
+      "English": "expand",
+      "Korean": "확대하다",
+      "ExampleEng": "The company is looking to expand its market share.",
+      "ExampleKor": "회사는 시장 점유율을 확대하려고 합니다."
+    },
+    {
+      "English": "expansion",
+      "Korean": "확장",
+      "ExampleEng": "The expansion of the business led to increased profits.",
+      "ExampleKor": "사업의 확장으로 수익이 증가했습니다."
+    },
+    {
+      "English": "expect",
+      "Korean": "예상하다",
+      "ExampleEng": "I expect you to complete the assignment by Friday.",
+      "ExampleKor": "나는 당신이 금요일까지 과제를 완료하기를 기대합니다."
+    },
+    {
+      "English": "expectation",
+      "Korean": "예상, 기대",
+      "ExampleEng": "The expectation is that the stock prices will rise.",
+      "ExampleKor": "예상은 주가가 상승할 것으로 예상됩니다."
+    },
+    {
+      "English": "expenditure",
+      "Korean": "지출, 비용",
+      "ExampleEng": "The government's expenditure on healthcare has increased.",
+      "ExampleKor": "정부의 의료 지출은 증가하고 있습니다."
+    },
+    {
+      "English": "expense",
+      "Korean": "비용, 지출",
+      "ExampleEng": "Travel expenses can add up quickly during a vacation.",
+      "ExampleKor": "휴가 중 여행 비용이 빨리 누적될 수 있습니다."
+    },
+    {
+      "English": "experiment",
+      "Korean": "실험하다",
+      "ExampleEng": "Scientists conducted an experiment to test their hypothesis.",
+      "ExampleKor": "과학자들은 그들의 가설을 테스트하기 위해 실험을 수행했습니다."
+    },
+    {
+      "English": "expertise",
+      "Korean": "전문적 기술",
+      "ExampleEng": "Her expertise in computer programming was highly sought after.",
+      "ExampleKor": "그녀의 컴퓨터 프로그래밍 전문성은 많은 사람들에게 인기가 있었습니다."
+    },
+    {
+      "English": "expire",
+      "Korean": "(계약이)만기되다",
+      "ExampleEng": "The contract is set to expire at the end of the year.",
+      "ExampleKor": "계약은 연말에 만료될 예정입니다."
+    },
+    {
+      "English": "exploit",
+      "Korean": "착취하다",
+      "ExampleEng": "Some companies exploit their workers by paying low wages.",
+      "ExampleKor": "일부 기업은 낮은 임금을 지불하면서 노동자들을 착취합니다."
+    },
+    {
+      "English": "extended",
+      "Korean": "연장한",
+      "ExampleEng": "They enjoyed an extended vacation in Europe.",
+      "ExampleKor": "그들은 유럽에서 연장된 휴가를 즐겼습니다."
+    },
+    {
+      "English": "extensive",
+      "Korean": "광범위한",
+      "ExampleEng": "The library has an extensive collection of books on various topics.",
+      "ExampleKor": "도서관은 다양한 주제의 책을 광범위하게 보유하고 있습니다."
+    },
+    {
+      "English": "extinction",
+      "Korean": "멸종",
+      "ExampleEng": "The extinction of endangered species is a global concern.",
+      "ExampleKor": "멸종 위기에 처한 종의 멸종은 세계적인 문제입니다."
+    },
+    {
+      "English": "extremely",
+      "Korean": "극도로, 대단히",
+      "ExampleEng": "The weather became extremely hot during the summer.",
+      "ExampleKor": "여름에 날씨가 극도로 더워졌습니다."
+    },
+    {
+      "English": "fare",
+      "Korean": "요금",
+      "ExampleEng": "The taxi fare to the airport was more expensive than expected.",
+      "ExampleKor": "공항까지 택시 요금이 예상보다 더 비쌌습니다."
+    },
+    {
+      "English": "fascinating",
+      "Korean": "매혹적인",
+      "ExampleEng": "The documentary about ancient civilizations was truly fascinating.",
+      "ExampleKor": "고대 문명에 관한 다큐멘터리는 정말로 매혹적이었습니다."
+    },
+    {
+      "English": "favorably",
+      "Korean": "호의적으로",
+      "ExampleEng": "The product received favorably positive reviews from consumers.",
+      "ExampleKor": "제품은 소비자로부터 호의적인 리뷰를 받았습니다."
+    },
+    {
+      "English": "feasible",
+      "Korean": "실행 가능한",
+      "ExampleEng": "The proposed plan is feasible and can be implemented.",
+      "ExampleKor": "제안된 계획은 실행 가능하며 실행할 수 있습니다."
+    },
+    {
+      "English": "feature",
+      "Korean": "특징, 특색",
+      "ExampleEng": "The latest smartphone model has an impressive camera feature.",
+      "ExampleKor": "최신 스마트폰 모델에는 인상적인 카메라 기능이 있습니다."
+    },
+    {
+      "English": "feedback",
+      "Korean": "의견, 반응",
+      "ExampleEng": "We appreciate your feedback on our new website design.",
+      "ExampleKor": "우리는 새 웹사이트 디자인에 대한 여러분의 의견을 감사히 받습니다."
+    },
+    {
+      "English": "figure",
+      "Korean": "합계 수, 총액",
+      "ExampleEng": "Can you calculate the total figure for this month's expenses?",
+      "ExampleKor": "이번 달 지출 총액을 계산할 수 있나요?"
+    },
+    {
+      "English": "finally",
+      "Korean": "마침내",
+      "ExampleEng": "After years of hard work, he finally achieved his lifelong dream.",
+      "ExampleKor": "몇 년간의 노력 끝에 그는 마침내 자신의 평생 꿈을 이뤘습니다."
+    },
+    {
+      "English": "financial",
+      "Korean": "재정의",
+      "ExampleEng": "Proper financial planning is essential for a secure future.",
+      "ExampleKor": "안전한 미래를 위해 적절한 재정 계획이 중요합니다."
+    },
+    {
+      "English": "fix",
+      "Korean": "수리하다",
+      "ExampleEng": "We need to fix the leaky faucet in the bathroom.",
+      "ExampleKor": "우리는 욕실의 누수하는 수도꼭지를 고쳐야 합니다."
+    },
+    {
+      "English": "flavor",
+      "Korean": "맛",
+      "ExampleEng": "The ice cream parlor offers a wide variety of flavor options.",
+      "ExampleKor": "아이스크림 가게는 다양한 맛 옵션을 제공합니다."
+    },
+    {
+      "English": "flourish",
+      "Korean": "번창하다",
+      "ExampleEng": "The business began to flourish after the new marketing campaign.",
+      "ExampleKor": "새로운 마케팅 캠페인 이후 비즈니스가 번창하기 시작했습니다."
+    },
+    {
+      "English": "focus",
+      "Korean": "집중하다",
+      "ExampleEng": "It's important to focus on your goals and stay motivated.",
+      "ExampleKor": "목표에 집중하고 동기를 유지하는 것이 중요합니다."
+    },
+    {
+      "English": "following",
+      "Korean": "~후에",
+      "ExampleEng": "The meeting will take place on Monday, and the following one will be in two weeks.",
+      "ExampleKor": "회의는 월요일에 열리며 다음 회의는 두 주 뒤에 있을 것입니다."
+    },
+    {
+      "English": "forecast",
+      "Korean": "날씨 예보",
+      "ExampleEng": "The weather forecast predicts rain for the weekend.",
+      "ExampleKor": "날씨 예보에 따르면 주말에 비가 올 것으로 예상됩니다."
+    },
+    {
+      "English": "forfeit",
+      "Korean": "몰수당하다",
+      "ExampleEng": "If you break the rules, you may forfeit your right to participate.",
+      "ExampleKor": "규칙을 어기면 참가 권리를 몰수당할 수 있습니다."
+    },
+    {
+      "English": "fortify",
+      "Korean": "강화하다",
+      "ExampleEng": "The castle walls were fortified to withstand attacks.",
+      "ExampleKor": "성벽은 공격을 견디기 위해 강화되었습니다."
+    },
+    {
+      "English": "forward",
+      "Korean": "전진하다",
+      "ExampleEng": "Please forward this email to the appropriate department.",
+      "ExampleKor": "이 이메일을 적절한 부서로 전달해 주세요."
+    },
+    {
+      "English": "foster",
+      "Korean": "촉진하다",
+      "ExampleEng": "The organization aims to foster a sense of community among its members.",
+      "ExampleKor": "조직은 회원 간의 커뮤니티 의식을 촉진하려고 합니다."
+    },
+    {
+      "English": "foundation",
+      "Korean": "토대, 기초",
+      "ExampleEng": "Education is the foundation for personal and societal growth.",
+      "ExampleKor": "교육은 개인과 사회적 성장의 기초입니다."
+    },
+    {
+      "English": "fragile",
+      "Korean": "깨지기 쉬운",
+      "ExampleEng": "Handle the glassware with care, as it's fragile.",
+      "ExampleKor": "유리제품을 깨끗하게 다루세요. 유리는 쉽게 깨질 수 있습니다."
+    },
+    {
+      "English": "fraud",
+      "Korean": "사기",
+      "ExampleEng": "The company's internal investigation uncovered evidence of fraud.",
+      "ExampleKor": "회사의 내부 조사는 사기의 증거를 발견했습니다."
+    },
+    {
+      "English": "freshness",
+      "Korean": "신선함",
+      "ExampleEng": "The freshness of this ingredient enhances the flavor of the dish.",
+      "ExampleKor": "이 식재료의 신선함은 요리의 맛을 높입니다."
+    },
+    {
+      "English": "friction",
+      "Korean": "불화, 마찰",
+      "ExampleEng": "When friction arises within the team, it can lead to decreased work efficiency.",
+      "ExampleKor": "팀 내에서 불화가 발생하면 업무 효율이 떨어질 수 있습니다."
+    },
+    {
+      "English": "function",
+      "Korean": "작동하다",
+      "ExampleEng": "This smartphone functions perfectly in every aspect.",
+      "ExampleKor": "이 스마트폰은 모든 기능이 완벽하게 작동합니다."
+    },
+    {
+      "English": "fund",
+      "Korean": "자금을 조달하다",
+      "ExampleEng": "The process of funding this project was challenging.",
+      "ExampleKor": "이 프로젝트를 위한 자금을 조달하는 과정이 어려웠습니다."
+    },
+    {
+      "English": "furnished",
+      "Korean": "가구가 비취된",
+      "ExampleEng": "The apartment was furnished with all the necessary furniture for immediate occupancy.",
+      "ExampleKor": "그 아파트는 모든 가구가 비취되어 있어 즉시 입주할 수 있었습니다."
+    },
+    {
+      "English": "further",
+      "Korean": "그 이상의",
+      "ExampleEng": "For further information, please visit the website.",
+      "ExampleKor": "더 자세한 정보를 얻으려면 웹사이트를 방문하세요."
+    },
+    {
+      "English": "gauge",
+      "Korean": "측정하다",
+      "ExampleEng": "Use this thermometer to gauge the temperature accurately.",
+      "ExampleKor": "온도를 정확하게 측정하려면 이 온도계를 사용하세요."
+    },
+    {
+      "English": "generate",
+      "Korean": "창출하다",
+      "ExampleEng": "Solar power generation helps generate clean energy.",
+      "ExampleKor": "태양열 발전은 깨끗한 에너지를 생성합니다."
+    },
+    {
+      "English": "genuine",
+      "Korean": "진짜의",
+      "ExampleEng": "His genuine smile reflects true happiness.",
+      "ExampleKor": "그의 웃음은 진짜로 행복한 것을 보여줍니다."
+    },
+    {
+      "English": "go through",
+      "Korean": "(고난)겪다",
+      "ExampleEng": "Going through difficult times makes us stronger.",
+      "ExampleKor": "어려운 시간을 겪으면 우리는 더 강해집니다."
+    },
+    {
+      "English": "grant",
+      "Korean": "인정하다",
+      "ExampleEng": "The paper received significant grant recognition in the academic community.",
+      "ExampleKor": "그 논문은 학계에서 큰 인정을 받았습니다."
+    },
+    {
+      "English": "growth",
+      "Korean": "성장, 발전",
+      "ExampleEng": "Economic growth can create more job opportunities.",
+      "ExampleKor": "경제 성장은 취업 기회를 늘릴 수 있습니다."
+    },
+    {
+      "English": "guarantee",
+      "Korean": "보장하다",
+      "ExampleEng": "The product comes with a one-year guarantee.",
+      "ExampleKor": "제품에 대한 보증 기간은 1년입니다."
+    },
+    {
+      "English": "halt",
+      "Korean": "중단, 정지",
+      "ExampleEng": "The train came to a halt unexpectedly.",
+      "ExampleKor": "열차는 예고 없이 중지되었습니다."
+    },
+    {
+      "English": "handle",
+      "Korean": "다루다",
+      "ExampleEng": "It's essential to handle the situation with care.",
+      "ExampleKor": "신중하게 상황을 다뤄야 합니다."
+    },
+    {
+      "English": "hesitate",
+      "Korean": "주저하다",
+      "ExampleEng": "He didn't hesitate and made a decision after a moment.",
+      "ExampleKor": "그는 잠시 주저한 뒤에 결정을 내렸습니다."
+    },
+    {
+      "English": "hold",
+      "Korean": "~을 수용하다",
+      "ExampleEng": "This bag can hold an ample amount of luggage.",
+      "ExampleKor": "이 작은 가방은 충분한 수화물을 수용할 수 있습니다."
+    },
+    {
+      "English": "hospitality",
+      "Korean": "환대, 친절",
+      "ExampleEng": "The residents welcomed me with great hospitality.",
+      "ExampleKor": "그 도시의 주민들은 따뜻한 환대로 나를 맞이했습니다."
+    },
+    {
+      "English": "host",
+      "Korean": "(대회 등을)주최하다",
+      "ExampleEng": "The city hosted the event last week.",
+      "ExampleKor": "이 이벤트는 지난 주에 도시에서 개최되었습니다."
+    },
+    {
+      "English": "identification",
+      "Korean": "신분증명서",
+      "ExampleEng": "You can't enter without proper identification.",
+      "ExampleKor": "신분증명서를 소지하지 않으면 이곳에 입장할 수 없습니다."
+    },
+    {
+      "English": "illustrate",
+      "Korean": "설명하다",
+      "ExampleEng": "Using illustrations helps explain things better.",
+      "ExampleKor": "그림과 함께 설명하는 것이 이해를 돕는데 도움이 됩니다."
+    },
+    {
+      "English": "immune",
+      "Korean": "면역의",
+      "ExampleEng": "Vaccines enhance the immune system's response.",
+      "ExampleKor": "백신은 우리 몸의 면역체계를 강화할 수 있습니다."
+    },
+    {
+      "English": "impact",
+      "Korean": "충격, 영향",
+      "ExampleEng": "The impact of that event was significant on the community.",
+      "ExampleKor": "그 사건은 커뮤니티에 큰 영향을 미쳤습니다."
+    },
+    {
+      "English": "impartially",
+      "Korean": "공명정대하게",
+      "ExampleEng": "The judge handled the case impartially.",
+      "ExampleKor": "판사는 공명정대하게 사건을 처리했습니다."
+    },
+    {
+      "English": "impending",
+      "Korean": "임박한",
+      "ExampleEng": "Residents had to evacuate due to an impending storm.",
+      "ExampleKor": "임박한 폭풍우로 인해 주민들은 대피해야 했습니다."
+    },
+    {
+      "English": "imperative",
+      "Korean": "필수적인",
+      "ExampleEng": "Taking breaks is imperative for productivity.",
+      "ExampleKor": "시급한 문제를 해결하는 것은 필수적입니다."
+    },
+    {
+      "English": "implement",
+      "Korean": "실행하다",
+      "ExampleEng": "We need to implement a plan to execute the new policy.",
+      "ExampleKor": "새로운 정책을 실행하기 위한 계획을 갖추어야 합니다."
+    },
+    {
+      "English": "implication",
+      "Korean": "영향, 밀접한 관계",
+      "ExampleEng": "The decision has significant implications for the organization.",
+      "ExampleKor": "그 결정은 조직에 큰 영향을 미칠 것으로 생각됩니다."
+    },
+    {
+      "English": "impose",
+      "Korean": "부과하다",
+      "ExampleEng": "The government may impose new taxes on citizens.",
+      "ExampleKor": "새로운 세금을 부과하는 것은 시민들에게 부담을 줄 수 있습니다."
+    },
+    {
+      "English": "impression",
+      "Korean": "인상",
+      "ExampleEng": "His speech left a lasting impression on the audience.",
+      "ExampleKor": "그 회의에서 그의 지식과 경험이 큰 인상을 남겼습니다."
+    },
+    {
+      "English": "impressive",
+      "Korean": "인상적인",
+      "ExampleEng": "The view from the mountaintop was truly impressive.",
+      "ExampleKor": "그 성탄 트리는 정말로 인상적입니다."
+    },
+    {
+      "English": "improve",
+      "Korean": "향상시키다",
+      "ExampleEng": "Regular practice can improve your skills.",
+      "ExampleKor": "노력과 연습을 통해 스킬을 향상시킬 수 있습니다."
+    },
+    {
+      "English": "in common",
+      "Korean": "공동으로",
+      "ExampleEng": "We have many interests in common.",
+      "ExampleKor": "우리는 많은 관심사를 공유합니다."
+    },
+    {
+      "English": "inaccurate",
+      "Korean": "부정확한",
+      "ExampleEng": "The report contains inaccurate information.",
+      "ExampleKor": "그 보고서는 부정확한 정보를 포함하고 있습니다."
+    },
+    {
+      "English": "inaugurate",
+      "Korean": "~을 개시하다",
+      "ExampleEng": "The inauguration of the new president will take place next week.",
+      "ExampleKor": "새로운 대통령은 다음 주에 취임식을 개최할 예정입니다."
+    },
+    {
+      "English": "incentive",
+      "Korean": "혜택, 장려금",
+      "ExampleEng": "Performance bonuses provide employees with extra incentives.",
+      "ExampleKor": "성과에 대한 장려금은 직원들의 동기부여에 도움이 됩니다."
+    },
+    {
+      "English": "incidental",
+      "Korean": "부수적인",
+      "ExampleEng": "The issue you mentioned is an incidental concern.",
+      "ExampleKor": "그 문제는 우리 주요 목표와는 관련이 없는 부수적인 문제입니다."
+    },
+    {
+      "English": "inclement",
+      "Korean": "날씨가 궂은",
+      "ExampleEng": "It's best to stay indoors during inclement weather.",
+      "ExampleKor": "날씨가 궂은 날에는 집에서 안전하게 머물기를 권장합니다."
+    },
+    {
+      "English": "include",
+      "Korean": "포함하다",
+      "ExampleEng": "The package includes the following items.",
+      "ExampleKor": "패키지에는 다음을 포함합니다."
+    },
+    {
+      "English": "incompetent",
+      "Korean": "무능한",
+      "ExampleEng": "Incompetent management led to the project's failure.",
+      "ExampleKor": "그 프로젝트는 무능한 관리로 인해 실패했습니다."
+    },
+    {
+      "English": "inconsistency",
+      "Korean": "불일치",
+      "ExampleEng": "There is an inconsistency between the two documents.",
+      "ExampleKor": "그 두 문서 사이에 불일치가 있습니다."
+    },
+    {
+      "English": "inconvenience",
+      "Korean": "불편",
+      "ExampleEng": "I apologize for any inconvenience this may have caused.",
+      "ExampleKor": "이 문제로 인해 불편함을 느끼게 되었습니다."
+    },
+    {
+      "English": "incorrect",
+      "Korean": "부정확한",
+      "ExampleEng": "The incorrect information in the report led to misunderstandings.",
+      "ExampleKor": "그 정보는 부정확해서 오해를 불러일으켰다."
+    },
+    {
+      "English": "increase",
+      "Korean": "증가하다",
+      "ExampleEng": "Sales have been increasing recently.",
+      "ExampleKor": "판매량이 최근에 증가하고 있습니다."
+    },
+    {
+      "English": "increasingly",
+      "Korean": "점점 더",
+      "ExampleEng": "Natural disasters are becoming increasingly common due to climate change.",
+      "ExampleKor": "기후 변화로 인해 자연재해가 점점 더 빈번해지고 있습니다."
+    },
+    {
+      "English": "independent",
+      "Korean": "독립의",
+      "ExampleEng": "The company conducts independent research.",
+      "ExampleKor": "그 회사는 독립적인 연구를 진행하고 있습니다."
+    },
+    {
+      "English": "indicate",
+      "Korean": "나타나다",
+      "ExampleEng": "The graph indicates a clear rise in profits.",
+      "ExampleKor": "그래프는 수익의 상승을 명확하게 나타냅니다."
+    },
+    {
+      "English": "indication",
+      "Korean": "징후, 조짐",
+      "ExampleEng": "His anxious expression was an indication of a problem.",
+      "ExampleKor": "그의 불안한 표정은 어떤 문제가 있는지를 나타냈습니다."
+    },
+    {
+      "English": "indicator",
+      "Korean": "지표, 지수",
+      "ExampleEng": "Economic indicators help evaluate the health of the economy.",
+      "ExampleKor": "경제 지표는 경제 건강 상태를 평가하는 데 도움이 됩니다."
+    },
+    {
+      "English": "indigenous",
+      "Korean": "지역 고유의",
+      "ExampleEng": "It's essential to respect indigenous cultures in this region.",
+      "ExampleKor": "이 지역의 원주민 문화를 존중해야 합니다."
+    },
+    {
+      "English": "induce",
+      "Korean": "유발하다",
+      "ExampleEng": "Some foods may induce sleep due to their ingredients.",
+      "ExampleKor": "이 음식은 잠을 유발할 수 있는 성분을 포함하고 있습니다."
+    },
+    {
+      "English": "indulge",
+      "Korean": "탐닉하다",
+      "ExampleEng": "It's okay to indulge in something sweet from time to time.",
+      "ExampleKor": "가끔은 스스로를 더욱 달콤한 것으로 탐닉해도 괜찮습니다."
+    },
+    {
+      "English": "industrial",
+      "Korean": "산업의",
+      "ExampleEng": "The region is known for its industrial development.",
+      "ExampleKor": "이 지역은 산업 발전이 빠르게 이루어지고 있습니다."
+    },
+    {
+      "English": "inevitable",
+      "Korean": "불가피한",
+      "ExampleEng": "Change is inevitable, and we must prepare for it.",
+      "ExampleKor": "변화는 불가피하며 우리는 그에 대비해야 합니다."
+    },
+    {
+      "English": "inflict",
+      "Korean": "피해를 입히다",
+      "ExampleEng": "His actions inflicted harm on others, and he regrets it.",
+      "ExampleKor": "그 사건으로 상대방에게 상처를 입힌 것을 후회하고 있습니다."
+    },
+    {
+      "English": "influence",
+      "Korean": "~에 영향을 주다",
+      "ExampleEng": "Family can have a significant influence on our lives.",
+      "ExampleKor": "가족은 우리 삶에 큰 영향을 미칩니다."
+    },
+    {
+      "English": "inform",
+      "Korean": "~에게 알리다",
+      "ExampleEng": "Please inform all participants of the schedule changes.",
+      "ExampleKor": "일정 변경 사항을 모든 참가자에게 알려드리겠습니다."
+    },
+    {
+      "English": "information",
+      "Korean": "정보",
+      "ExampleEng": "This report provides valuable information.",
+      "ExampleKor": "이 보고서는 유용한 정보를 제공합니다."
+    },
+    {
+      "English": "informative",
+      "Korean": "유익한",
+      "ExampleEng": "The presentation was highly informative and interesting.",
+      "ExampleKor": "그 발표는 매우 유익하고 흥미로웠습니다."
+    },
+    {
+      "English": "inherently",
+      "Korean": "본질적으로",
+      "ExampleEng": "The issue is inherently complex.",
+      "ExampleKor": "이 문제는 본질적으로 복잡합니다."
+    },
+    {
+      "English": "initially",
+      "Korean": "처음에",
+      "ExampleEng": "Initially, you may face difficulties, but it gets easier over time.",
+      "ExampleKor": "처음에는 어려움을 겪을 수 있지만, 나중에는 더 쉬워집니다."
+    },
+    {
+      "English": "initiate",
+      "Korean": "시작(착수)하다",
+      "ExampleEng": "We plan to initiate a new project.",
+      "ExampleKor": "새로운 프로젝트를 시작하기 위한 계획을 세웠습니다."
+    },
+    {
+      "English": "innate",
+      "Korean": "타고난",
+      "ExampleEng": "His artistic talent is innate.",
+      "ExampleKor": "그의 예술적 재능은 그의 타고난 능력입니다."
+    },
+    {
+      "English": "innovative",
+      "Korean": "혁신적인",
+      "ExampleEng": "This company is known for its innovative products.",
+      "ExampleKor": "이 회사는 항상 혁신적인 제품을 개발합니다."
+    },
+    {
+      "English": "inquire",
+      "Korean": "질문하다",
+      "ExampleEng": "Feel free to inquire if you need additional information.",
+      "ExampleKor": "추가 정보가 필요하면 언제든지 질문하세요."
+    },
+    {
+      "English": "insecure",
+      "Korean": "불안한",
+      "ExampleEng": "He felt insecure due to a lack of confidence.",
+      "ExampleKor": "그는 자신감이 부족해 불안한 상태였습니다."
+    },
+    {
+      "English": "insert",
+      "Korean": "삽입하다",
+      "ExampleEng": "Insert a picture to illustrate the content better.",
+      "ExampleKor": "문서에 그림을 삽입하여 내용을 더 잘 설명할 수 있습니다."
+    },
+    {
+      "English": "inspect",
+      "Korean": "검사하다",
+      "ExampleEng": "Regularly inspect the products to ensure quality.",
+      "ExampleKor": "제품을 정기적으로 검사하여 품질을 확인합니다."
+    },
+    {
+      "English": "inspiration",
+      "Korean": "영감",
+      "ExampleEng": "Nature often serves as an inspiration for art.",
+      "ExampleKor": "그 작품은 자연에서 영감을 받아 만들었습니다."
+    },
+    {
+      "English": "install",
+      "Korean": "설치하다",
+      "ExampleEng": "Follow the instructions to install the software.",
+      "ExampleKor": "소프트웨어를 설치하는 방법은 매우 간단합니다."
+    },
+    {
+      "English": "installment",
+      "Korean": "할부",
+      "ExampleEng": "You can buy the product in monthly installments.",
+      "ExampleKor": "제품을 할부로 구입할 수 있는 옵션이 있습니다."
+    },
+    {
+      "English": "instantly",
+      "Korean": "즉각적으로",
+      "ExampleEng": "She replied instantly upon receiving the message.",
+      "ExampleKor": "그 메시지를 받자마자 그녀는 답장을 보냈습니다."
+    },
+    {
+      "English": "instead of",
+      "Korean": "~대신에",
+      "ExampleEng": "Try tea instead of coffee, it might be better for you.",
+      "ExampleKor": "커피 대신에 차를 마시는 것이 좋을 것 같아요."
+    },
+    {
+      "English": "instruct",
+      "Korean": "가르치다",
+      "ExampleEng": "He instructs students in an effective way.",
+      "ExampleKor": "그 선생님은 수학을 가르치는 방법이 매우 효과적입니다."
+    },
+    {
+      "English": "insulation",
+      "Korean": "단열재",
+      "ExampleEng": "Insulation helps control temperature.",
+      "ExampleKor": "단열재는 온도 조절에 도움이 됩니다."
+    },
+    {
+      "English": "insurance",
+      "Korean": "보험",
+      "ExampleEng": "Car insurance can be a great help in accidents.",
+      "ExampleKor": "자동차 보험은 사고 발생 시 큰 도움이 됩니다."
+    },
+    {
+      "English": "intention",
+      "Korean": "의도",
+      "ExampleEng": "His intention was good, but the outcome was different.",
+      "ExampleKor": "그의 의도는 좋은 것이었지만 결과는 그렇지 않았습니다."
+    },
+    {
+      "English": "interfere",
+      "Korean": "방해하다",
+      "ExampleEng": "External factors can interfere with our work.",
+      "ExampleKor": "외부 요소로 인해 작업에 방해가 되었습니다."
+    },
+    {
+      "English": "interpretation",
+      "Korean": "해석, 설명",
+      "ExampleEng": "The poem has various interpretations.",
+      "ExampleKor": "이 시는 다양한 해석이 가능합니다."
+    },
+    {
+      "English": "interruption",
+      "Korean": "방해, 중단",
+      "ExampleEng": "An interruption occurred during the meeting.",
+      "ExampleKor": "회의 중에 중요한 중단이 발생했습니다."
+    },
+    {
+      "English": "intervention",
+      "Korean": "간섭",
+      "ExampleEng": "A free market should operate without government intervention.",
+      "ExampleKor": "정부의 간섭 없이 시장이 자유롭게 운영되어야 합니다."
+    },
+    {
+      "English": "introduce",
+      "Korean": "소개(도입)하다",
+      "ExampleEng": "They plan to introduce a new product to the market.",
+      "ExampleKor": "새로운 제품을 시장에 소개하는 계획이 있습니다."
+    },
+    {
+      "English": "inventory",
+      "Korean": "재고품",
+      "ExampleEng": "The warehouse stores various inventory items.",
+      "ExampleKor": "창고에는 다양한 재고품이 보관되어 있습니다."
+    },
+    {
+      "English": "investigation",
+      "Korean": "조사",
+      "ExampleEng": "The investigation into the incident is ongoing.",
+      "ExampleKor": "사건의 조사가 아직 진행 중입니다."
+    },
+    {
+      "English": "investor",
+      "Korean": "투자자",
+      "ExampleEng": "Investors have high expectations for this project.",
+      "ExampleKor": "투자자들은 이 프로젝트에 큰 기대를 가지고 있습니다."
+    },
+    {
+      "English": "invoice",
+      "Korean": "송장",
+      "ExampleEng": "The invoice reminds you that the payment deadline is approaching.",
+      "ExampleKor": "이 송장은 결제 기한이 다가왔음을 알려줍니다."
+    },
+    {
+      "English": "involved",
+      "Korean": "관계된",
+      "ExampleEng": "All parties involved need to cooperate in this matter.",
+      "ExampleKor": "그 사건에 관련된 모든 당사자가 협력해야 합니다."
+    },
+    {
+      "English": "irrelevant",
+      "Korean": "무관한",
+      "ExampleEng": "The discussion seemed irrelevant to the current situation.",
+      "ExampleKor": "그 논의는 현재 상황과 무관한 것으로 판단됩니다."
+    },
+    {
+      "English": "issue",
+      "Korean": "발행하다",
+      "ExampleEng": "The book will issue this week.",
+      "ExampleKor": "새로운 책이 이번 주에 발행되었습니다."
+    },
+    {
+      "English": "itinerary",
+      "Korean": "여행 일정",
+      "ExampleEng": "Check your itinerary to plan for next week's activities.",
+      "ExampleKor": "여행 일정을 확인하여 다음 주 동안의 계획을 세워보세요."
+    },
+    {
+      "English": "justify",
+      "Korean": "정당화하다",
+      "ExampleEng": "It's challenging to justify his actions in that situation.",
+      "ExampleKor": "그의 행동을 정당화하기 어려운 상황이었습니다."
+    },
+    {
+      "English": "labor",
+      "Korean": "노동",
+      "ExampleEng": "Labor conditions need improvement.",
+      "ExampleKor": "노동 조건을 개선하기 위한 노력이 필요합니다."
+    },
+    {
+      "English": "largely",
+      "Korean": "주로, 대부분",
+      "ExampleEng": "This issue affects largely everyone.",
+      "ExampleKor": "이 문제는 대부분의 사람들에게 영향을 미칩니다."
+    },
+    {
+      "English": "lately",
+      "Korean": "최근에",
+      "ExampleEng": "He developed a new hobby lately.",
+      "ExampleKor": "그는 최근에 새로운 취미를 찾았습니다."
+    },
+    {
+      "English": "launch",
+      "Korean": "(신제품을) 출시하다",
+      "ExampleEng": "The company successfully launched the new product.",
+      "ExampleKor": "신제품을 성공적으로 출시하였습니다."
+    },
+    {
+      "English": "laundry",
+      "Korean": "세탁물",
+      "ExampleEng": "Take your laundry to the laundromat.",
+      "ExampleKor": "세탁물을 빨래방으로 가져가야 합니다."
+    },
+    {
+      "English": "leave",
+      "Korean": "떠나다",
+      "ExampleEng": "He left for an extended vacation to enjoy some time off.",
+      "ExampleKor": "그는 긴 휴가를 즐기기 위해 일을 떠났습니다."
+    },
+    {
+      "English": "lecture",
+      "Korean": "강의",
+      "ExampleEng": "The professor's lectures were always informative and engaging.",
+      "ExampleKor": "교수님의 강의는 항상 유익하고 흥미로웠습니다."
+    },
+    {
+      "English": "legacy",
+      "Korean": "유산, 유물",
+      "ExampleEng": "Preserving the city's historical legacy is essential.",
+      "ExampleKor": "그 도시의 역사적 유산을 보존하는 것이 중요합니다."
+    },
+    {
+      "English": "legislation",
+      "Korean": "법률",
+      "ExampleEng": "New legislation is now in effect.",
+      "ExampleKor": "새로운 법률이 이제 시행됩니다."
+    },
+    {
+      "English": "legitimate",
+      "Korean": "합법적인",
+      "ExampleEng": "Make sure the website is legitimate before entering your personal information.",
+      "ExampleKor": "개인 정보를 입력하기 전에 웹사이트가 정품인지 확인하세요."
+    },
+    {
+      "English": "lend",
+      "Korean": "빌려주다",
+      "ExampleEng": "Can you lend me some money until I get paid?",
+      "ExampleKor": "저에게 다음 급여날까지 돈을 빌려주실 수 있나요?"
+    },
+    {
+      "English": "lessen",
+      "Korean": "줄이다",
+      "ExampleEng": "Regular exercise can lessen the risk of heart disease.",
+      "ExampleKor": "규칙적인 운동은 심장 질환의 위험을 줄일 수 있습니다."
+    },
+    {
+      "English": "level",
+      "Korean": "지위, 수준",
+      "ExampleEng": "We need to maintain a high level of quality in our work.",
+      "ExampleKor": "우리는 작업의 고품질을 유지해야 합니다."
+    },
+    {
+      "English": "liability",
+      "Korean": "책임, 부채",
+      "ExampleEng": "The company is not liable for any damages caused by misuse of the product.",
+      "ExampleKor": "제품의 오용으로 인한 손해에 회사는 책임이 없습니다."
+    },
+    {
+      "English": "liable",
+      "Korean": "책임져야 할, ~하기 쉬운",
+      "ExampleEng": "He is liable for the damage he caused to the property.",
+      "ExampleKor": "그는 부동산에 일으킨 피해에 대한 책임이 있습니다."
+    },
+    {
+      "English": "litigation",
+      "Korean": "소송, 기소",
+      "ExampleEng": "The litigation process can be lengthy and expensive.",
+      "ExampleKor": "소송 절차는 길고 비용이 많이 들 수 있습니다."
+    },
+    {
+      "English": "loan",
+      "Korean": "대부, 대부금",
+      "ExampleEng": "She took out a loan to buy a new car.",
+      "ExampleKor": "그녀는 새 차를 사기 위해 대출을 받았습니다."
+    },
+    {
+      "English": "local",
+      "Korean": "지방의",
+      "ExampleEng": "Let's support local businesses by shopping at the neighborhood stores.",
+      "ExampleKor": "지역 상점에서 쇼핑을 통해 지역 사업체를 지원합시다."
+    },
+    {
+      "English": "locate",
+      "Korean": "~을 위치시키다",
+      "ExampleEng": "I need to locate the nearest hospital as quickly as possible.",
+      "ExampleKor": "제가 최대한 빨리 가까운 병원의 위치를 찾아야 합니다."
+    },
+    {
+      "English": "location",
+      "Korean": "장소, 위치",
+      "ExampleEng": "The location of the new office is convenient for employees.",
+      "ExampleKor": "새 사무실의 위치는 직원들에게 편리합니다."
+    },
+    {
+      "English": "lower",
+      "Korean": "(가격을)줄이다",
+      "ExampleEng": "They decided to lower the prices to attract more customers.",
+      "ExampleKor": "그들은 더 낮은 가격으로 더 많은 고객을 유치하기로 결정했습니다."
+    },
+    {
+      "English": "majority",
+      "Korean": "대부분",
+      "ExampleEng": "The majority of the students voted in favor of the new policy.",
+      "ExampleKor": "대다수의 학생들이 새로운 정책에 찬성표를 던졌습니다."
+    },
+    {
+      "English": "make sure",
+      "Korean": "확인하다",
+      "ExampleEng": "Make sure to lock the door when you leave the house.",
+      "ExampleKor": "집을 나갈 때 문을 잠그는 것을 잊지 마세요."
+    },
+    {
+      "English": "make up for",
+      "Korean": "~을 만회하다",
+      "ExampleEng": "He wanted to make up for his mistake by apologizing.",
+      "ExampleKor": "그는 자신의 실수를 사과로 보상하고 싶었습니다."
+    },
+    {
+      "English": "malfunction",
+      "Korean": "오작동",
+      "ExampleEng": "The computer malfunctioned",
+      "ExampleKor": "컴퓨터가 고장났습니다."
+    },
+    {
+      "English": "manipulation",
+      "Korean": "조작, 시장조작",
+      "ExampleEng": "The media accused the politician of manipulation to gain votes.",
+      "ExampleKor": "미디어가 정치인이 투표를 얻기 위해 조작했다고 비난했습니다."
+    },
+    {
+      "English": "manufacturer",
+      "Korean": "제조업자",
+      "ExampleEng": "The car manufacturer is known for producing reliable vehicles.",
+      "ExampleKor": "자동차 제조업체는 신뢰할 수 있는 차량을 생산하는 것으로 알려져 있습니다."
+    },
+    {
+      "English": "material",
+      "Korean": "재료, 물질",
+      "ExampleEng": "The dress is made of high-quality material.",
+      "ExampleKor": "그 드레스는 고품질 소재로 만들어졌습니다."
+    },
+    {
+      "English": "means",
+      "Korean": "방법, 수단",
+      "ExampleEng": "Education is a means to achieve personal and professional growth.",
+      "ExampleKor": "교육은 개인 및 전문적인 성장을 실현하기 위한 수단입니다."
+    },
+    {
+      "English": "meet",
+      "Korean": "만족시키다",
+      "ExampleEng": "Let's meet at the coffee shop at 3 PM.",
+      "ExampleKor": "오후 3시에 커피숍에서 만나요."
+    },
+    {
+      "English": "merchandise",
+      "Korean": "상품",
+      "ExampleEng": "The store offers a wide range of merchandise.",
+      "ExampleKor": "가게는 다양한 상품을 제공합니다."
+    },
+    {
+      "English": "merge",
+      "Korean": "합병하다",
+      "ExampleEng": "The two companies decided to merge and expand their operations.",
+      "ExampleKor": "두 회사는 합병하여 사업 확장을 결정했습니다."
+    },
+    {
+      "English": "method",
+      "Korean": "방법",
+      "ExampleEng": "She has a unique teaching method that engages students.",
+      "ExampleKor": "그녀는 학생들을 참여시키는 독특한 교수법을 가지고 있습니다."
+    },
+    {
+      "English": "migration",
+      "Korean": "이주",
+      "ExampleEng": "Bird migration is a fascinating natural phenomenon.",
+      "ExampleKor": "새빈도가 매우 흥미로운 자연 현상입니다."
+    },
+    {
+      "English": "mistakenly",
+      "Korean": "잘못되게",
+      "ExampleEng": "I mistakenly deleted the important email.",
+      "ExampleKor": "나는 어제 실수로 중요한 이메일을 삭제했습니다."
+    },
+    {
+      "English": "moderator",
+      "Korean": "중재자",
+      "ExampleEng": "The moderator ensured that the debate remained civil.",
+      "ExampleKor": "모더레이터는 토론이 민주적인 것으로 유지하도록 보장했습니다."
+    },
+    {
+      "English": "modestly",
+      "Korean": "겸손하게",
+      "ExampleEng": "She modestly accepted the compliment on her artwork.",
+      "ExampleKor": "그녀는 자신의 작품에 대한 칭찬을 겸손하게 받아 들였습니다."
+    },
+    {
+      "English": "modify",
+      "Korean": "수정하다",
+      "ExampleEng": "You can modify the settings to suit your preferences.",
+      "ExampleKor": "설정을 수정하여 선호도에 맞게 조정할 수 있습니다."
+    },
+    {
+      "English": "monetary",
+      "Korean": "금전의",
+      "ExampleEng": "The monetary value of the antique coin is significant.",
+      "ExampleKor": "그 고요한 동전의 통화 가치는 상당합니다."
+    },
+    {
+      "English": "monopoly",
+      "Korean": "(상품의) 독점",
+      "ExampleEng": "The company had a monopoly on the market for years.",
+      "ExampleKor": "이 회사는 여러 년 동안 시장을 독점했습니다."
+    },
+    {
+      "English": "morale",
+      "Korean": "사기",
+      "ExampleEng": "The team's victory boosted morale among the players.",
+      "ExampleKor": "팀의 승리는 선수들 사이의 사기를 높였습니다."
+    },
+    {
+      "English": "mortgage",
+      "Korean": "주택 융자",
+      "ExampleEng": "They took out a mortgage to buy their dream home.",
+      "ExampleKor": "그들은 꿈의 집을 사기 위해 모기지를 가졌습니다."
+    },
+    {
+      "English": "motivate",
+      "Korean": "동기를 부여하다",
+      "ExampleEng": "His success story is sure to motivate aspiring entrepreneurs.",
+      "ExampleKor": "그의 성공 스토리는 향후 기업가들을 동기부여할 것입니다."
+    },
+    {
+      "English": "mounting",
+      "Korean": "오르는",
+      "ExampleEng": "There is mounting evidence to support the theory.",
+      "ExampleKor": "해당 이론을 지원하기 위한 증거가 점점 더 증가하고 있습니다."
+    },
+    {
+      "English": "municipal",
+      "Korean": "지방자치의",
+      "ExampleEng": "The municipal government is responsible for local services.",
+      "ExampleKor": "지방 정부는 지역 서비스에 책임이 있습니다."
+    },
+    {
+      "English": "narrow",
+      "Korean": "좁히다",
+      "ExampleEng": "The narrow road was challenging to navigate.",
+      "ExampleKor": "좁은 도로는 항해하기 어려웠습니다."
+    },
+    {
+      "English": "necessarily",
+      "Korean": "반드시",
+      "ExampleEng": "Not all expensive products are necessarily of high quality.",
+      "ExampleKor": "비싼 제품이 모두 고품질은 아닙니다."
+    },
+    {
+      "English": "need",
+      "Korean": "필요, 요구",
+      "ExampleEng": "We need to address the urgent need for clean drinking water.",
+      "ExampleKor": "우리는 청결한 음용수의 긴급한 필요성을 다뤄야 합니다."
+    },
+    {
+      "English": "negotiation",
+      "Korean": "협상",
+      "ExampleEng": "The negotiation between the two parties lasted for hours.",
+      "ExampleKor": "두 당사자 간의 협상은 몇 시간 동안 계속되었습니다."
+    },
+    {
+      "English": "nomination",
+      "Korean": "지명, 임명",
+      "ExampleEng": "Her nomination for the award was well-deserved.",
+      "ExampleKor": "그녀의 상을 위한 후보 지명은 충분히 가치 있었습니다."
+    },
+    {
+      "English": "normal",
+      "Korean": "정상, 표준",
+      "ExampleEng": "Feeling a bit tired after a long day is normal.",
+      "ExampleKor": "긴 하루 끝에 조금 피곤한 느낌은 정상입니다."
+    },
+    {
+      "English": "note",
+      "Korean": "주목하다",
+      "ExampleEng": "Please take note of the important dates on the calendar.",
+      "ExampleKor": "캘린더에 중요한 날짜를 기록하세요."
+    },
+    {
+      "English": "notice",
+      "Korean": "통지",
+      "ExampleEng": "Did you notice the change in her behavior?",
+      "ExampleKor": "그녀의 행동 변화에 주목했나요?"
+    },
+    {
+      "English": "notification",
+      "Korean": "통지",
+      "ExampleEng": "You will receive a notification when your package is delivered.",
+      "ExampleKor": "귀하의 소포가 배송되면 알림을 받게 됩니다."
+    },
+    {
+      "English": "notify",
+      "Korean": "~에게 통지하다",
+      "ExampleEng": "Don't forget to notify me if there are any changes to the schedule.",
+      "ExampleKor": "일정에 변경 사항이 있는 경우 저에게 통보하지 않는 것을 잊지 마세요."
+    },
+    {
+      "English": "numerous",
+      "Korean": "많은",
+      "ExampleEng": "There are numerous reasons to visit the historical museum.",
+      "ExampleKor": "역사 박물관을 방문하는 여러 이유가 있습니다."
+    },
+    {
+      "English": "nutrition",
+      "Korean": "영양",
+      "ExampleEng": "Proper nutrition is essential for a healthy lifestyle.",
+      "ExampleKor": "건강한 라이프 스타일을 위해 적절한 영양이 필수입니다."
+    },
+    {
+      "English": "objective",
+      "Korean": "목적, 목표",
+      "ExampleEng": "Our objective is to achieve success through hard work.",
+      "ExampleKor": "우리의 목표는 노력을 통해 성공을 달성하는 것입니다."
+    },
+    {
+      "English": "observance",
+      "Korean": "준수",
+      "ExampleEng": "The observance of cultural traditions is important to many families.",
+      "ExampleKor": "문화적 전통을 준수하는 것은 많은 가족에게 중요합니다."
+    },
+    {
+      "English": "obsolete",
+      "Korean": "구식의",
+      "ExampleEng": "The old computer system became obsolete and was replaced.",
+      "ExampleKor": "오래된 컴퓨터 시스템은 사용되지 않게 되었고 대체되었습니다."
+    },
+    {
+      "English": "obtain",
+      "Korean": "얻다",
+      "ExampleEng": "It's important to obtain all the necessary permits.",
+      "ExampleKor": "필요한 모든 허가를 얻는 것이 중요합니다."
+    },
+    {
+      "English": "occasionally",
+      "Korean": "때때로",
+      "ExampleEng": "I like to treat myself to ice cream occasionally.",
+      "ExampleKor": "가끔 아이스크림을 즐기는 것을 좋아합니다."
+    },
+    {
+      "English": "occupancy",
+      "Korean": "(호텔 등의)이용률",
+      "ExampleEng": "The hotel's occupancy rate is high during the summer.",
+      "ExampleKor": "여름 동안 호텔의 점유율이 높습니다."
+    },
+    {
+      "English": "occupation",
+      "Korean": "직업",
+      "ExampleEng": "Her occupation as a nurse is both challenging and rewarding.",
+      "ExampleKor": "그녀의 직업인 간호사는 동시에 어렵고 보람 있습니다."
+    },
+    {
+      "English": "occur to",
+      "Korean": "발생하다",
+      "ExampleEng": "It didn't occur to me that you would be interested in joining.",
+      "ExampleKor": "당신이 가입하고 싶어하지 않을 거라고 생각하지 않았습니다."
+    },
+    {
+      "English": "offer",
+      "Korean": "제공하다",
+      "ExampleEng": "The company made a generous job offer to the candidate.",
+      "ExampleKor": "그 회사는 후보자에게 관대한 고용 제안을 했습니다."
+    },
+    {
+      "English": "officially",
+      "Korean": "공식적으로",
+      "ExampleEng": "The merger was officially announced in a press release.",
+      "ExampleKor": "합병은 보도자료로 공식 발표되었습니다."
+    },
+    {
+      "English": "offset",
+      "Korean": "상쇄하다",
+      "ExampleEng": "The savings from the energy-efficient lighting offset the initial cost.",
+      "ExampleKor": "에너지 효율적인 조명으로 인한 절약은 초기 비용을 상쇄시켰습니다."
+    },
+    {
+      "English": "on behalf of",
+      "Korean": "~을 대신해서",
+      "ExampleEng": "I'm writing this letter on behalf of the entire team.",
+      "ExampleKor": "저는 저희 팀 전체를 대표하여 이 편지를 씁니다."
+    },
+    {
+      "English": "operate",
+      "Korean": "작동하다",
+      "ExampleEng": "The machine is easy to operate with just a few buttons.",
+      "ExampleKor": "몇 개의 버튼만 누르면 이 기계를 쉽게 작동할 수 있습니다."
+    },
+    {
+      "English": "operational",
+      "Korean": "작동하는",
+      "ExampleEng": "The factory is now fully operational after the repairs.",
+      "ExampleKor": "공장은 수리 후 현재 완전히 운영 중입니다."
+    },
+    {
+      "English": "opponent",
+      "Korean": "반대자, 적수",
+      "ExampleEng": "He faced a tough opponent in the championship match.",
+      "ExampleKor": "그는 챔피언십 경기에서 강한 상대와 맞붙었습니다."
+    },
+    {
+      "English": "opportunity",
+      "Korean": "기회",
+      "ExampleEng": "Seizing this opportunity can lead to great success.",
+      "ExampleKor": "이 기회를 잡으면 큰 성공으로 이끌 수 있습니다."
+    },
+    {
+      "English": "opposing",
+      "Korean": "대립하는",
+      "ExampleEng": "The opposing teams displayed excellent sportsmanship.",
+      "ExampleKor": "상대 팀은 훌륭한 스포츠맨십을 보여 주었습니다."
+    },
+    {
+      "English": "opposition",
+      "Korean": "반대, 대항",
+      "ExampleEng": "The proposal faced strong opposition from the members.",
+      "ExampleKor": "이 제안은 회원들로부터 강한 반대를 받았습니다."
+    },
+    {
+      "English": "order",
+      "Korean": "주문하다",
+      "ExampleEng": "Please place an order for the office supplies.",
+      "ExampleKor": "사무용품을 주문하십시오."
+    },
+    {
+      "English": "organization",
+      "Korean": "단체",
+      "ExampleEng": "The charity organization helps those in need.",
+      "ExampleKor": "자선 기관은 필요한 사람들을 돕습니다."
+    },
+    {
+      "English": "organize",
+      "Korean": "조직하다",
+      "ExampleEng": "Let's organize a charity event to raise funds.",
+      "ExampleKor": "자금을 모으기 위해 자선 행사를 조직합시다."
+    },
+    {
+      "English": "outlook",
+      "Korean": "전망",
+      "ExampleEng": "Her positive outlook on life is truly inspiring.",
+      "ExampleKor": "그녀의 긍정적인 인생 관점은 정말로 영감적입니다."
+    },
+    {
+      "English": "outstanding",
+      "Korean": "우수한",
+      "ExampleEng": "The outstanding performance of the actor received rave reviews.",
+      "ExampleKor": "그 배우의 훌륭한 연기는 찬사를 받았습니다."
+    },
+    {
+      "English": "overall",
+      "Korean": "전반적인",
+      "ExampleEng": "The overall quality of the product is excellent.",
+      "ExampleKor": "제품의 전체 품질은 훌륭합니다."
+    },
+    {
+      "English": "overcome",
+      "Korean": "극복하다",
+      "ExampleEng": "She worked hard to overcome her fear of public speaking and delivered a confident presentation.",
+      "ExampleKor": "그녀는 공개 연설에서 자신감 넘치는 발표를 했습니다."
+    },
+    {
+      "English": "overdue",
+      "Korean": "미납의",
+      "ExampleEng": "My library books are overdue, and I need to return them to avoid late fees.",
+      "ExampleKor": "나의 도서관 도서는 연체되어 있으며 연체료를 피하기 위해 반납해야 합니다."
+    },
+    {
+      "English": "oversee",
+      "Korean": "감독하다",
+      "ExampleEng": "He was appointed to oversee the construction project.",
+      "ExampleKor": "그는 건설 프로젝트를 감독하기 위해 임명되었습니다."
+    },
+    {
+      "English": "participant",
+      "Korean": "참가자",
+      "ExampleEng": "Each participant will receive a certificate of completion.",
+      "ExampleKor": "각 참가자는 완료증을 받게 됩니다."
+    },
+    {
+      "English": "participation",
+      "Korean": "참여, 참가",
+      "ExampleEng": "Active participation in class discussions is encouraged.",
+      "ExampleKor": "수업 토론에 적극적으로 참여하는 것이 권장됩니다."
+    },
+    {
+      "English": "particularly",
+      "Korean": "특히",
+      "ExampleEng": "I enjoy hiking, particularly in the mountains, where I can experience the beauty of nature up close.",
+      "ExampleKor": "나는 등산을 즐기는데, 특히 산에서 자연의 아름다움을 가까이서 느낄 수 있습니다."
+    },
+    {
+      "English": "patent",
+      "Korean": "특허권",
+      "ExampleEng": "The inventor filed a patent for the groundbreaking technology.",
+      "ExampleKor": "그 발명가는 혁신적인 기술에 대한 특허를 출원했습니다."
+    },
+    {
+      "English": "payable",
+      "Korean": "지불해야 하는",
+      "ExampleEng": "The invoice is payable within 30 days of receipt.",
+      "ExampleKor": "송장은 수령 후 30일 이내에 지불되어야 합니다."
+    },
+    {
+      "English": "paycheck",
+      "Korean": "급료, 지불",
+      "ExampleEng": "He eagerly awaited his monthly paycheck.",
+      "ExampleKor": "그는 월급날을 열심히 기다리고 있었습니다."
+    },
+    {
+      "English": "payroll",
+      "Korean": "급료명부",
+      "ExampleEng": "The company processes its payroll on the last day of the month.",
+      "ExampleKor": "회사는 매월 마지막 날에 급여를 처리합니다."
+    },
+    {
+      "English": "perception",
+      "Korean": "인식, 지각",
+      "ExampleEng": "Perception of beauty varies from culture to culture.",
+      "ExampleKor": "미의 관점은 문화에 따라 다릅니다."
+    },
+    {
+      "English": "performance",
+      "Korean": "성과, 연기",
+      "ExampleEng": "Her performance in the play received a standing ovation.",
+      "ExampleKor": "그녀는 연극에서의 연기에 박수를 받았습니다."
+    },
+    {
+      "English": "periodical",
+      "Korean": "정기 간행물",
+      "ExampleEng": "I subscribe to a periodical that covers the latest fashion trends.",
+      "ExampleKor": "나는 최신 패션 트렌드를 다루는 주기간간지에 가입합니다."
+    },
+    {
+      "English": "permanent",
+      "Korean": "영구적인",
+      "ExampleEng": "She secured a permanent position at the company.",
+      "ExampleKor": "그녀는 회사에서 영구적인 위치를 확보했습니다."
+    },
+    {
+      "English": "permit",
+      "Korean": "허락하다",
+      "ExampleEng": "You need a permit to build a new structure on your property.",
+      "ExampleKor": "부동산에 새 구조물을 건설하려면 허가가 필요합니다."
+    },
+    {
+      "English": "persistent",
+      "Korean": "계속되는",
+      "ExampleEng": "His persistent efforts finally paid off.",
+      "ExampleKor": "그의 끈질긴 노력은 마침내 결과를 얻었습니다."
+    },
+    {
+      "English": "personnel",
+      "Korean": "직원, 인원",
+      "ExampleEng": "The company is hiring new personnel for the expansion.",
+      "ExampleKor": "회사는 확장을 위해 새로운 인력을 고용하고 있습니다."
+    },
+    {
+      "English": "persuasive",
+      "Korean": "설득력 있는",
+      "ExampleEng": "Her persuasive argument swayed the jury in her favor.",
+      "ExampleKor": "그녀의 설득력 있는 주장은 배심원단을 그녀의 편으로 끌었습니다."
+    },
+    {
+      "English": "petition",
+      "Korean": "진정서",
+      "ExampleEng": "They started a petition to address the community's concerns.",
+      "ExampleKor": "그들은 지역 커뮤니티의 우려를 해소하기 위해 청원을 시작했습니다."
+    },
+    {
+      "English": "policy",
+      "Korean": "규정, 보험증권",
+      "ExampleEng": "The company's policy promotes a healthy work-life balance.",
+      "ExampleKor": "회사의 정책은 건강한 업무와 생활 균형을 장려합니다."
+    },
+    {
+      "English": "politely",
+      "Korean": "정중하게",
+      "ExampleEng": "She politely declined the invitation due to a prior commitment.",
+      "ExampleKor": "그녀는 이전의 예약 때문에 초대를 공손히 거절했습니다."
+    },
+    {
+      "English": "pollutant",
+      "Korean": "오염물질",
+      "ExampleEng": "Air pollution is caused by various pollutants in the atmosphere.",
+      "ExampleKor": "대기 중 다양한 오염물질로 인해 대기 오염이 발생합니다."
+    },
+    {
+      "English": "popular",
+      "Korean": "인기 있는",
+      "ExampleEng": "The new restaurant has become quite popular in the neighborhood.",
+      "ExampleKor": "새로운 음식점이 동네에서 꽤 인기가 있어졌습니다."
+    },
+    {
+      "English": "possible",
+      "Korean": "가능한",
+      "ExampleEng": "Anything is possible with hard work and determination.",
+      "ExampleKor": "노력과 결단력이 있다면 어떤 것이든 가능합니다."
+    },
+    {
+      "English": "postage",
+      "Korean": "우편요금",
+      "ExampleEng": "The postage for shipping the package was quite expensive.",
+      "ExampleKor": "패키지 배송 용속료가 상당히 비싸다."
+    },
+    {
+      "English": "praise",
+      "Korean": "칭찬",
+      "ExampleEng": "He received praise for his outstanding achievements.",
+      "ExampleKor": "그는 뛰어난 성과를 인정받았습니다."
+    },
+    {
+      "English": "precaution",
+      "Korean": "예방 조치",
+      "ExampleEng": "She took the precaution of wearing sunscreen and a wide-brimmed hat to protect her skin from the strong sun during the outdoor event.",
+      "ExampleKor": "야외 행사 중 강한 햇빛으로부터 피부를 보호하기 위해 선크림과 넓은 모자를 착용하는 예방 조치를 했습니다."
+    },
+    {
+      "English": "predict",
+      "Korean": "예측하다",
+      "ExampleEng": "It's difficult to predict the outcome of the election.",
+      "ExampleKor": "선거 결과를 예측하기 어렵습니다."
+    },
+    {
+      "English": "preferred",
+      "Korean": "선호되는",
+      "ExampleEng": "Her preferred method of communication is email.",
+      "ExampleKor": "그녀의 선호하는 의사 소통 방법은 이메일입니다."
+    },
+    {
+      "English": "premises",
+      "Korean": "토지가 딸린 건물",
+      "ExampleEng": "Smoking is not allowed on these premises.",
+      "ExampleKor": "이 곳에서는 흡연이 허용되지 않습니다."
+    },
+    {
+      "English": "prescribe",
+      "Korean": "처방하다",
+      "ExampleEng": "The doctor will prescribe medication for your illness.",
+      "ExampleKor": "의사는 당신의 질병에 대해 약을 처방할 것입니다."
+    },
+    {
+      "English": "present",
+      "Korean": "제시(발표)하다",
+      "ExampleEng": "He will present the findings of the research at the conference.",
+      "ExampleKor": "그는 연구 결과를 회의에서 발표할 것입니다."
+    },
+    {
+      "English": "presumably",
+      "Korean": "아마, 생각컨대",
+      "ExampleEng": "Presumably, the delay in the delivery of our package is due to the recent snowstorm in the area.",
+      "ExampleKor": "아마도 우리 패키지 배송 지연은 최근 지역 눈보라 때문일 것입니다."
+    },
+    {
+      "English": "prevalent",
+      "Korean": "널리 퍼진",
+      "ExampleEng": "The flu is prevalent during the winter months.",
+      "ExampleKor": "감기는 겨울 동안에 유행합니다."
+    },
+    {
+      "English": "prevent",
+      "Korean": "~을 막다",
+      "ExampleEng": "Regular exercise can help prevent many health problems.",
+      "ExampleKor": "정기적인 운동은 많은 건강 문제를 예방하는 데 도움이 될 수 있습니다."
+    },
+    {
+      "English": "prevention",
+      "Korean": "예방",
+      "ExampleEng": "Prevention is the best way to avoid accidents.",
+      "ExampleKor": "사고를 피하기 위한 최선의 방법은 예방입니다."
+    },
+    {
+      "English": "previously",
+      "Korean": "이전에",
+      "ExampleEng": "I have met him previously at a conference.",
+      "ExampleKor": "나는 그를 이전에 회의에서 만났습니다."
+    },
+    {
+      "English": "principal",
+      "Korean": "주요한",
+      "ExampleEng": "The school's principal addressed the students in the assembly.",
+      "ExampleKor": "학교 교장은 학생들에게 회의에서 말했습니다."
+    },
+    {
+      "English": "prior to",
+      "Korean": "~이전에",
+      "ExampleEng": "Please complete the assignment prior to the deadline.",
+      "ExampleKor": "마감일 전에 과제를 완료하세요."
+    },
+    {
+      "English": "privilege",
+      "Korean": "특권",
+      "ExampleEng": "It's a privilege to work with such talented individuals.",
+      "ExampleKor": "이런 재능 있는 개인들과 함께 일할 수 있는 특권입니다."
+    },
+    {
+      "English": "probable",
+      "Korean": "가능성 있는",
+      "ExampleEng": "There is a probable chance of rain tomorrow.",
+      "ExampleKor": "내일 비 올 확률이 있습니다."
+    },
+    {
+      "English": "procedure",
+      "Korean": "절차",
+      "ExampleEng": "Follow the procedure outlined in the instruction manual.",
+      "ExampleKor": "설명서에 기술된 절차를 따르세요."
+    },
+    {
+      "English": "proceed",
+      "Korean": "진척되다",
+      "ExampleEng": "We can proceed with the project once we have approval.",
+      "ExampleKor": "승인을 받으면 프로젝트를 진행할 수 있습니다."
+    },
+    {
+      "English": "processing",
+      "Korean": "처리, 가공",
+      "ExampleEng": "The processing of your application may take some time.",
+      "ExampleKor": "당신의 신청서 처리에 시간이 걸릴 수 있습니다."
+    },
+    {
+      "English": "produce",
+      "Korean": "생산하다",
+      "ExampleEng": "The farm produces fresh vegetables and fruits.",
+      "ExampleKor": "농장에서는 신선한 채소와 과일을 생산합니다."
+    },
+    {
+      "English": "production",
+      "Korean": "생산, 생산량",
+      "ExampleEng": "The production of the film took several months to complete.",
+      "ExampleKor": "영화 제작은 몇 달이 걸렸습니다."
+    },
+    {
+      "English": "productivity",
+      "Korean": "생산성",
+      "ExampleEng": "Increasing productivity is a key goal for the company.",
+      "ExampleKor": "기업의 핵심 목표 중 하나는 생산성을 높이는 것입니다."
+    },
+    {
+      "English": "professional",
+      "Korean": "직업의",
+      "ExampleEng": "He is a highly skilled professional in his field.",
+      "ExampleKor": "그는 그의 분야에서 뛰어난 전문가입니다."
+    },
+    {
+      "English": "proficiency",
+      "Korean": "능숙, 숙달",
+      "ExampleEng": "His proficiency in multiple languages is impressive.",
+      "ExampleKor": "그의 여러 언어 능력은 인상적입니다."
+    },
+    {
+      "English": "profit",
+      "Korean": "이익, 수익",
+      "ExampleEng": "The company reported a significant increase in profit.",
+      "ExampleKor": "그 회사는 이익에서 큰 증가를 보고했습니다."
+    },
+    {
+      "English": "progress",
+      "Korean": "진척, 진전",
+      "ExampleEng": "The project is making steady progress.",
+      "ExampleKor": "이 프로젝트는 꾸준한 진전을 보이고 있습니다."
+    },
+    {
+      "English": "progressive",
+      "Korean": "진보적인",
+      "ExampleEng": "The company has adopted a progressive approach to sustainability.",
+      "ExampleKor": "그 회사는 지속 가능성에 대한 진보적인 접근을 채용했습니다."
+    },
+    {
+      "English": "prohibit",
+      "Korean": "금지하다",
+      "ExampleEng": "Smoking is strictly prohibited in this area.",
+      "ExampleKor": "이 지역에서는 흡연이 엄격히 금지되어 있습니다."
+    },
+    {
+      "English": "projection",
+      "Korean": "예상, 예상치",
+      "ExampleEng": "The financial projection indicates steady growth.",
+      "ExampleKor": "재무 예상은 안정된 성장을 나타냅니다."
+    },
+    {
+      "English": "prominent",
+      "Korean": "두드러진",
+      "ExampleEng": "She is a prominent figure in the world of science.",
+      "ExampleKor": "그녀는 과학 분야에서 중요한 인물입니다."
+    },
+    {
+      "English": "promising",
+      "Korean": "유망한",
+      "ExampleEng": "The young athlete has a promising future ahead.",
+      "ExampleKor": "그 젊은 스포츠 선수는 밝은 미래를 가지고 있습니다."
+    },
+    {
+      "English": "promote",
+      "Korean": "승진시키다",
+      "ExampleEng": "The company plans to promote the new product through advertising.",
+      "ExampleKor": "그 회사는 새로운 제품을 광고를 통해 홍보할 계획입니다."
+    },
+    {
+      "English": "promptly",
+      "Korean": "즉시",
+      "ExampleEng": "Please submit your report promptly.",
+      "ExampleKor": "보고서를 신속하게 제출하십시오."
+    },
+    {
+      "English": "properly",
+      "Korean": "정확하게",
+      "ExampleEng": "Make sure to store the chemicals properly.",
+      "ExampleKor": "화학물질을 올바르게 보관하십시오."
+    },
+    {
+      "English": "property",
+      "Korean": "재산",
+      "ExampleEng": "The hotel has a beautiful garden on its property.",
+      "ExampleKor": "호텔에는 아름다운 정원이 있습니다."
+    },
+    {
+      "English": "proportion",
+      "Korean": "부분, 몫",
+      "ExampleEng": "The proportion of men to women in the class is equal.",
+      "ExampleKor": "수업에서 남녀 비율은 동일합니다."
+    },
+    {
+      "English": "proposal",
+      "Korean": "계획, 제안",
+      "ExampleEng": "We will review your proposal and get back to you.",
+      "ExampleKor": "귀하의 제안을 검토하고 회신 드리겠습니다."
+    },
+    {
+      "English": "prosecute",
+      "Korean": "기소하다",
+      "ExampleEng": "The attorney will prosecute the case in court.",
+      "ExampleKor": "변호사는 법정에서 사건을 기소할 것입니다."
+    },
+    {
+      "English": "prospect",
+      "Korean": "전망, 예상",
+      "ExampleEng": "The job prospect for recent graduates is favorable.",
+      "ExampleKor": "최근 졸업생을 위한 직업 전망은 유리합니다."
+    },
+    {
+      "English": "prospective",
+      "Korean": "미래의",
+      "ExampleEng": "Prospective buyers are encouraged to visit the property.",
+      "ExampleKor": "잠재적인 구매자는 부동산을 방문하도록 권장됩니다."
+    },
+    {
+      "English": "prosperity",
+      "Korean": "번영",
+      "ExampleEng": "Economic prosperity leads to a higher standard of living.",
+      "ExampleKor": "경제적 번영은 더 높은 생활 수준으로 이어집니다."
+    },
+    {
+      "English": "protective",
+      "Korean": "보호하는",
+      "ExampleEng": "Wear protective gear when working with chemicals.",
+      "ExampleKor": "화학 물질을 다룰 때 보호 장비를 착용하세요."
+    },
+    {
+      "English": "provide",
+      "Korean": "제공하다",
+      "ExampleEng": "The company will provide training for new employees.",
+      "ExampleKor": "그 회사는 신입 사원에게 교육을 제공할 것입니다."
+    },
+    {
+      "English": "proximity",
+      "Korean": "가까움",
+      "ExampleEng": "The proximity of the park makes it a great place for picnics.",
+      "ExampleKor": "공원과의 가까운 거리로 피크닉하기에 좋은 장소입니다."
+    },
+    {
+      "English": "publication",
+      "Korean": "간행물, 출판물",
+      "ExampleEng": "The publication of the book was delayed due to editing.",
+      "ExampleKor": "책의 출판이 편집 때문에 지연되었습니다."
+    },
+    {
+      "English": "purchase",
+      "Korean": "구매하다",
+      "ExampleEng": "I'm planning to purchase a new car next month.",
+      "ExampleKor": "다음 달에 새 차를 구입하려고 합니다."
+    },
+    {
+      "English": "purify",
+      "Korean": "정화시키다",
+      "ExampleEng": "The water treatment plant is used to purify drinking water.",
+      "ExampleKor": "정수장은 음용수를 정화하는 데 사용됩니다."
+    },
+    {
+      "English": "purpose",
+      "Korean": "목적, 의도",
+      "ExampleEng": "The purpose of the meeting is to discuss the new project.",
+      "ExampleKor": "회의의 목적은 새로운 프로젝트를 논의하는 것입니다."
+    },
+    {
+      "English": "qualified",
+      "Korean": "자격 있는",
+      "ExampleEng": "She is highly qualified for the position.",
+      "ExampleKor": "그녀는 그 직위에 매우 자격이 있습니다."
+    },
+    {
+      "English": "quality",
+      "Korean": "품질, 질",
+      "ExampleEng": "The quality of the product exceeded my expectations.",
+      "ExampleKor": "제품의 품질은 내 기대를 뛰어 넘었습니다."
+    },
+    {
+      "English": "quota",
+      "Korean": "할당량",
+      "ExampleEng": "Each team has a quota of sales to meet this month.",
+      "ExampleKor": "각 팀은 이번 달에 만나야 할 판매 할당량이 있습니다."
+    },
+    {
+      "English": "quote",
+      "Korean": "견적애",
+      "ExampleEng": "He used a famous quote to open his speech.",
+      "ExampleKor": "그는 연설을 시작하기 위해 유명한 인용구를 사용했습니다."
+    },
+    {
+      "English": "raise",
+      "Korean": "임금 인상",
+      "ExampleEng": "We need to raise funds for the charity event.",
+      "ExampleKor": "우리는 자선 행사를 위해 자금을 모아야 합니다."
+    },
+    {
+      "English": "randomly",
+      "Korean": "임의로",
+      "ExampleEng": "The winners will be selected randomly from the pool of entries.",
+      "ExampleKor": "당첨자는 등록된 응모자 중에서 무작위로 선정됩니다."
+    },
+    {
+      "English": "rapidly",
+      "Korean": "급속히",
+      "ExampleEng": "The company is growing rapidly in the international market.",
+      "ExampleKor": "그 회사는 국제 시장에서 빠르게 성장하고 있습니다."
+    },
+    {
+      "English": "ratio",
+      "Korean": "비율",
+      "ExampleEng": "The ratio of men to women in the organization is 2:1.",
+      "ExampleKor": "그 조직의 남녀 비율은 2:1입니다."
+    },
+    {
+      "English": "reaction",
+      "Korean": "반응",
+      "ExampleEng": "His reaction to the news was one of surprise.",
+      "ExampleKor": "뉴스에 대한 그의 반응은 놀람이었습니다."
+    },
+    {
+      "English": "readily",
+      "Korean": "쉽게",
+      "ExampleEng": "She readily agreed to help with the project.",
+      "ExampleKor": "그녀는 프로젝트를 돕기로 기꺼이 동의했습니다."
+    },
+    {
+      "English": "receipt",
+      "Korean": "영수증",
+      "ExampleEng": "Make sure to keep the receipt for your purchase.",
+      "ExampleKor": "구매 영수증을 보관하십시오."
+    },
+    {
+      "English": "recent",
+      "Korean": "최근의",
+      "ExampleEng": "The recent developments in technology are impressive.",
+      "ExampleKor": "기술 발전은 인상적입니다."
+    },
+    {
+      "English": "reception",
+      "Korean": "접수처",
+      "ExampleEng": "The reception for the newlyweds was held at a beautiful venue.",
+      "ExampleKor": "신랑 신부를 위한 리셉션은 아름다운 장소에서 열렸습니다."
+    },
+    {
+      "English": "recipe",
+      "Korean": "요리법",
+      "ExampleEng": "I tried a new recipe for chicken curry last night.",
+      "ExampleKor": "어제 저녁에 새로운 치킨 카레 레시피를 시도했습니다."
+    },
+    {
+      "English": "recipient",
+      "Korean": "수신자",
+      "ExampleEng": "She was the recipient of the prestigious award.",
+      "ExampleKor": "그녀는 그 중요한 상을 받았습니다."
+    },
+    {
+      "English": "reciprocal",
+      "Korean": "상호의",
+      "ExampleEng": "Their relationship is based on mutual respect and reciprocal support.",
+      "ExampleKor": "그들의 관계는 상호 존중과 상호 지원에 기반합니다."
+    },
+    {
+      "English": "recommend",
+      "Korean": "추천하다",
+      "ExampleEng": "I highly recommend this book to anyone interested in history.",
+      "ExampleKor": "내력에 관심이 있는 모든 사람에게 이 책을 강력히 추천합니다."
+    },
+    {
+      "English": "recovery",
+      "Korean": "회복",
+      "ExampleEng": "His swift recovery from the illness was a relief to his family.",
+      "ExampleKor": "그의 빠른 회복은 가족에게 안도를 가져다 주었습니다."
+    },
+    {
+      "English": "recruit",
+      "Korean": "모집하다",
+      "ExampleEng": "The company is looking to recruit new talent.",
+      "ExampleKor": "그 회사는 새로운 인재를 모집하기로 결정했습니다."
+    },
+    {
+      "English": "recycling",
+      "Korean": "재활용",
+      "ExampleEng": "Recycling helps reduce the amount of waste in landfills.",
+      "ExampleKor": "재활용은 매립지에 배출되는 폐기물 양을 줄이는 데 도움이 됩니다."
+    },
+    {
+      "English": "reduce",
+      "Korean": "줄이다",
+      "ExampleEng": "We must reduce our carbon footprint to combat climate change.",
+      "ExampleKor": "기후 변화와 싸우기 위해 탄소 발자국을 줄여야 합니다."
+    },
+    {
+      "English": "refer",
+      "Korean": "언급하다",
+      "ExampleEng": "Please refer to the user manual for instructions.",
+      "ExampleKor": "사용 설명서를 참조하여 지침을 따르십시오."
+    },
+    {
+      "English": "reference",
+      "Korean": "추천서, 참고",
+      "ExampleEng": "He provided a reference for me when I applied for the job.",
+      "ExampleKor": "나는 그 취직을 지원할 때 그를 참조했습니다."
+    },
+    {
+      "English": "reflective",
+      "Korean": "반영하는",
+      "ExampleEng": "The reflective surface of the lake shimmered in the sunlight.",
+      "ExampleKor": "호수의 반사 표면이 햇빛에 반짝였습니다."
+    },
+    {
+      "English": "refund",
+      "Korean": "환불",
+      "ExampleEng": "They issued a refund for the faulty product.",
+      "ExampleKor": "그들은 결함이 있는 제품에 대한 환불을 발행했습니다."
+    },
+    {
+      "English": "refuse",
+      "Korean": "거절하다",
+      "ExampleEng": "He had to refuse the invitation due to a prior commitment.",
+      "ExampleKor": "그는 약속된 일정으로 인해 초대를 거절해야 했습니다."
+    },
+    {
+      "English": "regard",
+      "Korean": "간주하다",
+      "ExampleEng": "I hold him in high regard for his contributions to the community.",
+      "ExampleKor": "그가 지역 사회에 기여한 점 때문에 그를 높이 평가합니다."
+    },
+    {
+      "English": "registration",
+      "Korean": "등록",
+      "ExampleEng": "Online registration for the conference is now open.",
+      "ExampleKor": "온라인으로 회의 등록이 지금 열려 있습니다."
+    },
+    {
+      "English": "regrettably",
+      "Korean": "유감스럽게도",
+      "ExampleEng": "Regrettably, I won't be able to attend the meeting tomorrow due to a prior commitment.",
+      "ExampleKor": "유감스럽게도 저는 앞 일정 때문에 내일 회의에 참석할 수 없을 것입니다."
+    },
+    {
+      "English": "regular",
+      "Korean": "정기적인",
+      "ExampleEng": "She has a regular yoga class every Saturday.",
+      "ExampleKor": "그녀는 매주 토요일마다 정기 요가 수업을 가집니다."
+    },
+    {
+      "English": "regulation",
+      "Korean": "규정",
+      "ExampleEng": "The government introduced new regulations to protect consumers.",
+      "ExampleKor": "정부는 소비자를 보호하기 위해 새로운 규정을 도입했습니다."
+    },
+    {
+      "English": "reimburse",
+      "Korean": "상환하다",
+      "ExampleEng": "The company will reimburse you for travel expenses.",
+      "ExampleKor": "그 회사는 여행 경비를 상환할 것입니다."
+    },
+    {
+      "English": "relatively",
+      "Korean": "상대적으로",
+      "ExampleEng": "The cost of living is relatively low in this city.",
+      "ExampleKor": "이 도시에서는 생활비가 상대적으로 낮습니다."
+    },
+    {
+      "English": "release",
+      "Korean": "발표하다",
+      "ExampleEng": "The movie release date was postponed to next month.",
+      "ExampleKor": "영화 개봉일이 다음 달로 연기되었습니다."
+    },
+    {
+      "English": "reliable",
+      "Korean": "믿을 만한",
+      "ExampleEng": "The car is known for its reliable performance.",
+      "ExampleKor": "그 차는 신뢰할 수 있는 성능으로 알려져 있습니다."
+    },
+    {
+      "English": "relieve",
+      "Korean": "완화시키다",
+      "ExampleEng": "The pain reliever provided relief from her headache.",
+      "ExampleKor": "진통제는 그녀의 두통을 완화시켰습니다."
+    },
+    {
+      "English": "relocate",
+      "Korean": "이전하다",
+      "ExampleEng": "The company decided to relocate its headquarters.",
+      "ExampleKor": "그 회사는 본사를 이전하기로 결정했습니다."
+    },
+    {
+      "English": "remain",
+      "Korean": "여전히~한 상태이다.",
+      "ExampleEng": "Please remain seated until the flight has come to a complete stop.",
+      "ExampleKor": "비행기가 완전히 멈출 때까지 앉아 있으십시오."
+    },
+    {
+      "English": "remarkable",
+      "Korean": "두드러진",
+      "ExampleEng": "Her achievements in the field of science are remarkable.",
+      "ExampleKor": "그녀의 과학 분야에서의 성과는 놀라운 것입니다."
+    },
+    {
+      "English": "remedy",
+      "Korean": "치료법",
+      "ExampleEng": "He found a natural remedy for his allergies.",
+      "ExampleKor": "그는 자신의 알레르기에 대한 자연 요법을 찾았습니다."
+    },
+    {
+      "English": "reminder",
+      "Korean": "상기시켜주는 것",
+      "ExampleEng": "Set a reminder on your phone for the meeting tomorrow.",
+      "ExampleKor": "내일 회의를 위해 휴대폰에 알림을 설정하십시오."
+    },
+    {
+      "English": "renew",
+      "Korean": "갱신하다",
+      "ExampleEng": "I need to renew my driver's license before it expires.",
+      "ExampleKor": "면허가 만료되기 전에 내면허를 갱신해야 합니다."
+    },
+    {
+      "English": "renovation",
+      "Korean": "보수, 수리",
+      "ExampleEng": "The renovation of the historic building was a success.",
+      "ExampleKor": "역사적 건물의 개조가 성공적으로 이루어졌습니다."
+    },
+    {
+      "English": "reorganize",
+      "Korean": "재조직하다",
+      "ExampleEng": "It's time to reorganize the cluttered storage room.",
+      "ExampleKor": "무질서한 보관실을 재정리할 때입니다."
+    },
+    {
+      "English": "repair",
+      "Korean": "수리하다",
+      "ExampleEng": "The mechanic will repair the car's engine.",
+      "ExampleKor": "정비사는 차량 엔진을 수리할 것입니다."
+    },
+    {
+      "English": "repeatedly",
+      "Korean": "반복해서",
+      "ExampleEng": "He has been making the same mistake repeatedly.",
+      "ExampleKor": "그는 같은 실수를 반복해서 저지릅니다."
+    },
+    {
+      "English": "replace",
+      "Korean": "~을 교체하다",
+      "ExampleEng": "We need to replace the old carpet with a new one.",
+      "ExampleKor": "우리는 오래된 카펫을 새로운 것으로 교체해야 합니다."
+    },
+    {
+      "English": "represent",
+      "Korean": "~을 대표하다",
+      "ExampleEng": "She will represent the company at the conference.",
+      "ExampleKor": "그녀는 회사를 회의에서 대표할 것입니다."
+    },
+    {
+      "English": "representative",
+      "Korean": "판매 대리인",
+      "ExampleEng": "The union elected a representative to negotiate with management.",
+      "ExampleKor": "노동 조합은 경영진과 협상하기 위해 대표를 선출했습니다."
+    },
+    {
+      "English": "request",
+      "Korean": "요청",
+      "ExampleEng": "Please submit your request in writing.",
+      "ExampleKor": "요청 사항을 서면으로 제출하십시오."
+    },
+    {
+      "English": "require",
+      "Korean": "요구하다",
+      "ExampleEng": "The job will require a lot of travel.",
+      "ExampleKor": "이 일은 많은 여행을 필요로 할 것입니다."
+    },
+    {
+      "English": "requirement",
+      "Korean": "필요조건",
+      "ExampleEng": "Meeting the deadline is a requirement for this project.",
+      "ExampleKor": "마감일을 충족하는 것은 이 프로젝트의 필수 사항입니다."
+    },
+    {
+      "English": "research",
+      "Korean": "연구, 조사",
+      "ExampleEng": "The research findings were published in a scientific journal.",
+      "ExampleKor": "연구 결과는 과학 저널에 발표되었습니다."
+    },
+    {
+      "English": "reservation",
+      "Korean": "예약",
+      "ExampleEng": "I made a reservation at the restaurant for our anniversary.",
+      "ExampleKor": "우리 기념일을 위해 레스토랑에서 예약했습니다."
+    },
+    {
+      "English": "residence",
+      "Korean": "주택, 저택",
+      "ExampleEng": "His residence is a beautiful villa by the lake.",
+      "ExampleKor": "그의 주거지는 호수 옆 아름다운 빌라입니다."
+    },
+    {
+      "English": "resignation",
+      "Korean": "사직",
+      "ExampleEng": "His resignation from the company surprised everyone.",
+      "ExampleKor": "그의 회사에서의 사임은 모두를 놀라게 했습니다."
+    },
+    {
+      "English": "resource",
+      "Korean": "자원",
+      "ExampleEng": "The library is a valuable resource for students.",
+      "ExampleKor": "도서관은 학생들에게 귀중한 자원입니다."
+    },
+    {
+      "English": "respectfully",
+      "Korean": "공손하게",
+      "ExampleEng": "Please address your concerns respectfully in the meeting.",
+      "ExampleKor": "회의에서 귀하의 우려 사항을 존중하게 언급하십시오."
+    },
+    {
+      "English": "respective",
+      "Korean": "각각의",
+      "ExampleEng": "Each team will present their findings in their respective sections.",
+      "ExampleKor": "각 팀은 각자의 섹션에서 연구 결과를 발표할 것입니다."
+    },
+    {
+      "English": "respond",
+      "Korean": "응답하다",
+      "ExampleEng": "He will respond to your email by the end of the day.",
+      "ExampleKor": "그는 하루 종일 이메일로 귀하의 이메일에 응답할 것입니다."
+    },
+    {
+      "English": "respondent",
+      "Korean": "응답자",
+      "ExampleEng": "The survey had over a thousand respondents.",
+      "ExampleKor": "그 조사는 천 명 이상의 응답자가 참여했습니다."
+    },
+    {
+      "English": "responsibility",
+      "Korean": "부담, 책임, 의무",
+      "ExampleEng": "It's your responsibility to complete the assigned tasks.",
+      "ExampleKor": "할당된 작업을 완료하는 것은 귀하의 책임입니다."
+    },
+    {
+      "English": "responsible",
+      "Korean": "책임이 있는",
+      "ExampleEng": "She is responsible for managing the project.",
+      "ExampleKor": "그녀는 프로젝트를 관리하는 책임이 있습니다."
+    },
+    {
+      "English": "restore",
+      "Korean": "회복시키다",
+      "ExampleEng": "They worked tirelessly to restore the historic building.",
+      "ExampleKor": "그들은 역사적 건물을 복원하기 위해 부지를 놓치지 않고 노력했습니다."
+    },
+    {
+      "English": "restrict",
+      "Korean": "제한하다",
+      "ExampleEng": "The company may restrict access to certain areas.",
+      "ExampleKor": "그 회사는 특정 지역에 대한 접근을 제한할 수 있습니다."
+    },
+    {
+      "English": "result",
+      "Korean": "결과",
+      "ExampleEng": "The result of the experiment was inconclusive.",
+      "ExampleKor": "그 실험의 결과는 결론이 나지 않았습니다."
+    },
+    {
+      "English": "resume",
+      "Korean": "이력서",
+      "ExampleEng": "You can resume work on the project tomorrow.",
+      "ExampleKor": "내일부터 프로젝트에 다시 착수할 수 있습니다."
+    },
+    {
+      "English": "retail",
+      "Korean": "소매",
+      "ExampleEng": "The store specializes in the retail of luxury goods.",
+      "ExampleKor": "그 가게는 고급 상품을 소매 판매하는 데 특화되어 있습니다."
+    },
+    {
+      "English": "retain",
+      "Korean": "보유(유지)하다,",
+      "ExampleEng": "It's important to retain the original documents.",
+      "ExampleKor": "원본 문서를 보존하는 것이 중요합니다."
+    },
+    {
+      "English": "return",
+      "Korean": "반송(왕복)하다",
+      "ExampleEng": "Please return the library books by the due date.",
+      "ExampleKor": "도서관 책을 만기일까지 반납하십시오."
+    },
+    {
+      "English": "reveal",
+      "Korean": "밝히다",
+      "ExampleEng": "The detective finally revealed the identity of the culprit.",
+      "ExampleKor": "탐정은 범인의 정체를 마침내 밝혔습니다."
+    },
+    {
+      "English": "revenue",
+      "Korean": "수입",
+      "ExampleEng": "The company's revenue increased significantly this year.",
+      "ExampleKor": "그 회사의 수익은 올해 크게 증가했습니다."
+    },
+    {
+      "English": "reverse",
+      "Korean": "반대의, 역의",
+      "ExampleEng": "You can reverse the direction of the fan with the remote control.",
+      "ExampleKor": "원격 제어로 팬의 방향을 반대로 바꿀 수 있습니다."
+    },
+    {
+      "English": "review",
+      "Korean": "검토하다",
+      "ExampleEng": "I will review the report before submitting it.",
+      "ExampleKor": "내 보고서를 제출하기 전에 다시 검토하겠습니다."
+    },
+    {
+      "English": "revision",
+      "Korean": "수정",
+      "ExampleEng": "Make sure to make the necessary revision to the document.",
+      "ExampleKor": "문서에 필요한 수정을 하도록 하십시오."
+    },
+    {
+      "English": "revolutionary",
+      "Korean": "혁명적인",
+      "ExampleEng": "The invention of the internet was revolutionary.",
+      "ExampleKor": "인터넷의 발명은 혁명적이었습니다."
+    },
+    {
+      "English": "reward",
+      "Korean": "~에 보답하다",
+      "ExampleEng": "The reward for finding the lost dog was a cash prize.",
+      "ExampleKor": "분실된 개를 찾은 보상은 현금 상금이었습니다."
+    },
+    {
+      "English": "rigid",
+      "Korean": "엄격한",
+      "ExampleEng": "The rules are rigid and must be followed.",
+      "ExampleKor": "규칙은 엄격하며 준수해야 합니다."
+    },
+    {
+      "English": "rigorously",
+      "Korean": "엄격히",
+      "ExampleEng": "The research was rigorously conducted to ensure accuracy.",
+      "ExampleKor": "정확성을 보장하기 위해 연구는 엄격히 수행되었습니다."
+    },
+    {
+      "English": "safety",
+      "Korean": "안전",
+      "ExampleEng": "Safety measures are in place to protect workers.",
+      "ExampleKor": "작업자들을 보호하기 위한 안전 조치가 마련되어 있습니다."
+    },
+    {
+      "English": "satisfaction",
+      "Korean": "만족",
+      "ExampleEng": "Customer satisfaction is our top priority.",
+      "ExampleKor": "고객 만족도는 우리의 최우선 과제입니다."
+    },
+    {
+      "English": "search",
+      "Korean": "연구, 탐색",
+      "ExampleEng": "They conducted a thorough search for the missing keys.",
+      "ExampleKor": "그들은 실종된 열쇠를 찾기 위해 철저한 탐색을 진행했습니다."
+    },
+    {
+      "English": "securely",
+      "Korean": "단단하게",
+      "ExampleEng": "Please store your personal information securely.",
+      "ExampleKor": "개인 정보를 안전하게 보관하십시오."
+    },
+    {
+      "English": "selection",
+      "Korean": "선택된 것",
+      "ExampleEng": "The menu offers a wide selection of dishes.",
+      "ExampleKor": "메뉴는 다양한 요리를 선택할 수 있도록 제공됩니다."
+    },
+    {
+      "English": "separately",
+      "Korean": "개별적으로",
+      "ExampleEng": "The items should be packed separately.",
+      "ExampleKor": "항목은 별도로 포장해야 합니다."
+    },
+    {
+      "English": "seriously",
+      "Korean": "진지하게",
+      "ExampleEng": "He takes his job seriously and works hard.",
+      "ExampleKor": "그는 직업을 진지하게 대하고 열심히 일합니다."
+    },
+    {
+      "English": "serve",
+      "Korean": "근무하다",
+      "ExampleEng": "She volunteered to serve meals at the homeless shelter.",
+      "ExampleKor": "그녀는 무역소에 식사를 제공하는 자원봉사자로 봉사하기로 결정했습니다."
+    },
+    {
+      "English": "settle",
+      "Korean": "해결하다",
+      "ExampleEng": "They decided to settle their differences through mediation.",
+      "ExampleKor": "그들은 차이를 중재를 통해 해결하기로 결정했습니다."
+    },
+    {
+      "English": "sewage",
+      "Korean": "하수, 오수",
+      "ExampleEng": "The city's sewage system was upgraded to prevent pollution.",
+      "ExampleKor": "그 도시의 하수 처리 시스템이 오염을 방지하도록 업그레이드되었습니다."
+    },
+    {
+      "English": "shareholder",
+      "Korean": "주주",
+      "ExampleEng": "The shareholders voted to approve the merger.",
+      "ExampleKor": "주주들은 합병을 승인하기로 투표했습니다."
+    },
+    {
+      "English": "shipment",
+      "Korean": "선적, 발송",
+      "ExampleEng": "The shipment of goods arrived on time.",
+      "ExampleKor": "물품이 정시에 도착했습니다."
+    },
+    {
+      "English": "significantly",
+      "Korean": "상당히",
+      "ExampleEng": "The new policy has significantly improved employee morale.",
+      "ExampleKor": "새로운 정책은 직원들의 사기를 크게 개선했습니다."
+    },
+    {
+      "English": "simply",
+      "Korean": "그저, 간단히",
+      "ExampleEng": "The solution to the problem is simply to turn it off and on again.",
+      "ExampleKor": "문제의 해결책은 그것을 끄고 다시 켜는 것입니다."
+    },
+    {
+      "English": "simultaneously",
+      "Korean": "동시에",
+      "ExampleEng": "They both spoke simultaneously, causing confusion during the conference call.",
+      "ExampleKor": "그들은 동시에 말을 해 혼란을 일으켰습니다."
+    },
+    {
+      "English": "skyrocket",
+      "Korean": "(가격 등이)치솟다",
+      "ExampleEng": "The price of real estate in the area has skyrocketed.",
+      "ExampleKor": "지역의 부동산 가격은 급등했습니다."
+    },
+    {
+      "English": "slightly",
+      "Korean": "약간",
+      "ExampleEng": "The temperature dropped slightly in the evening.",
+      "ExampleKor": "저녁에 기온이 약간 내렸습니다."
+    },
+    {
+      "English": "slowdown",
+      "Korean": "경기 후퇴",
+      "ExampleEng": "The economic slowdown had a negative impact on businesses.",
+      "ExampleKor": "경제적 둔화는 기업에 부정적인 영향을 미쳤습니다."
+    },
+    {
+      "English": "soar",
+      "Korean": "(물가 등이) 치솟다",
+      "ExampleEng": "The stock prices continue to soar.",
+      "ExampleKor": "주식 가격은 계속 상승하고 있습니다."
+    },
+    {
+      "English": "solicit",
+      "Korean": "요청하다",
+      "ExampleEng": "The charity organization is soliciting donations for the cause.",
+      "ExampleKor": "자선 단체는 그 목적을 위해 기부를 호소하고 있습니다."
+    },
+    {
+      "English": "solution",
+      "Korean": "해결책",
+      "ExampleEng": "They worked together to find a solution to the problem.",
+      "ExampleKor": "그들은 문제에 대한 해결책을 찾기 위해 함께 노력했습니다."
+    },
+    {
+      "English": "somewhat",
+      "Korean": "전적으로",
+      "ExampleEng": "His opinion is somewhat different from mine.",
+      "ExampleKor": "그의 의견은 내 의견과 어느 정도 다릅니다."
+    },
+    {
+      "English": "sophisticated",
+      "Korean": "정교한",
+      "ExampleEng": "The new smartphone has a sophisticated design.",
+      "ExampleKor": "새로운 스마트폰은 정교한 디자인을 가지고 있습니다."
+    },
+    {
+      "English": "spacious",
+      "Korean": "(공간이) 넓은",
+      "ExampleEng": "The living room is spacious and well-lit.",
+      "ExampleKor": "거실은 넓고 잘 밝혀져 있습니다."
+    },
+    {
+      "English": "specific",
+      "Korean": "구체적인",
+      "ExampleEng": "Please provide specific details about the incident.",
+      "ExampleKor": "사건에 대한 구체적인 세부 사항을 제공하십시오."
+    },
+    {
+      "English": "specification",
+      "Korean": "명세서",
+      "ExampleEng": "The project's specification sheet outlines all the requirements.",
+      "ExampleKor": "프로젝트 사양서는 모든 요구 사항을 개요화했습니다."
+    },
+    {
+      "English": "speculation",
+      "Korean": "추측",
+      "ExampleEng": "There is a lot of speculation about the upcoming election.",
+      "ExampleKor": "다가오는 선거에 대한 추측이 많이 있습니다."
+    },
+    {
+      "English": "stability",
+      "Korean": "안전",
+      "ExampleEng": "Economic stability is crucial for the country's growth.",
+      "ExampleKor": "국가의 성장을 위해 경제적 안정은 중요합니다."
+    },
+    {
+      "English": "stage",
+      "Korean": "단계",
+      "ExampleEng": "The play is in the final stage of rehearsals.",
+      "ExampleKor": "연극은 최종 리허설의 단계에 있습니다."
+    },
+    {
+      "English": "stagnant",
+      "Korean": "침체된",
+      "ExampleEng": "The pond water has become stagnant and needs to be cleaned.",
+      "ExampleKor": "연못 물이 침체되어버려 청소할 필요가 있습니다."
+    },
+    {
+      "English": "stance",
+      "Korean": "입장, 태도",
+      "ExampleEng": "The government has taken a firm stance on the issue.",
+      "ExampleKor": "정부는 그 문제에 단호한 입장을 취했습니다."
+    },
+    {
+      "English": "statement",
+      "Korean": "명세서",
+      "ExampleEng": "He issued a public statement regarding the allegations.",
+      "ExampleKor": "그는 혐의에 대한 공개 발표를 했습니다."
+    },
+    {
+      "English": "strategic",
+      "Korean": "전략적인",
+      "ExampleEng": "The company has a strategic plan for expansion.",
+      "ExampleKor": "그 회사는 확장을 위한 전략 계획이 있습니다."
+    },
+    {
+      "English": "strategy",
+      "Korean": "전략",
+      "ExampleEng": "Their marketing strategy includes social media advertising.",
+      "ExampleKor": "그들의 마케팅 전략에는 소셜 미디어 광고가 포함되어 있습니다."
+    },
+    {
+      "English": "strictly",
+      "Korean": "엄격한",
+      "ExampleEng": "The rules must be followed strictly.",
+      "ExampleKor": "규칙은 엄격하게 준수되어야 합니다."
+    },
+    {
+      "English": "strike",
+      "Korean": "동맹파업",
+      "ExampleEng": "The workers decided to go on strike for better wages.",
+      "ExampleKor": "노동자들은 더 나은 임금을 위해 파업하기로 결정했습니다."
+    },
+    {
+      "English": "structure",
+      "Korean": "구조물",
+      "ExampleEng": "The building's structure is a marvel of modern architecture.",
+      "ExampleKor": "그 건물의 구조는 현대 건축의 경이로움입니다."
+    },
+    {
+      "English": "struggle",
+      "Korean": "분투하다",
+      "ExampleEng": "She had to struggle to make ends meet.",
+      "ExampleKor": "그녀는 어려움을 겪어 끝이 맞추기 어려웠습니다."
+    },
+    {
+      "English": "sturdy",
+      "Korean": "튼튼한",
+      "ExampleEng": "The sturdy construction of the bridge can withstand heavy loads.",
+      "ExampleKor": "다리는 무거운 하중에 견딜 수 있는 견고한 건축입니다."
+    },
+    {
+      "English": "submit",
+      "Korean": "제출하다",
+      "ExampleEng": "Please submit your application before the deadline.",
+      "ExampleKor": "마감일 전에 신청서를 제출하십시오."
+    },
+    {
+      "English": "subordinate",
+      "Korean": "부하 직원",
+      "ExampleEng": "She is a subordinate to the department manager.",
+      "ExampleKor": "그녀는 부서장의 부하입니다."
+    },
+    {
+      "English": "subscription",
+      "Korean": "정기 구독",
+      "ExampleEng": "I have a monthly subscription to a streaming service.",
+      "ExampleKor": "저는 매월 스트리밍 서비스를 구독하고 있습니다."
+    },
+    {
+      "English": "subsequent",
+      "Korean": "그 이후의",
+      "ExampleEng": "The subsequent chapters of the book are even more exciting.",
+      "ExampleKor": "이 소설의 후속 장은 더욱 흥미로운 내용을 담고 있습니다."
+    },
+    {
+      "English": "subsidize",
+      "Korean": "~보조금을 지급하다",
+      "ExampleEng": "The government subsidizes the cost of public transportation.",
+      "ExampleKor": "정부는 대중 교통 비용을 보조합니다."
+    },
+    {
+      "English": "substantial",
+      "Korean": "상당한",
+      "ExampleEng": "The company reported a substantial increase in profits.",
+      "ExampleKor": "그 회사는 이익에서 상당한 증가를 보고했습니다."
+    },
+    {
+      "English": "substantially",
+      "Korean": "크게, 상당히",
+      "ExampleEng": "The price has been reduced substantially.",
+      "ExampleKor": "가격은 상당히 낮추어졌습니다."
+    },
+    {
+      "English": "sufficiently",
+      "Korean": "충분히",
+      "ExampleEng": "Make sure the cake is baked sufficiently before removing it.",
+      "ExampleKor": "케이크가 충분히 베이킹되었는지 확인하십시오."
+    },
+    {
+      "English": "suggestion",
+      "Korean": "제안",
+      "ExampleEng": "I appreciate your suggestion for improving the process.",
+      "ExampleKor": "과정 개선에 대한 귀하의 제안을 감사합니다."
+    },
+    {
+      "English": "superb",
+      "Korean": "뛰어난",
+      "ExampleEng": "Her performance in the play was superb.",
+      "ExampleKor": "그녀의 연극 공연은 훌륭했습니다."
+    },
+    {
+      "English": "superior",
+      "Korean": "우수한",
+      "ExampleEng": "The quality of their products is superior to the competition.",
+      "ExampleKor": "그 제품의 품질은 경쟁사보다 뛰어났습니다."
+    },
+    {
+      "English": "supervision",
+      "Korean": "감독",
+      "ExampleEng": "The project is under the careful supervision of the manager.",
+      "ExampleKor": "그 프로젝트는 매니저의 주의 깊은 감독 하에 진행 중입니다."
+    },
+    {
+      "English": "supplement",
+      "Korean": "보완하다",
+      "ExampleEng": "You can supplement your diet with vitamins.",
+      "ExampleKor": "귀하의 식사에 비타민을 보충할 수 있습니다."
+    },
+    {
+      "English": "supply",
+      "Korean": "공급하다",
+      "ExampleEng": "The supply of fresh water is essential for life.",
+      "ExampleKor": "신선한 물 공급은 생명을 위해 필수적입니다."
+    },
+    {
+      "English": "surpass",
+      "Korean": "~을 능가하다",
+      "ExampleEng": "Her dedication allowed her to surpass her goals.",
+      "ExampleKor": "그녀의 헌신은 그녀가 목표를 뛰어넘을 수 있게 했습니다."
+    },
+    {
+      "English": "surplus",
+      "Korean": "잉여, 흑자",
+      "ExampleEng": "The surplus funds will be invested in new projects.",
+      "ExampleKor": "초과 자금은 새로운 프로젝트에 투자될 것입니다."
+    },
+    {
+      "English": "survey",
+      "Korean": "조사",
+      "ExampleEng": "They conducted a survey to gather feedback from customers.",
+      "ExampleKor": "그들은 고객 의견을 수집하기 위해 조사를 실시했습니다."
+    },
+    {
+      "English": "susceptible",
+      "Korean": "~에 감염되기 쉬운",
+      "ExampleEng": "Children are more susceptible to certain illnesses.",
+      "ExampleKor": "어린이들은 특정 질병에 민감합니다."
+    },
+    {
+      "English": "sustain",
+      "Korean": "지속하다",
+      "ExampleEng": "We must sustain our efforts to protect the environment.",
+      "ExampleKor": "환경 보호를 위해 우리의 노력을 유지해야 합니다."
+    },
+    {
+      "English": "takeover",
+      "Korean": "인수",
+      "ExampleEng": "The corporate takeover was met with resistance.",
+      "ExampleKor": "기업 인수는 저항으로 마주하였습니다."
+    },
+    {
+      "English": "technical",
+      "Korean": "기술적인",
+      "ExampleEng": "The technical details of the project are complex.",
+      "ExampleKor": "그 프로젝트의 기술적 세부 정보는 복잡합니다."
+    },
+    {
+      "English": "temporarily",
+      "Korean": "일시적으로",
+      "ExampleEng": "The office will be temporarily closed for renovations.",
+      "ExampleKor": "사무실은 현재 리모델링을 위해 일시적으로 폐쇄됩니다."
+    },
+    {
+      "English": "tenant",
+      "Korean": "임차인",
+      "ExampleEng": "The tenant signed a lease for one year.",
+      "ExampleKor": "임차인은 1년짜리 임대 계약을 서명했습니다."
+    },
+    {
+      "English": "tend to",
+      "Korean": "~하는 경향이 있다",
+      "ExampleEng": "She tends to be late for meetings.",
+      "ExampleKor": "그녀는 회의에 늦는 경향이 있습니다."
+    },
+    {
+      "English": "tentative",
+      "Korean": "임시적인",
+      "ExampleEng": "The schedule is tentative and subject to change.",
+      "ExampleKor": "일정은 잠정적이며 변경될 수 있습니다."
+    },
+    {
+      "English": "term",
+      "Korean": "조건, 기한",
+      "ExampleEng": "The contract has a term of three years.",
+      "ExampleKor": "계약 기간은 3년입니다."
+    },
+    {
+      "English": "terminate",
+      "Korean": "종결시키다",
+      "ExampleEng": "The company decided to terminate the employee's contract.",
+      "ExampleKor": "그 회사는 직원 계약을 종료하기로 결정했습니다."
+    },
+    {
+      "English": "thoroughly",
+      "Korean": "철저하게",
+      "ExampleEng": "I thoroughly enjoyed reading the novel.",
+      "ExampleKor": "저는 그 소설을 읽는 것을 매우 즐겼습니다."
+    },
+    {
+      "English": "thrifty",
+      "Korean": "검소한",
+      "ExampleEng": "She is known for her thrifty spending habits.",
+      "ExampleKor": "그녀는 절약하는 지출 습관으로 알려져 있습니다."
+    },
+    {
+      "English": "thrive",
+      "Korean": "번영하다",
+      "ExampleEng": "The business continues to thrive in a competitive market.",
+      "ExampleKor": "경쟁 시장에서 그 비즈니스는 계속 번성하고 있습니다."
+    },
+    {
+      "English": "timely",
+      "Korean": "시기적절한",
+      "ExampleEng": "Please submit your report in a timely manner.",
+      "ExampleKor": "보고서를 제때 제출하십시오."
+    },
+    {
+      "English": "tolerance",
+      "Korean": "관용",
+      "ExampleEng": "Tolerance and understanding are important values.",
+      "ExampleKor": "너그러움과 이해는 중요한 가치입니다."
+    },
+    {
+      "English": "tow",
+      "Korean": "견인하다",
+      "ExampleEng": "The tow truck was called to remove the stranded car.",
+      "ExampleKor": "스트레칭된 차량을 제거하려면 레커를 호출했습니다."
+    },
+    {
+      "English": "transaction",
+      "Korean": "거래, 업무",
+      "ExampleEng": "The online transaction was completed successfully.",
+      "ExampleKor": "온라인 거래가 성공적으로 완료되었습니다."
+    },
+    {
+      "English": "transfer",
+      "Korean": "전근시키다",
+      "ExampleEng": "He requested a transfer to the company's overseas office.",
+      "ExampleKor": "그는 회사의 해외 사무실로 전근을 요청했습니다."
+    },
+    {
+      "English": "transform",
+      "Korean": "바꾸다",
+      "ExampleEng": "The caterpillar will transform into a butterfly.",
+      "ExampleKor": "애벌레는 나비로 변신합니다."
+    },
+    {
+      "English": "translation",
+      "Korean": "번역",
+      "ExampleEng": "The translation of the document is accurate.",
+      "ExampleKor": "문서의 번역은 정확합니다."
+    },
+    {
+      "English": "transportation",
+      "Korean": "운송수단",
+      "ExampleEng": "Public transportation is an eco-friendly way to commute.",
+      "ExampleKor": "대중 교통은 친환경적인 출퇴근 방법입니다."
+    },
+    {
+      "English": "trigger",
+      "Korean": "야기하다.",
+      "ExampleEng": "The loud noise can trigger anxiety in some people.",
+      "ExampleKor": "크게 소리가 나는 것은 일부 사람들에게 불안을 유발할 수 있습니다."
+    },
+    {
+      "English": "turnover",
+      "Korean": "이직률, 거래액",
+      "ExampleEng": "The turnover rate at the company is high.",
+      "ExampleKor": "그 회사의 인력 이동률은 높습니다."
+    },
+    {
+      "English": "unanimous",
+      "Korean": "만장일치의",
+      "ExampleEng": "The decision was reached unanimously by the committee.",
+      "ExampleKor": "위원회는 그 결정을 만장일치로 유지했습니다."
+    },
+    {
+      "English": "unavailable",
+      "Korean": "이용할 수 없는",
+      "ExampleEng": "The product is currently unavailable in stores.",
+      "ExampleKor": "그 제품은 현재 가게에서 사용 불가능합니다."
+    },
+    {
+      "English": "unbiased",
+      "Korean": "선입견 없는",
+      "ExampleEng": "We need an unbiased opinion on the matter.",
+      "ExampleKor": "우리는 편견 없는 의견이 필요합니다."
+    },
+    {
+      "English": "undertake",
+      "Korean": "떠맡다",
+      "ExampleEng": "He was willing to undertake the challenging project.",
+      "ExampleKor": "그는 도전적인 프로젝트를 수행할 의지가 있었습니다."
+    },
+    {
+      "English": "undoubtedly",
+      "Korean": "틀림없이",
+      "ExampleEng": "Her talent is undoubtedly remarkable.",
+      "ExampleKor": "그녀의 재능은 의심할 여지가 없이 탁월합니다."
+    },
+    {
+      "English": "union",
+      "Korean": "노동조합",
+      "ExampleEng": "The labor union negotiated for better working conditions.",
+      "ExampleKor": "노동 조합은 더 나은 근무 조건을 위해 협상했습니다."
+    },
+    {
+      "English": "unique",
+      "Korean": "독특한",
+      "ExampleEng": "Her style is unique and stands out from the rest.",
+      "ExampleKor": "그녀의 스타일은 독특하며 다른 사람과 차이납니다."
+    },
+    {
+      "English": "unoccupied",
+      "Korean": "비어 있는",
+      "ExampleEng": "The house next door has been unoccupied for months.",
+      "ExampleKor": "옆집은 몇 달 동안 빈 집이었습니다."
+    },
+    {
+      "English": "upcoming",
+      "Korean": "앞으로 올",
+      "ExampleEng": "The upcoming conference promises to be informative.",
+      "ExampleKor": "다가오는 회의는 정보 제공을 약속합니다."
+    },
+    {
+      "English": "uphold",
+      "Korean": "지지하다",
+      "ExampleEng": "The court's decision was upheld on appeal.",
+      "ExampleKor": "소송에서 판결이 뒷받침되었습니다."
+    },
+    {
+      "English": "urban",
+      "Korean": "도시의",
+      "ExampleEng": "She prefers the urban lifestyle over rural living.",
+      "ExampleKor": "그녀는 시골 생활 대신 도시 생활을 선호합니다."
+    },
+    {
+      "English": "utensil",
+      "Korean": "도구, 기구",
+      "ExampleEng": "The kitchen is equipped with all the necessary utensils.",
+      "ExampleKor": "부엌은 필요한 모든 주방용품으로 갖추어져 있습니다."
+    },
+    {
+      "English": "utility",
+      "Korean": "공공시설",
+      "ExampleEng": "The utility bills for this month include electricity, water, and gas charges.",
+      "ExampleKor": "이 유틸리티 청구서에는 전기, 수도 및 가스 요금이 포함됩니다."
+    },
+    {
+      "English": "utilize",
+      "Korean": "이용하다",
+      "ExampleEng": "We should utilize renewable energy sources.",
+      "ExampleKor": "재생 가능한 에너지원을 활용해야 합니다."
+    },
+    {
+      "English": "valid",
+      "Korean": "유효한",
+      "ExampleEng": "Make sure your passport is valid for international travel.",
+      "ExampleKor": "여행 시 귀하의 여권이 국제 여행용으로 유효한지 확인하십시오."
+    },
+    {
+      "English": "value",
+      "Korean": "가치, 가격",
+      "ExampleEng": "The antique vase has sentimental value to the family.",
+      "ExampleKor": "그 고유 한품은 가족에게 정서적 가치가 있습니다."
+    },
+    {
+      "English": "variety",
+      "Korean": "다양성",
+      "ExampleEng": "The store offers a variety of products to choose from.",
+      "ExampleKor": "가게는 선택할 수 있는 다양한 제품을 제공합니다."
+    },
+    {
+      "English": "vehicle",
+      "Korean": "차량, 운송수단",
+      "ExampleEng": "His new vehicle is fuel-efficient and eco-friendly.",
+      "ExampleKor": "그의 새 차는 연비가 좋고 친환경적입니다."
+    },
+    {
+      "English": "venue",
+      "Korean": "장소",
+      "ExampleEng": "The wedding venue was decorated beautifully.",
+      "ExampleKor": "결혼식 장소는 아름답게 장식되었습니다."
+    },
+    {
+      "English": "violate",
+      "Korean": "위반하다",
+      "ExampleEng": "He was warned not to violate the company's policies.",
+      "ExampleKor": "그는 회사 정책을 어기지 않도록 경고를 받았습니다."
+    },
+    {
+      "English": "violation",
+      "Korean": "위반",
+      "ExampleEng": "The speeding ticket was issued for a traffic violation.",
+      "ExampleKor": "교통 위반으로 과태료가 부과되었습니다."
+    },
+    {
+      "English": "volatile",
+      "Korean": "(가격)이 심하게 변동하는",
+      "ExampleEng": "The stock market can be volatile and unpredictable.",
+      "ExampleKor": "주식 시장은 변동이 심하고 예측이 어렵습니다."
+    },
+    {
+      "English": "voluntarily",
+      "Korean": "자발적으로",
+      "ExampleEng": "She volunteered to help with the charity event.",
+      "ExampleKor": "그녀는 자원 봉사를 통해 도움을 제공하려고 봉사하기로 결정했습니다."
+    },
+    {
+      "English": "voucher",
+      "Korean": "상품권",
+      "ExampleEng": "You can use this voucher to get a discount on your purchase.",
+      "ExampleKor": "구매 시 할인 받기 위해 이 바우처를 사용할 수 있습니다."
+    },
+    {
+      "English": "vulnerable",
+      "Korean": "취약한",
+      "ExampleEng": "The elderly are vulnerable to certain health risks.",
+      "ExampleKor": "노인들은 특정 건강 위험에 노출될 수 있습니다."
+    },
+    {
+      "English": "wane",
+      "Korean": "감쇠, 쇠퇴",
+      "ExampleEng": "The popularity of the trend began to wane.",
+      "ExampleKor": "트렌드의 인기는 줄어들기 시작했습니다."
+    },
+    {
+      "English": "warranty",
+      "Korean": "보증서",
+      "ExampleEng": "The product comes with a one-year warranty.",
+      "ExampleKor": "제품은 1년의 보증 기간이 있습니다."
+    },
+    {
+      "English": "withdrawal",
+      "Korean": "인출",
+      "ExampleEng": "He made a withdrawal from the ATM to get cash.",
+      "ExampleKor": "자동 현금 인출기에서 현금을 인출했습니다."
+    },
+    {
+      "English": "yield",
+      "Korean": "(이윤을)가져오다",
+      "ExampleEng": "The crop yield was higher than expected this year.",
+      "ExampleKor": "올해의 작물 수확량은 예상보다 더 높았습니다."
+    },
+    {
+      "English": "recovery",
+      "Korean": "회복",
+      "ExampleEng": "Her recovery from surgery was faster than anticipated.",
+      "ExampleKor": "그녀의 수술 후 회복은 예상보다 빨랐습니다."
+    },
+    {
+      "English": "relieve",
+      "Korean": "완화시키다",
+      "ExampleEng": "The medication helped relieve his pain.",
+      "ExampleKor": "약물은 그의 통증을 완화하는 데 도움이 되었습니다."
+    },
+    {
+      "English": "remedy",
+      "Korean": "치료법",
+      "ExampleEng": "He found a natural remedy for his allergies.",
+      "ExampleKor": "그는 그의 알레르기에 대한 자연 치료법을 알아냈어요."
+    },
+    {
+      "English": "combination",
+      "Korean": "결합, 연합",
+      "ExampleEng": "The combination of flavors in the dish was delicious.",
+      "ExampleKor": "그 요리의 맛은 다양한 풍미들의 조합으로 맛있었습니다."
+    }
+  ]
+  }

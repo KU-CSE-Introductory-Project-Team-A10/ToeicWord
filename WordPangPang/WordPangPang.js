@@ -1,3 +1,33 @@
+$(document).ready(()=>{
+  var isIntegrity = true;
+  try{
+    Words = JSON.parse(JSON.stringify(ToeicWord)).Words;
+  }catch{
+    alert("파일을 불러오는 데 실패했습니다.");
+    window.close();
+  }
+  regexEng = /^(?!\\s)(?!.*\\s$)[a-zA-Z\s]+$/;
+  regexKor = /^(?!\\s)(?!.*\\s$)[가-힣!@#$%^&*()_+{}\[\]:;<>,.?~\-\s']+$/
+  regexExEng = /^(?!\\s)(?!.*\\s$)[a-zA-Z0-9!@#$%^&*()_+{}\[\]:;<>,.?~\-\s']+$/;
+  regexExKor = /^(?!\\s)(?!.*\\s$)[가-힣0-9!@#$%^&*()_+{}\[\]:;<>,.?~\-\s']+$/;
+  for(var i = 0; i<Words.length; i++){
+    if(!Words[i].hasOwnProperty('English') || !Words[i].hasOwnProperty('Korean') || !Words[i].hasOwnProperty('ExampleKor') || !Words[i].hasOwnProperty('ExampleEng')){
+      isIntegrity = false;
+      break;
+    }else{
+
+      if(!regexEng.test(Words[i].English) || !regexKor.test(Words[i].Korean) || !regexExEng.test(Words[i].ExampleEng) || !regexExKor.test(Words[i].ExampleKor)){
+        isIntegrity = false;
+        break;
+      }
+    }
+  }
+  if(!isIntegrity){
+    alert("파일을 불러오는 데 실패했습니다.");
+    window.close();
+  }
+
+});
 // $(document).ready(() => {
   
 
@@ -24,7 +54,7 @@
 // //   });
 
 // });
-
+let Words;
 function changePage(x) {
     const pages = ["page1", "page2", "page3", "page4"];
     for (i = 0; i < pages.length-1; i++) {
