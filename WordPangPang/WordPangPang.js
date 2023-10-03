@@ -169,20 +169,21 @@ function Search_word(){
   
 
 
-  const now_word = document.getElementById("search-field").value;
+  const now_word = document.getElementById("search-field").value.toLowerCase();
 
   var searched_word = [];
   table_body = document.getElementById("wordtable-body");
   table_body.innerHTML = '';
 
   for (var i = 0; i < Words.length; i++) {
-
-      if(Words[i].English.includes(now_word)){
+    var eng_tmp = Words[i].English;
+    var kor_tmp = Words[i].Korean;
+      if(eng_tmp.replace(" ","").includes(now_word)){
   
           searched_word.push(Words[i]);
       }
 
-      else if(Words[i].Korean.includes(now_word)){
+      else if(kor_tmp.replace(" ","").includes(now_word)){
   
           searched_word.push(Words[i]);
       }
