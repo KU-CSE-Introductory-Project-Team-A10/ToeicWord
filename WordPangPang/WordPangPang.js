@@ -70,6 +70,8 @@ $(document).ready(() => {
     return isDup.length == 1;
   }
 
+  Search_word();  
+
 });
 // $(document).ready(() => {
 
@@ -163,6 +165,78 @@ function Login() {
     alert("잘못된 아이디 형식입니다.");
     document.getElementById("login-field").value = null;
   }
+}
+
+function Search_word(){
+  const now_word = document.getElementById("search-field").value.toLowerCase();
+  var searched_word = [];
+  table_body = document.getElementById("wordtable-body");
+  table_body.innerHTML = '';
+
+  for (var i = 0; i < Words.length; i++) {
+    var eng_tmp = Words[i].English;
+    var kor_tmp = Words[i].Korean;
+      if(eng_tmp.replace(" ","").includes(now_word)){
+  
+          searched_word.push(Words[i]);
+      }
+
+      else if(kor_tmp.replace(" ","").includes(now_word)){
+  
+          searched_word.push(Words[i]);
+      }
+  }
+
+  searched_word.sort(function (a, b) {
+            return a.English.localeCompare(b.English);
+        });
+
+  for (var i = 0; i < searched_word.length; i++) {
+    let row_1 = document.createElement('tr');
+
+    let element_1 = document.createElement('th');
+    element_1.innerHTML = searched_word[i].English;
+    element_1.setAttribute('id', 'main-info'); // element_1에 id "main" 추가
+
+    let element_2 = document.createElement('th');
+    element_2.innerHTML = searched_word[i].Korean;
+    element_2.setAttribute('id', 'main-info'); // element_2에 id "main" 추가
+
+    let element_3 = document.createElement('th');
+    element_3.innerHTML = "▷"+searched_word[i].ExampleEng;
+    element_3.setAttribute('id', 'detail'); // element_3에 id "detail" 추가
+
+    let element_4 = document.createElement('th');
+    element_4.innerHTML = "▶"+searched_word[i].ExampleKor;
+    element_4.setAttribute('id', 'detail'); // element_4에 id "detail" 추가
+
+    row_1.appendChild(element_1);
+    row_1.appendChild(element_2);
+    row_1.appendChild(element_3);
+    row_1.appendChild(element_4);
+    table_body.appendChild(row_1);
+  }
+
+
+  var mainInfoElements = document.querySelectorAll("#main-info");
+
+ 
+  mainInfoElements.forEach(function (element) {
+      element.addEventListener("click", function () {
+           var childElements = element.parentElement.children;
+
+           for (var i = 0; i < childElements.length; i++) {
+              if (i === 2 || i === 3) {
+                  if(childElements[i].style.display != "inline-block")
+                  childElements[i].style.display = "inline-block";
+                  else childElements[i].style.display = "none";
+
+                
+              } 
+           }
+      });
+  });
+
 }
 
 let quizIdx; //퀴즈 번호
