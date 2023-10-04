@@ -38,8 +38,24 @@
         </div>
         <div class = "menu" id="page2">
             <h3>단어퀴즈</h3>
-            <div>
-                <button class = "back_btn" onclick="BackTo_menu(1)">뒤로 가기</button>
+            <div id="quiz-main">
+                <div id="quiz-frame">
+                    <h3 id="quiz-word"> </h2> 
+                    <div id="quiz-option-frame">
+                    </div>
+                </div>
+                <div id="quiz-menu-frame">
+                    <div id="quiz-console">
+                    </div>
+                    <div id="quiz-menu">
+                        <div id="score-div"> 점수: 0 </div>
+                        <button id="quiz-backto-menu" onclick="BackTo_menu(1)">끝내기</button>
+                    </div>
+                </div>
+            </div>
+            <div id="quiz-end">
+                <h2 id="quiz-end-score"> 점수: 0 </h2>
+                <button id="quiz-end-backto-menu" onclick="BackTo_menu(1)">끝내기</button>
             </div>
         </div>
         <div class = "menu" id="page3">
