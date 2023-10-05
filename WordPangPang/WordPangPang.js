@@ -103,16 +103,16 @@ let Words;
 let Players; // 사용자들 데이터
 let User; // 현 사용자
 function changePage(x) {
-  const pages = ["page1", "page2", "page3", "page4"];
-  for (i = 0; i < pages.length - 1; i++) {
+  const pages_move = ["page1", "page2", "page3", "page4"];
+  for (i = 0; i < pages_move.length - 1; i++) {
     if (i == x) {
-      $('#' + pages[i]).show();
+      $('#' + pages_move[i]).show();
       if (x == 1) {
         initQuiz();
       }
     }
     else {
-      $('#' + pages[i]).hide();
+      $('#' + pages_move[i]).hide();
     }
   }
   //만약 page4라면 window.close()해줌
@@ -124,21 +124,13 @@ function changePage(x) {
 }
 
 function MoveTo_menu(x) {
-  const menu = ["단어장 열람", "단어퀴즈", "미니 게임", "종료"];
-  const menu_btn = ["btn1", "btn2", "btn3", "btn4"];
-  //var menu_color = $('#' + menu_btn[x]).css('color', 'green');
-  if (confirm("이동하시겠습니까?") == true) {
-    alert(menu[x] + "(으)로 이동하겠습니다.");
-    changePage(x);
-    $('#main').hide();
-  } else {
-    alert(menu[x] + "(으)로 이동하지 않겠습니다.");
-  }
+  changePage(x);
+  $('#main').hide();
 }
 
 function BackTo_menu(x) {
-  const page = ["page1", "page2", "page3", "page4"];
-  $('#' + page[x]).hide();
+  const page_return = ["page1", "page2", "page3", "page4"];
+  $('#' + page_return[x]).hide();
   $('#main').show();
 }
 
