@@ -211,9 +211,9 @@ function Search_word(){
 let quizIdx; //퀴즈 번호
 let quizNum; //퀴즈 문항 배열
 let quizScore; // 퀴즈 점수
-var QUIZTYPE;
-var quizTime = 60;
-var timer;
+var QUIZTYPE; // 퀴즈/미니게임 구분
+var quizTime = 60; // 미니게임 제한시간
+var timer; // 미니게임 제한시간 interval
 
 function  resetQuiz() {
   quizScore = 0;
