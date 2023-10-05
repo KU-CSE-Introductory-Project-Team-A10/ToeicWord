@@ -1,4 +1,5 @@
 $(document).ready(() => {
+  $("#quiz-time").hide();
   var isIntegrity = true;
   try {
     Words = JSON.parse(JSON.stringify(ToeicWord)).Words;
@@ -73,32 +74,7 @@ $(document).ready(() => {
   Search_word();  
 
 });
-// $(document).ready(() => {
 
-
-
-// //   $("#btn1").click(() => {
-// //     //$('#btn1').css('background-color', 'green');
-// //     changePage(0);
-// //     $('#main').hide(); // 버튼 클릭 시 main 요소를 숨김
-// //   });
-
-// //   $("#btn2").click(() => {
-// //     changePage(1);
-// //     $('#main').hide();
-// //   });
-
-// //   $("#btn3").click(() => {
-// //     changePage(2);
-// //     $('#main').hide();
-// //   });
-
-// //   $("#btn4").click(() => {
-// //     changePage(3);
-// //     $('#main').hide();
-// //   });
-
-// });
 let Words;
 let Players; // 사용자들 데이터
 let User; // 현 사용자
@@ -109,6 +85,7 @@ function changePage(x) {
       $('#' + pages_move[i]).show();
       if (x == 1) {
         initQuiz();
+        QUIZTYPE = 1;
       }
     }
     else {
@@ -234,14 +211,23 @@ function Search_word(){
 let quizIdx; //퀴즈 번호
 let quizNum; //퀴즈 문항 배열
 let quizScore; // 퀴즈 점수
+var QUIZTYPE;
+var quizTime = 60;
+var timer;
 
-function initQuiz() { //퀴즈 문항 초기화
-  quizIdx = 0;
+function  resetQuiz() {
   quizScore = 0;
   quizNum = [];
   $("#quiz-main").show();
   $("#quiz-end").hide();
   $("#score-div").text("점수: 0");
+}
+
+function initQuiz() { //퀴즈 문항 초기화
+  if (quizTime == 60) {
+    resetQuiz();
+  }
+  quizIdx = 0;
   const wordLength = Words.length;
   for (let i = 0; i < 10 ; i++) {
     let isUsedNum = false;
@@ -313,9 +299,16 @@ function selectOption(idx) {
     }, 1500);
   }
   else {
-    setTimeout(function() {
-      quizEnd();
-    }, 1500);
+    if (QUIZTYPE == 1) {
+      setTimeout(function() {
+        quizEnd();
+      }, 1500);
+    }
+    if (QUIZTYPE == 2) {
+      setTimeout(function() {
+        initQuiz();
+      }, 1500);
+    }
   }
 }
 
@@ -323,6 +316,11 @@ function quizEnd() {
   $("#quiz-main").hide();
   $("#quiz-end").show();
   $("#quiz-end-score").text("점수: " + quizScore);
+  $("#quiz-time").text("60");
+  $("#quiz-time").hide();
+  $("#page2 h3").text("단어퀴즈");
+  quizTime = 60;
+  clearInterval(timer);
 }
 
 function shuffleArray(arr) {
@@ -347,4 +345,21 @@ function shuffleArray(arr) {
     clone[randArr[i]] = arr[i];
   }
   return clone;
+}
+
+function MiniGame() {
+  QUIZTYPE = 2;
+  $("#page3").hide();
+  $("#page2").show();
+  $("#quiz-time").show();
+  $("#page2 h3").text("미니게임");
+  initQuiz();
+  timer = setInterval(() => {
+    --quizTime;
+    $("#quiz-time").text(quizTime);
+
+    if (quizTime == 0) {
+      quizEnd();
+    }
+  }, 1000);
 }
