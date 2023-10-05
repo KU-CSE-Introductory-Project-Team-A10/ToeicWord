@@ -314,13 +314,16 @@ function selectOption(idx) {
     }
   }
   quizIdx++;
+  $(".quiz-option").attr('onclick', '').unbind('click');
   if (quizIdx != 10) {
     setTimeout(function() {
       generateQuiz();
     }, 1500);
   }
   else {
-    quizEnd();
+    setTimeout(function() {
+      quizEnd();
+    }, 1500);
   }
 }
 
