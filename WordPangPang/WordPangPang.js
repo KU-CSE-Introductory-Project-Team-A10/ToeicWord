@@ -107,6 +107,9 @@ function changePage(x) {
   for (i = 0; i < pages.length - 1; i++) {
     if (i == x) {
       $('#' + pages[i]).show();
+      if (x == 1) {
+        initQuiz();
+      }
     }
     else {
       $('#' + pages[i]).hide();
@@ -139,7 +142,6 @@ function BackTo_menu(x) {
   $('#main').show();
 }
 
-
 function Login() {
   var textField = $('#login-field').val();
   const regex = /^[a-zA-Z0-9]{3,16}$/;
@@ -166,11 +168,7 @@ function Login() {
 }
 
 function Search_word(){
-  
-
-
   const now_word = document.getElementById("search-field").value.toLowerCase();
-
   var searched_word = [];
   table_body = document.getElementById("wordtable-body");
   table_body.innerHTML = '';
@@ -239,4 +237,119 @@ function Search_word(){
       });
   });
 
+}
+
+let quizIdx; //퀴즈 번호
+let quizNum; //퀴즈 문항 배열
+let quizScore; // 퀴즈 점수
+
+function initQuiz() { //퀴즈 문항 초기화
+  quizIdx = 0;
+  quizScore = 0;
+  quizNum = [];
+  $("#quiz-main").show();
+  $("#quiz-end").hide();
+  $("#score-div").text("점수: 0");
+  const wordLength = Words.length;
+  for (let i = 0; i < 10 ; i++) {
+    let isUsedNum = false;
+    let rand = Math.floor(Math.random()*wordLength);
+    for (let j = 0 ; j < i ; j++) {
+      if (rand == quizNum[j]) {
+        isUsedNum = true;
+      }
+    }
+    if (isUsedNum) {
+      i--;
+    }
+    else {
+      quizNum[i] = rand;
+    }
+  }
+  generateQuiz();
+}
+
+function generateQuiz() { //퀴즈 생성
+  $("#quiz-word").text(Words[quizNum[quizIdx]].English);
+  $("#quiz-console").text(" ");
+  let options = [];
+  const wordLength = Words.length;
+  options[0] = quizNum[quizIdx];
+  for (let i = 1; i < 4 ; i++) {
+    let isUsedNum = false;
+    let rand = Math.floor(Math.random()*wordLength);
+    for (let j = 0 ; j < i ; j++) {
+      if (rand == options[j]) {
+        isUsedNum = true;
+      }
+    }
+    if (isUsedNum) {
+      i--;
+    }
+    else {
+      options[i] = rand;
+    }
+  }
+  options = shuffleArray(options);
+  $("#quiz-option-frame").html("");
+  for (let i = 0 ; i < 4 ; i++) {
+    $("#quiz-option-frame").append("<button class='quiz-option' onclick='selectOption(" + i + ")'>" + Words[options[i]].Korean + "</button>");
+  }
+}
+
+function selectOption(idx) {
+  if ($("#quiz-option-frame > button").eq(idx).text() == Words[quizNum[quizIdx]].Korean) {
+    $("#quiz-option-frame > button").eq(idx).css("background-color", "lime");
+    $("#quiz-console").text("정답입니다.");
+    quizScore += 10;
+    $("#score-div").text("점수: " + quizScore);
+  }
+  else {
+    $("#quiz-option-frame > button").eq(idx).css("background-color", "red");
+    for (let i = 0 ; i < 4 ; i++) {
+      if ($("#quiz-option-frame > button").eq(i).text() == Words[quizNum[quizIdx]].Korean) {
+        $("#quiz-option-frame > button").eq(i).css("background-color", "lime");
+        $("#quiz-console").text("오답입니다.");
+      }
+    }
+  }
+  quizIdx++;
+  if (quizIdx != 10) {
+    setTimeout(function() {
+      generateQuiz();
+    }, 1500);
+  }
+  else {
+    quizEnd();
+  }
+}
+
+function quizEnd() {
+  $("#quiz-main").hide();
+  $("#quiz-end").show();
+  $("#quiz-end-score").text("점수: " + quizScore);
+}
+
+function shuffleArray(arr) {
+  let randArr = [];
+  let clone = [];
+  for (let i = 0 ; i < arr.length ; i++) {
+    let isUsedNum = false;
+    let rand = Math.floor(Math.random()*arr.length);
+    for (let j = 0 ; j < i ; j++) {
+      if (rand == randArr[j]) {
+        isUsedNum = true;
+      }
+    }
+    if (isUsedNum) {
+      i--;
+    }
+    else {
+      randArr[i] = rand;
+    }
+  }
+  for (let i = 0 ; i < arr.length ; i++) {
+    clone[randArr[i]] = arr[i];
+  }
+  return clone;
 }
