@@ -165,34 +165,35 @@ function Login() {
   }
 }
 
-function Search_word(){
+
+function push_and_sort(searched_word) {
+
+   const now_word = document.getElementById("search-field").value.toLowerCase();
+
+    table_body = document.getElementById("wordtable-body");
+    table_body.innerHTML = '';
+
+    for (var i = 0; i < Words.length; i++) {
+      const eng_tmp = Words[i].English;
+      const kor_tmp = Words[i].Korean;
+        if(eng_tmp.replace(" ","").includes(now_word)){
+    
+            searched_word.push(Words[i]);
+        }
+
+        else if(kor_tmp.replace(" ","").includes(now_word)){
+    
+            searched_word.push(Words[i]);
+        }
+    }
+
+    searched_word.sort(function (a, b) {
+              return a.English.localeCompare(b.English);
+          });
+}
+
+function make_Wordtable(searched_word) {
   
-
-
-  const now_word = document.getElementById("search-field").value.toLowerCase();
-
-  var searched_word = [];
-  table_body = document.getElementById("wordtable-body");
-  table_body.innerHTML = '';
-
-  for (var i = 0; i < Words.length; i++) {
-    var eng_tmp = Words[i].English;
-    var kor_tmp = Words[i].Korean;
-      if(eng_tmp.replace(" ","").includes(now_word)){
-  
-          searched_word.push(Words[i]);
-      }
-
-      else if(kor_tmp.replace(" ","").includes(now_word)){
-  
-          searched_word.push(Words[i]);
-      }
-  }
-
-  searched_word.sort(function (a, b) {
-            return a.English.localeCompare(b.English);
-        });
-
   for (var i = 0; i < searched_word.length; i++) {
     let row_1 = document.createElement('tr');
 
@@ -218,9 +219,10 @@ function Search_word(){
     row_1.appendChild(element_4);
     table_body.appendChild(row_1);
   }
+}
 
-
-  var mainInfoElements = document.querySelectorAll("#main-info");
+function add_eventlistener() {
+  const mainInfoElements = document.querySelectorAll("#main-info");
 
  
   mainInfoElements.forEach(function (element) {
@@ -238,5 +240,19 @@ function Search_word(){
            }
       });
   });
+
+
+}
+
+function Search_word(){
+  
+  var searched_word = [];
+
+
+  push_and_sort(searched_word);
+
+  make_Wordtable(searched_word);
+
+  add_eventlistener();
 
 }
