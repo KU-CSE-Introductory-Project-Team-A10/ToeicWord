@@ -77,35 +77,24 @@ let Words;
 let Players; // 사용자들 데이터
 let User; // 현 사용자
 function changePage(x) {
-  const pages_move = ["page1", "page2", "page3", "page4"];
-  for (i = 0; i < pages_move.length - 1; i++) {
-    if (i == x) {
-      $('#' + pages_move[i]).show();
-      if (x == 1) {
-        initQuiz();
-        QUIZTYPE = 1;
-      }
-    }
-    else {
-      $('#' + pages_move[i]).hide();
-    }
+  $(".menu").hide();
+  $(".menu").eq(x).show();
+  if (x == 1) {
+    openQuiz();
   }
   //만약 page4라면 window.close()해줌
   if (x == 3) {
     window.close();
-
   }
-
 }
 
 function MoveTo_menu(x) {
-  changePage(x);
   $('#main').hide();
+  changePage(x);
 }
 
-function BackTo_menu(x) {
-  const page_return = ["page1", "page2", "page3", "page4"];
-  $('#' + page_return[x]).hide();
+function BackTo_menu() {
+  $('.menu').hide();
   $('#main').show();
 }
 
@@ -240,6 +229,17 @@ function  resetQuiz() {
   $("#quiz-main").show();
   $("#quiz-end").hide();
   $("#score-div").text("점수: 0");
+}
+
+function openQuiz() {
+  if (Words.length >= 10) {
+      initQuiz();
+      QUIZTYPE = 1;
+    }
+    else {
+      alert("퀴즈를 진행하려면 영단어가 10개 이상 있어야 합니다.")
+      BackTo_menu();
+    }
 }
 
 function initQuiz() { //퀴즈 문항 초기화
