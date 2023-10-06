@@ -35,24 +35,6 @@ $(document).ready(() => {
       Players = [];
       localStorage.setItem("Players", JSON.stringify(Players));
     }
-    else {
-      for (var i = 0; i < Players.length; i++) {
-        if (!Players[i].hasOwnProperty('ID') || !Players[i].hasOwnProperty('Score')) {
-          isIntegrity = false;
-          break;
-        } else {
-          if (!regexID.test(Players[i].ID) || !regexScore.test(Players[i].Score)) {
-            isIntegrity = false;
-            break;
-          } else {
-            if (!isDuplicatePlayer(Players[i].ID)) {
-              isIntegrity = false;
-              break;
-            }
-          }
-        }
-      }
-    }
   }
   if (!isIntegrity) {
     alert("파일을 불러오는 데 실패했습니다.");
