@@ -136,8 +136,6 @@ function Login() {
   }
 }
 
-<<<<<<< HEAD
-
 function push_and_sort(searched_word) {
 
    const now_word = document.getElementById("search-field").value.toLowerCase();
@@ -166,32 +164,6 @@ function push_and_sort(searched_word) {
 
 function make_Wordtable(searched_word) {
   
-=======
-function Search_word(){
-  const now_word = document.getElementById("search-field").value.toLowerCase();
-  var searched_word = [];
-  table_body = document.getElementById("wordtable-body");
-  table_body.innerHTML = '';
-
-  for (var i = 0; i < Words.length; i++) {
-    var eng_tmp = Words[i].English;
-    var kor_tmp = Words[i].Korean;
-      if(eng_tmp.replace(" ","").includes(now_word)){
-  
-          searched_word.push(Words[i]);
-      }
-
-      else if(kor_tmp.replace(" ","").includes(now_word)){
-  
-          searched_word.push(Words[i]);
-      }
-  }
-
-  searched_word.sort(function (a, b) {
-            return a.English.localeCompare(b.English);
-        });
-
->>>>>>> 400a4df5b625590c8d07edbcf097586e798ee307
   for (var i = 0; i < searched_word.length; i++) {
     let row_1 = document.createElement('tr');
 
@@ -239,7 +211,7 @@ function add_eventlistener() {
       });
   });
 
-<<<<<<< HEAD
+
 
 }
 
@@ -254,7 +226,7 @@ function Search_word(){
 
   add_eventlistener();
 
-=======
+
 }
 
 let quizIdx; //퀴즈 번호
@@ -411,5 +383,5 @@ function MiniGame() {
       quizEnd();
     }
   }, 1000);
->>>>>>> 400a4df5b625590c8d07edbcf097586e798ee307
+
 }
