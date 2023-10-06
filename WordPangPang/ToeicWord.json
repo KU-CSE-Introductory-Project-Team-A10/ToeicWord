@@ -596,7 +596,7 @@ ToeicWord = {
     },
     {
       "English": "be ready to",
-      "Korean": "~하기로 되어있는",
+      "Korean": "~하기로 되어 있는",
       "ExampleEng": "The team is ready to launch the new product next month.",
       "ExampleKor": "팀은 다음 달에 새 제품을 출시할 준비가 되어 있습니다."
     },
@@ -614,7 +614,7 @@ ToeicWord = {
     },
     {
       "English": "be schedule to",
-      "Korean": "~하기로 되어있는",
+      "Korean": "~하기로 되어 있는",
       "ExampleEng": "The event is scheduled to take place on the first Saturday of June.",
       "ExampleKor": "이 행사는 6월 첫 토요일에 개최하기로 예정되어 있습니다."
     },
