@@ -1,5 +1,4 @@
 $(document).ready(() => {
-  $("#quiz-time").hide();
   var isIntegrity = true;
   try {
     Words = JSON.parse(JSON.stringify(ToeicWord)).Words;
@@ -42,6 +41,7 @@ $(document).ready(() => {
   }
   window.localStorage.setItem("ToeicWord", JSON.stringify(ToeicWord));
   window.localStorage.setItem("Players", JSON.stringify(Players));
+  console.log(Players)
   function isDuplicateWord(eng) {
     const isDup = Words.filter(word => word.English == eng);
     return isDup.length == 1;
@@ -197,6 +197,14 @@ function Search_word(){
 
 
 }
+// if (QUIZTYPE == 1) {
+//   for (let i = 0; i < 10 ; i++) {
+//     quizNum[i] = shuffledWords[i];
+//   }
+// }
+// if (QUIZTYPE == 2) {
+//   quizNum = shuffledWords;
+// }
 
 let quizIdx; //퀴즈 번호
 let quizNum; //퀴즈 문항 배열
@@ -204,6 +212,7 @@ let quizScore; // 퀴즈 점수
 var QUIZTYPE; // 퀴즈/미니게임 구분
 var quizTime = 60; // 미니게임 제한시간
 var timer; // 미니게임 제한시간 interval
+var optionCount = 4;
 
 function  resetQuiz() {
   quizScore = 0;
@@ -215,35 +224,45 @@ function  resetQuiz() {
 
 function openQuiz() {
   if (Words.length >= 10) {
-      initQuiz();
-      QUIZTYPE = 1;
-    }
-    else {
-      alert("퀴즈를 진행하려면 영단어가 10개 이상 있어야 합니다.")
-      BackTo_menu();
-    }
+    QUIZTYPE = 1;
+    initQuiz();
+  }
+  else {
+    alert("퀴즈를 진행하려면 영단어가 10개 이상 있어야 합니다.")
+    BackTo_menu();
+  }
 }
 
 function initQuiz() { //퀴즈 문항 초기화
   if (quizTime == 60) {
     resetQuiz();
   }
+  const allWords = [...new Array(Words.length)].map((_, i) => i);
+  var shuffledWords = allWords.sort(() => Math.random() - 0.5);
   quizIdx = 0;
   const wordLength = Words.length;
-  for (let i = 0; i < 10 ; i++) {
-    let isUsedNum = false;
-    let rand = Math.floor(Math.random()*wordLength);
-    for (let j = 0 ; j < i ; j++) {
-      if (rand == quizNum[j]) {
-        isUsedNum = true;
-      }
+  // for (let i = 0; i < 10 ; i++) {
+  //   let isUsedNum = false;
+  //   let rand = Math.floor(Math.random()*wordLength);
+  //   for (let j = 0 ; j < i ; j++) {
+  //     if (rand == quizNum[j]) {
+  //       isUsedNum = true;
+  //     }
+  //   }
+  //   if (isUsedNum) {
+  //     i--;
+  //   }
+  //   else {
+  //     quizNum[i] = rand;
+  //   }
+  // }
+  if (QUIZTYPE == 1) {
+    for (let i = 0; i < 10 ; i++) {
+      quizNum[i] = shuffledWords[i];
     }
-    if (isUsedNum) {
-      i--;
-    }
-    else {
-      quizNum[i] = rand;
-    }
+  }
+  if (QUIZTYPE == 2) {
+    quizNum = shuffledWords;
   }
   generateQuiz();
 }
@@ -253,8 +272,9 @@ function generateQuiz() { //퀴즈 생성
   $("#quiz-console").text(" ");
   let options = [];
   const wordLength = Words.length;
+  //선지 생성
   options[0] = quizNum[quizIdx];
-  for (let i = 1; i < 4 ; i++) {
+  for (let i = 1; i < optionCount ; i++) {
     let isUsedNum = false;
     let rand = Math.floor(Math.random()*wordLength);
     for (let j = 0 ; j < i ; j++) {
@@ -271,7 +291,7 @@ function generateQuiz() { //퀴즈 생성
   }
   options = shuffleArray(options);
   $("#quiz-option-frame").html("");
-  for (let i = 0 ; i < 4 ; i++) {
+  for (let i = 0 ; i < optionCount ; i++) {
     $("#quiz-option-frame").append("<button class='quiz-option' onclick='selectOption(" + i + ")'>" + Words[options[i]].Korean + "</button>");
   }
 }
@@ -285,7 +305,7 @@ function selectOption(idx) {
   }
   else {
     $("#quiz-option-frame > button").eq(idx).css("background-color", "red");
-    for (let i = 0 ; i < 4 ; i++) {
+    for (let i = 0 ; i < optionCount ; i++) {
       if ($("#quiz-option-frame > button").eq(i).text() == Words[quizNum[quizIdx]].Korean) {
         $("#quiz-option-frame > button").eq(i).css("background-color", "lime");
         $("#quiz-console").text("오답입니다.");
@@ -294,21 +314,26 @@ function selectOption(idx) {
   }
   quizIdx++;
   $(".quiz-option").attr('onclick', '').unbind('click');
-  if (quizIdx != 10) {
-    setTimeout(function() {
-      generateQuiz();
-    }, 1500);
-  }
-  else {
-    if (QUIZTYPE == 1) {
+  if (QUIZTYPE == 1) {
+    if (quizIdx != 10) {
+      setTimeout(function() {
+        generateQuiz();
+      }, 1500);
+    }
+    else {
       setTimeout(function() {
         quizEnd();
       }, 1500);
     }
-    if (QUIZTYPE == 2) {
+  }
+  if (QUIZTYPE == 2) {
+    if (Words.length == quizIdx) {
+      quizEnd();
+    }
+    else {
       setTimeout(function() {
-        initQuiz();
-      }, 1500);
+        generateQuiz();
+      }, 0);
     }
   }
 }
@@ -317,9 +342,7 @@ function quizEnd() {
   $("#quiz-main").hide();
   $("#quiz-end").show();
   $("#quiz-end-score").text("점수: " + quizScore);
-  $("#quiz-time").text("60");
-  $("#quiz-time").hide();
-  $("#page2 h3").text("단어퀴즈");
+  $("#page2 h2").text("단어퀴즈");
   quizTime = 60;
   clearInterval(timer);
 }
@@ -349,19 +372,23 @@ function shuffleArray(arr) {
 }
 
 function MiniGame() {
-  QUIZTYPE = 2;
-  $("#page3").hide();
-  $("#page2").show();
-  $("#quiz-time").show();
-  $("#page2 h3").text("미니게임");
-  initQuiz();
-  timer = setInterval(() => {
-    --quizTime;
-    $("#quiz-time").text(quizTime);
-
-    if (quizTime == 0) {
-      quizEnd();
-    }
-  }, 1000);
-
+  if (Words.length >= 10) {
+    QUIZTYPE = 2;
+    $("#page3").hide();
+    $("#page2").show();
+    $("#page2 h2").text("미니게임 : 60s");
+    initQuiz();
+    timer = setInterval(() => {
+      --quizTime;
+      $("#page2 h2").text("미니게임 : " + quizTime + "s");
+  
+      if (quizTime == 0) {
+        quizEnd();
+      }
+    }, 1000);
+  }
+  else {
+    alert("퀴즈를 진행하려면 영단어가 10개 이상 있어야 합니다.")
+    BackTo_menu();
+  }
 }

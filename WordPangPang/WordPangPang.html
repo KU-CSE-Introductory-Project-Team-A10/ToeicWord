@@ -30,7 +30,7 @@
     </nav>
     <div id="main-page">
         <div class = "menu" id="page1">
-            <h3>단어장 열람</h3>
+            <h2>단어장 열람</h2>
             <input id='search-field' type="text" placeholder="단어를 입력하세요" oninput="Search_word()" autofocus>
             <table>
                 <tbody id='wordtable-body'>
@@ -41,10 +41,10 @@
             </div>
         </div>
         <div class = "menu" id="page2">
-            <h3>단어퀴즈</h3>
+            <h2>단어퀴즈</h2>
             <div id="quiz-main">
                 <div id="quiz-frame">
-                    <h3 id="quiz-word"> </h2> 
+                    <h3 id="quiz-word"> </h3> 
                     <div id="quiz-option-frame">
                     </div>
                 </div>
@@ -53,18 +53,17 @@
                     </div>
                     <div id="quiz-menu">
                         <div id="score-div"> 점수: 0 </div>
-                        <div id="quiz-time">60</div>
                         <button id="quiz-backto-menu" onclick="quizEnd()">끝내기</button>
                     </div>
                 </div>
             </div>
             <div id="quiz-end">
-                <h2 id="quiz-end-score"> 점수: 0 </h2>
+                <h3 id="quiz-end-score"> 점수: 0 </h3>
                 <button id="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
             </div>
         </div>
         <div class = "menu" id="page3">
-            <h3>미니게임</h3>
+            <h2>미니게임</h2>
             <div>
                 <button onclick="MiniGame()">시작하기</button>
                 <button class = "back_btn" onclick="BackTo_menu()">뒤로 가기</button>
