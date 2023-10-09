@@ -41,7 +41,6 @@ $(document).ready(() => {
   }
   window.localStorage.setItem("ToeicWord", JSON.stringify(ToeicWord));
   window.localStorage.setItem("Players", JSON.stringify(Players));
-  console.log(Players)
   function isDuplicateWord(eng) {
     const isDup = Words.filter(word => word.English == eng);
     return isDup.length == 1;
@@ -78,6 +77,9 @@ function MoveTo_menu(x) {
 function BackTo_menu() {
   $('.menu').hide();
   $('#main').show();
+  if (QUIZTYPE == 2) {
+    $("#page2 h2").text("미니게임");
+  }
 }
 
 function Login() {
@@ -89,12 +91,10 @@ function Login() {
     const user = Players.filter(player => player.ID == textField);
     if (user.length == 1) { // 있음
       User = user[0];
-      console.log(User.Score);
     } else { // 없음
       var NewUser = { ID: textField, Score: 0 };
       Players.push(NewUser);
       User = NewUser;
-      console.log(User.Score);
       window.localStorage.setItem("Players", JSON.stringify(Players));
     }
     return;
@@ -209,7 +209,7 @@ function Search_word(){
 let quizIdx; //퀴즈 번호
 let quizNum; //퀴즈 문항 배열
 let quizScore; // 퀴즈 점수
-var QUIZTYPE; // 퀴즈/미니게임 구분
+var QUIZTYPE = 1; // 퀴즈/미니게임 구분
 var quizTime = 60; // 미니게임 제한시간
 var timer; // 미니게임 제한시간 interval
 var optionCount = 4;
@@ -341,10 +341,23 @@ function selectOption(idx) {
 function quizEnd() {
   $("#quiz-main").hide();
   $("#quiz-end").show();
-  $("#quiz-end-score").text("점수: " + quizScore);
-  $("#page2 h2").text("단어퀴즈");
   quizTime = 60;
   clearInterval(timer);
+  if (QUIZTYPE == 1) {
+    $("#quiz-end-score").text("점수: " + quizScore);
+  }
+  if (QUIZTYPE == 2) {
+    for (var i = 0; i < Players.length; i++) {
+      if(Players[i].ID === User.ID) {
+        if (Players[i].Score < quizScore) {
+          Players[i].Score = quizScore;
+        }
+        $("#quiz-end-score").text("점수: " + quizScore + "  최고점수: " + Players[i].Score);
+        break;
+      }
+    }
+    window.localStorage.setItem("Players", JSON.stringify(Players));
+  }
 }
 
 function shuffleArray(arr) {
