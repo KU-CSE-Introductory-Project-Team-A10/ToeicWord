@@ -1,5 +1,7 @@
 $(document).ready(() => {
   var isIntegrity = true;
+  $("#quiz-time").hide();
+  $("#best-scores").hide();
   try {
     Words = JSON.parse(JSON.stringify(ToeicWord)).Words;
     Players = JSON.parse(localStorage.getItem("Players"));
@@ -80,6 +82,7 @@ function BackTo_menu() {
   $('#main').show();
   if (QUIZTYPE == 2) {
     $("#page2 h2").text("미니게임");
+    $("#best-scores").hide();
   }
 }
 
@@ -264,6 +267,8 @@ function initQuiz() { //퀴즈 문항 초기화
   }
   if (QUIZTYPE == 2) {
     quizNum = shuffledWords;
+    $("#quiz-time").show();
+    $("#best-scores").show();
   }
   generateQuiz();
 }
@@ -342,6 +347,9 @@ function selectOption(idx) {
 function quizEnd() {
   $("#quiz-main").hide();
   $("#quiz-end").show();
+  $("#quiz-time").hide();
+  var names = [];
+  var scores = [];
   quizTime = 60;
   clearInterval(timer);
   if (QUIZTYPE == 1) {
@@ -353,11 +361,37 @@ function quizEnd() {
         if (Players[i].Score < quizScore) {
           Players[i].Score = quizScore;
         }
-        $("#quiz-end-score").text("점수: " + quizScore + "  최고점수: " + Players[i].Score);
+        $("#quiz-end-score").html("My score: " + quizScore + "<br>High score: " + Players[i].Score);
         break;
       }
     }
+    
     window.localStorage.setItem("Players", JSON.stringify(Players));
+    for (var i = 0; i < Players.length; i++) {
+      if (i == 0) {
+        names[0] = Players[0].ID;
+        scores[0] = Players[0].Score;
+      }
+      else {
+        for (var j = 0; j < i; j++) {
+          if (scores[j] < Players[i].Score) {
+            scores[i] = scores[j];
+            names[i] = names[j];
+            scores[j] = Players[i].Score;
+            names[j] = Players[i].ID;
+          }
+        }
+      }
+    }
+    if (names[1] == undefined) {
+      $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0]);
+    }
+    else if (names[2] == undefined) {
+      $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1]);
+    }
+    else {
+      $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1] + "<br>Rank 3)" + names[2] + " : " + scores[2]);
+    }
   }
 }
 
@@ -390,11 +424,11 @@ function MiniGame() {
     QUIZTYPE = 2;
     $("#page3").hide();
     $("#page2").show();
-    $("#page2 h2").text("미니게임 : 60s");
+    $("#page2 h2").text("미니게임");
     initQuiz();
     timer = setInterval(() => {
       --quizTime;
-      $("#page2 h2").text("미니게임 : " + quizTime + "s");
+      $("#quiz-time").text(quizTime + "s");
   
       if (quizTime == 0) {
         quizEnd();

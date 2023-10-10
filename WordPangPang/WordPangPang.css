@@ -108,6 +108,8 @@ nav{
 #quiz-word {
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: -600px;
+  display: inline;
 }
 
 #quiz-menu {
@@ -174,7 +176,8 @@ nav{
   font-weight : bold;
   text-align: center;
   line-height: 46px;
-  margin-left: 100px;
+  margin-left: 600px;
+  margin-right: -100px;
 }
 
 footer{
