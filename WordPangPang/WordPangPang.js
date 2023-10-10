@@ -364,6 +364,10 @@ function quizEnd() {
         $("#quiz-end-score").html("My score: " + quizScore + "<br>High score: " + Players[i].Score);
         break;
       }
+    }
+    
+    window.localStorage.setItem("Players", JSON.stringify(Players));
+    for (var i = 0; i < Players.length; i++) {
       if (i == 0) {
         names[0] = Players[0].ID;
         scores[0] = Players[0].Score;
@@ -379,8 +383,15 @@ function quizEnd() {
         }
       }
     }
-    $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1] + "<br>Rank 3)" + names[2] + " : " + scores[2]);
-    window.localStorage.setItem("Players", JSON.stringify(Players));
+    if (names[1] == undefined) {
+      $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0]);
+    }
+    else if (names[2] == undefined) {
+      $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1]);
+    }
+    else {
+      $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1] + "<br>Rank 3)" + names[2] + " : " + scores[2]);
+    }
   }
 }
 
