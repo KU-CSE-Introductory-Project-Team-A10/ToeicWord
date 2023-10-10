@@ -367,26 +367,37 @@ function quizEnd() {
     }
     
     window.localStorage.setItem("Players", JSON.stringify(Players));
-    for (var i = 0; i < Players.length; i++) {
-      if (i == 0) {
-        names[0] = Players[0].ID;
-        scores[0] = Players[0].Score;
-      }
-      else {
-        for (var j = 0; j < i; j++) {
-          if (scores[j] < Players[i].Score) {
-            scores[i] = scores[j];
-            names[i] = names[j];
-            scores[j] = Players[i].Score;
-            names[j] = Players[i].ID;
+    
+    names[0] = Players[0].ID;
+    scores[0] = Players[0].Score;
+    for (var i = 1; i < Players.length; i++) {
+      var isUsed = false;
+      for (var j = 0; j <  names.length; j++) {
+        if (scores[j] >= Players[i].Score && names[j] !== Players[i].ID) {
+          if (j == 0) {
+            names.unshift(Players[i].ID);
+            scores.unshift(Players[i].Score);
           }
+          else {
+            names.splice(j - 1, 0, Players[i].ID);
+            scores.splice(j - 1, 0, Players[i].Score);
+          }
+          isUsed = !isUsed;
+          break;
         }
       }
+      if (!isUsed) {
+        names.push(Players[i].ID);
+        scores.push(Players[i].Score);
+      }
     }
-    if (names[1] == undefined) {
+    names = names.reverse();
+    scores = scores.reverse();
+
+    if (names[1] === undefined) {
       $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0]);
     }
-    else if (names[2] == undefined) {
+    else if (names[2] === undefined) {
       $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1]);
     }
     else {
