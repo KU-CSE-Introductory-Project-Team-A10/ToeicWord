@@ -1,6 +1,6 @@
 $(document).ready(() => {
   var isIntegrity = true;
-  $("#quiz-time").hide();
+  $(".quiz-time").hide();
   $("#best-scores").hide();
   try {
     Words = JSON.parse(JSON.stringify(ToeicWord)).Words;
@@ -63,9 +63,6 @@ let User; // 현 사용자
 function changePage(x) {
   $(".menu").hide();
   $(".menu").eq(x).show();
-  if (x == 1) {
-    openQuiz();
-  }
   //만약 page4라면 window.close()해줌
   if (x == 3) {
     window.close();
@@ -75,6 +72,7 @@ function changePage(x) {
 function MoveTo_menu(x) {
   $('#main').hide();
   changePage(x);
+ 
 }
 
 function BackTo_menu() {
@@ -83,7 +81,11 @@ function BackTo_menu() {
   if (QUIZTYPE == 2) {
     $("#page2 h2").text("미니게임");
     $("#best-scores").hide();
+    
   }
+  $(".quiz-end").hide();
+  $(".quizs").hide();
+    $("#select_page").show();
 }
 
 function Login() {
@@ -213,22 +215,30 @@ function Search_word(){
 let quizIdx; //퀴즈 번호
 let quizNum; //퀴즈 문항 배열
 let quizScore; // 퀴즈 점수
-var QUIZTYPE = 1; // 퀴즈/미니게임 구분
+var QUIZTYPE = 0; // 퀴즈/미니게임 구분
 var quizTime = 60; // 미니게임 제한시간
 var timer; // 미니게임 제한시간 interval
 var optionCount = 4;
 
+function show_quiz(x) {
+   $("#select_page").hide();
+   $(".quizs").eq(x).show();
+   
+   
+   openQuiz(x)
+}
 function  resetQuiz() {
   quizScore = 0;
   quizNum = [];
-  $("#quiz-main").show();
-  $("#quiz-end").hide();
-  $("#score-div").text("점수: 0");
+  $(".quiz-main").show();
+  $(".quiz-end").hide();
+  $(".score-div").text("점수: 0");
+  
 }
 
-function openQuiz() {
+function openQuiz(x) {
   if (Words.length >= 10) {
-    QUIZTYPE = 1;
+    QUIZTYPE = x;
     initQuiz();
   }
   else {
@@ -260,67 +270,130 @@ function initQuiz() { //퀴즈 문항 초기화
   //     quizNum[i] = rand;
   //   }
   // }
-  if (QUIZTYPE == 1) {
+  if (QUIZTYPE <= 1) {
     for (let i = 0; i < 10 ; i++) {
       quizNum[i] = shuffledWords[i];
     }
   }
+  
   if (QUIZTYPE == 2) {
     quizNum = shuffledWords;
-    $("#quiz-time").show();
+    $(".quiz-time").show();
     $("#best-scores").show();
   }
   generateQuiz();
 }
 
 function generateQuiz() { //퀴즈 생성
-  $("#quiz-word").text(Words[quizNum[quizIdx]].English);
-  $("#quiz-console").text(" ");
-  let options = [];
-  const wordLength = Words.length;
-  //선지 생성
-  options[0] = quizNum[quizIdx];
-  for (let i = 1; i < optionCount ; i++) {
-    let isUsedNum = false;
-    let rand = Math.floor(Math.random()*wordLength);
-    for (let j = 0 ; j < i ; j++) {
-      if (rand == options[j]) {
-        isUsedNum = true;
+
+  if(QUIZTYPE == 0){    
+    $("#quiz-word").text(Words[quizNum[quizIdx]].English);
+    $(".quiz-console").text(" ");
+    let options = [];
+    const wordLength = Words.length;
+    //선지 생성
+    options[0] = quizNum[quizIdx];
+    for (let i = 1; i < optionCount ; i++) {
+      let isUsedNum = false;
+      let rand = Math.floor(Math.random()*wordLength);
+      for (let j = 0 ; j < i ; j++) {
+        if (rand == options[j]) {
+          isUsedNum = true;
+        }
+      }
+      if (isUsedNum) {
+        i--;
+      }
+      else {
+        options[i] = rand;
       }
     }
-    if (isUsedNum) {
-      i--;
-    }
-    else {
-      options[i] = rand;
+    options = shuffleArray(options);
+    $("#quiz-option-frame").html("");
+    for (let i = 0 ; i < optionCount ; i++) {
+      $("#quiz-option-frame").append("<button class='quiz-option' onclick='selectOption(" + i + ")'>" + Words[options[i]].Korean + "</button>");
     }
   }
-  options = shuffleArray(options);
-  $("#quiz-option-frame").html("");
-  for (let i = 0 ; i < optionCount ; i++) {
-    $("#quiz-option-frame").append("<button class='quiz-option' onclick='selectOption(" + i + ")'>" + Words[options[i]].Korean + "</button>");
+  else{
+    $("#quiz-word2").text(Words[quizNum[quizIdx]].English);
+    $(".quiz-console").text(" ");
+
+  }
+}
+function sub_word(){
+  var means = '';
+  var count = 0;
+  var sub_text = document.getElementById("quiz-input").value;
+ 
+  document.getElementById("quiz-input").value = "";
+
+  for(var i = 0; i < Words.length;i++){
+    if($("#quiz-word2").text() == Words[i].English){
+      means += Words[i].Korean + ", ";
+      count++;
+    }
+  }
+
+var meanWords = means.split(",");
+var userWords = sub_text.split(",");
+
+var meanWords = meanWords.map(function(word) {
+  return word.trim();
+});
+var userWords = userWords.map(function(word) {
+  return word.trim();
+});
+var allWordsFound;
+if(userWords[0] != ''){
+allWordsFound = userWords.every(word => meanWords.includes(word));
+}else allWordsFound = false;
+
+if (allWordsFound) {
+  $(".quiz-console").text("정답입니다.");
+    quizScore += 10;
+    $(".score-div").text("점수: " + quizScore);
+
+}else{
+  var prt_text = '오답입니다. 정답 : ';
+  for(var o = 0; o < meanWords.length;o++){
+    prt_text += meanWords[o]+" ";
+  }
+  $(".quiz-console").text(prt_text);
+}
+quizIdx++;
+  if (QUIZTYPE <= 1) {
+    if (quizIdx != 10) {
+      setTimeout(function() {
+        generateQuiz();
+      }, 1500);
+    }
+    else {
+      setTimeout(function() {
+        quizEnd();
+      }, 1500);
+    }
   }
 }
 
 function selectOption(idx) {
   if ($("#quiz-option-frame > button").eq(idx).text() == Words[quizNum[quizIdx]].Korean) {
     $("#quiz-option-frame > button").eq(idx).css("background-color", "lime");
-    $("#quiz-console").text("정답입니다.");
+    $(".quiz-console").text("정답입니다.");
     quizScore += 10;
-    $("#score-div").text("점수: " + quizScore);
+    $(".score-div").text("점수: " + quizScore);
   }
   else {
     $("#quiz-option-frame > button").eq(idx).css("background-color", "red");
     for (let i = 0 ; i < optionCount ; i++) {
       if ($("#quiz-option-frame > button").eq(i).text() == Words[quizNum[quizIdx]].Korean) {
         $("#quiz-option-frame > button").eq(i).css("background-color", "lime");
-        $("#quiz-console").text("오답입니다.");
+        $(".quiz-console").text("오답입니다.");
       }
     }
   }
   quizIdx++;
   $(".quiz-option").attr('onclick', '').unbind('click');
-  if (QUIZTYPE == 1) {
+  if (QUIZTYPE <= 1) {
     if (quizIdx != 10) {
       setTimeout(function() {
         generateQuiz();
@@ -345,15 +418,18 @@ function selectOption(idx) {
 }
 
 function quizEnd() {
-  $("#quiz-main").hide();
-  $("#quiz-end").show();
-  $("#quiz-time").hide();
+  $(".quiz-main").hide();
+  $(".quiz-end").show();
+  $(".quiz-time").hide();
   var names = [];
   var scores = [];
   quizTime = 60;
   clearInterval(timer);
+  if (QUIZTYPE == 0) {
+    $(".quiz-end-score").text("점수: " + quizScore);
+  }
   if (QUIZTYPE == 1) {
-    $("#quiz-end-score").text("점수: " + quizScore);
+    $(".quiz-end-score").text("점수: " + quizScore);
   }
   if (QUIZTYPE == 2) {
     for (var i = 0; i < Players.length; i++) {
@@ -361,7 +437,7 @@ function quizEnd() {
         if (Players[i].Score < quizScore) {
           Players[i].Score = quizScore;
         }
-        $("#quiz-end-score").html("My score: " + quizScore + "<br>High score: " + Players[i].Score);
+        $(".quiz-end-score").html("My score: " + quizScore + "<br>High score: " + Players[i].Score);
         break;
       }
     }
@@ -439,7 +515,7 @@ function MiniGame() {
     initQuiz();
     timer = setInterval(() => {
       --quizTime;
-      $("#quiz-time").text(quizTime + "s");
+      $(".quiz-time").text(quizTime + "s");
   
       if (quizTime == 0) {
         quizEnd();

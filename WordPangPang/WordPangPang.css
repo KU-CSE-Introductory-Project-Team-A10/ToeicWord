@@ -112,20 +112,21 @@ nav{
   display: inline;
 }
 
-#quiz-menu {
+.quiz-menu {
   margin: 0 auto;
   width: 520px;
   height: 60px;
 }
 
-#quiz-console {
+.quiz-console {
   margin: 0 auto;
   width: 300px;
   height: 60px;
   font-size: 50px;
 }
 
-#score-div {
+
+.score-div {
   background-color: #F0F0F0;
   float: left;
   display: inline;
@@ -164,7 +165,7 @@ nav{
   line-height: 50px;
 }
 
-#quiz-time {
+.quiz-time {
   background-color: #F0F0F0;
   float: left;
   display: inline;
@@ -228,4 +229,9 @@ tr{
     width: 60%;
     
 }
+
+.quizs{
+  display: none;
+}
+
 

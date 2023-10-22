@@ -41,27 +41,57 @@
             </div>
         </div>
         <div class = "menu" id="page2">
-            <h2>단어퀴즈</h2>
-            <div id="quiz-time">60s</div>
-            <div id="quiz-main">
-                <div id="quiz-frame">
-                    <h3 id="quiz-word"> </h3> 
-                    <div id="quiz-option-frame">
+            <div id = select_page>
+                 <button class="btn"  onclick = "show_quiz(0)">객관식 퀴즈</button>
+                <button class="btn" onclick = "show_quiz(1)">주관식 퀴즈</button>
+            </div>
+            <div class = quizs>
+                <h2>객관식 퀴즈</h2>
+                <div class="quiz-time">60s</div>
+                <div class ="quiz-main">
+                    <div id="quiz-frame">
+                        <h3 id="quiz-word"> </h3> 
+                        <div id="quiz-option-frame">
+                        </div>
+                    </div>
+                    <div id="quiz-menu-frame">
+                        <div class="quiz-console">
+                        </div>
+                        <div id="quiz-menu">
+                            <div class="score-div"> 점수: 0 </div>
+                            <button id="quiz-backto-menu" onclick="quizEnd()">끝내기</button>
+                        </div>
                     </div>
                 </div>
-                <div id="quiz-menu-frame">
-                    <div id="quiz-console">
-                    </div>
-                    <div id="quiz-menu">
-                        <div id="score-div"> 점수: 0 </div>
-                        <button id="quiz-backto-menu" onclick="quizEnd()">끝내기</button>
-                    </div>
+                <div class="quiz-end">
+                    <h3 id="best-scores"></h3>
+                    <h3 class="quiz-end-score"> 점수: 0 </h3>
+                    <button id="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
                 </div>
             </div>
-            <div id="quiz-end">
-                <h3 id="best-scores"></h3>
-                <h3 id="quiz-end-score"> 점수: 0 </h3>
-                <button id="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
+            <div class = quizs>
+                <h2>주관식 퀴즈</h2>
+                <div class="quiz-time">60s</div>
+                <div class="quiz-main">
+                    <div id="quiz-frame">
+                        <h3 id="quiz-word2"> </h3> 
+                      <input id="quiz-input" type="text" placeholder="" onkeypress="if (event.keyCode == 13) sub_word();" autofocus>
+
+                    </div>
+                    <div id="quiz-menu-frame">
+                        <div class="quiz-console">
+                        </div>
+                        <div id="quiz-menu">
+                            <div class="score-div"> 점수: 0 </div>
+                            <button id="quiz-backto-menu" onclick="quizEnd()">끝내기</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="quiz-end">
+                    <h3 id="best-scores"></h3>
+                    <h3 class="quiz-end-score"> 점수: 0 </h3>
+                    <button id="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
+                </div>
             </div>
         </div>
         <div class = "menu" id="page3">
