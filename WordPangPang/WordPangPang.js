@@ -324,7 +324,7 @@ function generateQuiz() { //퀴즈 생성
 function sub_word(){
   var means = '';
   var count = 0;
-  var sub_text = document.getElementById("quiz-input").value;
+  const sub_text = document.getElementById("quiz-input").value;
  
   document.getElementById("quiz-input").value = "";
 
