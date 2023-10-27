@@ -2,6 +2,7 @@ $(document).ready(() => {
   var isIntegrity = true;
   $(".quiz-time").hide();
   $("#best-scores").hide();
+  $("#timer-select-page").hide();
   try {
     Words = JSON.parse(JSON.stringify(ToeicWord)).Words;
     Players = JSON.parse(localStorage.getItem("Players"));
@@ -219,13 +220,21 @@ var QUIZTYPE = 0; // 퀴즈/미니게임 구분
 var quizTime = 60; // 미니게임 제한시간
 var timer; // 미니게임 제한시간 interval
 var optionCount = 4;
+var answerType = 0; // 주관식/객관식 : 객관식 = 0, 주관식 = 1
+
+function setAnswerType(x) {
+  answerType = x;
+  $("#select_page").hide();
+  $("#timer-select-page").show();
+}
 
 function show_quiz(x) {
-   $("#select_page").hide();
-   $(".quizs").eq(x).show();
-   
-   
-   openQuiz(x)
+  quizTime = x;
+  $(".quiz-time").text(quizTime + "s");
+  $("#timer-select-page").hide();
+  $(".quizs").eq(answerType).show();
+  
+  openQuiz(answerType);
 }
 function  resetQuiz() {
   quizScore = 0;
