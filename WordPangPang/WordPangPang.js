@@ -99,7 +99,7 @@ function Login() {
     if (user.length == 1) { // 있음
       User = user[0];
     } else { // 없음
-      var NewUser = { ID: textField, Score: 0 };
+      var NewUser = { ID: textField, Score: [0, 0, 0, 0] };
       Players.push(NewUser);
       User = NewUser;
       window.localStorage.setItem("Players", JSON.stringify(Players));
@@ -434,7 +434,7 @@ function quizEnd() {
   $("#quiz-word").css("margin-left", "");
   var names = [];
   var scores = [];
-  quizTime = 60;
+  
   clearInterval(timer);
   if (QUIZTYPE == 0) {
     $(".quiz-end-score").text("점수: " + quizScore);
@@ -491,6 +491,7 @@ function quizEnd() {
       $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1] + "<br>Rank 3)" + names[2] + " : " + scores[2]);
     }
   }
+  quizTime = 60;
 }
 
 function shuffleArray(arr) {
