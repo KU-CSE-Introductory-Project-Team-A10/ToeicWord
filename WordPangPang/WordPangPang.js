@@ -279,6 +279,7 @@ function initQuiz() { //퀴즈 문항 초기화
   if (QUIZTYPE == 2) {
     quizNum = shuffledWords;
     $(".quiz-time").show();
+    $("#quiz-word").css("margin-left", "-600px");
     $("#best-scores").show();
   }
   generateQuiz();
@@ -421,6 +422,7 @@ function quizEnd() {
   $(".quiz-main").hide();
   $(".quiz-end").show();
   $(".quiz-time").hide();
+  $("#quiz-word").css("margin-left", "");
   var names = [];
   var scores = [];
   quizTime = 60;
