@@ -2,6 +2,7 @@ $(document).ready(() => {
   var isIntegrity = true;
   $(".quiz-time").hide();
   $("#best-scores").hide();
+  $("#timer-select-page").hide();
   try {
     Words = JSON.parse(JSON.stringify(ToeicWord)).Words;
     Players = JSON.parse(localStorage.getItem("Players"));
@@ -101,7 +102,7 @@ function Login() {
     if (user.length == 1) { // 있음
       User = user[0];
     } else { // 없음
-      var NewUser = { ID: textField, Score: 0 };
+      var NewUser = { ID: textField, Score: [0, 0, 0, 0] };
       Players.push(NewUser);
       User = NewUser;
       window.localStorage.setItem("Players", JSON.stringify(Players));
@@ -223,8 +224,16 @@ var QUIZTYPE2 = 0; //주관식, 객관식 구분
 var quizTime = 60; // 미니게임 제한시간
 var timer; // 미니게임 제한시간 interval
 var optionCount = 4;
+var answerType = 0; // 주관식/객관식 : 객관식 = 0, 주관식 = 1
+
+function setAnswerType(x) {
+  answerType = x;
+  $("#select_page").hide();
+  $("#timer-select-page").show();
+}
 
 function show_quiz(x) {
+
    $("#select_page").hide();
    $(".quizs").eq(x).show();
    if(x == 0){
@@ -236,6 +245,7 @@ function show_quiz(x) {
    quizTime = 60; 
    
    openQuiz(x)
+
 }
 function  resetQuiz() {
   quizScore = 0;
@@ -290,6 +300,7 @@ function initQuiz() { //퀴즈 문항 초기화
   if (QUIZTYPE) {
     quizNum = shuffledWords;
     $(".quiz-time").show();
+    $("#quiz-word").css("margin-left", "-600px");
     $("#best-scores").show();
   }
   generateQuiz();
@@ -432,9 +443,10 @@ function quizEnd() {
   $(".quiz-main").hide();
   $(".quiz-end").show();
   $(".quiz-time").hide();
+  $("#quiz-word").css("margin-left", "");
   var names = [];
   var scores = [];
-  quizTime = 60;
+  
   clearInterval(timer);
   if (QUIZTYPE2 == 0) {
     $(".quiz-end-score").text("점수: " + quizScore);
@@ -491,6 +503,7 @@ function quizEnd() {
       $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1] + "<br>Rank 3)" + names[2] + " : " + scores[2]);
     }
   }
+
   if (QUIZTYPE && QUIZTYPE2 == 1) {
     for (var i = 0; i < Players.length; i++) {
       if(Players[i].ID === User.ID) {
@@ -540,6 +553,9 @@ function quizEnd() {
       $("#best-scores2").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1] + "<br>Rank 3)" + names[2] + " : " + scores[2]);
     }
   }
+
+  quizTime = 60;
+
 }
 
 function shuffleArray(arr) {
