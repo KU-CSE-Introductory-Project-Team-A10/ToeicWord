@@ -61,9 +61,15 @@ $(document).ready(() => {
 let Words;
 let Players; // 사용자들 데이터
 let User; // 현 사용자
+let nowPage; // 현재 페이지 0: 메인 1: 단어장 2: 퀴즈 3: 미니게임
+
 function changePage(x) {
+  nowPage = x;
   $(".menu").hide();
   $(".menu").eq(x).show();
+  if (x == 1) {
+    initQuizPage();
+  }
   //만약 page4라면 window.close()해줌
   if (x == 3) {
     window.close();
@@ -71,6 +77,7 @@ function changePage(x) {
 }
 
 function MoveTo_menu(x) {
+  nowPage = 0;
   $('#main').hide();
   changePage(x);
  if(x == 2){
@@ -81,6 +88,7 @@ function MoveTo_menu(x) {
 }
 
 function BackTo_menu() {
+  nowPage = 0;
   $('.menu').hide();
   $('#main').show();
   if (QUIZTYPE) {
@@ -89,7 +97,55 @@ function BackTo_menu() {
   }
   $(".quiz-end").hide();
   $(".quizs").hide();
-    $("#select_page").show();
+  $("#select_page").show();
+}
+
+function initQuizPage() {
+  $("#page2").children().hide();
+  $("#word-count").show();
+}
+
+function checkWordCountField(e) {
+  if (e.keyCode == 13) {
+    let input = $("#word-input").val();
+    let wordCount = parseInt(input);
+    if (wordCount > 10 && wordCount <= 30) {
+      setWordCount(wordCount);
+    }
+    else {
+      alert("퀴즈 문항은 10개에서 30개까지만 설정 가능합니다.");
+      $("#word-input").html = "";
+    }
+  }
+  else {
+    try {
+      if (e.keyCode < 48 || e.keyCode > 57) {
+        throw 'NaNEX';
+      }
+    }
+    catch (ex) {
+      if (ex == 'NaNEX') {
+        alert("숫자만 입력해주세요.");
+        e.preventDefault();
+      }
+    }
+  }
+}
+
+function setWordCount(wordCount) {
+  if (Words.length < wordCount) {
+    alert("입력하신 영단어 수가 "+wordCount+"개보다 적습니다.");
+  }
+  else {
+    if (nowPage = 2) {
+      openQuizSelectionPage();
+    }
+  }
+}
+
+function openQuizSelectionPage() {
+  $("#page2").children().hide();
+  $("#select_page").show();
 }
 
 function Login() {
@@ -247,25 +303,19 @@ function show_quiz(x) {
    openQuiz(x)
 
 }
-function  resetQuiz() {
+
+function resetQuiz() {
   quizScore = 0;
   quizNum = [];
   $(".quiz-main").show();
   $(".quiz-end").hide();
-  $(".score-div").text("점수: 0");
-  
+  $(".score-div").text("점수: 0");  
 }
 
 function openQuiz(x) {
-  if (Words.length >= 10) {
-    QUIZTYPE2 = x;
+  QUIZTYPE2 = x;
 
-    initQuiz();
-  }
-  else {
-    alert("퀴즈를 진행하려면 영단어가 10개 이상 있어야 합니다.")
-    BackTo_menu();
-  }
+  initQuiz();
 }
 
 function initQuiz() { //퀴즈 문항 초기화
@@ -583,22 +633,16 @@ function shuffleArray(arr) {
 }
 
 function MiniGame() {
-  if (Words.length >= 10) {
-    $("#page3").hide();
-    $("#page2").show();
-    $("#page2 h2").text("미니게임");
-    initQuiz();
-    timer = setInterval(() => {
-      --quizTime;
-      $(".quiz-time").text(quizTime + "s");
-  
-      if (quizTime == 0) {
-        quizEnd();
-      }
-    }, 1000);
-  }
-  else {
-    alert("퀴즈를 진행하려면 영단어가 10개 이상 있어야 합니다.")
-    BackTo_menu();
-  }
+  $("#page3").hide();
+  $("#page2").show();
+  $("#page2 h2").text("미니게임");
+  initQuiz();
+  timer = setInterval(() => {
+    --quizTime;
+    $(".quiz-time").text(quizTime + "s");
+
+    if (quizTime == 0) {
+      quizEnd();
+    }
+  }, 1000);
 }

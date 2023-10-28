@@ -41,7 +41,11 @@
             </div>
         </div>
         <div class = "menu" id="page2">
-            <div id = select_page>
+            <div id="word-count">
+                <h2 id="select-wordcount"> 단어 개수를 입력하세요 </h2>
+                <input id="word-input" type="text" placeholder="" onkeypress="checkWordCountField(event)" autofocus>
+            </div>
+            <div id="select_page">
                 <button class="btn" onclick = "setAnswerType(0)">객관식 퀴즈</button>
                 <button class="btn" onclick = "setAnswerType(1)">주관식 퀴즈</button>
             </div>
@@ -51,7 +55,7 @@
                 <button class="btn" onclick = "show_quiz(45)">45s</button>
                 <button class="btn" onclick = "show_quiz(60)">60s</button>
             </div>
-            <div class = quizs>
+            <div class="quizs">
                 <h2>객관식 퀴즈</h2>
                 <div class="quiz-time"></div>
                 <div class ="quiz-main">
