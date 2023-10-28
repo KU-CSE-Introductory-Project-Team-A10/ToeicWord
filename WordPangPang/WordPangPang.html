@@ -18,7 +18,7 @@
         <input id ='login-button' type="button" value="로그인" onclick="Login()"/>
     </nav>
     <nav>
-        <div id = "main">
+        <div id="main">
             <h2>메인 메뉴</h2>
             <div id="main-buttons">
                 <button class="btn" id="btn1" onclick = "MoveTo_menu(0)">단어장 열람</button>
@@ -46,17 +46,17 @@
                 <input id="word-input" type="text" placeholder="" onkeypress="checkWordCountField(event)" autofocus>
             </div>
             <div id="select_page">
-                <button class="btn" onclick = "setAnswerType(0)">객관식 퀴즈</button>
-                <button class="btn" onclick = "setAnswerType(1)">주관식 퀴즈</button>
+                <button class="btn" onclick="selectAnswerType(0)">객관식 퀴즈</button>
+                <button class="btn" onclick="selectAnswerType(1)">주관식 퀴즈</button>
             </div>
             <div id="timer-select-page">
-                <button class="btn" onclick = "show_quiz(15)">15s</button>
-                <button class="btn" onclick = "show_quiz(30)">30s</button>
-                <button class="btn" onclick = "show_quiz(45)">45s</button>
-                <button class="btn" onclick = "show_quiz(60)">60s</button>
+                <button class="btn" onclick="showQuiz(1)">15s</button>
+                <button class="btn" onclick="showQuiz(2)">30s</button>
+                <button class="btn" onclick="showQuiz(3)">45s</button>
+                <button class="btn" onclick="showQuiz(4)">60s</button>
             </div>
             <div class="quizs">
-                <h2>객관식 퀴즈</h2>
+                <h2 class="quiz-type-title">객관식 퀴즈</h2>
                 <div class="quiz-time"></div>
                 <div class ="quiz-main">
                     <div id="quiz-frame">
@@ -79,8 +79,8 @@
                     <button id="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
                 </div>
             </div>
-            <div class = quizs>
-                <h2>주관식 퀴즈</h2>
+            <div class="quizs">
+                <h2 class="quiz-type-title">주관식 퀴즈</h2>
                 <div class="quiz-time"></div>
                 <div class="quiz-main">
                     <div id="quiz-frame">
@@ -104,17 +104,17 @@
                 </div>
             </div>
         </div>
-        <div class = "menu" id="page3">
+        <div class="menu" id="page3">
             <h2>미니게임</h2>
             <div>
                 <button onclick="MiniGame()">시작하기</button>
                 <button class = "back_btn" onclick="BackTo_menu()">뒤로 가기</button>
             </div>
         </div>
-        <div class = "menu" id = "page4">
+        <div class="menu" id="page4">
             <h3>종료</h3>
             <div>
-                <button class = "back_btn" onclick="BackTo_menu()">뒤로 가기</button>
+                <button class="back_btn" onclick="BackTo_menu()">뒤로 가기</button>
             </div>
         </div>
     </div>
