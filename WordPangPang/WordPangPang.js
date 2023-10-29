@@ -142,7 +142,7 @@ function checkWordCountField(e) {
     }
     else {
       alert("퀴즈 문항은 10개에서 30개까지만 설정 가능합니다.");
-      $("#word-input").html = "";
+      $("#word-input").val("");
     }
   }
   else {
@@ -153,10 +153,11 @@ function checkWordCountField(e) {
     }
     catch (ex) {
       if (ex == 'NaNEX') {
+        
         alert("숫자만 입력해주세요.");
         e.preventDefault();
       }
-    }
+    }  
   }
 }
 
