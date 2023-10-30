@@ -134,6 +134,7 @@ function initQuizPage() {
 }
 
 function checkWordCountField(e) {
+  $("#word-input").val($("#word-input").val().replace(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/g, ''));
   if (e.keyCode == 13) {
     let input = $("#word-input").val();
     let wordCount = parseInt(input);
@@ -147,15 +148,14 @@ function checkWordCountField(e) {
   }
   else {
     try {
-      if (e.keyCode < 48 || e.keyCode > 57) {
+      if ((e.keyCode < 48 || e.keyCode > 57)&&(e.keyCode != 8)) {
         throw 'NaNEX';
       }
     }
     catch (ex) {
-      if (ex == 'NaNEX') {
-        
-        alert("숫자만 입력해주세요.");
+      if (ex == 'NaNEX') {  
         e.preventDefault();
+        alert("숫자만 입력해주세요.");
       }
     }  
   }
