@@ -418,56 +418,65 @@ function generateQuiz() { //퀴즈 생성
 
   }
 }
+
+var reroading = false;
+
 function sub_word(){
+
   var means = '';
   var count = 0;
   const sub_text = document.getElementById("quiz-input").value;
  
   document.getElementById("quiz-input").value = "";
 
-  for(var i = 0; i < Words.length;i++){
-    if($("#quiz-word2").text() == Words[i].English){
-      means += Words[i].Korean + ", ";
-      count++;
+  if(!reroading){
+    reroading = true;
+    for(var i = 0; i < Words.length;i++){
+      if($("#quiz-word2").text() == Words[i].English){
+        means += Words[i].Korean + ", ";
+        count++;
+      }
     }
-  }
 
-  var meanWords = means.split(",");
-  var userWords = sub_text.split(",");
+    var meanWords = means.split(",");
+    var userWords = sub_text.split(",");
 
-  var meanWords = meanWords.map(function(word) {
-    return word.trim();
-  });
-  var userWords = userWords.map(function(word) {
-    return word.trim();
-  });
-  var allWordsFound;
-  if(userWords[0] != ''){
-  allWordsFound = userWords.every(word => meanWords.includes(word));
-  }else allWordsFound = false;
+    var meanWords = meanWords.map(function(word) {
+      return word.trim();
+    });
+    var userWords = userWords.map(function(word) {
+      return word.trim();
+    });
+    var allWordsFound;
+    if(userWords[0] != ''){
+    allWordsFound = userWords.every(word => meanWords.includes(word));
+    }else allWordsFound = false;
 
-  if (allWordsFound) {
-    $(".quiz-console").text("정답입니다.");
-      quizScore += 10;
-      $(".score-div").text("점수: " + quizScore);
+    if (allWordsFound) {
+      $(".quiz-console").text("정답입니다.");
+        quizScore += 10;
+        $(".score-div").text("점수: " + quizScore);
 
-  }else{
-    var prt_text = '오답입니다. 정답 : ';
-    for(var o = 0; o < meanWords.length;o++){
-      prt_text += meanWords[o]+" ";
+    }else{
+      var prt_text = '오답입니다. 정답 : ';
+      for(var o = 0; o < meanWords.length;o++){
+        prt_text += meanWords[o]+" ";
+      }
+      $(".quiz-console").text(prt_text);
     }
-    $(".quiz-console").text(prt_text);
-  }
-  quizIdx++;
-  if (quizIdx != wCount) {
-    setTimeout(function() {
-      generateQuiz();
-    }, 1500);
-  }
-  else {
-    setTimeout(function() {
-      quizEnd();
-    }, 1500);
+    quizIdx++;
+    if (quizIdx != wCount) {
+      setTimeout(function() {
+        generateQuiz();
+        reroading = false;
+      }, 1500);
+    }
+    else {
+      setTimeout(function() {
+        quizEnd();
+        reroading = false;
+      }, 1500);
+    }
   }
 }
 
