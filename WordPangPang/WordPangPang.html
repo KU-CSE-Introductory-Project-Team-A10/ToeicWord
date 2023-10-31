@@ -56,7 +56,7 @@
                 <button class="btn" onclick="showQuiz(4)">60s</button>
             </div>
             <div class="quizs">
-                <h2 class="quiz-type-title">객관식 퀴즈</h2>
+                <h2 class="quiz-type-title" id="quiz-type-title-0">객관식 퀴즈</h2>
                 <div class="quiz-time"></div>
                 <div class ="quiz-main">
                     <div id="quiz-frame">
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="quizs">
-                <h2 class="quiz-type-title">주관식 퀴즈</h2>
+                <h2 class="quiz-type-title" id="quiz-type-title-1">주관식 퀴즈</h2>
                 <div class="quiz-time"></div>
                 <div class="quiz-main">
                     <div id="quiz-frame">
@@ -105,10 +105,10 @@
             </div>
         </div>
         <div class="menu" id="page3">
-            <h2>미니게임</h2>
+            <h2 id="minigame-title">미니게임</h2>
             <div>
-                <button onclick="MiniGame()">시작하기</button>
-                <button class = "back_btn" onclick="BackTo_menu()">뒤로 가기</button>
+                <button class="minigame-btn" onclick="MiniGame()">시작하기</button>
+                <button class = "minigame-btn back_btn" onclick="BackTo_menu()">뒤로 가기</button>
             </div>
         </div>
         <div class="menu" id="page4">

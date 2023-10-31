@@ -93,11 +93,7 @@ function changePage(x) {
   $(".menu").hide();
   $(".menu").eq(x).show();
   if (x == 1) {
-    isMinigame = false;
     initQuizPage();
-  }
-  else if (x == 2) {
-    isMinigame = true;
   }
   //만약 page4라면 window.close()해줌
   if (x == 3) {
@@ -108,11 +104,15 @@ function changePage(x) {
 function MoveTo_menu(x) {
   nowPage = 0;
   $('#main').hide();
-  changePage(x);
  if(x == 2){
-  QUIZTYPE = true;
+  isMinigame = true;
+  $("#page3").hide();
+  $("#page2").show();
+  $("#page2").children().hide();
+  $("#select_page").show();
  }else{
-  QUIZTYPE = false;
+  isMinigame = false;
+  changePage(x);
  }
 }
 
@@ -134,7 +134,6 @@ function initQuizPage() {
 }
 
 function checkWordCountField(e) {
-  $("#word-input").val($("#word-input").val().replace(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/g, ''));
   if (e.keyCode == 13) {
     let input = $("#word-input").val();
     let wordCount = parseInt(input);
@@ -143,21 +142,21 @@ function checkWordCountField(e) {
     }
     else {
       alert("퀴즈 문항은 10개에서 30개까지만 설정 가능합니다.");
-      $("#word-input").val("");
+      $("#word-input").html = "";
     }
   }
   else {
     try {
-      if ((e.keyCode < 48 || e.keyCode > 57)&&(e.keyCode != 8)) {
+      if (e.keyCode < 48 || e.keyCode > 57) {
         throw 'NaNEX';
       }
     }
     catch (ex) {
-      if (ex == 'NaNEX') {  
-        e.preventDefault();
+      if (ex == 'NaNEX') {
         alert("숫자만 입력해주세요.");
+        e.preventDefault();
       }
-    }  
+    }
   }
 }
 
@@ -190,7 +189,7 @@ function Login() {
     if (user.length == 1) { // 있음
       User = user[0];
     } else { // 없음
-      var NewUser = { ID: textField, Score: [0, 0, 0, 0] };
+      var NewUser = { ID: textField, Score: [[0, 0, 0, 0], [0, 0, 0, 0]] };
       Players.push(NewUser);
       User = NewUser;
       window.localStorage.setItem("Players", JSON.stringify(Players));
@@ -309,7 +308,8 @@ let quizScore; // 퀴즈 점수
 var quizTime = 60; // 미니게임 제한시간
 var timer; // 미니게임 제한시간 interval
 var answerType = 0; // 주관식/객관식 : 객관식 = 0, 주관식 = 1
-var isMinigame;
+var timeType = 0; // 최고점수 기록 때 사용
+var isMinigame = false;
 
 function selectAnswerType(x) {
   answerType = x;
@@ -323,13 +323,18 @@ function selectAnswerType(x) {
 }
 
 function showQuiz(x) {
+  timeType = x - 1;
   $("#select_page").hide();
   $("#timer-select-page").hide();
   $(".quizs").eq(answerType).show();
   if (x != 0) {
-   quizTime = x * 15;
+    $("#page2").hide();
+    quizTime = x * 15;
+    $("#page3").show();
   }
-  openQuiz();
+  else {
+    openQuiz();
+  }
 }
 
 function resetQuiz() {
@@ -501,8 +506,11 @@ function quizEnd() {
   $(".quiz-end").show();
   $(".quiz-time").hide();
   $("#quiz-word").css("margin-left", "");
+  $(".minigame-btn").show();
   var names = [];
   var scores = [];
+
+  console.log(answerType, timeType)
   
   clearInterval(timer);
   if (answerType == 0) {
@@ -514,29 +522,30 @@ function quizEnd() {
   if (isMinigame && answerType == 0) {
     for (var i = 0; i < Players.length; i++) {
       if(Players[i].ID === User.ID) {
-        if (Players[i].Score < quizScore) {
-          Players[i].Score = quizScore;
+        if (Players[i].Score[answerType][timeType] < quizScore) {
+          Players[i].Score[answerType][timeType] = quizScore;
         }
-        $(".quiz-end-score").html("My score: " + quizScore + "<br>High score: " + Players[i].Score);
+        $(".quiz-end-score").html("My score: " + quizScore + "<br>High score: " + Players[i].Score[answerType][timeType]);
         break;
       }
     }
     
     window.localStorage.setItem("Players", JSON.stringify(Players));
+    console.log(JSON.stringify(Players))
     
     names[0] = Players[0].ID;
-    scores[0] = Players[0].Score;
+    scores[0] = Players[0].Score[answerType][timeType];
     for (var i = 1; i < Players.length; i++) {
       var isUsed = false;
       for (var j = 0; j <  names.length; j++) {
-        if (scores[j] >= Players[i].Score && names[j] !== Players[i].ID) {
+        if (scores[j] >= Players[i].Score[answerType][timeType] && names[j] !== Players[i].ID) {
           if (j == 0) {
             names.unshift(Players[i].ID);
-            scores.unshift(Players[i].Score);
+            scores.unshift(Players[i].Score[answerType][timeType]);
           }
           else {
             names.splice(j - 1, 0, Players[i].ID);
-            scores.splice(j - 1, 0, Players[i].Score);
+            scores.splice(j - 1, 0, Players[i].Score[answerType][timeType]);
           }
           isUsed = !isUsed;
           break;
@@ -544,7 +553,7 @@ function quizEnd() {
       }
       if (!isUsed) {
         names.push(Players[i].ID);
-        scores.push(Players[i].Score);
+        scores.push(Players[i].Score[answerType][timeType]);
       }
     }
     names = names.reverse();
@@ -560,14 +569,13 @@ function quizEnd() {
       $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1] + "<br>Rank 3)" + names[2] + " : " + scores[2]);
     }
   }
-
   if (answerType == 1 && isMinigame) {
     for (var i = 0; i < Players.length; i++) {
       if(Players[i].ID === User.ID) {
-        if (Players[i].Score < quizScore) {
-          Players[i].Score = quizScore;
+        if (Players[i].Score[answerType][timeType] < quizScore) {
+          Players[i].Score[answerType][timeType] = quizScore;
         }
-        $(".quiz-end-score").html("My score: " + quizScore + "<br>High score: " + Players[i].Score);
+        $(".quiz-end-score").html("My score: " + quizScore + "<br>High score: " + Players[i].Score[answerType][timeType]);
         break;
       }
     }
@@ -639,12 +647,32 @@ function shuffleArray(arr) {
   return clone;
 }
 
+function wait(sec) {
+  let start = Date.now(), now = start;
+  while (now - start < sec * 1000) {
+      now = Date.now();
+  }
+}
+
+function countDown() {
+  var countDown = 3;
+  var countInt = setInterval(() => {
+    $("#minigame-title").text(countDown);
+    if (countDown == 0) {
+      clearInterval(countInt);
+    }
+  }, 1000);
+  wait(3);
+  MiniGame();
+}
+
 function MiniGame() {
   $("#page3").hide();
   $("#page2").show();
-  $("#page2").children().hide();
-  $("#select_page").show();
-  initQuiz();
+  $(".quizs").eq(answerType).show();
+  $(".quiz-time").text(quizTime + "s");
+
+  openQuiz();
   timer = setInterval(() => {
     --quizTime;
     $(".quiz-time").text(quizTime + "s");
