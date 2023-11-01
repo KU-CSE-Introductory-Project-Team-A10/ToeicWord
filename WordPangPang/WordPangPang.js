@@ -679,7 +679,6 @@ function countDown() {
 
 function MiniGame() {
   $("#page3").hide();
-  $("#page2").show();
   $(".quizs").eq(answerType).show();
   $(".quiz-time").text(quizTime + "s");
    Countdown();
@@ -710,6 +709,7 @@ function Countdown(){
     },20);
 
     if (counter == -1) {
+      $("#page2").show();
       clearInterval(timer);
       $('#countdown').remove();
       openQuiz();
