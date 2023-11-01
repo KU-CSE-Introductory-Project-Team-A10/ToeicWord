@@ -251,7 +251,7 @@ tr{
 }
 
 
-/*#countdown {
+#countdown {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -261,4 +261,4 @@ tr{
   font-size: 0vw;
   opacity: 50%;
   color: #040; 
-}*/
+}

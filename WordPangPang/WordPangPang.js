@@ -134,6 +134,7 @@ function initQuizPage() {
 }
 
 function checkWordCountField(e) {
+   $("#word-input").val($("#word-input").val().replace(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/g, ''));
   if (e.keyCode == 13) {
     let input = $("#word-input").val();
     let wordCount = parseInt(input);
@@ -142,12 +143,12 @@ function checkWordCountField(e) {
     }
     else {
       alert("퀴즈 문항은 10개에서 30개까지만 설정 가능합니다.");
-      $("#word-input").html = "";
+      $("#word-input").val("");
     }
   }
   else {
     try {
-      if (e.keyCode < 48 || e.keyCode > 57) {
+      if ((e.keyCode < 48 || e.keyCode > 57)&&(e.keyCode != 8)) {
         throw 'NaNEX';
       }
     }
@@ -681,39 +682,47 @@ function MiniGame() {
   $("#page2").show();
   $(".quizs").eq(answerType).show();
   $(".quiz-time").text(quizTime + "s");
-  // Countdown();
-  openQuiz();
-  timer = setInterval(() => {
-    --quizTime;
-    $(".quiz-time").text(quizTime + "s");
+   Countdown();
+  //openQuiz();
+  // timer_minigame = setInterval(() => {
+  //   --quizTime;
+  //   $(".quiz-time").text(quizTime + "s");
 
-    if (quizTime == 0) {
-      quizEnd();
-    }
-  }, 1000);
+  //   if (quizTime == 0) {
+  //     quizEnd();
+  //   }
+  // }, 1000);
 }
 
-// function Countdown(){
-//   var counter = 4;
-//   var timer = setInterval( function() { 
-//   $('#countdown').remove();     
-//   counter--;
-//   var countdown = $('<span id="countdown">'+(counter==0?'Start':counter)+'</span>'); 
-//   countdown.appendTo($('#??'));
-//   setTimeout( () => {
-//      if (counter >-1) {
-//      $('#countdown').css({ 'font-size': '40vw', 'opacity': 0 }); 
-//      } else {
-//        $('#countdown').css({ 'font-size': '10vw', 'opacity': 50 });
-//      }
-//   },20);
+function Countdown(){
+  var counter = 4;
+  var timer = setInterval( function() { 
+    $('#countdown').remove();     
+    counter--;
+    var countdown = $('<span id="countdown">'+(counter==0?'Start':counter)+'</span>'); 
+    countdown.appendTo($('.container'));
+    setTimeout( () => {
+       if (counter >-1) {
+       $('#countdown').css({ 'font-size': '40vw', 'opacity': 0 }); 
+       } else {
+         $('#countdown').css({ 'font-size': '10vw', 'opacity': 50 });
+       }
+    },20);
 
-//   if (counter == -1) {
-//     clearInterval(timer);
-//     $('#countdown').remove();
-//     openQuiz();
-//   }
-//   }, 1000);
+    if (counter == -1) {
+      clearInterval(timer);
+      $('#countdown').remove();
+      openQuiz();
+      timer_minigame = setInterval(() => {
+        --quizTime;
+        $(".quiz-time").text(quizTime + "s");
+
+        if (quizTime == 0) {
+          quizEnd();
+        }
+      }, 1000);
+    }
+  }, 1000);
 
 
-// }
+}
