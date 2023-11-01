@@ -658,25 +658,6 @@ function shuffleArray(arr) {
   return clone;
 }
 
-function wait(sec) {
-  let start = Date.now(), now = start;
-  while (now - start < sec * 1000) {
-      now = Date.now();
-  }
-}
-
-function countDown() {
-  var countDown = 3;
-  var countInt = setInterval(() => {
-    $("#minigame-title").text(countDown);
-    if (countDown == 0) {
-      clearInterval(countInt);
-    }
-  }, 1000);
-  wait(3);
-  MiniGame();
-}
-
 function MiniGame() {
   $("#page3").hide();
   $(".quizs").eq(answerType).show();
