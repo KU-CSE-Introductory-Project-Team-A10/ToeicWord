@@ -125,7 +125,7 @@ function BackTo_menu() {
   }
   $(".quiz-end").hide();
   $(".quizs").hide();
-  $("#select_page").show();
+  $("#main").show();
 }
 
 function initQuizPage() {
