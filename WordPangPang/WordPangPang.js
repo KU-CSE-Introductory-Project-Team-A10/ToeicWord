@@ -125,7 +125,7 @@ function BackTo_menu() {
   }
   $(".quiz-end").hide();
   $(".quizs").hide();
-  $("#select_page").show();
+  $("#main").show();
 }
 
 function initQuizPage() {
@@ -658,25 +658,6 @@ function shuffleArray(arr) {
   return clone;
 }
 
-function wait(sec) {
-  let start = Date.now(), now = start;
-  while (now - start < sec * 1000) {
-      now = Date.now();
-  }
-}
-
-function countDown() {
-  var countDown = 3;
-  var countInt = setInterval(() => {
-    $("#minigame-title").text(countDown);
-    if (countDown == 0) {
-      clearInterval(countInt);
-    }
-  }, 1000);
-  wait(3);
-  MiniGame();
-}
-
 function MiniGame() {
   $("#page3").hide();
   $(".quizs").eq(answerType).show();
@@ -695,7 +676,7 @@ function MiniGame() {
 
 function Countdown(){
   var counter = 4;
-  var timer = setInterval( function() { 
+  var timer_minigame = setInterval( function() { 
     $('#countdown').remove();     
     counter--;
     var countdown = $('<span id="countdown">'+(counter==0?'Start':counter)+'</span>'); 
@@ -710,10 +691,10 @@ function Countdown(){
 
     if (counter == -1) {
       $("#page2").show();
-      clearInterval(timer);
+      clearInterval(timer_minigame);
       $('#countdown').remove();
       openQuiz();
-      timer_minigame = setInterval(() => {
+      timer = setInterval(() => {
         --quizTime;
         $(".quiz-time").text(quizTime + "s");
 
