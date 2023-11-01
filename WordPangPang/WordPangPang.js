@@ -41,7 +41,7 @@ $(document).ready(() => {
   const regexExEng = /^(?![\s])(?!.*\\s$)[a-zA-Z0-9!@#$%^&*()_+{}\[\]:;<>,.?~\-\s']+(?<![ \t])$/;
   const regexExKor = /^(?![\s])(?!.*\\s$)[가-힣0-9!@#$%^&*()_+{}\[\]:;<>,.?~\-\s']+(?<![ \t])$/;
   if (isIntegrity) {
-    if(Words.length<10) isIntegrity = false;
+    if(Words.length<30) isIntegrity = false;
     for (var i = 0; i < Words.length; i++) {
       if (!Words[i].hasOwnProperty('English') || !Words[i].hasOwnProperty('Korean') || !Words[i].hasOwnProperty('ExampleKor') || !Words[i].hasOwnProperty('ExampleEng')) {
         isIntegrity = false;
