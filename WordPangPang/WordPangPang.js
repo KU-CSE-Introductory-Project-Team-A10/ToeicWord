@@ -35,6 +35,7 @@ $(document).ready(() => {
     alert("파일을 불러오는 데 실패했습니다.");
     window.close();
   }
+  if(Words == null) isIntegrity = false;
   const regexEng = /^(?![\s])(?!.*\\s$)[a-zA-Z\s]+(?<![ \t])$/;
   const regexKor = /^(?![\s])(?!.*\\s$)[가-힣!@#$%^&*()_+{}\[\]:;<>,.?~\-\s']+(?<![ \t])$/
   const regexExEng = /^(?![\s])(?!.*\\s$)[a-zA-Z0-9!@#$%^&*()_+{}\[\]:;<>,.?~\-\s']+(?<![ \t])$/;
