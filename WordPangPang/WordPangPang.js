@@ -346,6 +346,7 @@ function resetQuiz() {
 }
 
 function openQuiz() {
+  // $('#countdown').remove(); 
   resetQuiz();
   initQuiz();
 }
@@ -680,7 +681,7 @@ function MiniGame() {
   $("#page2").show();
   $(".quizs").eq(answerType).show();
   $(".quiz-time").text(quizTime + "s");
-
+  // Countdown();
   openQuiz();
   timer = setInterval(() => {
     --quizTime;
@@ -691,3 +692,28 @@ function MiniGame() {
     }
   }, 1000);
 }
+
+// function Countdown(){
+//   var counter = 4;
+//   var timer = setInterval( function() { 
+//   $('#countdown').remove();     
+//   counter--;
+//   var countdown = $('<span id="countdown">'+(counter==0?'Start':counter)+'</span>'); 
+//   countdown.appendTo($('#??'));
+//   setTimeout( () => {
+//      if (counter >-1) {
+//      $('#countdown').css({ 'font-size': '40vw', 'opacity': 0 }); 
+//      } else {
+//        $('#countdown').css({ 'font-size': '10vw', 'opacity': 50 });
+//      }
+//   },20);
+
+//   if (counter == -1) {
+//     clearInterval(timer);
+//     $('#countdown').remove();
+//     openQuiz();
+//   }
+//   }, 1000);
+
+
+// }
