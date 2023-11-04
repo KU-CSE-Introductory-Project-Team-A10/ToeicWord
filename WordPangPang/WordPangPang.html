@@ -40,9 +40,9 @@
                 <button class = "back_btn" onclick="BackTo_menu()">뒤로 가기</button>
             </div>
         </div>
-        <div class = container>
+        <div class="container">
         </div>
-        <div class = "menu" id="page2">
+        <div class="menu" id="page2">
             <div id="word-count">
                 <h2 id="select-wordcount"> 단어 개수를 입력하세요 </h2>
                 <input id="word-input" type="text" placeholder="" onkeydown ="checkWordCountField(event)" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');" autofocus>
@@ -77,7 +77,7 @@
                 <div class="quiz-end">
                     <h3 id="best-scores"></h3>
                     <h3 class="quiz-end-score"> 점수: 0 </h3>
-                    <button id="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
+                    <button class="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
                 </div>
             </div>
 
@@ -102,15 +102,15 @@
                 <div class="quiz-end">
                     <h3 id="best-scores2"></h3>
                     <h3 class="quiz-end-score"> 점수: 0 </h3>
-                    <button id="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
+                    <button class="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
                 </div>
             </div>
         </div>
         <div class="menu" id="page3">
             <h2 id="minigame-title">미니게임</h2>
             <div>
-                <button class="minigame-btn" onclick="MiniGame()">시작하기</button>
-                <button class = "minigame-btn back_btn" onclick="BackTo_menu()">뒤로 가기</button>
+                <button class="minigame-btn btn" onclick="MiniGame()">시작하기</button>
+                <button class="minigame-btn back_btn btn" onclick="BackTo_menu()">뒤로 가기</button>
             </div>
         </div>
         <div class="menu" id="page4">
