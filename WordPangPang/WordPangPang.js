@@ -380,7 +380,6 @@ function initQuiz() { //퀴즈 문항 초기화
   if (isMinigame) {
     quizNum = shuffledWords;
     $(".quiz-time").show();
-    $("#quiz-word").css("margin-left", "-600px");
     $("#best-scores").show();
   }
   generateQuiz();
@@ -390,6 +389,7 @@ function generateQuiz() { //퀴즈 생성
   if(answerType == 0){    
     $("#quiz-word").text(Words[quizNum[quizIdx]].English);
     $(".quiz-console").text(" ");
+    $(".quiz-wrong-answer-console").text(" ");
     let options = [];
     const wordLength = Words.length;
     //선지 생성
@@ -418,6 +418,7 @@ function generateQuiz() { //퀴즈 생성
   else{
     $("#quiz-word2").text(Words[quizNum[quizIdx]].English);
     $(".quiz-console").text(" ");
+    $(".quiz-wrong-answer-console").text(" ");
 
   }
 }
@@ -461,11 +462,12 @@ function sub_word(){
         $(".score-div").text("점수: " + quizScore);
 
     }else{
-      var prt_text = '오답입니다. 정답 : ';
+      $(".quiz-console").text("오답입니다.");
+      var prt_text = '정답 : ';
       for(var o = 0; o < meanWords.length;o++){
         prt_text += meanWords[o]+" ";
       }
-      $(".quiz-console").text(prt_text);
+      $(".quiz-wrong-answer-console").text(prt_text);
     }
     quizIdx++;
     if (quizIdx != wCount) {

@@ -59,19 +59,18 @@
             </div>
             <div class="quizs">
                 <h2 class="quiz-type-title" id="quiz-type-title-0">객관식 퀴즈</h2>
-                <div class="quiz-time"></div>
                 <div class ="quiz-main">
-                    <div id="quiz-frame">
+                    <div class="quiz-frame">
                         <h3 id="quiz-word"> </h3> 
                         <div id="quiz-option-frame">
                         </div>
                     </div>
-                    <div id="quiz-menu-frame">
-                        <div class="quiz-console">
-                        </div>
-                        <div id="quiz-menu">
+                    <div class="quiz-menu-frame">
+                        <div class="quiz-console"> </div>
+                        <div class="quiz-menu">
                             <div class="score-div"> 점수: 0 </div>
-                            <button id="quiz-backto-menu" onclick="quizEnd()">끝내기</button>
+                            <div class="quiz-time"> </div>
+                            <button class="quiz-backto-menu" onclick="quizEnd()">끝내기</button>
                         </div>
                     </div>
                 </div>
@@ -84,19 +83,19 @@
 
             <div class="quizs">
                 <h2 class="quiz-type-title" id="quiz-type-title-1">주관식 퀴즈</h2>
-                <div class="quiz-time"></div>
                 <div class="quiz-main">
-                    <div id="quiz-frame">
+                    <div class="quiz-frame">
                         <h3 id="quiz-word2"> </h3> 
                       <input id="quiz-input" type="text" placeholder="" onkeypress="if (event.keyCode == 13) sub_word();" autofocus>
 
                     </div>
-                    <div id="quiz-menu-frame">
-                        <div class="quiz-console">
-                        </div>
-                        <div id="quiz-menu">
+                    <div class="quiz-menu-frame">
+                        <div class="quiz-console"> </div>
+                        <div class="quiz-wrong-answer-console"> </div>
+                        <div class="quiz-menu">
                             <div class="score-div"> 점수: 0 </div>
-                            <button id="quiz-backto-menu" onclick="quizEnd()">끝내기</button>
+                            <div class="quiz-time"></div>
+                            <button class="quiz-backto-menu" onclick="quizEnd()">끝내기</button>
                         </div>
                     </div>
                 </div>

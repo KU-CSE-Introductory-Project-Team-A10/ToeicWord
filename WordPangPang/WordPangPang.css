@@ -129,28 +129,41 @@ nav{
 #quiz-word {
   margin-top: 20px;
   margin-bottom: 20px;
-  display: inline;
+  display: block;
+}
+
+#quiz-word2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .quiz-menu {
   margin: 0 auto;
+  padding-top: 10px;
   width: 520px;
   height: 60px;
 }
 
 .quiz-console {
+  display: block;
   margin: 0 auto;
-  width: 300px;
+  width: 500px;
   height: 60px;
   font-size: 50px;
 }
-
+.quiz-wrong-answer-console {
+  display:block;
+  margin: 0 auto;
+  width: 500px;
+  height: 30px;
+  font-size: 30px;
+}
 
 .score-div {
   background-color: #F0F0F0;
   float: left;
   display: inline;
-  margin-left: 30%;
   width: 100px;
   height: 46px;
   vertical-align:middle;
@@ -161,10 +174,9 @@ nav{
   line-height: 46px;
 }
 
-#quiz-backto-menu {
+.quiz-backto-menu {
   float: right;
-  display: inline;
-  margin-right: 30%;
+  display: inline-block;
   width: 100px;
   height: 50px;
   vertical-align:middle;
@@ -175,7 +187,7 @@ nav{
   line-height: 50px;
 }
 
-#quiz-end-backto-menu {
+.quiz-end-backto-menu {
   margin: 0 auto;
   width: 100px;
   height: 50px;
@@ -189,8 +201,8 @@ nav{
 
 .quiz-time {
   background-color: #F0F0F0;
-  float: left;
-  display: inline;
+  float: top;
+  display: inline-block;
   width: 100px;
   height: 46px;
   vertical-align:middle;
@@ -199,8 +211,7 @@ nav{
   font-weight : bold;
   text-align: center;
   line-height: 46px;
-  margin-left: 600px;
-  margin-right: -100px;
+  margin: 0 auto;
 }
 
 footer{
