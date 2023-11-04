@@ -155,8 +155,8 @@ function checkWordCountField(e) {
     }
     catch (ex) {
       if (ex == 'NaNEX') {
-        alert("숫자만 입력해주세요.");
         e.preventDefault();
+        $("#word-input").val("");
       }
     }
   }
