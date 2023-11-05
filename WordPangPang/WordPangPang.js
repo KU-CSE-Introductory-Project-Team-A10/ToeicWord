@@ -383,6 +383,7 @@ function initQuiz() { //퀴즈 문항 초기화
     quizNum = shuffledWords;
     $(".quiz-time").show();
     $("#best-scores").show();
+    
   }
   generateQuiz();
 }
@@ -425,18 +426,18 @@ function generateQuiz() { //퀴즈 생성
   }
 }
 
-var reroading = false;
+var isReroading = false;
 
 function sub_word(){
 
   var means = '';
   var count = 0;
-  const sub_text = document.getElementById("quiz-input").value;
+  const SUB_TEXT = document.getElementById("quiz-input").value;
  
   document.getElementById("quiz-input").value = "";
 
-  if(!reroading){
-    reroading = true;
+  if(!isReroading){
+    isReroading = true;
     for(var i = 0; i < Words.length;i++){
       if($("#quiz-word2").text() == Words[i].English){
         means += Words[i].Korean + ", ";
@@ -445,7 +446,7 @@ function sub_word(){
     }
 
     var meanWords = means.split(",");
-    var userWords = sub_text.split(",");
+    var userWords = SUB_TEXT.split(",");
 
     var meanWords = meanWords.map(function(word) {
       return word.trim();
@@ -453,12 +454,12 @@ function sub_word(){
     var userWords = userWords.map(function(word) {
       return word.trim();
     });
-    var allWordsFound;
+    var isWordsFound;
     if(userWords[0] != ''){
-    allWordsFound = userWords.every(word => meanWords.includes(word));
-    }else allWordsFound = false;
+    isWordsFound = userWords.every(word => meanWords.includes(word));
+    }else isWordsFound = false;
 
-    if (allWordsFound) {
+    if (isWordsFound) {
       $(".quiz-console").text("정답입니다.");
         quizScore += 10;
         $(".score-div").text("점수: " + quizScore);
@@ -475,13 +476,13 @@ function sub_word(){
     if (quizIdx != wCount) {
       setTimeout(function() {
         generateQuiz();
-        reroading = false;
+        isReroading = false;
       }, 1500);
     }
     else {
       setTimeout(function() {
         quizEnd();
-        reroading = false;
+        isReroading = false;
       }, 1500);
     }
   }
@@ -528,13 +529,10 @@ function quizEnd() {
   console.log(answerType, timeType)
   
   clearInterval(timer);
-  if (answerType == 0) {
+
     $(".quiz-end-score").text("점수: " + quizScore);
-  }
-  if (answerType == 1) {
-    $(".quiz-end-score").text("점수: " + quizScore);
-  }
-  if (isMinigame && answerType == 0) {
+
+  if (isMinigame && (answerType == 0)) {
     for (var i = 0; i < Players.length; i++) {
       if(Players[i].ID === User.ID) {
         if (Players[i].Score[answerType][timeType] < quizScore) {
