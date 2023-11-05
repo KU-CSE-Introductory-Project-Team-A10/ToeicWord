@@ -535,12 +535,60 @@ function quizEnd() {
   var names = [];
   var scores = [];
 
-  console.log(answerType, timeType)
+  console.log(answerType, timeType);
   
   clearInterval(timer);
 
-    $(".quiz-end-score").text("점수: " + quizScore);
+  $(".quiz-end-score").text("점수: " + quizScore);
 
+  if (isMinigame) {
+    console.log(Players);
+
+    for (var i = 0; i < Players.length; i++) {
+      if(Players[i].ID === User.ID) {
+        if (Players[i].Score[answerType][timeType] < quizScore) {
+          Players[i].Score[answerType][timeType] = quizScore;
+        }
+        $(".quiz-end-score").html("My score: " + quizScore + "<br>High score: " + Players[i].Score[answerType][timeType]);
+        break;
+      }
+    }
+
+    Players.sort(function(a, b) {
+      return a.ID.localeCompare(b.ID); // "ID"를 기준으로 사전순 정렬
+    });
+
+    Players.sort(function(a, b) {
+      return b.Score[answerType][timeType] - a.Score[answerType][timeType]; // 내림차순 정렬, 오름차순을 원한다면 a.score - b.score로 변경
+    });
+    
+    window.localStorage.setItem("Players", JSON.stringify(Players));
+    
+    if (answerType == 0) {
+      if (Players[1] === undefined) {
+        $("#best-scores").html("Rank 1) " + Players[0].ID + " : " + Players[0].Score[answerType][timeType]);
+      }
+      else if (Players[2] === undefined) {
+        $("#best-scores").html("Rank 1) " + Players[0].ID + " : " + Players[0].Score[answerType][timeType] + "<br>Rank 2) " + Players[1].ID + " : " + Players[1].Score[answerType][timeType]);
+      }
+      else {
+        $("#best-scores").html("Rank 1) " + Players[0].ID + " : " + Players[0].Score[answerType][timeType] + "<br>Rank 2) " + Players[1].ID + " : " + Players[1].Score[answerType][timeType] + "<br>Rank 3)" + Players[2].ID + " : " + Players[2].Score[answerType][timeType]);
+      }
+    }
+    if (answerType == 1) {
+      if (Players[1] === undefined) {
+        $("#best-scores2").html("Rank 1) " + Players[0].ID + " : " + Players[0].Score[answerType][timeType]);
+      }
+      else if (Players[2] === undefined) {
+        $("#best-scores2").html("Rank 1) " + Players[0].ID + " : " + Players[0].Score[answerType][timeType] + "<br>Rank 2) " + Players[1].ID + " : " + Players[1].Score[answerType][timeType]);
+      }
+      else {
+        $("#best-scores2").html("Rank 1) " + Players[0].ID + " : " + Players[0].Score[answerType][timeType] + "<br>Rank 2) " + Players[1].ID + " : " + Players[1].Score[answerType][timeType] + "<br>Rank 3)" + Players[2].ID + " : " + Players[2].Score[answerType][timeType]);
+      }
+    }
+
+  }
+/*
   if (isMinigame && (answerType == 0)) {
     for (var i = 0; i < Players.length; i++) {
       if(Players[i].ID === User.ID) {
@@ -580,6 +628,7 @@ function quizEnd() {
     }
     names = names.reverse();
     scores = scores.reverse();
+    console.log(scores);
 
     if (names[1] === undefined) {
       $("#best-scores").html("Rank 1) " + names[0] + " : " + scores[0]);
@@ -629,6 +678,7 @@ function quizEnd() {
     }
     names = names.reverse();
     scores = scores.reverse();
+    console.log(scores);
 
     if (names[1] === undefined) {
       $("#best-scores2").html("Rank 1) " + names[0] + " : " + scores[0]);
@@ -640,7 +690,7 @@ function quizEnd() {
       $("#best-scores2").html("Rank 1) " + names[0] + " : " + scores[0] + "<br>Rank 2) " + names[1] + " : " + scores[1] + "<br>Rank 3)" + names[2] + " : " + scores[2]);
     }
   }
-
+*/
   quizTime = 60;
 
 }
