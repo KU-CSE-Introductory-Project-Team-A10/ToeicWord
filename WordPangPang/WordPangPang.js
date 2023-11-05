@@ -156,6 +156,7 @@ function checkWordCountField(e) {
     catch (ex) {
       if (ex == 'NaNEX') {
         e.preventDefault();
+        alert("숫자 외의 입력은 불가능합니다.");
         $("#word-input").val("");
       }
     }
