@@ -127,6 +127,7 @@ function BackTo_menu() {
   if (isMinigame) {
     $("#best-scores").hide();
     $("#best-scores2").hide();
+    clearInterval(timer);
   }
   $(".quiz-end").hide();
   $(".quizs").hide();
@@ -532,8 +533,6 @@ function quizEnd() {
   $(".quiz-end").show();
   $(".quiz-time").hide();
   $(".minigame-btn").show();
-  var names = [];
-  var scores = [];
 
   console.log(answerType, timeType);
   
