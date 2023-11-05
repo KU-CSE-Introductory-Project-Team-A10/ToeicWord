@@ -126,6 +126,7 @@ function BackTo_menu() {
   nowPage = 0;
   $('.menu').hide();
   $('#main').show();
+  $("input").val("");
   if (isMinigame) {
     $("#best-scores").hide();
     $("#best-scores2").hide();
