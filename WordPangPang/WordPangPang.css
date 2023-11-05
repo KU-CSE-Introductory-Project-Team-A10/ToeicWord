@@ -132,6 +132,12 @@ nav{
 
 .back_btn{
   margin: 50px auto;
+  margin-bottom: 150px;
+}
+
+#wordtable-back-btn{
+  margin: 50px auto;
+  margin-bottom: 120px;
 }
 
 .quiz-option {
@@ -146,6 +152,10 @@ nav{
   font-weight : bold;
   text-align: center;
   line-height: 40px;
+}
+
+.timer-select-btn {
+  margin-top: 100px;
 }
 
 #quiz-word {
@@ -182,6 +192,10 @@ nav{
   width: 500px;
   height: 30px;
   font-size: 25px;
+}
+
+#minigame-title {
+  margin-top: 50px;
 }
 
 .score-div {
@@ -280,8 +294,7 @@ tr{
 #detail {
     display: none;
     white-space: normal; /* 텍스트 줄바꿈 허용 */
-    width: 60%;
-    
+    width: 60%; 
 }
 
 .quizs{

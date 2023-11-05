@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WordPangPang</title>
 </head>
-<body>
+<body style="overflow-x: hidden">
     <header>
             <h1>WordPangPang</h1>
     </header>
@@ -35,11 +35,10 @@
                 </tbody>
             </table>
             <div>
-                <button class = "back_btn" onclick="BackTo_menu()">뒤로 가기</button>
+                <button id="wordtable-back-btn" class="back_btn btn" onclick="BackTo_menu()">뒤로 가기</button>
             </div>
         </div>
-        <div class="container">
-        </div>
+        <div class="container"> </div>
         <div class="menu" id="page2">
             <div id="word-count">
                 <h2 id="select-wordcount"> 단어 개수를 입력하세요 </h2>
@@ -50,10 +49,10 @@
                 <button class="btn" onclick="selectAnswerType(1)">주관식 퀴즈</button>
             </div>
             <div id="timer-select-page">
-                <button class="btn" onclick="showQuiz(1)">15s</button>
-                <button class="btn" onclick="showQuiz(2)">30s</button>
-                <button class="btn" onclick="showQuiz(3)">45s</button>
-                <button class="btn" onclick="showQuiz(4)">60s</button>
+                <button class="timer-select-btn btn" onclick="showQuiz(1)">15s</button>
+                <button class="timer-select-btn btn" onclick="showQuiz(2)">30s</button>
+                <button class="timer-select-btn btn" onclick="showQuiz(3)">45s</button>
+                <button class="timer-select-btn btn" onclick="showQuiz(4)">60s</button>
             </div>
             <div class="quizs">
                 <h2 class="quiz-type-title" id="quiz-type-title-0">객관식 퀴즈</h2>
