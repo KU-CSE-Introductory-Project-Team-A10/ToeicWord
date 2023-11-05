@@ -109,6 +109,7 @@ function MoveTo_menu(x) {
   $("#main-page").show();
   $('#main').hide();
  if(x == 2){
+  $(".quiz-end").hide();
   isMinigame = true;
   $("#page3").hide();
   $("#page2").show();
