@@ -104,13 +104,14 @@ function changePage(x) {
 
 function MoveTo_menu(x) {
   nowPage = 0;
+  $("#main-page").show();
   $('#main').hide();
  if(x == 2){
   isMinigame = true;
   $("#page3").hide();
   $("#page2").show();
   $("#page2").children().hide();
-  $("#select_page").show();
+  $("#select-page").show();
  }else{
   isMinigame = false;
   changePage(x);
@@ -178,7 +179,7 @@ function setWordCount(wordCount) {
 
 function openQuizSelectionPage() {
   $("#page2").children().hide();
-  $("#select_page").show();
+  $("#select-page").show();
 }
 
 function Login() {
@@ -315,7 +316,7 @@ var isMinigame = false;
 
 function selectAnswerType(x) {
   answerType = x;
-  $("#select_page").hide();
+  $("#select-page").hide();
   if (isMinigame) {
     $("#timer-select-page").show();
   }
@@ -326,7 +327,7 @@ function selectAnswerType(x) {
 
 function showQuiz(x) {
   timeType = x - 1;
-  $("#select_page").hide();
+  $("#select-page").hide();
   $("#timer-select-page").hide();
   $(".quizs").eq(answerType).show();
   if (x != 0) {
@@ -519,7 +520,6 @@ function quizEnd() {
   $(".quiz-main").hide();
   $(".quiz-end").show();
   $(".quiz-time").hide();
-  $("#quiz-word").css("margin-left", "");
   $(".minigame-btn").show();
   var names = [];
   var scores = [];

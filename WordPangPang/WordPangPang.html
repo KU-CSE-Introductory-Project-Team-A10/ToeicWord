@@ -17,19 +17,17 @@
         <input id='login-field' type="text" placeholder="아이디를 입력하세요" onchange="Login()" autofocus>
         <input id ='login-button' type="button" value="로그인" onclick="Login()"/>
     </nav>
-    <nav>
-        <div id="main">
-            <h2>메인 메뉴</h2>
-            <div id="main-buttons">
-                <button class="btn" id="btn1" onclick = "MoveTo_menu(0)">단어장 열람</button>
-                <button class="btn" id="btn2" onclick = "MoveTo_menu(1)">단어퀴즈</button>
-                <button class="btn" id="btn3" onclick = "MoveTo_menu(2)">미니게임</button>
-                <button class="btn" id="btn4" onclick = "MoveTo_menu(3)">종료</button>
-            </div>
+    <div id="main">
+        <h2 id="main-menu-title">메인 메뉴</h2>
+        <div id="main-buttons">
+            <button class="btn" id="btn1" onclick = "MoveTo_menu(0)">단어장 열람</button>
+            <button class="btn" id="btn2" onclick = "MoveTo_menu(1)">단어퀴즈</button>
+            <button class="btn" id="btn3" onclick = "MoveTo_menu(2)">미니게임</button>
+            <button class="btn" id="btn4" onclick = "MoveTo_menu(3)">종료</button>
         </div>
-    </nav>
+    </div>
     <div id="main-page">
-        <div class = "menu" id="page1">
+        <div class="menu" id="page1">
             <h2>단어장 열람</h2>
             <input id='search-field' type="text" placeholder="단어를 입력하세요" oninput="Search_word()" autofocus>
             <table>
@@ -47,7 +45,7 @@
                 <h2 id="select-wordcount"> 단어 개수를 입력하세요 </h2>
                 <input id="word-input" type="text" placeholder="" onkeydown ="checkWordCountField(event)" onKeyup="this.value=this.value.replace(/[^0-9]/g,'');" autofocus>
             </div>
-            <div id="select_page">
+            <div id="select-page">
                 <button class="btn" onclick="selectAnswerType(0)">객관식 퀴즈</button>
                 <button class="btn" onclick="selectAnswerType(1)">주관식 퀴즈</button>
             </div>
@@ -121,7 +119,9 @@
         </div>
     </div>
     <footer>
-        2023 - 09 - 29 / Team : 3204 A10
+        <div id="footer-div">
+            <p> 2023 - 09 - 29 / Team: 3204 A10 </p>
+        </div>
     </footer>
 </body>
 </html>
