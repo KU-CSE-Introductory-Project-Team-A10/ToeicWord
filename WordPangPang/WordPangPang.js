@@ -24,9 +24,11 @@
   Ex) Player, Words, MainClass*/
 
 $(document).ready(() => {
+  
   var isIntegrity = true;
   $(".quiz-time").hide();
   $("#best-scores").hide();
+  $("#best-scores2").hide();
   $("#timer-select-page").hide();
   try {
     Words = JSON.parse(JSON.stringify(ToeicWord)).Words;
@@ -124,6 +126,7 @@ function BackTo_menu() {
   $('#main').show();
   if (isMinigame) {
     $("#best-scores").hide();
+    $("#best-scores2").hide();
   }
   $(".quiz-end").hide();
   $(".quizs").hide();
@@ -375,6 +378,7 @@ function initQuiz() { //퀴즈 문항 초기화
   //     quizNum[i] = rand;
   //   }
   // }
+  
   for (let i = 0; i < wCount ; i++) {
     quizNum[i] = shuffledWords[i];
   }
@@ -383,7 +387,7 @@ function initQuiz() { //퀴즈 문항 초기화
     quizNum = shuffledWords;
     $(".quiz-time").show();
     $("#best-scores").show();
-    
+    $("#best-scores2").show();
   }
   generateQuiz();
 }
