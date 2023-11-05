@@ -597,18 +597,18 @@ function quizEnd() {
     window.localStorage.setItem("Players", JSON.stringify(Players));
     
     names[0] = Players[0].ID;
-    scores[0] = Players[0].Score;
+    scores[0] = Players[0].Score[answerType][timeType];
     for (var i = 1; i < Players.length; i++) {
       var isUsed = false;
       for (var j = 0; j <  names.length; j++) {
-        if (scores[j] >= Players[i].Score && names[j] !== Players[i].ID) {
+        if (scores[j] >= Players[i].Score[answerType][timeType] && names[j] !== Players[i].ID) {
           if (j == 0) {
             names.unshift(Players[i].ID);
-            scores.unshift(Players[i].Score);
+            scores.unshift(Players[i].Score[answerType][timeType]);
           }
           else {
             names.splice(j - 1, 0, Players[i].ID);
-            scores.splice(j - 1, 0, Players[i].Score);
+            scores.splice(j - 1, 0, Players[i].Score[answerType][timeType]);
           }
           isUsed = !isUsed;
           break;
@@ -616,7 +616,7 @@ function quizEnd() {
       }
       if (!isUsed) {
         names.push(Players[i].ID);
-        scores.push(Players[i].Score);
+        scores.push(Players[i].Score[answerType][timeType]);
       }
     }
     names = names.reverse();
