@@ -80,7 +80,7 @@ $(document).ready(() => {
     return isDup.length == 1;
   }
 
-  Search_word();  
+  searchWord();  
 
 });
 
@@ -206,7 +206,7 @@ function Login() {
   }
 }
 
-function push_and_sort(searched_word) {
+function sortArray(searched_word) {
 
    const now_word = document.getElementById("search-field").value.toLowerCase();
 
@@ -232,7 +232,7 @@ function push_and_sort(searched_word) {
           });
 }
 
-function make_Wordtable(searched_word) {
+function makeWordtable(searched_word) {
   
   for (var i = 0; i < searched_word.length; i++) {
     let row_1 = document.createElement('tr');
@@ -261,7 +261,7 @@ function make_Wordtable(searched_word) {
   }
 }
 
-function add_eventlistener() {
+function addEventlistener() {
   const mainInfoElements = document.querySelectorAll("#main-info");
 
  
@@ -283,16 +283,16 @@ function add_eventlistener() {
 
 }
 
-function Search_word(){
+function searchWord(){
   
   var searched_word = [];
 
 
-  push_and_sort(searched_word);
+  sortArray(searched_word);
 
-  make_Wordtable(searched_word);
+  makeWordtable(searched_word);
 
-  add_eventlistener();
+  addEventlistener();
 
 
 }
