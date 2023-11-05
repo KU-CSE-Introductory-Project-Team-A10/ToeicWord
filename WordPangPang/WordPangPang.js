@@ -526,7 +526,7 @@ function quizEnd() {
   var names = [];
   var scores = [];
 
-  console.log(answerType, timeType)
+  console.log(answerType, timeType);
   
   clearInterval(timer);
 
