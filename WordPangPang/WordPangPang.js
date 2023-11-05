@@ -170,7 +170,7 @@ function checkWordCountField(e) {
 let wCount;
 
 function setWordCount(wordCount) {
-  if (Words.length < wordCount) {
+  if (Words.length < wordCount) { 
     alert("저장된 영단어 수가 "+wordCount+"개보다 적습니다.");
   }
   else {
@@ -179,6 +179,7 @@ function setWordCount(wordCount) {
       openQuizSelectionPage();
     }
   }
+
 }
 
 function openQuizSelectionPage() {
@@ -379,6 +380,10 @@ function initQuiz() { //퀴즈 문항 초기화
   //   }
   // }
   
+  if(isMinigame && (answerType == 0)){
+    wCount = Words.length;
+  }
+
   for (let i = 0; i < wCount ; i++) {
     quizNum[i] = shuffledWords[i];
   }
