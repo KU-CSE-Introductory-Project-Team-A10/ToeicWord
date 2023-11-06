@@ -67,7 +67,7 @@
                         <div class="quiz-menu">
                             <div class="score-div"> 점수: 0 </div>
                             <div class="quiz-time"> </div>
-                            <button class="quiz-backto-menu" onclick="quizEnd()">끝내기</button>
+                            <button class="quiz-backto-menu" onclick="BackTo_menu()">끝내기</button>
                         </div>
                     </div>
                 </div>
@@ -75,6 +75,7 @@
                     <h3 id="best-scores"></h3>
                     <h3 class="quiz-end-score"> 점수: 0 </h3>
                     <button class="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
+                    <button class="quiz-end-retry" onclick="MoveTo_menu(2)">다시하기</button>
                 </div>
             </div>
 
@@ -83,7 +84,7 @@
                 <div class="quiz-main">
                     <div class="quiz-frame">
                         <h3 id="quiz-word2"> </h3> 
-                      <input id="quiz-input" type="text" placeholder="" onkeypress="if (event.keyCode == 13) sub_word();" autofocus>
+                        <input id="quiz-input" type="text" placeholder="" onkeypress="if (event.keyCode == 13) sub_word();" autofocus>
 
                     </div>
                     <div class="quiz-menu-frame">
@@ -92,7 +93,7 @@
                         <div class="quiz-menu">
                             <div class="score-div"> 점수: 0 </div>
                             <div class="quiz-time"></div>
-                            <button class="quiz-backto-menu" onclick="quizEnd()">끝내기</button>
+                            <button class="quiz-backto-menu" onclick="BackTo_menu()">끝내기</button>
                         </div>
                     </div>
                 </div>
@@ -100,6 +101,7 @@
                     <h3 id="best-scores2"></h3>
                     <h3 class="quiz-end-score"> 점수: 0 </h3>
                     <button class="quiz-end-backto-menu" onclick="BackTo_menu()">끝내기</button>
+                    <button class="quiz-end-retry" onclick="MoveTo_menu(2)">다시하기</button>
                 </div>
             </div>
         </div>
