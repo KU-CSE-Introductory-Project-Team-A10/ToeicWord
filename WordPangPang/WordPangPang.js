@@ -319,6 +319,7 @@ var timer; // 미니게임 제한시간 interval
 var answerType = 0; // 주관식/객관식 : 객관식 = 0, 주관식 = 1
 var timeType = 0; // 최고점수 기록 때 사용
 var isMinigame = false;
+var languageType = 0; // 퀴즈(미니게임) 언어 : 영어 = 0, 한국어 = 1
 
 function selectAnswerType(x) {
   answerType = x;
@@ -399,8 +400,13 @@ function initQuiz() { //퀴즈 문항 초기화
 }
 
 function generateQuiz() { //퀴즈 생성
-  if(answerType == 0){    
-    $("#quiz-word").text(Words[quizNum[quizIdx]].English);
+  if(answerType == 0){
+    if (languageType == 0) {    
+      $("#quiz-word").text(Words[quizNum[quizIdx]].English);
+    }
+    else {
+      $("#quiz-word").text(Words[quizNum[quizIdx]].Korean);  
+    }
     $(".quiz-console").text(" ");
     $(".quiz-wrong-answer-console").text(" ");
     let options = [];
@@ -425,11 +431,21 @@ function generateQuiz() { //퀴즈 생성
     options = shuffleArray(options);
     $("#quiz-option-frame").html("");
     for (let i = 0 ; i < OPTION_COUNT ; i++) {
-      $("#quiz-option-frame").append("<button class='quiz-option' onclick='selectOption(" + i + ")'>" + Words[options[i]].Korean + "</button>");
+      if (languageType == 0) {
+        $("#quiz-option-frame").append("<button class='quiz-option' onclick='selectOption(" + i + ")'>" + Words[options[i]].Korean + "</button>");
+      }
+      else {
+        $("#quiz-option-frame").append("<button class='quiz-option' onclick='selectOption(" + i + ")'>" + Words[options[i]].English + "</button>"); 
+      }
     }
   }
   else{
-    $("#quiz-word2").text(Words[quizNum[quizIdx]].English);
+    if (languageType == 0) {
+      $("#quiz-word2").text(Words[quizNum[quizIdx]].English);
+    }
+    else {
+      $("#quiz-word2").text(Words[quizNum[quizIdx]].Korean);
+    }
     $(".quiz-console").text(" ");
     $(".quiz-wrong-answer-console").text(" ");
 
@@ -499,7 +515,7 @@ function sub_word(){
 }
 
 function selectOption(idx) {
-  if ($("#quiz-option-frame > button").eq(idx).text() == Words[quizNum[quizIdx]].Korean) {
+  if (($("#quiz-option-frame > button").eq(idx).text() == Words[quizNum[quizIdx]].Korean) || ($("#quiz-option-frame > button").eq(idx).text() == Words[quizNum[quizIdx]].English)) {
     $("#quiz-option-frame > button").eq(idx).css("background-color", "lime");
     $(".quiz-console").text("정답입니다.");
     quizScore += 10;
@@ -508,7 +524,7 @@ function selectOption(idx) {
   else {
     $("#quiz-option-frame > button").eq(idx).css("background-color", "red");
     for (let i = 0 ; i < OPTION_COUNT ; i++) {
-      if ($("#quiz-option-frame > button").eq(i).text() == Words[quizNum[quizIdx]].Korean) {
+      if ($("#quiz-option-frame > button").eq(i).text() == Words[quizNum[quizIdx]].Korean || ($("#quiz-option-frame > button").eq(i).text() == Words[quizNum[quizIdx]].English)) {
         $("#quiz-option-frame > button").eq(i).css("background-color", "lime");
         $(".quiz-console").text("오답입니다.");
       }
