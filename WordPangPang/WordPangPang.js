@@ -455,7 +455,15 @@ function generateQuiz() { //퀴즈 생성
 var isReloading = false;
 
 function sub_word(){
+  if (languageType == 0) {
+    subWordEng();
+  }
+  else {
+    subWordKor();
+  }
+}
 
+function subWordEng() { // 영단어 퀴즈
   var means = '';
   var count = 0;
   const SUB_TEXT = document.getElementById("quiz-input").value;
@@ -496,6 +504,49 @@ function sub_word(){
       for(var o = 0; o < meanWords.length;o++){
         prt_text += meanWords[o]+" ";
       }
+      $(".quiz-wrong-answer-console").text(prt_text);
+    }
+    quizIdx++;
+    if (quizIdx != wCount) {
+      setTimeout(function() {
+        generateQuiz();
+        isReloading = false;
+      }, 1500);
+    }
+    else {
+      setTimeout(function() {
+        quizEnd();
+        isReloading = false;
+      }, 1500);
+    }
+  }
+}
+
+function subWordKor() {
+  var means = '';
+  var count = 0;
+  const SUB_TEXT = $("#quiz-input").val();
+  $("#quiz-input").val("");
+
+  if(!isReloading){
+    isReloading = true;
+    var isWordsFound;
+    if(SUB_TEXT == Words[quizNum[quizIdx]].English) {
+      isWordsFound = true;
+    }
+    else {
+      isWordsFound = false;
+    }
+
+    if (isWordsFound) {
+      $(".quiz-console").text("정답입니다.");
+        quizScore += 10;
+        $(".score-div").text("점수: " + quizScore);
+
+    }else{
+      $(".quiz-console").text("오답입니다.");
+      var prt_text = '정답 : ';
+      prt_text += Words[quizNum[quizIdx]].English;
       $(".quiz-wrong-answer-console").text(prt_text);
     }
     quizIdx++;
