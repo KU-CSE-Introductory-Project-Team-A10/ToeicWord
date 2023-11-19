@@ -97,11 +97,11 @@ function changePage(x) {
   nowPage = x;
   $(".menu").hide();
   $(".menu").eq(x).show();
-  if (x == 1) {
+  if (x == 1 || x == 2) {
     initQuizPage();
   }
   //만약 page4라면 window.close()해줌
-  if (x == 3) {
+  else if (x == 3) {
     window.close();
   }
 }
@@ -110,24 +110,21 @@ function MoveTo_menu(x) {
   nowPage = 0;
   $("#main-page").show();
   $('#main').hide();
- if(x == 2){
-  $(".quiz-end").hide();
-  isMinigame = true;
-  $("#page3").hide();
-  $("#page2").show();
-  $("#page2").children().hide();
-  $("#select-page").show();
- }else{
-  isMinigame = false;
-  changePage(x);
- }
+  if(x == 2) {
+    isMinigame = true;
+    changePage(1);
+  }
+  else {
+    isMinigame = false;
+    changePage(x);
+  }
 }
 
 function BackTo_menu() {
   nowPage = 0;
   $('.menu').hide();
   $('#main').show();
-  $("input").val("");
+  $(".init-input").val("");
   if (isMinigame) {
     $("#best-scores").hide();
     $("#best-scores2").hide();
@@ -138,55 +135,22 @@ function BackTo_menu() {
   $("#main").show();
 }
 
-function initQuizPage() {
-  $("#page2").children().hide();
-  $("#word-count").show();
-}
-
 function checkWordCountField(e) {
-   $("#word-input").val($("#word-input").val().replace(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/g, ''));
-  if (e.keyCode == 13) {
-    let input = $("#word-input").val();
-    let wordCount = parseInt(input);
-    if (wordCount >= 10 && wordCount <= 30) {
-      setWordCount(wordCount);
-    }
-    else {
-      alert("퀴즈 문항은 10개에서 30개까지만 설정 가능합니다.");
-      $("#word-input").val("");
+  $("#word-input").val($("#word-input").val().replace(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/g, ''));
+  try {
+    if ((e.keyCode < 48 || e.keyCode > 57)&&(e.keyCode != 8)) {
+      throw 'NaNEX';
     }
   }
-  else {
-    try {
-      if ((e.keyCode < 48 || e.keyCode > 57)&&(e.keyCode != 8)) {
-        throw 'NaNEX';
-      }
-    }
-    catch (ex) {
-      if (ex == 'NaNEX') {
-        e.preventDefault();
-        alert("숫자 외의 입력은 불가능합니다.");
-        $("#word-input").val("");
-      }
+  catch (ex) {
+    if (ex == 'NaNEX') {
+      e.preventDefault();
+      $("#word-input").val("");
     }
   }
 }
 
 let wCount;
-
-function setWordCount(wordCount) {
-  if (Words.length < wordCount) { 
-    alert("저장된 영단어 수가 "+wordCount+"개보다 적습니다.");
-  }
-  else {
-    wCount = wordCount;
-    if (nowPage == 1) {
-      $("#page2").children().hide();
-      $("#select-page").show();
-    }
-  }
-
-}
 
 function Login() {
   var textField = $('#login-field').val();
@@ -301,14 +265,6 @@ function searchWord(){
 
 
 }
-// if (QUIZTYPE2 == 1) {
-//   for (let i = 0; i < 10 ; i++) {
-//     quizNum[i] = shuffledWords[i];
-//   }
-// }
-// if (QUIZTYPE2 == 2) {
-//   quizNum = shuffledWords;
-// }
 
 const OPTION_COUNT = 4;
 let quizIdx; //퀴즈 번호
@@ -320,6 +276,64 @@ var answerType = 0; // 주관식/객관식 : 객관식 = 0, 주관식 = 1
 var timeType = 0; // 최고점수 기록 때 사용
 var isMinigame = false;
 var languageType = 0; // 퀴즈(미니게임) 언어 : 영어 = 0, 한국어 = 1
+
+function quizConfirm() {
+  if (!isMinigame) {
+    let isValid;
+    isValid = isWordCountValid();
+    if (isValid) {
+      wCount = parseInt($("#word-input").val());
+    }
+    else {
+      return;
+    }
+    answerType = parseInt($("input[name=type]:checked").val());
+    languageType = parseInt($("input[name=lang]:checked").val());
+    showQuiz(0);
+  }
+  else {
+    answerType = parseInt($("input[name=type]:checked").val());
+    quizTime = parseInt($("input[name=time]:checked").val());
+    languageType = parseInt($("input[name=lang]:checked").val());
+    showQuiz(quizTime);
+  }
+}
+
+function isWordCountValid() {
+  let wcValue = $("#word-input").val();
+  if (wcValue === "") {
+    $("#word-input-alert").text("필수 입력 사항입니다.");
+    return false;
+  }
+  else {
+    wcValue = parseInt(wcValue);
+    if (wcValue >= 10 && wcValue <= 30) {
+      $("#word-input-alert").text("");
+      return true;
+    }
+    else {
+      $("#word-input-alert").text("퀴즈 문항은 10개에서 30개까지만 설정 가능합니다.");
+      return false;
+    }
+  }
+}
+
+function initQuizPage() {
+  if (!isMinigame) {
+    $("#main-page").children().hide();
+    $("#page2").show();
+    $("#option-select-page").show();
+    $(".mg-type-option").hide();
+    $(".quiz-type-option").show();
+  }
+  else {
+    $("#main-page").children().hide();
+    $("#page2").show();
+    $("#option-select-page").show();
+    $(".quiz-type-option").hide();
+    $(".mg-type-option").show();
+  }
+}
 
 function selectAnswerType(x) {
   answerType = x;
@@ -334,12 +348,10 @@ function selectAnswerType(x) {
 
 function showQuiz(x) {
   timeType = x - 1;
-  $("#select-page").hide();
-  $("#timer-select-page").hide();
+  $("#option-select-page").hide();
   $(".quizs").eq(answerType).show();
   if (x != 0) {
     $("#page2").hide();
-    quizTime = x * 15;
     $("#page3").show();
   }
   else {
@@ -687,7 +699,7 @@ function MiniGame() {
   $("#page3").hide();
   $(".quizs").eq(answerType).show();
   $(".quiz-time").text(quizTime + "s");
-   Countdown();
+  Countdown();
   //openQuiz();
   // timer_minigame = setInterval(() => {
   //   --quizTime;
@@ -700,6 +712,7 @@ function MiniGame() {
 }
 
 function Countdown(){
+  $(".container").show();
   var counter = 4;
   var timer_minigame = setInterval( function() { 
     $('#countdown').remove();     
@@ -707,15 +720,17 @@ function Countdown(){
     var countdown = $('<span id="countdown">'+(counter==0?'Start':counter)+'</span>'); 
     countdown.appendTo($('.container'));
     setTimeout( () => {
-       if (counter >-1) {
+       if (counter > -1) {
        $('#countdown').css({ 'font-size': '30vw', 'opacity': 0 }); 
-       } else {
+       }
+       else {
          $('#countdown').css({ 'font-size': '10vw', 'opacity': 50 });
        }
     },20);
 
     if (counter == -1) {
       $("#page2").show();
+      $(".container").hide();
       clearInterval(timer_minigame);
       $('#countdown').remove();
       openQuiz();
