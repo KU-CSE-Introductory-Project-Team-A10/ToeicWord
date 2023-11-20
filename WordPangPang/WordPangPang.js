@@ -169,7 +169,7 @@ function Login() {
     if (user.length == 1) { // 있음
       User = user[0];
     } else { // 없음
-      var NewUser = { ID: textField, Score: [[0, 0, 0, 0], [0, 0, 0, 0]] };
+      var NewUser = { ID: textField, Score: [[0, 0, 0, 0], [0, 0, 0, 0]], History: [] };
       Players.push(NewUser);
       User = NewUser;
       window.localStorage.setItem("Players", JSON.stringify(Players));
@@ -254,9 +254,33 @@ function addEventlistener() {
            }
       });
   });
+}
 
-
-
+function setHistory(quiz, answer) {
+  var exist = false;
+  for (var i = 0; i < Players.length; i++) {
+    if(Players[i].ID === User.ID) {
+      if (Players[i].History.length == 0) {
+        Players[i].History.unshift([quiz, answer, 1]);
+      }
+      else {
+        for (var j = 0; j < Players[i].History.length; j++) {
+          if (Players[i].History[j][0] == quiz) {
+            var temp = Players[i].History[j];
+            Players[i].History.splice(j, 1);
+            temp[2] = temp[2] + 1;
+            Players[i].History.unshift(temp);
+            exist = true;
+            break;
+          }
+        }
+      }
+      if (!exist) {
+        Players[i].History.unshift([quiz, answer, 1]);
+      }
+    }
+  }
+  window.localStorage.setItem("Players", JSON.stringify(Players));
 }
 
 function searchWord(){
@@ -513,6 +537,7 @@ function subWordEng() { // 영단어 퀴즈
         prt_text += meanWords[o]+" ";
       }
       $(".quiz-wrong-answer-console").text(prt_text);
+      setHistory(Words[quizNum[quizIdx]].English, Words[quizNum[quizIdx]].Korean);
     }
     quizIdx++;
     if (quizIdx != wCount) {
@@ -556,6 +581,7 @@ function subWordKor() {
       var prt_text = '정답 : ';
       prt_text += Words[quizNum[quizIdx]].English;
       $(".quiz-wrong-answer-console").text(prt_text);
+      setHistory(Words[quizNum[quizIdx]].Korean, Words[quizNum[quizIdx]].English);
     }
     quizIdx++;
     if (quizIdx != wCount) {
@@ -586,6 +612,12 @@ function selectOption(idx) {
       if ($("#quiz-option-frame > button").eq(i).text() == Words[quizNum[quizIdx]].Korean || ($("#quiz-option-frame > button").eq(i).text() == Words[quizNum[quizIdx]].English)) {
         $("#quiz-option-frame > button").eq(i).css("background-color", "lime");
         $(".quiz-console").text("오답입니다.");
+        if (languageType == 0) {
+          setHistory(Words[quizNum[quizIdx]].English, Words[quizNum[quizIdx]].Korean);
+        }
+        if (languageType == 1) {
+          setHistory(Words[quizNum[quizIdx]].Korean, Words[quizNum[quizIdx]].English);
+        }
       }
     }
   }
