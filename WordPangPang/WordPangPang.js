@@ -256,8 +256,7 @@ function addEventlistener() {
   });
 }
 
-function setHistory(quiz, answer, where) {
-  console.log(quiz, answer);
+function setHistory(quiz, answer) {
   var exist = false;
   for (var i = 0; i < Players.length; i++) {
     if(Players[i].ID === User.ID) {
@@ -549,7 +548,7 @@ function subWordEng() { // 영단어 퀴즈
         prt_text += meanWords[o]+" ";
       }
       $(".quiz-wrong-answer-console").text(prt_text);
-      setHistory(Words[quizNum[quizIdx]].English, Words[quizNum[quizIdx]].Korean, 1);
+      setHistory(Words[quizNum[quizIdx]].English, Words[quizNum[quizIdx]].Korean);
     }
     quizIdx++;
     if (quizIdx != wCount) {
@@ -593,7 +592,7 @@ function subWordKor() {
       var prt_text = '정답 : ';
       prt_text += Words[quizNum[quizIdx]].English;
       $(".quiz-wrong-answer-console").text(prt_text);
-      setHistory(Words[quizNum[quizIdx]].Korean, Words[quizNum[quizIdx]].English, 2);
+      setHistory(Words[quizNum[quizIdx]].Korean, Words[quizNum[quizIdx]].English);
     }
     quizIdx++;
     if (quizIdx != wCount) {
@@ -625,10 +624,10 @@ function selectOption(idx) {
         $("#quiz-option-frame > button").eq(i).css("background-color", "lime");
         $(".quiz-console").text("오답입니다.");
         if (languageType == 0) {
-          setHistory(Words[quizNum[quizIdx]].English, Words[quizNum[quizIdx]].Korean, 3);
+          setHistory(Words[quizNum[quizIdx]].English, Words[quizNum[quizIdx]].Korean);
         }
         if (languageType == 1) {
-          setHistory(Words[quizNum[quizIdx]].Korean, Words[quizNum[quizIdx]].English, 4);
+          setHistory(Words[quizNum[quizIdx]].Korean, Words[quizNum[quizIdx]].English);
         }
       }
     }
