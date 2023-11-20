@@ -41,6 +41,9 @@
         <div class="container"> </div>
         <div class="menu" id="page2">
             <div id="option-select-page">
+                <div id="option-main-header-div">
+                    <h2 id="option-main-header"> 단어 퀴즈 </h2>
+                </div>
                 <div id="word-count-div" class="quiz-type-option">
                     <h4 class="option-header"> 단어 개수 </h4>
                     <input id="word-input" class="init-input" type="text" placeholder="" onkeydown ="checkWordCountField(event)" oninput="this.value=this.value.replace(/[/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/g,'');" autofocus>
@@ -89,8 +92,7 @@
                 </div>
                 <div id="confirm-btn-div">
                     <button id="confirm-btn" class="btn" onclick="quizConfirm()">게임 시작</button>
-                    <div class="blank"> </div>
-                    <button id="confirm-btn" class="btn" onclick="BackTo_menu()">메인 메뉴</button>
+                    <button id="back-to-menu-btn" class="btn" onclick="BackTo_menu()">메인 메뉴</button>
                 </div>
             </div>
             <div class="quizs">

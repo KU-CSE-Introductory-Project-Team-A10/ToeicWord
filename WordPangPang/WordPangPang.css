@@ -124,8 +124,20 @@ nav{
   background-color: lightseagreen;
 }
 
+#option-main-header-div {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
 #confirm-btn {
-  margin-top: 30px;
+  margin-left: 50px;
+  margin-top: 20px;
+  float: left;
+}
+#back-to-menu-btn {
+  margin-right: 50px;
+  margin-top: 20px;
+  float: right;
 }
 
 #main-page{
@@ -414,7 +426,11 @@ tr{
   background: white;
 }
 
-#option-select-page > * {
+#option-select-page {
+  height: auto;
+}
+
+#option-select-page > div {
   width: 400px;
   height: 80px;
   margin: 0 auto;

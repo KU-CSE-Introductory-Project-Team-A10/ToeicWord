@@ -24,7 +24,6 @@
   Ex) Player, Words, MainClass*/
 
 $(document).ready(() => {
-  
   var isIntegrity = true;
   $(".quiz-time").hide();
   $("#best-scores").hide();
@@ -354,6 +353,7 @@ function initQuizPage() {
     $("#main-page").children().hide();
     $("#page2").show();
     $("#option-select-page").show();
+    $("#option-main-header").text("단어퀴즈");
     $(".mg-type-option").hide();
     $(".quiz-type-option").show();
   }
@@ -361,6 +361,7 @@ function initQuizPage() {
     $("#main-page").children().hide();
     $("#page2").show();
     $("#option-select-page").show();
+    $("#option-main-header").text("미니게임");
     $(".quiz-type-option").hide();
     $(".mg-type-option").show();
   }
