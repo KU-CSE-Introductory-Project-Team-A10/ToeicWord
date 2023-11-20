@@ -342,17 +342,6 @@ function initQuizPage() {
   }
 }
 
-function selectAnswerType(x) {
-  answerType = x;
-  $("#select-page").hide();
-  if (isMinigame) {
-    $("#timer-select-page").show();
-  }
-  else {
-    showQuiz(0);
-  }
-}
-
 function showQuiz(x) {
   timeType = x - 1;
   $("#option-select-page").hide();
