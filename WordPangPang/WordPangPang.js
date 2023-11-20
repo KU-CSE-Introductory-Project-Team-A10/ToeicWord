@@ -91,10 +91,9 @@ $(document).ready(() => {
 let Words;
 let Players; // 사용자들 데이터
 let User; // 현 사용자
-let nowPage; // 현재 페이지 0: 메인 1: 단어장 2: 퀴즈 3: 미니게임
+let wCount;
 
 function changePage(x) {
-  nowPage = x;
   $(".menu").hide();
   $(".menu").eq(x).show();
   if (x == 1 || x == 2) {
@@ -107,12 +106,23 @@ function changePage(x) {
 }
 
 function MoveTo_menu(x) {
-  nowPage = 0;
   $("#main-page").show();
   $('#main').hide();
   if(x == 2) {
     isMinigame = true;
     changePage(1);
+  }
+  else if (x == 4) {
+    $("#page2").children().hide();
+    $("option-select-page").show();
+    if (isMinigame) {
+      isMinigame = true;
+      changePage(1);
+    }
+    else {
+      isMinigame = false;
+      changePage(1);
+    }
   }
   else {
     isMinigame = false;
@@ -121,7 +131,6 @@ function MoveTo_menu(x) {
 }
 
 function BackTo_menu() {
-  nowPage = 0;
   $('.menu').hide();
   $('#main').show();
   $(".init-input").val("");
@@ -149,8 +158,6 @@ function checkWordCountField(e) {
     }
   }
 }
-
-let wCount;
 
 function Login() {
   var textField = $('#login-field').val();

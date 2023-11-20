@@ -346,6 +346,7 @@ tr{
 .blank {
   display: inline-block;
   width: 20px;
+  height: 100%;
 }
 
 .rb-container {
