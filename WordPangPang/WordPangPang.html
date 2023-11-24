@@ -41,15 +41,15 @@
         <div class="container"> </div>
         <div class="menu" id="page2">
             <div id="option-select-page">
-                <div id="option-main-header-div">
+                <div id="option-main-header-div" class="div-type-80">
                     <h2 id="option-main-header"> 단어 퀴즈 </h2>
                 </div>
-                <div id="word-count-div" class="quiz-type-option">
+                <div id="word-count-div" class="quiz-type-option div-type-110">
                     <h4 class="option-header"> 단어 개수 </h4>
                     <input id="word-input" class="init-input" type="text" placeholder="" onkeydown ="checkWordCountField(event)" oninput="this.value=this.value.replace(/[/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/g,'');" autofocus>
                     <p id="word-input-alert"> </p>
                 </div>
-                <div id="type-select-div" class="quiz-type-option mg-type-option">
+                <div id="type-select-div" class="quiz-type-option mg-type-option div-type-80">
                     <h4 class="option-header"> 퀴즈 종류 </h4>
                     <label class="rb-container">객관식 퀴즈
                         <input type="radio" name="type" value="0" checked="checked">
@@ -60,7 +60,7 @@
                         <span class="checkmark"></span>
                     </label>
                 </div>
-                <div id="timer-select-div" class="mg-type-option">
+                <div id="timer-select-div" class="mg-type-option div-type-80">
                     <h4 class="option-header"> 제한시간 </h4>
                     <label class="rb-container">15s
                         <input type="radio" name="time" value="15" checked="checked">
@@ -79,7 +79,7 @@
                         <span class="checkmark"></span>
                     </label>
                 </div>
-                <div id="lang-select-div" class="quiz-type-option mg-type-option">
+                <div id="lang-select-div" class="quiz-type-option mg-type-option div-type-80">
                     <h4 class="option-header"> 언어 </h4>
                     <label class="rb-container">한/영
                         <input type="radio" name="lang" value="0" checked="checked">
@@ -90,7 +90,7 @@
                         <span class="checkmark"></span>
                     </label>
                 </div>
-                <div id="confirm-btn-div">
+                <div id="confirm-btn-div" class="div-type-80">
                     <button id="confirm-btn" class="btn" onclick="quizConfirm()">게임 시작</button>
                     <button id="back-to-menu-btn" class="btn" onclick="BackTo_menu()">메인 메뉴</button>
                 </div>

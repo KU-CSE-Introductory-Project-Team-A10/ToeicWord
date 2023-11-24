@@ -729,15 +729,6 @@ function MiniGame() {
   $(".quizs").eq(answerType).show();
   $(".quiz-time").text(quizTime + "s");
   Countdown();
-  //openQuiz();
-  // timer_minigame = setInterval(() => {
-  //   --quizTime;
-  //   $(".quiz-time").text(quizTime + "s");
-
-  //   if (quizTime == 0) {
-  //     quizEnd();
-  //   }
-  // }, 1000);
 }
 
 function Countdown(){

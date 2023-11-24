@@ -430,13 +430,13 @@ tr{
   height: auto;
 }
 
-#option-select-page > div {
+#option-select-page > .div-type-80 {
   width: 400px;
   height: 80px;
   margin: 0 auto;
 }
 
-#word-count-div {
+.div-type-110 {
   width: 400px;
   height: 110px;
   margin: 0 auto;
