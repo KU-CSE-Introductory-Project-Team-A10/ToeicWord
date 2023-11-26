@@ -98,8 +98,22 @@ function changePage(x) {
   if (x == 1 || x == 2) {
     initQuizPage();
   }
+  else if(x == 3){
+    for (var i = 0; i < Players.length; i++) {
+      if(Players[i].ID === User.ID) {
+        if (Players[i].History.length == 0) {
+           var wrongtable_body =  document.getElementById("wrongtable-body");
+           wrongtable_body.innerHTML = "틀린 문제가 없습니다.";
+        }
+        else{
+          MakeWrongtable(Players[i].History);
+        }
+
+      }
+    }
+  }
   //만약 page4라면 window.close()해줌
-  else if (x == 3) {
+  else if (x == 4) {
     window.close();
   }
 }
@@ -111,7 +125,7 @@ function MoveTo_menu(x) {
     isMinigame = true;
     changePage(1);
   }
-  else if (x == 4) {
+  else if (x == 5) {
     $("#page2").children().hide();
     $("option-select-page").show();
     if (isMinigame) {
@@ -260,7 +274,7 @@ function setHistory(quiz, answer) {
   for (var i = 0; i < Players.length; i++) {
     if(Players[i].ID === User.ID) {
       if (Players[i].History.length == 0) {
-        Players[i].History.unshift([quiz, answer, 1]);
+        Players[i].History.unshift([ quiz, answer, 1]);
       }
       else {
         for (var j = 0; j < Players[i].History.length; j++) {
@@ -764,4 +778,26 @@ function Countdown(){
       }, 1000);
     }
   }, 1000);
+}
+
+function MakeWrongtable(table) {
+  var wrongtable_body = document.getElementById("wrongtable-body");
+  wrongtable_body.innerHTML = "";
+
+  for (var i = 0; i < table.length -1; i++) {
+    let row = document.createElement('tr');
+
+    appendCell(row, "틀린 문제", table[i][0]);
+    appendCell(row, "정답", table[i][1]);
+    appendCell(row, "틀린 횟수", table[i][2]);
+
+    wrongtable_body.appendChild(row);
+  }
+}
+
+function appendCell(row, label, value) {
+  let cell = document.createElement('th');
+  cell.innerHTML = label + " : " + value;
+  cell.setAttribute('id', 'main-info');
+  row.appendChild(cell);
 }

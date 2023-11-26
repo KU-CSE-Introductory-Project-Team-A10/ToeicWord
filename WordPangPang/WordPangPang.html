@@ -23,7 +23,8 @@
             <button class="btn" id="btn1" onclick = "MoveTo_menu(0)">단어장 열람</button>
             <button class="btn" id="btn2" onclick = "MoveTo_menu(1)">단어퀴즈</button>
             <button class="btn" id="btn3" onclick = "MoveTo_menu(2)">미니게임</button>
-            <button class="btn" id="btn4" onclick = "MoveTo_menu(3)">종료</button>
+            <button class="btn" id="btn3" onclick = "MoveTo_menu(3)">틀린 문제 열람</button>
+            <button class="btn" id="btn4" onclick = "MoveTo_menu(4)">종료</button>
         </div>
     </div>
     <div id="main-page">
@@ -153,7 +154,21 @@
                 <button class="minigame-btn back_btn btn" onclick="BackTo_menu()">뒤로 가기</button>
             </div>
         </div>
-        <div class="menu" id="page4">
+
+         <div class="menu" id="page4">
+            <h2>틀린 문제 열람</h2>
+            
+            <table id = wrongtable>
+                <tbody id='wrongtable-body'>
+                </tbody>
+            </table>
+            <div>
+                <button id="wrongtable-back-btn" class="back_btn btn" onclick="BackTo_menu()">뒤로 가기</button>
+            </div>
+        </div>
+
+
+        <div class="menu" id="page5">
             <h3>종료</h3>
             <div>
                 <button class="back_btn" onclick="BackTo_menu()">뒤로 가기</button>

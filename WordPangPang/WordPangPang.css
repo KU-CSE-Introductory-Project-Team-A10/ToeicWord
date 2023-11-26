@@ -441,3 +441,7 @@ tr{
   height: 110px;
   margin: 0 auto;
 }
+
+#wrongtable{
+  padding-left: 650px;
+}
