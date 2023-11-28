@@ -655,16 +655,13 @@ function quizEnd() {
   $(".quiz-end").show();
   $(".quiz-time").hide();
   $(".minigame-btn").show();
-
-  console.log(answerType, timeType);
   
   clearInterval(timer);
 
   $(".quiz-end-score").text("점수: " + quizScore);
 
   if (isMinigame) {
-    console.log(Players);
-
+    timeType = (timeType + 1) / 15 - 1;
     for (var i = 0; i < Players.length; i++) {
       if(Players[i].ID === User.ID) {
         if (Players[i].Score[answerType][timeType] < quizScore) {
