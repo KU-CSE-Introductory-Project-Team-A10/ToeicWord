@@ -447,6 +447,9 @@ function initQuiz() { //퀴즈 문항 초기화
 }
 
 function generateQuiz() { //퀴즈 생성
+  if(isMinigame){ // 미니게임일 때 문제 만들면서 타이머 시작/재개
+    startCountDown();
+  }
   if(answerType == 0){
     if (languageType == 0) {    
       $("#quiz-word").text(Words[quizNum[quizIdx]].English);
@@ -539,7 +542,7 @@ function subWordEng() { // 영단어 퀴즈
     if(userWords[0] != ''){
     isWordsFound = userWords.every(word => meanWords.includes(word));
     }else isWordsFound = false;
-
+    clearInterval(timer); // 입력하면 타이머 중단
     if (isWordsFound) {
       $(".quiz-console").text("정답입니다.");
         quizScore += 10;
@@ -585,7 +588,7 @@ function subWordKor() {
     else {
       isWordsFound = false;
     }
-
+    clearInterval(timer); // 입력하면 타이머 중단
     if (isWordsFound) {
       $(".quiz-console").text("정답입니다.");
         quizScore += 10;
@@ -615,6 +618,7 @@ function subWordKor() {
 }
 
 function selectOption(idx) {
+  clearInterval(timer); // 입력 시 타이머 중단
   if (($("#quiz-option-frame > button").eq(idx).text() == Words[quizNum[quizIdx]].Korean) || ($("#quiz-option-frame > button").eq(idx).text() == Words[quizNum[quizIdx]].English)) {
     $("#quiz-option-frame > button").eq(idx).css("background-color", "lime");
     $(".quiz-console").text("정답입니다.");
@@ -765,14 +769,7 @@ function Countdown(){
       clearInterval(timer_minigame);
       $('#countdown').remove();
       openQuiz();
-      timer = setInterval(() => {
-        --quizTime;
-        $(".quiz-time").text(quizTime + "s");
-
-        if (quizTime == 0) {
-          quizEnd();
-        }
-      }, 1000);
+      // generateQuiz에서 timer를 업데이트하므로 삭제함
     }
   }, 1000);
 }
@@ -797,4 +794,16 @@ function appendCell(row, label, value) {
   cell.innerHTML = label + " : " + value;
   cell.setAttribute('id', 'main-info');
   row.appendChild(cell);
+}
+
+//타이머 시작 코드 많이 쓰여서 걍 함수로 만듬
+function startCountDown(){
+  timer = setInterval(() => {
+  quizTime-=0.1;
+  $(".quiz-time").text(quizTime.toFixed(0) + "s");
+
+  if (quizTime == 0) {
+    quizEnd();
+    }
+  }, 100); // 1초마다 실행하면 1초 미만으로 사용자가 정답 입력 시 시간이 안흘러서 0.1초단위로 실행하게 바꿈
 }
