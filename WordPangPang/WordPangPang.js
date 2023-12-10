@@ -802,7 +802,7 @@ function startCountDown(){
   quizTime-=0.1;
   $(".quiz-time").text(quizTime.toFixed(0) + "s");
 
-  if (quizTime == 0) {
+  if (quizTime <= 0) {
     quizEnd();
     }
   }, 100); // 1초마다 실행하면 1초 미만으로 사용자가 정답 입력 시 시간이 안흘러서 0.1초단위로 실행하게 바꿈
